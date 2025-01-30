@@ -16,8 +16,8 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
   height: 100%;
   overflow-y: auto;
   width: v.$sidebar-width;
-  background: var(--sidebar-bg);
-  border-right: 1px solid var(--sidebar-border-color);
+  background: url('../../assets/img/sidebarImg.png');
+  border-right: 1px solid #A1D0FC;
 
   /* Hide scrollbar for IE, Edge and Firefox */
   -ms-overflow-style: none; /* IE and Edge */
@@ -45,7 +45,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
 
   %sidebar-link-hover {
     &:hover {
-      color: var(--sidebar-active-color);
+      color: #A1D0FC;
     }
   }
 
@@ -142,7 +142,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
         font-weight: 600;
 
         &:hover {
-          background-color: var(--sidebar-hover-bg);
+          background-color: #A1D0FC;
         }
 
         i {
@@ -160,7 +160,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
       &.active {
         .nav-link {
           color: var(--sidebar-active-color);
-          background-color: var(--sidebar-hover-bg);
+          background-color: #A1D0FC;
 
           span {
             opacity: 1;

@@ -232,7 +232,7 @@ main {
   min-width: 2rem;
   text-align: center;
   border-radius: 0.5rem;
-  border: 1px solid var(--btn-border-color);
+  border: 1px solid #A1D0FC;
   padding: 0 0.4rem;
   color: var(--text-muted-color);
   line-height: 1.3rem;
@@ -360,7 +360,7 @@ main {
 
 .input-focus {
   box-shadow: none;
-  border-color: var(--input-focus-border-color) !important;
+  border-color: #A1D0FC !important;
   background: center !important;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
