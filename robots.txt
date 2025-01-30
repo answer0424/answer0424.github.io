@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://answer0424.github.io/sitemap.xml
