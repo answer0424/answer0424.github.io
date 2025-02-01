@@ -30,23 +30,23 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="날짜와 시간 명령어" />
+<meta property="og:title" content="파일과 디렉터리 복사 및 이동" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="date [옵션] -u : UTC 국제 표준시 1 2 date date -u" />
-<meta property="og:description" content="date [옵션] -u : UTC 국제 표준시 1 2 date date -u" />
-<link rel="canonical" href="http://localhost:4000/posts/Linux09/" />
-<meta property="og:url" content="http://localhost:4000/posts/Linux09/" />
+<meta name="description" content="파일 / 디렉터리 복사 cp [옵션] [원본파일/디렉터리] [대상디렉터리] -i : 덮어쓰기 여부 묻기 -f : 강제로 복사 -r : 하위 디렉터리까지 복사 -b : 백업 파일 생성 -S : 확장자 지정" />
+<meta property="og:description" content="파일 / 디렉터리 복사 cp [옵션] [원본파일/디렉터리] [대상디렉터리] -i : 덮어쓰기 여부 묻기 -f : 강제로 복사 -r : 하위 디렉터리까지 복사 -b : 백업 파일 생성 -S : 확장자 지정" />
+<link rel="canonical" href="http://localhost:4000/posts/Linux10/" />
+<meta property="og:url" content="http://localhost:4000/posts/Linux10/" />
 <meta property="og:site_name" content="answer" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-02-01T14:24:00+09:00" />
+<meta property="article:published_time" content="2025-02-01T14:26:00+09:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="날짜와 시간 명령어" />
+<meta property="twitter:title" content="파일과 디렉터리 복사 및 이동" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-01T14:24:00+09:00","datePublished":"2025-02-01T14:24:00+09:00","description":"date [옵션] -u : UTC 국제 표준시 1 2 date date -u","headline":"날짜와 시간 명령어","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Linux09/"},"url":"http://localhost:4000/posts/Linux09/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-01T14:26:00+09:00","datePublished":"2025-02-01T14:26:00+09:00","description":"파일 / 디렉터리 복사 cp [옵션] [원본파일/디렉터리] [대상디렉터리] -i : 덮어쓰기 여부 묻기 -f : 강제로 복사 -r : 하위 디렉터리까지 복사 -b : 백업 파일 생성 -S : 확장자 지정","headline":"파일과 디렉터리 복사 및 이동","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Linux10/"},"url":"http://localhost:4000/posts/Linux10/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>날짜와 시간 명령어 | answer
+  <title>파일과 디렉터리 복사 및 이동 | answer
   </title>
 
   <!--
@@ -432,7 +432,7 @@
         
           
             
-              <span>날짜와 시간 명령어</span>
+              <span>파일과 디렉터리 복사 및 이동</span>
             
 
           
@@ -547,7 +547,7 @@
 
 <article class="px-1" data-toc="false">
   <header>
-    <h1 data-toc-skip>날짜와 시간 명령어</h1>
+    <h1 data-toc-skip>파일과 디렉터리 복사 및 이동</h1>
     
 
     <div class="post-meta text-muted">
@@ -564,7 +564,7 @@
 
 <time
   
-  data-ts="1738387440"
+  data-ts="1738387560"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
@@ -619,7 +619,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="117 words"
+  title="188 words"
 >
   <em>1 min</em> read</span>
 
@@ -632,46 +632,49 @@
 
   <div class="content">
     <ol>
-  <li>date [옵션]
+  <li>파일 / 디렉터리 복사
     <ul>
-      <li>-u : UTC 국제 표준시
-        <div class="language-bash highlighter-rouge"><div class="code-header">
-        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td><td class="rouge-code"><pre><span class="nb">date
-date</span> <span class="nt">-u</span>
-</pre></td></tr></tbody></table></code></div>        </div>
-      </li>
+      <li>cp [옵션] [원본파일/디렉터리] [대상디렉터리]</li>
     </ul>
-
-    <p><br /></p>
-  </li>
-  <li>cal [옵션] [설정값]
     <ul>
-      <li>-3 : 이번 달을 기준으로 전, 후 월을 보여줌</li>
-      <li>-y : 이번 년도의 모든 월을 보여줌</li>
-      <li>-yj : 현재 년도의 모든 월을 보여주고 총 일자 단위로 보여줌</li>
-      <li>월 년도 : 해당 년도의 월을 보여줌
-        <div class="language-bash highlighter-rouge"><div class="code-header">
+      <li>-i : 덮어쓰기 여부 묻기</li>
+      <li>-f : 강제로 복사</li>
+      <li>-r : 하위 디렉터리까지 복사</li>
+      <li>-b : 백업 파일 생성</li>
+      <li>-S : 확장자 지정</li>
+    </ul>
+  </li>
+</ol>
+
+<ul>
+  <li>파일 복사 시 와일드 카드 사용 가능</li>
+  <li>.을 통해서 현재 디렉터리를 명시할 수 있다
+    <div class="language-bash highlighter-rouge"><div class="code-header">
         <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
-5
-6
-</pre></td><td class="rouge-code"><pre>cal
-cal <span class="nt">-3</span>
-cal <span class="nt">-y</span>
-cal <span class="nt">-y</span> 2023
-cal <span class="nt">-yj</span>
-cal 05 2023
-</pre></td></tr></tbody></table></code></div>        </div>
-      </li>
-    </ul>
+</pre></td><td class="rouge-code"><pre><span class="nb">cp </span>file1 dir1
+<span class="nb">cp </span>file1 file2
+<span class="nb">cp</span> /etc/passwd <span class="nb">.</span>
+<span class="nb">cp</span> <span class="nt">-b</span> <span class="nt">-S</span> .bak passwd passwd7
+</pre></td></tr></tbody></table></code></div>    </div>
+
+    <p><br />
+      2. 파일 / 디렉터리 이동, 파일 명 변경</p>
   </li>
-</ol>
+  <li>mv [원본파일/디렉터리] [파일/디렉터리명]</li>
+  <li>파일 이동 시 와일드 카드 사용 가능
+    <div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre><span class="nb">mv </span>file1 /home/dir1
+<span class="nb">mv </span>file1 file2
+</pre></td></tr></tbody></table></code></div>    </div>
+  </li>
+</ul>
 
   </div>
 
@@ -730,21 +733,21 @@ cal 05 2023
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=%EB%82%A0%EC%A7%9C%EC%99%80%20%EC%8B%9C%EA%B0%84%20%EB%AA%85%EB%A0%B9%EC%96%B4%20-%20answer&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux09%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=%ED%8C%8C%EC%9D%BC%EA%B3%BC%20%EB%94%94%EB%A0%89%ED%84%B0%EB%A6%AC%20%EB%B3%B5%EC%82%AC%20%EB%B0%8F%20%EC%9D%B4%EB%8F%99%20-%20answer&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux10%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=%EB%82%A0%EC%A7%9C%EC%99%80%20%EC%8B%9C%EA%B0%84%20%EB%AA%85%EB%A0%B9%EC%96%B4%20-%20answer&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux09%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=%ED%8C%8C%EC%9D%BC%EA%B3%BC%20%EB%94%94%EB%A0%89%ED%84%B0%EB%A6%AC%20%EB%B3%B5%EC%82%AC%20%EB%B0%8F%20%EC%9D%B4%EB%8F%99%20-%20answer&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux10%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux09%2F&text=%EB%82%A0%EC%A7%9C%EC%99%80%20%EC%8B%9C%EA%B0%84%20%EB%AA%85%EB%A0%B9%EC%96%B4%20-%20answer" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux10%2F&text=%ED%8C%8C%EC%9D%BC%EA%B3%BC%20%EB%94%94%EB%A0%89%ED%84%B0%EB%A6%AC%20%EB%B3%B5%EC%82%AC%20%EB%B0%8F%20%EC%9D%B4%EB%8F%99%20-%20answer" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -1034,19 +1037,19 @@ cal 05 2023
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
 
 
 
@@ -1062,7 +1065,7 @@ cal 05 2023
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
       
         <article class="col">
-          <a href="/posts/Linux10/" class="post-preview card h-100">
+          <a href="/posts/Linux09/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -1074,16 +1077,16 @@ cal 05 2023
 
 <time
   
-  data-ts="1738387560"
+  data-ts="1738387440"
   data-df="ll"
   
 >
   Feb  1, 2025
 </time>
 
-              <h4 class="pt-0 my-2">파일과 디렉터리 복사 및 이동</h4>
+              <h4 class="pt-0 my-2">날짜와 시간 명령어</h4>
               <div class="text-muted">
-                <p>파일 / 디렉터리 복사            cp [옵션] [원본파일/디렉터리] [대상디렉터리]                 -i : 덮어쓰기 여부 묻기       -f : 강제로 복사       -r : 하위 디렉터리까지 복사       -b : 백업 파일 생성       -S : 확장자 지정              파일 복사 시 와일드 카드 사용 가...</p>
+                <p>date [옵션]            -u : UTC 국제 표준시         date date -u                                 cal [옵션] [설정값]            -3 : 이번 달을 기준으로 전, 후 월을 보여줌       -y : 이번 년도의 모든 월을 보여줌       -yj : 현재 년도의 모든 월을 ...</p>
               </div>
             </div>
           </a>
@@ -1160,22 +1163,18 @@ cal 05 2023
 
   
     <a
-      href="/posts/Linux08/"
+      href="/posts/Linux09/"
       class="btn btn-outline-primary"
       aria-label="Older"
     >
-      <p>리눅스 디렉터리 구조 및 역할</p>
+      <p>날짜와 시간 명령어</p>
     </a>
   
 
   
-    <a
-      href="/posts/Linux10/"
-      class="btn btn-outline-primary"
-      aria-label="Newer"
-    >
-      <p>파일과 디렉터리 복사 및 이동</p>
-    </a>
+    <div class="btn btn-outline-primary disabled" aria-label="Newer">
+      <p>-</p>
+    </div>
   
 </nav>
 

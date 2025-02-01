@@ -1,5 +1,13 @@
 [
   {
+    "title": "파일과 디렉터리 복사 및 이동",
+    "url": "/posts/Linux10/",
+    "categories": "Linux, basic",
+    "tags": "linux",
+    "date": "2025-02-01 14:26:00 +0900",
+    "content": "파일 / 디렉터리 복사            cp [옵션] [원본파일/디렉터리] [대상디렉터리]                 -i : 덮어쓰기 여부 묻기       -f : 강제로 복사       -r : 하위 디렉터리까지 복사       -b : 백업 파일 생성       -S : 확장자 지정              파일 복사 시 와일드 카드 사용 가..."
+  },
+  {
     "title": "날짜와 시간 명령어",
     "url": "/posts/Linux09/",
     "categories": "Linux, basic",
