@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>answer</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-01T14:35:30+09:00</updated>
+  <updated>2025-02-01T14:44:16+09:00</updated>
   <author>
     <name>코드로 답하다</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>파일 내용 확인, 편집 명령어</title>
+    <link href="http://localhost:4000/posts/Linux11/" rel="alternate" type="text/html" title="파일 내용 확인, 편집 명령어" />
+    <published>2025-02-01T14:30:00+09:00</published>
+  
+    <updated>2025-02-01T14:30:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Linux11/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Linux11/" />
+    <author>
+      <name>코드로 답하다</name>
+    </author>
+
+  
+    
+    <category term="Linux" />
+    
+    <category term="basic" />
+    
+  
+
+  <summary>파일 내용 확인            cat [옵션] [파일명]                 -n : 파일의 줄 번호를 표시          cat passwd                                 vi 편집기            모드형 편집기 : 명령 모드, 편집 모드, EX 모드                 명령 모드                    사용 방법 : 편집 모드에서 esc 키를 통해 명령 모드 전환 가능 / 편집기 명령어를 사용할 때 기본 모드           ndd : n 줄 지우기           x : 한 문자 지우기           dw : 한 단어 지우기           u : 뒤로 가기           nG :  n 줄로 이동           n...</summary>
+
+  </entry>
 
   
   <entry>
@@ -119,32 +145,6 @@
   
 
   <summary>리눅스 서버 복제 방법 (VMware 기준)            VM -&amp;amp;gt; clone -&amp;amp;gt; fullclone 복제 시 IP가 충돌되기 때문에 바꿔주어야 한다             IP 변경 방법            디렉터리 생성            mkdir [옵션] [생성할 디렉터리 명]                 생성할 디렉터리 명을 띄어쓰기 기준으로 한번에 여러 개 생성할 수 있다       디렉터리 뒤에 중괄호를 통해 연속적으로 디렉터리를 생성할 수 있다       -p : 한 번에 하위 디렉터리 생성       디렉터리 명 앞에 ‘.’을 통해 숨김 디렉터리를 만들 수 있다 (rm -rf * 시 삭제되지 않음)          mkdir dir1 dir2 dir3 dir4  mkdi...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>리눅스 파일 / 디렉터리 명령어</title>
-    <link href="http://localhost:4000/posts/Linux06/" rel="alternate" type="text/html" title="리눅스 파일 / 디렉터리 명령어" />
-    <published>2025-02-01T13:20:00+09:00</published>
-  
-    <updated>2025-02-01T14:20:14+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Linux06/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Linux06/" />
-    <author>
-      <name>코드로 답하다</name>
-    </author>
-
-  
-    
-    <category term="Linux" />
-    
-    <category term="basic" />
-    
-  
-
-  <summary>파일 / 디렉터리 목록 확인            ls [옵션] [대상 파일 / 디렉터리]                                               -l : 목록에 대한 상세 정보를 나타냄(long) = ll           -al : 해당 디렉터리에 있는 숨김 파일이나 디렉터리를 포함하여 보여줌           -r : 해당 디렉터리에 있는 파일 명의 내림차순으로 목록을 보여줌           -A : 파일을 이동할 수 있는 . 또는 ..을 제외하고 목록을 보여줌           -m : 가로로 목록을 출력           -F : 파일 형식을 심볼로 표시 (*: 실행 파일, @: 링크, /: 디렉터리)           -R : 하위 디렉터리 목록을 표시       ...</summary>
 
   </entry>
 

@@ -1,5 +1,13 @@
 [
   {
+    "title": "파일 내용 확인, 편집 명령어",
+    "url": "/posts/Linux11/",
+    "categories": "Linux, basic",
+    "tags": "linux",
+    "date": "2025-02-01 14:30:00 +0900",
+    "content": "파일 내용 확인            cat [옵션] [파일명]                 -n : 파일의 줄 번호를 표시          cat passwd                                 vi 편집기            모드형 편집기 : 명령 모드, 편집 모드, EX 모드                 명령 모드       ..."
+  },
+  {
     "title": "파일과 디렉터리 복사 및 이동",
     "url": "/posts/Linux10/",
     "categories": "Linux, basic",
