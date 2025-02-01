@@ -1,0 +1,68 @@
+[
+  {
+    "title": "리눅스 서버 복제 및 파일, 디렉터리 생성 명령어",
+    "url": "/posts/Linux07/",
+    "categories": "Linux",
+    "tags": "linux",
+    "date": "2025-02-01 12:26:00 +0800",
+    "content": "리눅스 서버 복제 방법 (VMware 기준)            VM -&amp;gt; clone -&amp;gt; fullclone 복제 시 IP가 충돌되기 때문에 바꿔주어야 한다            IP 변경 방법"
+  },
+  {
+    "title": "리눅스 파일 / 디렉터리 명령어",
+    "url": "/posts/Linux06/",
+    "categories": "Linux",
+    "tags": "linux",
+    "date": "2025-02-01 12:20:00 +0800",
+    "content": "파일 / 디렉터리 목록 확인            ls [옵션] [대상 파일 / 디렉터리]                                               -l : 목록에 대한 상세 정보를 나타냄(long) = ll           -al : 해당 디렉터리에 있는 숨김 파일이나 디렉터리를 포함하여 보여줌           -r : 해..."
+  },
+  {
+    "title": "리눅스 시작/종료/부팅 명령어",
+    "url": "/posts/Linux05/",
+    "categories": "Linux",
+    "tags": "linux",
+    "date": "2025-01-31 15:17:00 +0800",
+    "content": "리눅스 종료               shutdown [옵션] [설정값] [시간]                    가장 안전하게 서버를 종료하는 방법                             옵션                            -h : Halt(종료)               -c : cancel(shutdown 명령 취소..."
+  },
+  {
+    "title": "리눅스 네트워크 설정",
+    "url": "/posts/Linux04/",
+    "categories": "Linux",
+    "tags": "linux",
+    "date": "2025-01-31 14:48:00 +0800",
+    "content": "네트워크 설정 기본            edit            virtual network editor            vmet0 -&amp;gt; type: Bridged       vmet8 -&amp;gt; type: NAT            IP 설정 시 앞 3자리는 동일하게 설정                 터미널 설정 단계            ..."
+  },
+  {
+    "title": "환경 설정 및 기본 명령어",
+    "url": "/posts/Linux03/",
+    "categories": "Linux",
+    "tags": "linux",
+    "date": "2025-01-31 14:37:00 +0800",
+    "content": "환경 설정 명령어            dnf 패키지 관리자를 사용하여 GNOME 데스크 탑 환경의 설정을 조정하는 데 사용하는 gnome-tweaks 패키지를 설치       GNOME 확장 프로그램을 관리하는 데 사용       백그라운드에서 gnome-extensions-app을 실행         dnf -y install gnome-tweaks..."
+  },
+  {
+    "title": "리눅스란?",
+    "url": "/posts/Linux02/",
+    "categories": "Linux",
+    "tags": "linux",
+    "date": "2025-01-31 14:27:00 +0800",
+    "content": "리눅스 개요            Linux kernel 기반의 오픈 소스 유닉스 계열 운영체제입니다.                 주요 장점            공개 운영체제로 무료 사용 가능       강력한 보안 기능 제공       다양한 하드웨어 지원 및 유닉스 호환성       폭넓은 개발 언어 지원                 주의사항   ..."
+  },
+  {
+    "title": "운영체제(OS)",
+    "url": "/posts/Linux01/",
+    "categories": "Linux",
+    "tags": "linux",
+    "date": "2025-01-31 14:09:00 +0800",
+    "content": "운영체제(OS) 정의            운영체제는 다음과 같은 역할을 수행하는 시스템 소프트 웨어입니다.                    컴퓨터 시스템 자원의 효율적 관리           사용자를 위한 편리한 컴퓨터 사용 환경 제공           사용자-하드웨어 간 인터페이스 역할           응용프로그램을 위한 안정적인 작업 환경 제공..."
+  },
+  {
+    "title": "첫 포스팅 작성",
+    "url": "/posts/test-post/",
+    "categories": "First, Post",
+    "tags": "tag",
+    "date": "2025-01-30 19:19:00 +0800",
+    "content": "안녕하세요    제가 사용할 에디터입니다.   stackedit"
+  }
+  
+]
+

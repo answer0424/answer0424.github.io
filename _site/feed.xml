@@ -1,0 +1,143 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>answer</title>
+  <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
+  <updated>2025-02-01T12:26:59+08:00</updated>
+  <author>
+    <name>코드로 답하다</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2025 코드로 답하다 </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>리눅스 서버 복제 및 파일, 디렉터리 생성 명령어</title>
+    <link href="http://localhost:4000/posts/Linux07/" rel="alternate" type="text/html" title="리눅스 서버 복제 및 파일, 디렉터리 생성 명령어" />
+    <published>2025-02-01T12:26:00+08:00</published>
+  
+    <updated>2025-02-01T12:26:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/Linux07/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Linux07/" />
+    <author>
+      <name>코드로 답하다</name>
+    </author>
+
+  
+    
+    <category term="Linux" />
+    
+  
+
+  <summary>리눅스 서버 복제 방법 (VMware 기준)            VM -&amp;amp;gt; clone -&amp;amp;gt; fullclone 복제 시 IP가 충돌되기 때문에 바꿔주어야 한다            IP 변경 방법</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>리눅스 파일 / 디렉터리 명령어</title>
+    <link href="http://localhost:4000/posts/Linux06/" rel="alternate" type="text/html" title="리눅스 파일 / 디렉터리 명령어" />
+    <published>2025-02-01T12:20:00+08:00</published>
+  
+    <updated>2025-02-01T12:20:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/Linux06/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Linux06/" />
+    <author>
+      <name>코드로 답하다</name>
+    </author>
+
+  
+    
+    <category term="Linux" />
+    
+  
+
+  <summary>파일 / 디렉터리 목록 확인            ls [옵션] [대상 파일 / 디렉터리]                                               -l : 목록에 대한 상세 정보를 나타냄(long) = ll           -al : 해당 디렉터리에 있는 숨김 파일이나 디렉터리를 포함하여 보여줌           -r : 해당 디렉터리에 있는 파일 명의 내림차순으로 목록을 보여줌           -A : 파일을 이동할 수 있는 . 또는 ..을 제외하고 목록을 보여줌           -m : 가로로 목록을 출력           -F : 파일 형식을 심볼로 표시 (*: 실행 파일, @: 링크, /: 디렉터리)           -R : 하위 디렉터리 목록을 표시       ...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>리눅스 시작/종료/부팅 명령어</title>
+    <link href="http://localhost:4000/posts/Linux05/" rel="alternate" type="text/html" title="리눅스 시작/종료/부팅 명령어" />
+    <published>2025-01-31T15:17:00+08:00</published>
+  
+    <updated>2025-01-31T15:44:03+08:00</updated>
+  
+    <id>http://localhost:4000/posts/Linux05/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Linux05/" />
+    <author>
+      <name>코드로 답하다</name>
+    </author>
+
+  
+    
+    <category term="Linux" />
+    
+  
+
+  <summary>리눅스 종료               shutdown [옵션] [설정값] [시간]                    가장 안전하게 서버를 종료하는 방법                             옵션                            -h : Halt(종료)               -c : cancel(shutdown 명령 취소)               -r : restart(재시작)                                   시간                            +1 : 1분               12:30 : 12시 30분               now : 지금                   shutdown -h +1   shutdo...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>리눅스 네트워크 설정</title>
+    <link href="http://localhost:4000/posts/Linux04/" rel="alternate" type="text/html" title="리눅스 네트워크 설정" />
+    <published>2025-01-31T14:48:00+08:00</published>
+  
+    <updated>2025-01-31T14:48:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/Linux04/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Linux04/" />
+    <author>
+      <name>코드로 답하다</name>
+    </author>
+
+  
+    
+    <category term="Linux" />
+    
+  
+
+  <summary>네트워크 설정 기본            edit            virtual network editor            vmet0 -&amp;amp;gt; type: Bridged       vmet8 -&amp;amp;gt; type: NAT            IP 설정 시 앞 3자리는 동일하게 설정                 터미널 설정 단계            NetworkManager의 system-connections 폴더로 이동       네트워크 설정 파일 편집 (vi 편집기에 대해서는 추후 설명 예정)          cd etc/NetworkManager/system-connections/  vi ens160.nmconnection                       ‘i’ 키를 통해 편집모드 진입...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>환경 설정 및 기본 명령어</title>
+    <link href="http://localhost:4000/posts/Linux03/" rel="alternate" type="text/html" title="환경 설정 및 기본 명령어" />
+    <published>2025-01-31T14:37:00+08:00</published>
+  
+    <updated>2025-01-31T14:37:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/Linux03/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Linux03/" />
+    <author>
+      <name>코드로 답하다</name>
+    </author>
+
+  
+    
+    <category term="Linux" />
+    
+  
+
+  <summary>환경 설정 명령어            dnf 패키지 관리자를 사용하여 GNOME 데스크 탑 환경의 설정을 조정하는 데 사용하는 gnome-tweaks 패키지를 설치       GNOME 확장 프로그램을 관리하는 데 사용       백그라운드에서 gnome-extensions-app을 실행         dnf -y install gnome-tweaks dnf -y install gnome-extensions-app gnome-extentions-app &amp;amp;amp;                                 기본 명령어            화면 지우기       네트워크 연결 확인       IP 주소 확인       서버 종료         clear ping ipcofig init 0  ...</summary>
+
+  </entry>
+
+</feed>
+
+
