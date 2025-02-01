@@ -933,7 +933,8 @@
       <div class="post-meta mb-3">
         <i class="far fa-folder-open fa-fw me-1"></i>
         
-          <a href="/categories/linux/">Linux</a>
+          <a href="/categories/linux/">Linux</a>,
+          <a href="/categories/basic/">basic</a>
       </div>
     
 
@@ -1050,6 +1051,13 @@
         
         
         <li class="text-truncate lh-lg">
+          <a href="/posts/Linux08/">리눅스 디렉터리 구조 및 역할</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/posts/Linux07/">리눅스 서버 복제 및 파일, 디렉터리 생성 명령어</a>
         </li>
       
@@ -1072,13 +1080,6 @@
         
         <li class="text-truncate lh-lg">
           <a href="/posts/Linux04/">리눅스 네트워크 설정</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/Linux03/">환경 설정 및 기본 명령어</a>
         </li>
       
     </ul>
@@ -1262,6 +1263,18 @@
 
   
     
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
 
 
 
@@ -1275,6 +1288,34 @@
   <aside id="related-posts" aria-labelledby="related-label">
     <h3 class="mb-4" id="related-label">Further Reading</h3>
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        <article class="col">
+          <a href="/posts/Linux08/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1738387140"
+  data-df="ll"
+  
+>
+  Feb  1, 2025
+</time>
+
+              <h4 class="pt-0 my-2">리눅스 디렉터리 구조 및 역할</h4>
+              <div class="text-muted">
+                <p>boot  : 부팅 관련 파일(커널)   etc : 모든 환경 설정 파일   lib : 동적 라이브러리 파일 (32비트)   lib64: 동적 라이브러리 파일 (64비트)   root : root 홈 디렉터리   sbin : 시스템 관련 명령어   usr : 일반 사용자 관련 명령어, 프로그램 설치   bin : 일반 명령어   dev : 장치 파일 ...</p>
+              </div>
+            </div>
+          </a>
+        </article>
       
         <article class="col">
           <a href="/posts/Linux06/" class="post-preview card h-100">
@@ -1332,34 +1373,6 @@
           </a>
         </article>
       
-        <article class="col">
-          <a href="/posts/Linux04/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1738306080"
-  data-df="ll"
-  
->
-  Jan 31, 2025
-</time>
-
-              <h4 class="pt-0 my-2">리눅스 네트워크 설정</h4>
-              <div class="text-muted">
-                <p>네트워크 설정 기본            edit            virtual network editor            vmet0 -&amp;gt; type: Bridged       vmet8 -&amp;gt; type: NAT            IP 설정 시 앞 3자리는 동일하게 설정                 터미널 설정 단계            ...</p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
     </nav>
   </aside>
   <!-- #related-posts -->
@@ -1384,9 +1397,13 @@
   
 
   
-    <div class="btn btn-outline-primary disabled" aria-label="Newer">
-      <p>-</p>
-    </div>
+    <a
+      href="/posts/Linux08/"
+      class="btn btn-outline-primary"
+      aria-label="Newer"
+    >
+      <p>리눅스 디렉터리 구조 및 역할</p>
+    </a>
   
 </nav>
 

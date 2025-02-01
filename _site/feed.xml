@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>answer</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-01T14:16:06+09:00</updated>
+  <updated>2025-02-01T14:19:39+09:00</updated>
   <author>
     <name>코드로 답하다</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>리눅스 디렉터리 구조 및 역할</title>
+    <link href="http://localhost:4000/posts/Linux08/" rel="alternate" type="text/html" title="리눅스 디렉터리 구조 및 역할" />
+    <published>2025-02-01T14:19:00+09:00</published>
+  
+    <updated>2025-02-01T14:19:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Linux08/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Linux08/" />
+    <author>
+      <name>코드로 답하다</name>
+    </author>
+
+  
+    
+    <category term="Linux" />
+    
+    <category term="basic" />
+    
+  
+
+  <summary>boot  : 부팅 관련 파일(커널)   etc : 모든 환경 설정 파일   lib : 동적 라이브러리 파일 (32비트)   lib64: 동적 라이브러리 파일 (64비트)   root : root 홈 디렉터리   sbin : 시스템 관련 명령어   usr : 일반 사용자 관련 명령어, 프로그램 설치   bin : 일반 명령어   dev : 장치 파일   home : 일반 사용자의 홈 디렉터리   mnt : 마운트 디렉터리   proc : 가상 파일 시스템   tmp : 임시 디렉터리   var : 시스템이 운영 중 변경되는 파일</summary>
+
+  </entry>
 
   
   <entry>
@@ -35,6 +61,8 @@
   
     
     <category term="Linux" />
+    
+    <category term="basic" />
     
   
 
@@ -60,6 +88,8 @@
     
     <category term="Linux" />
     
+    <category term="basic" />
+    
   
 
   <summary>파일 / 디렉터리 목록 확인            ls [옵션] [대상 파일 / 디렉터리]                                               -l : 목록에 대한 상세 정보를 나타냄(long) = ll           -al : 해당 디렉터리에 있는 숨김 파일이나 디렉터리를 포함하여 보여줌           -r : 해당 디렉터리에 있는 파일 명의 내림차순으로 목록을 보여줌           -A : 파일을 이동할 수 있는 . 또는 ..을 제외하고 목록을 보여줌           -m : 가로로 목록을 출력           -F : 파일 형식을 심볼로 표시 (*: 실행 파일, @: 링크, /: 디렉터리)           -R : 하위 디렉터리 목록을 표시       ...</summary>
@@ -83,6 +113,8 @@
   
     
     <category term="Linux" />
+    
+    <category term="basic" />
     
   
 
@@ -108,33 +140,11 @@
     
     <category term="Linux" />
     
+    <category term="basic" />
+    
   
 
   <summary>네트워크 설정 기본            edit            virtual network editor            vmet0 -&amp;amp;gt; type: Bridged       vmet8 -&amp;amp;gt; type: NAT            IP 설정 시 앞 3자리는 동일하게 설정                 터미널 설정 단계            NetworkManager의 system-connections 폴더로 이동       네트워크 설정 파일 편집 (vi 편집기에 대해서는 추후 설명 예정)          cd etc/NetworkManager/system-connections/  vi ens160.nmconnection                       ‘i’ 키를 통해 편집모드 진입...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>환경 설정 및 기본 명령어</title>
-    <link href="http://localhost:4000/posts/Linux03/" rel="alternate" type="text/html" title="환경 설정 및 기본 명령어" />
-    <published>2025-01-31T15:37:00+09:00</published>
-  
-    <updated>2025-01-31T15:37:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Linux03/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Linux03/" />
-    <author>
-      <name>코드로 답하다</name>
-    </author>
-
-  
-    
-    <category term="Linux" />
-    
-  
-
-  <summary>환경 설정 명령어            dnf 패키지 관리자를 사용하여 GNOME 데스크 탑 환경의 설정을 조정하는 데 사용하는 gnome-tweaks 패키지를 설치       GNOME 확장 프로그램을 관리하는 데 사용       백그라운드에서 gnome-extensions-app을 실행         dnf -y install gnome-tweaks dnf -y install gnome-extensions-app gnome-extentions-app &amp;amp;amp;                                 기본 명령어            화면 지우기       네트워크 연결 확인       IP 주소 확인       서버 종료         clear ping ipcofig init 0  ...</summary>
 
   </entry>
 

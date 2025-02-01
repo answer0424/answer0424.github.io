@@ -30,23 +30,23 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="첫 포스팅 작성" />
+<meta property="og:title" content="리눅스 디렉터리 구조 및 역할" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="안녕하세요 제가 사용할 에디터입니다. stackedit" />
-<meta property="og:description" content="안녕하세요 제가 사용할 에디터입니다. stackedit" />
-<link rel="canonical" href="http://localhost:4000/posts/test-post/" />
-<meta property="og:url" content="http://localhost:4000/posts/test-post/" />
+<meta name="description" content="boot : 부팅 관련 파일(커널) etc : 모든 환경 설정 파일 lib : 동적 라이브러리 파일 (32비트) lib64: 동적 라이브러리 파일 (64비트) root : root 홈 디렉터리 sbin : 시스템 관련 명령어 usr : 일반 사용자 관련 명령어, 프로그램 설치 bin : 일반 명령어 dev : 장치 파일 home : 일반 사용자의 홈 디렉터리 mnt : 마운트 디렉터리 proc : 가상 파일 시스템 tmp : 임시 디렉터리 var : 시스템이 운영 중 변경되는 파일" />
+<meta property="og:description" content="boot : 부팅 관련 파일(커널) etc : 모든 환경 설정 파일 lib : 동적 라이브러리 파일 (32비트) lib64: 동적 라이브러리 파일 (64비트) root : root 홈 디렉터리 sbin : 시스템 관련 명령어 usr : 일반 사용자 관련 명령어, 프로그램 설치 bin : 일반 명령어 dev : 장치 파일 home : 일반 사용자의 홈 디렉터리 mnt : 마운트 디렉터리 proc : 가상 파일 시스템 tmp : 임시 디렉터리 var : 시스템이 운영 중 변경되는 파일" />
+<link rel="canonical" href="http://localhost:4000/posts/Linux08/" />
+<meta property="og:url" content="http://localhost:4000/posts/Linux08/" />
 <meta property="og:site_name" content="answer" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-01-30T20:19:00+09:00" />
+<meta property="article:published_time" content="2025-02-01T14:19:00+09:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="첫 포스팅 작성" />
+<meta property="twitter:title" content="리눅스 디렉터리 구조 및 역할" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-01-31T15:09:54+09:00","datePublished":"2025-01-30T20:19:00+09:00","description":"안녕하세요 제가 사용할 에디터입니다. stackedit","headline":"첫 포스팅 작성","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/test-post/"},"url":"http://localhost:4000/posts/test-post/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-01T14:19:00+09:00","datePublished":"2025-02-01T14:19:00+09:00","description":"boot : 부팅 관련 파일(커널) etc : 모든 환경 설정 파일 lib : 동적 라이브러리 파일 (32비트) lib64: 동적 라이브러리 파일 (64비트) root : root 홈 디렉터리 sbin : 시스템 관련 명령어 usr : 일반 사용자 관련 명령어, 프로그램 설치 bin : 일반 명령어 dev : 장치 파일 home : 일반 사용자의 홈 디렉터리 mnt : 마운트 디렉터리 proc : 가상 파일 시스템 tmp : 임시 디렉터리 var : 시스템이 운영 중 변경되는 파일","headline":"리눅스 디렉터리 구조 및 역할","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Linux08/"},"url":"http://localhost:4000/posts/Linux08/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>첫 포스팅 작성 | answer
+  <title>리눅스 디렉터리 구조 및 역할 | answer
   </title>
 
   <!--
@@ -432,7 +432,7 @@
         
           
             
-              <span>첫 포스팅 작성</span>
+              <span>리눅스 디렉터리 구조 및 역할</span>
             
 
           
@@ -547,7 +547,7 @@
 
 <article class="px-1" data-toc="false">
   <header>
-    <h1 data-toc-skip>첫 포스팅 작성</h1>
+    <h1 data-toc-skip>리눅스 디렉터리 구조 및 역할</h1>
     
 
     <div class="post-meta text-muted">
@@ -564,41 +564,18 @@
 
 <time
   
-  data-ts="1738235940"
+  data-ts="1738387140"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Jan 30, 2025
+  Feb  1, 2025
 </time>
 
       </span>
 
       <!-- lastmod date -->
-      
-        <span>
-          Updated
-          <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1738303794"
-  data-df="ll"
-  
-    data-bs-toggle="tooltip" data-bs-placement="bottom"
-  
->
-  Jan 31, 2025
-</time>
-
-        </span>
       
 
       
@@ -642,7 +619,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="18 words"
+  title="155 words"
 >
   <em>1 min</em> read</span>
 
@@ -654,11 +631,22 @@
   
 
   <div class="content">
-    <h1 id="안녕하세요">안녕하세요</h1>
-<ul>
-  <li>제가 사용할 에디터입니다.</li>
-  <li><a href="https://stackedit.io/app#">stackedit</a></li>
-</ul>
+    <ol>
+  <li>boot  : 부팅 관련 파일(커널)</li>
+  <li>etc : 모든 환경 설정 파일</li>
+  <li>lib : 동적 라이브러리 파일 (32비트)</li>
+  <li>lib64: 동적 라이브러리 파일 (64비트)</li>
+  <li>root : root 홈 디렉터리</li>
+  <li>sbin : 시스템 관련 명령어</li>
+  <li>usr : 일반 사용자 관련 명령어, 프로그램 설치</li>
+  <li>bin : 일반 명령어</li>
+  <li>dev : 장치 파일</li>
+  <li>home : 일반 사용자의 홈 디렉터리</li>
+  <li>mnt : 마운트 디렉터리</li>
+  <li>proc : 가상 파일 시스템</li>
+  <li>tmp : 임시 디렉터리</li>
+  <li>var : 시스템이 운영 중 변경되는 파일</li>
+</ol>
 
   </div>
 
@@ -668,8 +656,8 @@
       <div class="post-meta mb-3">
         <i class="far fa-folder-open fa-fw me-1"></i>
         
-          <a href="/categories/first/">First</a>,
-          <a href="/categories/post/">Post</a>
+          <a href="/categories/linux/">Linux</a>,
+          <a href="/categories/basic/">basic</a>
       </div>
     
 
@@ -679,9 +667,9 @@
         <i class="fa fa-tags fa-fw me-1"></i>
         
           <a
-            href="/tags/tag/"
+            href="/tags/linux/"
             class="post-tag no-text-decoration"
-          >tag</a>
+          >linux</a>
         
       </div>
     
@@ -717,21 +705,21 @@
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=%EC%B2%AB%20%ED%8F%AC%EC%8A%A4%ED%8C%85%20%EC%9E%91%EC%84%B1%20-%20answer&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Ftest-post%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=%EB%A6%AC%EB%88%85%EC%8A%A4%20%EB%94%94%EB%A0%89%ED%84%B0%EB%A6%AC%20%EA%B5%AC%EC%A1%B0%20%EB%B0%8F%20%EC%97%AD%ED%95%A0%20-%20answer&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux08%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=%EC%B2%AB%20%ED%8F%AC%EC%8A%A4%ED%8C%85%20%EC%9E%91%EC%84%B1%20-%20answer&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Ftest-post%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=%EB%A6%AC%EB%88%85%EC%8A%A4%20%EB%94%94%EB%A0%89%ED%84%B0%EB%A6%AC%20%EA%B5%AC%EC%A1%B0%20%EB%B0%8F%20%EC%97%AD%ED%95%A0%20-%20answer&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux08%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Ftest-post%2F&text=%EC%B2%AB%20%ED%8F%AC%EC%8A%A4%ED%8C%85%20%EC%9E%91%EC%84%B1%20-%20answer" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux08%2F&text=%EB%A6%AC%EB%88%85%EC%8A%A4%20%EB%94%94%EB%A0%89%ED%84%B0%EB%A6%AC%20%EA%B5%AC%EC%A1%B0%20%EB%B0%8F%20%EC%97%AD%ED%95%A0%20-%20answer" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -925,6 +913,90 @@
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
 
 
@@ -936,6 +1008,98 @@
 
 
 
+  <aside id="related-posts" aria-labelledby="related-label">
+    <h3 class="mb-4" id="related-label">Further Reading</h3>
+    <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        <article class="col">
+          <a href="/posts/Linux07/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1738383960"
+  data-df="ll"
+  
+>
+  Feb  1, 2025
+</time>
+
+              <h4 class="pt-0 my-2">리눅스 서버 복제 및 파일, 디렉터리 생성 명령어</h4>
+              <div class="text-muted">
+                <p>리눅스 서버 복제 방법 (VMware 기준)            VM -&amp;gt; clone -&amp;gt; fullclone 복제 시 IP가 충돌되기 때문에 바꿔주어야 한다             IP 변경 방법            디렉터리 생성            mkdir [옵션] [생성할 디렉터리 명]                 생성할 디렉터리 명을 ...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/Linux06/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1738383600"
+  data-df="ll"
+  
+>
+  Feb  1, 2025
+</time>
+
+              <h4 class="pt-0 my-2">리눅스 파일 / 디렉터리 명령어</h4>
+              <div class="text-muted">
+                <p>파일 / 디렉터리 목록 확인            ls [옵션] [대상 파일 / 디렉터리]                                               -l : 목록에 대한 상세 정보를 나타냄(long) = ll           -al : 해당 디렉터리에 있는 숨김 파일이나 디렉터리를 포함하여 보여줌           -r : 해...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/Linux05/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1738307820"
+  data-df="ll"
+  
+>
+  Jan 31, 2025
+</time>
+
+              <h4 class="pt-0 my-2">리눅스 시작/종료/부팅 명령어</h4>
+              <div class="text-muted">
+                <p>리눅스 종료               shutdown [옵션] [설정값] [시간]                    가장 안전하게 서버를 종료하는 방법                             옵션                            -h : Halt(종료)               -c : cancel(shutdown 명령 취소...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+    </nav>
+  </aside>
+  <!-- #related-posts -->
+
 
             
               
@@ -946,19 +1110,19 @@
   
 
   
-    <div class="btn btn-outline-primary disabled" aria-label="Older">
-      <p>-</p>
-    </div>
+    <a
+      href="/posts/Linux07/"
+      class="btn btn-outline-primary"
+      aria-label="Older"
+    >
+      <p>리눅스 서버 복제 및 파일, 디렉터리 생성 명령어</p>
+    </a>
   
 
   
-    <a
-      href="/posts/Linux01/"
-      class="btn btn-outline-primary"
-      aria-label="Newer"
-    >
-      <p>운영체제(OS)</p>
-    </a>
+    <div class="btn btn-outline-primary disabled" aria-label="Newer">
+      <p>-</p>
+    </div>
   
 </nav>
 
