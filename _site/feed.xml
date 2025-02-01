@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>answer</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-01T14:44:16+09:00</updated>
+  <updated>2025-02-01T14:46:23+09:00</updated>
   <author>
     <name>코드로 답하다</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>파일 실행 권한 변경</title>
+    <link href="http://localhost:4000/posts/Linux12/" rel="alternate" type="text/html" title="파일 실행 권한 변경" />
+    <published>2025-02-01T14:45:00+09:00</published>
+  
+    <updated>2025-02-01T14:45:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Linux12/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Linux12/" />
+    <author>
+      <name>코드로 답하다</name>
+    </author>
+
+  
+    
+    <category term="Linux" />
+    
+    <category term="basic" />
+    
+  
+
+  <summary>권한 확인            (파일 유형) rwxrwxrwx.(허가권) (링크 수) (소유자 명) (그룹 명) (크기) (수정 일) (파일 명)       d : dirextory       b : block       i : 심볼릭 링크       c : 문자 장치       uid , pid : root → 0 / 일반 사용자 : 1000 번 부터         drwxr-xr-x. 3 root  root  63 12월 21 17:29 dir1 drwxr-xr-x. 2 root  root   6 12월 21 15:32 dir2 drwx------. 3 test  test  99 12월 15 16:43 test drwx------. 3 test1 test1 78 12월 21 14:15 test1</summary>
+
+  </entry>
 
   
   <entry>
@@ -119,32 +145,6 @@
   
 
   <summary>boot  : 부팅 관련 파일(커널)   etc : 모든 환경 설정 파일   lib : 동적 라이브러리 파일 (32비트)   lib64: 동적 라이브러리 파일 (64비트)   root : root 홈 디렉터리   sbin : 시스템 관련 명령어   usr : 일반 사용자 관련 명령어, 프로그램 설치   bin : 일반 명령어   dev : 장치 파일   home : 일반 사용자의 홈 디렉터리   mnt : 마운트 디렉터리   proc : 가상 파일 시스템   tmp : 임시 디렉터리   var : 시스템이 운영 중 변경되는 파일</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>리눅스 서버 복제 및 파일, 디렉터리 생성 명령어</title>
-    <link href="http://localhost:4000/posts/Linux07/" rel="alternate" type="text/html" title="리눅스 서버 복제 및 파일, 디렉터리 생성 명령어" />
-    <published>2025-02-01T13:26:00+09:00</published>
-  
-    <updated>2025-02-01T14:20:14+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Linux07/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Linux07/" />
-    <author>
-      <name>코드로 답하다</name>
-    </author>
-
-  
-    
-    <category term="Linux" />
-    
-    <category term="basic" />
-    
-  
-
-  <summary>리눅스 서버 복제 방법 (VMware 기준)            VM -&amp;amp;gt; clone -&amp;amp;gt; fullclone 복제 시 IP가 충돌되기 때문에 바꿔주어야 한다             IP 변경 방법            디렉터리 생성            mkdir [옵션] [생성할 디렉터리 명]                 생성할 디렉터리 명을 띄어쓰기 기준으로 한번에 여러 개 생성할 수 있다       디렉터리 뒤에 중괄호를 통해 연속적으로 디렉터리를 생성할 수 있다       -p : 한 번에 하위 디렉터리 생성       디렉터리 명 앞에 ‘.’을 통해 숨김 디렉터리를 만들 수 있다 (rm -rf * 시 삭제되지 않음)          mkdir dir1 dir2 dir3 dir4  mkdi...</summary>
 
   </entry>
 

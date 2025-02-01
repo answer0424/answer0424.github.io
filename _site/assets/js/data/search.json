@@ -1,5 +1,13 @@
 [
   {
+    "title": "파일 실행 권한 변경",
+    "url": "/posts/Linux12/",
+    "categories": "Linux, basic",
+    "tags": "linux",
+    "date": "2025-02-01 14:45:00 +0900",
+    "content": "권한 확인            (파일 유형) rwxrwxrwx.(허가권) (링크 수) (소유자 명) (그룹 명) (크기) (수정 일) (파일 명)       d : dirextory       b : block       i : 심볼릭 링크       c : 문자 장치       uid , pid : root → 0 / 일반 사용자 : 1000 번 부..."
+  },
+  {
     "title": "파일 내용 확인, 편집 명령어",
     "url": "/posts/Linux11/",
     "categories": "Linux, basic",
