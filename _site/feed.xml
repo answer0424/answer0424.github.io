@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>answer</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-01T13:01:46+08:00</updated>
+  <updated>2025-02-01T14:16:06+09:00</updated>
   <author>
     <name>코드로 답하다</name>
     <uri>http://localhost:4000/</uri>
@@ -22,9 +22,9 @@
   <entry>
     <title>리눅스 서버 복제 및 파일, 디렉터리 생성 명령어</title>
     <link href="http://localhost:4000/posts/Linux07/" rel="alternate" type="text/html" title="리눅스 서버 복제 및 파일, 디렉터리 생성 명령어" />
-    <published>2025-02-01T12:26:00+08:00</published>
+    <published>2025-02-01T13:26:00+09:00</published>
   
-    <updated>2025-02-01T12:36:01+08:00</updated>
+    <updated>2025-02-01T14:02:11+09:00</updated>
   
     <id>http://localhost:4000/posts/Linux07/</id>
     <content type="text/html" src="http://localhost:4000/posts/Linux07/" />
@@ -46,9 +46,9 @@
   <entry>
     <title>리눅스 파일 / 디렉터리 명령어</title>
     <link href="http://localhost:4000/posts/Linux06/" rel="alternate" type="text/html" title="리눅스 파일 / 디렉터리 명령어" />
-    <published>2025-02-01T12:20:00+08:00</published>
+    <published>2025-02-01T13:20:00+09:00</published>
   
-    <updated>2025-02-01T12:20:00+08:00</updated>
+    <updated>2025-02-01T13:20:00+09:00</updated>
   
     <id>http://localhost:4000/posts/Linux06/</id>
     <content type="text/html" src="http://localhost:4000/posts/Linux06/" />
@@ -70,9 +70,9 @@
   <entry>
     <title>리눅스 시작/종료/부팅 명령어</title>
     <link href="http://localhost:4000/posts/Linux05/" rel="alternate" type="text/html" title="리눅스 시작/종료/부팅 명령어" />
-    <published>2025-01-31T15:17:00+08:00</published>
+    <published>2025-01-31T16:17:00+09:00</published>
   
-    <updated>2025-01-31T15:44:03+08:00</updated>
+    <updated>2025-01-31T16:44:03+09:00</updated>
   
     <id>http://localhost:4000/posts/Linux05/</id>
     <content type="text/html" src="http://localhost:4000/posts/Linux05/" />
@@ -94,9 +94,9 @@
   <entry>
     <title>리눅스 네트워크 설정</title>
     <link href="http://localhost:4000/posts/Linux04/" rel="alternate" type="text/html" title="리눅스 네트워크 설정" />
-    <published>2025-01-31T14:48:00+08:00</published>
+    <published>2025-01-31T15:48:00+09:00</published>
   
-    <updated>2025-01-31T14:48:00+08:00</updated>
+    <updated>2025-01-31T15:48:00+09:00</updated>
   
     <id>http://localhost:4000/posts/Linux04/</id>
     <content type="text/html" src="http://localhost:4000/posts/Linux04/" />
@@ -118,9 +118,9 @@
   <entry>
     <title>환경 설정 및 기본 명령어</title>
     <link href="http://localhost:4000/posts/Linux03/" rel="alternate" type="text/html" title="환경 설정 및 기본 명령어" />
-    <published>2025-01-31T14:37:00+08:00</published>
+    <published>2025-01-31T15:37:00+09:00</published>
   
-    <updated>2025-01-31T14:37:00+08:00</updated>
+    <updated>2025-01-31T15:37:00+09:00</updated>
   
     <id>http://localhost:4000/posts/Linux03/</id>
     <content type="text/html" src="http://localhost:4000/posts/Linux03/" />
