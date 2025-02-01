@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>answer</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-01T14:19:39+09:00</updated>
+  <updated>2025-02-01T14:25:15+09:00</updated>
   <author>
     <name>코드로 답하다</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>날짜와 시간 명령어</title>
+    <link href="http://localhost:4000/posts/Linux09/" rel="alternate" type="text/html" title="날짜와 시간 명령어" />
+    <published>2025-02-01T14:24:00+09:00</published>
+  
+    <updated>2025-02-01T14:24:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Linux09/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Linux09/" />
+    <author>
+      <name>코드로 답하다</name>
+    </author>
+
+  
+    
+    <category term="Linux" />
+    
+    <category term="basic" />
+    
+  
+
+  <summary>date [옵션]            -u : UTC 국제 표준시         date date -u                                 cal [옵션] [설정값]            -3 : 이번 달을 기준으로 전, 후 월을 보여줌       -y : 이번 년도의 모든 월을 보여줌       -yj : 현재 년도의 모든 월을 보여주고 총 일자 단위로 보여줌       월 년도 : 해당 년도의 월을 보여줌         cal cal -3 cal -y cal -y 2023 cal -yj cal 05 2023</summary>
+
+  </entry>
 
   
   <entry>
@@ -50,7 +76,7 @@
     <link href="http://localhost:4000/posts/Linux07/" rel="alternate" type="text/html" title="리눅스 서버 복제 및 파일, 디렉터리 생성 명령어" />
     <published>2025-02-01T13:26:00+09:00</published>
   
-    <updated>2025-02-01T14:02:11+09:00</updated>
+    <updated>2025-02-01T14:20:14+09:00</updated>
   
     <id>http://localhost:4000/posts/Linux07/</id>
     <content type="text/html" src="http://localhost:4000/posts/Linux07/" />
@@ -76,7 +102,7 @@
     <link href="http://localhost:4000/posts/Linux06/" rel="alternate" type="text/html" title="리눅스 파일 / 디렉터리 명령어" />
     <published>2025-02-01T13:20:00+09:00</published>
   
-    <updated>2025-02-01T13:20:00+09:00</updated>
+    <updated>2025-02-01T14:20:14+09:00</updated>
   
     <id>http://localhost:4000/posts/Linux06/</id>
     <content type="text/html" src="http://localhost:4000/posts/Linux06/" />
@@ -102,7 +128,7 @@
     <link href="http://localhost:4000/posts/Linux05/" rel="alternate" type="text/html" title="리눅스 시작/종료/부팅 명령어" />
     <published>2025-01-31T16:17:00+09:00</published>
   
-    <updated>2025-01-31T16:44:03+09:00</updated>
+    <updated>2025-02-01T14:20:14+09:00</updated>
   
     <id>http://localhost:4000/posts/Linux05/</id>
     <content type="text/html" src="http://localhost:4000/posts/Linux05/" />
@@ -119,32 +145,6 @@
   
 
   <summary>리눅스 종료               shutdown [옵션] [설정값] [시간]                    가장 안전하게 서버를 종료하는 방법                             옵션                            -h : Halt(종료)               -c : cancel(shutdown 명령 취소)               -r : restart(재시작)                                   시간                            +1 : 1분               12:30 : 12시 30분               now : 지금                   shutdown -h +1   shutdo...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>리눅스 네트워크 설정</title>
-    <link href="http://localhost:4000/posts/Linux04/" rel="alternate" type="text/html" title="리눅스 네트워크 설정" />
-    <published>2025-01-31T15:48:00+09:00</published>
-  
-    <updated>2025-01-31T15:48:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Linux04/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Linux04/" />
-    <author>
-      <name>코드로 답하다</name>
-    </author>
-
-  
-    
-    <category term="Linux" />
-    
-    <category term="basic" />
-    
-  
-
-  <summary>네트워크 설정 기본            edit            virtual network editor            vmet0 -&amp;amp;gt; type: Bridged       vmet8 -&amp;amp;gt; type: NAT            IP 설정 시 앞 3자리는 동일하게 설정                 터미널 설정 단계            NetworkManager의 system-connections 폴더로 이동       네트워크 설정 파일 편집 (vi 편집기에 대해서는 추후 설명 예정)          cd etc/NetworkManager/system-connections/  vi ens160.nmconnection                       ‘i’ 키를 통해 편집모드 진입...</summary>
 
   </entry>
 

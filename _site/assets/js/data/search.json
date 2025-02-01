@@ -1,5 +1,13 @@
 [
   {
+    "title": "날짜와 시간 명령어",
+    "url": "/posts/Linux09/",
+    "categories": "Linux, basic",
+    "tags": "linux",
+    "date": "2025-02-01 14:24:00 +0900",
+    "content": "date [옵션]            -u : UTC 국제 표준시         date date -u                                 cal [옵션] [설정값]            -3 : 이번 달을 기준으로 전, 후 월을 보여줌       -y : 이번 년도의 모든 월을 보여줌       -yj : 현재 년도의 모든 월을 ..."
+  },
+  {
     "title": "리눅스 디렉터리 구조 및 역할",
     "url": "/posts/Linux08/",
     "categories": "Linux, basic",
