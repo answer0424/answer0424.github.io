@@ -1,7 +1,7 @@
 [
   {
     "title": "프로세스 관련 명령어",
-    "url": "/posts/Linux15/",
+    "url": "/posts/posts/Linux15/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-02-01 15:02:00 +0900",
@@ -9,7 +9,7 @@
   },
   {
     "title": "Shell 관련 명령어",
-    "url": "/posts/Linux14/",
+    "url": "/posts/posts/Linux14/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-02-01 14:55:00 +0900",
@@ -17,7 +17,7 @@
   },
   {
     "title": "파일 찾기, 내용 비교, 링크, 압축",
-    "url": "/posts/Linux13/",
+    "url": "/posts/posts/Linux13/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-02-01 14:47:00 +0900",
@@ -25,7 +25,7 @@
   },
   {
     "title": "파일 실행 권한 변경",
-    "url": "/posts/Linux12/",
+    "url": "/posts/posts/Linux12/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-02-01 14:45:00 +0900",
@@ -33,7 +33,7 @@
   },
   {
     "title": "파일 내용 확인, 편집 명령어",
-    "url": "/posts/Linux11/",
+    "url": "/posts/posts/Linux11/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-02-01 14:30:00 +0900",
@@ -41,7 +41,7 @@
   },
   {
     "title": "파일과 디렉터리 복사 및 이동",
-    "url": "/posts/Linux10/",
+    "url": "/posts/posts/Linux10/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-02-01 14:26:00 +0900",
@@ -49,7 +49,7 @@
   },
   {
     "title": "날짜와 시간 명령어",
-    "url": "/posts/Linux09/",
+    "url": "/posts/posts/Linux09/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-02-01 14:24:00 +0900",
@@ -57,7 +57,7 @@
   },
   {
     "title": "리눅스 디렉터리 구조 및 역할",
-    "url": "/posts/Linux08/",
+    "url": "/posts/posts/Linux08/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-02-01 14:19:00 +0900",
@@ -65,7 +65,7 @@
   },
   {
     "title": "리눅스 서버 복제 및 파일, 디렉터리 생성 명령어",
-    "url": "/posts/Linux07/",
+    "url": "/posts/posts/Linux07/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-02-01 13:26:00 +0900",
@@ -73,7 +73,7 @@
   },
   {
     "title": "리눅스 파일 / 디렉터리 명령어",
-    "url": "/posts/Linux06/",
+    "url": "/posts/posts/Linux06/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-02-01 13:20:00 +0900",
@@ -81,7 +81,7 @@
   },
   {
     "title": "리눅스 시작/종료/부팅 명령어",
-    "url": "/posts/Linux05/",
+    "url": "/posts/posts/Linux05/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-01-31 16:17:00 +0900",
@@ -89,7 +89,7 @@
   },
   {
     "title": "리눅스 네트워크 설정",
-    "url": "/posts/Linux04/",
+    "url": "/posts/posts/Linux04/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-01-31 15:48:00 +0900",
@@ -97,7 +97,7 @@
   },
   {
     "title": "환경 설정 및 기본 명령어",
-    "url": "/posts/Linux03/",
+    "url": "/posts/posts/Linux03/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-01-31 15:37:00 +0900",
@@ -105,7 +105,7 @@
   },
   {
     "title": "리눅스란?",
-    "url": "/posts/Linux02/",
+    "url": "/posts/posts/Linux02/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-01-31 15:27:00 +0900",
@@ -113,7 +113,7 @@
   },
   {
     "title": "운영체제(OS)",
-    "url": "/posts/Linux01/",
+    "url": "/posts/posts/Linux01/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-01-31 15:09:00 +0900",
@@ -121,7 +121,7 @@
   },
   {
     "title": "첫 포스팅 작성",
-    "url": "/posts/test-post/",
+    "url": "/posts/posts/test-post/",
     "categories": "First, Post",
     "tags": "tag",
     "date": "2025-01-30 20:19:00 +0900",

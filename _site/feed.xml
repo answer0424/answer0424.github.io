@@ -1,33 +1,33 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4000/</id>
+  <id>http://localhost:4000/posts/</id>
   <title>answer</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-01T15:16:23+09:00</updated>
+  <updated>2025-02-01T15:37:44+09:00</updated>
   <author>
     <name>코드로 답하다</name>
-    <uri>http://localhost:4000/</uri>
+    <uri>http://localhost:4000/posts/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/posts/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://localhost:4000/"/>
+    href="http://localhost:4000/posts/"/>
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <rights> © 2025 코드로 답하다 </rights>
-  <icon>/assets/img/favicons/favicon.ico</icon>
-  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+  <icon>/posts/assets/img/favicons/favicon.ico</icon>
+  <logo>/posts/assets/img/favicons/favicon-96x96.png</logo>
 
 
   
   <entry>
     <title>프로세스 관련 명령어</title>
-    <link href="http://localhost:4000/posts/Linux15/" rel="alternate" type="text/html" title="프로세스 관련 명령어" />
+    <link href="http://localhost:4000/posts/posts/Linux15/" rel="alternate" type="text/html" title="프로세스 관련 명령어" />
     <published>2025-02-01T15:02:00+09:00</published>
   
     <updated>2025-02-01T15:02:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/Linux15/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Linux15/" />
+    <id>http://localhost:4000/posts/posts/Linux15/</id>
+    <content type="text/html" src="http://localhost:4000/posts/posts/Linux15/" />
     <author>
       <name>코드로 답하다</name>
     </author>
@@ -47,13 +47,13 @@
   
   <entry>
     <title>Shell 관련 명령어</title>
-    <link href="http://localhost:4000/posts/Linux14/" rel="alternate" type="text/html" title="Shell 관련 명령어" />
+    <link href="http://localhost:4000/posts/posts/Linux14/" rel="alternate" type="text/html" title="Shell 관련 명령어" />
     <published>2025-02-01T14:55:00+09:00</published>
   
     <updated>2025-02-01T14:55:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/Linux14/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Linux14/" />
+    <id>http://localhost:4000/posts/posts/Linux14/</id>
+    <content type="text/html" src="http://localhost:4000/posts/posts/Linux14/" />
     <author>
       <name>코드로 답하다</name>
     </author>
@@ -73,13 +73,13 @@
   
   <entry>
     <title>파일 찾기, 내용 비교, 링크, 압축</title>
-    <link href="http://localhost:4000/posts/Linux13/" rel="alternate" type="text/html" title="파일 찾기, 내용 비교, 링크, 압축" />
+    <link href="http://localhost:4000/posts/posts/Linux13/" rel="alternate" type="text/html" title="파일 찾기, 내용 비교, 링크, 압축" />
     <published>2025-02-01T14:47:00+09:00</published>
   
     <updated>2025-02-01T15:01:08+09:00</updated>
   
-    <id>http://localhost:4000/posts/Linux13/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Linux13/" />
+    <id>http://localhost:4000/posts/posts/Linux13/</id>
+    <content type="text/html" src="http://localhost:4000/posts/posts/Linux13/" />
     <author>
       <name>코드로 답하다</name>
     </author>
@@ -99,13 +99,13 @@
   
   <entry>
     <title>파일 실행 권한 변경</title>
-    <link href="http://localhost:4000/posts/Linux12/" rel="alternate" type="text/html" title="파일 실행 권한 변경" />
+    <link href="http://localhost:4000/posts/posts/Linux12/" rel="alternate" type="text/html" title="파일 실행 권한 변경" />
     <published>2025-02-01T14:45:00+09:00</published>
   
     <updated>2025-02-01T15:01:08+09:00</updated>
   
-    <id>http://localhost:4000/posts/Linux12/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Linux12/" />
+    <id>http://localhost:4000/posts/posts/Linux12/</id>
+    <content type="text/html" src="http://localhost:4000/posts/posts/Linux12/" />
     <author>
       <name>코드로 답하다</name>
     </author>
@@ -125,13 +125,13 @@
   
   <entry>
     <title>파일 내용 확인, 편집 명령어</title>
-    <link href="http://localhost:4000/posts/Linux11/" rel="alternate" type="text/html" title="파일 내용 확인, 편집 명령어" />
+    <link href="http://localhost:4000/posts/posts/Linux11/" rel="alternate" type="text/html" title="파일 내용 확인, 편집 명령어" />
     <published>2025-02-01T14:30:00+09:00</published>
   
     <updated>2025-02-01T14:30:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/Linux11/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Linux11/" />
+    <id>http://localhost:4000/posts/posts/Linux11/</id>
+    <content type="text/html" src="http://localhost:4000/posts/posts/Linux11/" />
     <author>
       <name>코드로 답하다</name>
     </author>
