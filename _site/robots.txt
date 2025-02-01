@@ -2,4 +2,8 @@ User-agent: *
 
 Disallow: /norobots/
 
-Sitemap: http://localhost:4000/posts/sitemap.xml
+Sitemap: https://answer0424.github.io//sitemap.xml
+
+Allow: /
+
+Sitemap: https://answer0424.github.io/sitemap.xml
