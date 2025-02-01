@@ -30,23 +30,23 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="파일과 디렉터리 복사 및 이동" />
+<meta property="og:title" content="프로세스 관련 명령어" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="파일 / 디렉터리 복사 cp [옵션] [원본파일/디렉터리] [대상디렉터리] -i : 덮어쓰기 여부 묻기 -f : 강제로 복사 -r : 하위 디렉터리까지 복사 -b : 백업 파일 생성 -S : 확장자 지정" />
-<meta property="og:description" content="파일 / 디렉터리 복사 cp [옵션] [원본파일/디렉터리] [대상디렉터리] -i : 덮어쓰기 여부 묻기 -f : 강제로 복사 -r : 하위 디렉터리까지 복사 -b : 백업 파일 생성 -S : 확장자 지정" />
-<link rel="canonical" href="http://localhost:4000/posts/Linux10/" />
-<meta property="og:url" content="http://localhost:4000/posts/Linux10/" />
+<meta name="description" content="systemd 최상위 프로세스" />
+<meta property="og:description" content="systemd 최상위 프로세스" />
+<link rel="canonical" href="http://localhost:4000/posts/Linux15/" />
+<meta property="og:url" content="http://localhost:4000/posts/Linux15/" />
 <meta property="og:site_name" content="answer" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-02-01T14:26:00+09:00" />
+<meta property="article:published_time" content="2025-02-01T15:02:00+09:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="파일과 디렉터리 복사 및 이동" />
+<meta property="twitter:title" content="프로세스 관련 명령어" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-01T14:26:00+09:00","datePublished":"2025-02-01T14:26:00+09:00","description":"파일 / 디렉터리 복사 cp [옵션] [원본파일/디렉터리] [대상디렉터리] -i : 덮어쓰기 여부 묻기 -f : 강제로 복사 -r : 하위 디렉터리까지 복사 -b : 백업 파일 생성 -S : 확장자 지정","headline":"파일과 디렉터리 복사 및 이동","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Linux10/"},"url":"http://localhost:4000/posts/Linux10/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-01T15:02:00+09:00","datePublished":"2025-02-01T15:02:00+09:00","description":"systemd 최상위 프로세스","headline":"프로세스 관련 명령어","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Linux15/"},"url":"http://localhost:4000/posts/Linux15/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>파일과 디렉터리 복사 및 이동 | answer
+  <title>프로세스 관련 명령어 | answer
   </title>
 
   <!--
@@ -432,7 +432,7 @@
         
           
             
-              <span>파일과 디렉터리 복사 및 이동</span>
+              <span>프로세스 관련 명령어</span>
             
 
           
@@ -547,7 +547,7 @@
 
 <article class="px-1" data-toc="false">
   <header>
-    <h1 data-toc-skip>파일과 디렉터리 복사 및 이동</h1>
+    <h1 data-toc-skip>프로세스 관련 명령어</h1>
     
 
     <div class="post-meta text-muted">
@@ -564,7 +564,7 @@
 
 <time
   
-  data-ts="1738387560"
+  data-ts="1738389720"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
@@ -619,9 +619,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="188 words"
+  title="543 words"
 >
-  <em>1 min</em> read</span>
+  <em>3 min</em> read</span>
 
         </div>
       </div>
@@ -632,49 +632,128 @@
 
   <div class="content">
     <ol>
-  <li>파일 / 디렉터리 복사
-    <ul>
-      <li>cp [옵션] [원본파일/디렉터리] [대상디렉터리]</li>
-    </ul>
-    <ul>
-      <li>-i : 덮어쓰기 여부 묻기</li>
-      <li>-f : 강제로 복사</li>
-      <li>-r : 하위 디렉터리까지 복사</li>
-      <li>-b : 백업 파일 생성</li>
-      <li>-S : 확장자 지정</li>
-    </ul>
-  </li>
-</ol>
+  <li>systemd
+    <blockquote>
+      <p>최상위 프로세스</p>
+    </blockquote>
 
-<ul>
-  <li>파일 복사 시 와일드 카드 사용 가능</li>
-  <li>.을 통해서 현재 디렉터리를 명시할 수 있다
+    <p><br /></p>
+  </li>
+  <li>ps [옵션]
+    <blockquote>
+      <p>프로세스 출력</p>
+    </blockquote>
+
+    <ul>
+      <li>-a: 현재 터미널에 로그인한 모든 사용자의 프로세스를 출력력</li>
+      <li>-u : 사용자와 프로세스 정보를 자세하게 출력</li>
+      <li>-x : 터미널에 연결되지 않은 백드라운드 프로세스도 출력</li>
+      <li>-e : 모든 프로세스를 출력</li>
+      <li>-f : 프로세스 정보를 풀 포멧으로 출력</li>
+    </ul>
+
     <div class="language-bash highlighter-rouge"><div class="code-header">
         <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
-</pre></td><td class="rouge-code"><pre><span class="nb">cp </span>file1 dir1
-<span class="nb">cp </span>file1 file2
-<span class="nb">cp</span> /etc/passwd <span class="nb">.</span>
-<span class="nb">cp</span> <span class="nt">-b</span> <span class="nt">-S</span> .bak passwd passwd7
+5
+6
+7
+8
+9
+</pre></td><td class="rouge-code"><pre> // ps <span class="nt">-aux</span>
+ USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+ root         1  0.0  0.1 158448  8568 ?        Ss   Jan01   0:01 /sbin/init
+ user       100  0.1  0.3 167120 15000 ?        Sl   14:50   0:00 /usr/bin/python3 script.py
+
+ //ps <span class="nt">-ef</span>
+ UID        PID  PPID  C STIME TTY          TIME CMD
+ root         1     0  0 Jan01 ?        00:01:23 /sbin/init
+ user       100     1  0 14:50 ?        00:00:00 /usr/bin/python3 script.py
 </pre></td></tr></tbody></table></code></div>    </div>
 
-    <p><br />
-      2. 파일 / 디렉터리 이동, 파일 명 변경</p>
+    <p><br /></p>
   </li>
-  <li>mv [원본파일/디렉터리] [파일/디렉터리명]</li>
-  <li>파일 이동 시 와일드 카드 사용 가능
+  <li>pstree [옵션]
+    <blockquote>
+      <p>프로세스를 계층형 구조로 출력</p>
+    </blockquote>
+
+    <ul>
+      <li>-p : 프로세스 id와 함께 출력</li>
+    </ul>
+
+    <p><br /></p>
+  </li>
+  <li>top [옵션]
+    <blockquote>
+      <p>실시간으로 프로세스의 상태를 모니터링할 수 있는 명령어</p>
+    </blockquote>
+
+    <p><br /></p>
+  </li>
+  <li>gnome-system-monitor
+    <blockquote>
+      <p>프로그램의 상태를 백그라운드 창을 띄어 확인할 수 있는 명령어</p>
+    </blockquote>
+
+    <p><br /></p>
+  </li>
+  <li>nice[옵션] [설정값] [프로그램명]
+    <blockquote>
+      <p>프로세스의 우선 순위 변경</p>
+    </blockquote>
+
+    <ul>
+      <li>nice 값의 범위  -&gt; -20 ~ 19
+        <div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre> <span class="nb">nice</span> <span class="nt">-10</span> top &lt;<span class="nt">--</span> 우선 순위의 값을 10만큼 낮춤
+ <span class="nb">nice</span> <span class="nt">-n</span> <span class="nt">-10</span> top &lt;<span class="nt">--</span> 우선 순위의 값을 10만큼 높임
+</pre></td></tr></tbody></table></code></div>        </div>
+      </li>
+    </ul>
+
+    <p><br /></p>
+  </li>
+  <li>renice [옵션] [설정값] [PID]
+    <blockquote>
+      <p>실행 중인 프로세스의 우선 순위 변경</p>
+    </blockquote>
+
     <div class="language-bash highlighter-rouge"><div class="code-header">
         <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
-</pre></td><td class="rouge-code"><pre><span class="nb">mv </span>file1 /home/dir1
-<span class="nb">mv </span>file1 file2
+</pre></td><td class="rouge-code"><pre> renice <span class="nt">-10</span> 6029 &lt;<span class="nt">--</span> 우선 순위를 10만큼 높임
+ renice 10 6029 &lt;<span class="nt">--</span> 우선 순위를 10만큼 낮춤
 </pre></td></tr></tbody></table></code></div>    </div>
+
+    <p><br /></p>
   </li>
-</ul>
+  <li>kill [옵션] [PID]
+    <blockquote>
+      <p>프로세스 종료 명령어</p>
+    </blockquote>
+
+    <ul>
+      <li>-l : 옵션의 종류를 출력</li>
+      <li>-1 : 재시작</li>
+      <li>-2 : 해당 프로세스에 신호를 보낼 때 사용</li>
+      <li>-3 : 사용자에 의해 프로세스가 종료되도록 하는 신호</li>
+      <li>-9 : 강제 종료</li>
+      <li>-15: 정상 종료</li>
+      <li>-18 : 일시 중지된 프로세스를 계속 실행</li>
+      <li>-19 : 프로세스를 일시 중지(pause)하는 신호</li>
+      <li>-20 : 사용자에 의해 터미널에서 일시 중지 요청</li>
+      <li>killall [옵션] [프로세스 명]</li>
+    </ul>
+  </li>
+</ol>
 
   </div>
 
@@ -733,21 +812,21 @@
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=%ED%8C%8C%EC%9D%BC%EA%B3%BC%20%EB%94%94%EB%A0%89%ED%84%B0%EB%A6%AC%20%EB%B3%B5%EC%82%AC%20%EB%B0%8F%20%EC%9D%B4%EB%8F%99%20-%20answer&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux10%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%20%EA%B4%80%EB%A0%A8%20%EB%AA%85%EB%A0%B9%EC%96%B4%20-%20answer&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux15%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=%ED%8C%8C%EC%9D%BC%EA%B3%BC%20%EB%94%94%EB%A0%89%ED%84%B0%EB%A6%AC%20%EB%B3%B5%EC%82%AC%20%EB%B0%8F%20%EC%9D%B4%EB%8F%99%20-%20answer&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux10%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%20%EA%B4%80%EB%A0%A8%20%EB%AA%85%EB%A0%B9%EC%96%B4%20-%20answer&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux15%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux10%2F&text=%ED%8C%8C%EC%9D%BC%EA%B3%BC%20%EB%94%94%EB%A0%89%ED%84%B0%EB%A6%AC%20%EB%B3%B5%EC%82%AC%20%EB%B0%8F%20%EC%9D%B4%EB%8F%99%20-%20answer" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux15%2F&text=%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%20%EA%B4%80%EB%A0%A8%20%EB%AA%85%EB%A0%B9%EC%96%B4%20-%20answer" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -1049,67 +1128,67 @@
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
 
 
 
@@ -1123,6 +1202,34 @@
   <aside id="related-posts" aria-labelledby="related-label">
     <h3 class="mb-4" id="related-label">Further Reading</h3>
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        <article class="col">
+          <a href="/posts/Linux10/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1738387560"
+  data-df="ll"
+  
+>
+  Feb  1, 2025
+</time>
+
+              <h4 class="pt-0 my-2">파일과 디렉터리 복사 및 이동</h4>
+              <div class="text-muted">
+                <p>파일 / 디렉터리 복사            cp [옵션] [원본파일/디렉터리] [대상디렉터리]                 -i : 덮어쓰기 여부 묻기       -f : 강제로 복사       -r : 하위 디렉터리까지 복사       -b : 백업 파일 생성       -S : 확장자 지정              파일 복사 시 와일드 카드 사용 가...</p>
+              </div>
+            </div>
+          </a>
+        </article>
       
         <article class="col">
           <a href="/posts/Linux09/" class="post-preview card h-100">
@@ -1180,34 +1287,6 @@
           </a>
         </article>
       
-        <article class="col">
-          <a href="/posts/Linux07/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1738383960"
-  data-df="ll"
-  
->
-  Feb  1, 2025
-</time>
-
-              <h4 class="pt-0 my-2">리눅스 서버 복제 및 파일, 디렉터리 생성 명령어</h4>
-              <div class="text-muted">
-                <p>리눅스 서버 복제 방법 (VMware 기준)            VM -&amp;gt; clone -&amp;gt; fullclone 복제 시 IP가 충돌되기 때문에 바꿔주어야 한다             IP 변경 방법            디렉터리 생성            mkdir [옵션] [생성할 디렉터리 명]                 생성할 디렉터리 명을 ...</p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
     </nav>
   </aside>
   <!-- #related-posts -->
@@ -1223,22 +1302,18 @@
 
   
     <a
-      href="/posts/Linux09/"
+      href="/posts/Linux14/"
       class="btn btn-outline-primary"
       aria-label="Older"
     >
-      <p>날짜와 시간 명령어</p>
+      <p>Shell 관련 명령어</p>
     </a>
   
 
   
-    <a
-      href="/posts/Linux11/"
-      class="btn btn-outline-primary"
-      aria-label="Newer"
-    >
-      <p>파일 내용 확인, 편집 명령어</p>
-    </a>
+    <div class="btn btn-outline-primary disabled" aria-label="Newer">
+      <p>-</p>
+    </div>
   
 </nav>
 
