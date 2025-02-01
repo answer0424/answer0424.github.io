@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>answer</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-01T12:26:59+08:00</updated>
+  <updated>2025-02-01T13:01:46+08:00</updated>
   <author>
     <name>코드로 답하다</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/Linux07/" rel="alternate" type="text/html" title="리눅스 서버 복제 및 파일, 디렉터리 생성 명령어" />
     <published>2025-02-01T12:26:00+08:00</published>
   
-    <updated>2025-02-01T12:26:00+08:00</updated>
+    <updated>2025-02-01T12:36:01+08:00</updated>
   
     <id>http://localhost:4000/posts/Linux07/</id>
     <content type="text/html" src="http://localhost:4000/posts/Linux07/" />
@@ -38,7 +38,7 @@
     
   
 
-  <summary>리눅스 서버 복제 방법 (VMware 기준)            VM -&amp;amp;gt; clone -&amp;amp;gt; fullclone 복제 시 IP가 충돌되기 때문에 바꿔주어야 한다            IP 변경 방법</summary>
+  <summary>리눅스 서버 복제 방법 (VMware 기준)            VM -&amp;amp;gt; clone -&amp;amp;gt; fullclone 복제 시 IP가 충돌되기 때문에 바꿔주어야 한다             IP 변경 방법            디렉터리 생성            mkdir [옵션] [생성할 디렉터리 명]                 생성할 디렉터리 명을 띄어쓰기 기준으로 한번에 여러 개 생성할 수 있다       디렉터리 뒤에 중괄호를 통해 연속적으로 디렉터리를 생성할 수 있다       -p : 한 번에 하위 디렉터리 생성       디렉터리 명 앞에 ‘.’을 통해 숨김 디렉터리를 만들 수 있다 (rm -rf * 시 삭제되지 않음)          mkdir dir1 dir2 dir3 dir4  mkdi...</summary>
 
   </entry>
 

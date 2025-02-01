@@ -5,7 +5,7 @@
     "categories": "Linux",
     "tags": "linux",
     "date": "2025-02-01 12:26:00 +0800",
-    "content": "리눅스 서버 복제 방법 (VMware 기준)            VM -&amp;gt; clone -&amp;gt; fullclone 복제 시 IP가 충돌되기 때문에 바꿔주어야 한다            IP 변경 방법"
+    "content": "리눅스 서버 복제 방법 (VMware 기준)            VM -&amp;gt; clone -&amp;gt; fullclone 복제 시 IP가 충돌되기 때문에 바꿔주어야 한다             IP 변경 방법            디렉터리 생성            mkdir [옵션] [생성할 디렉터리 명]                 생성할 디렉터리 명을 ..."
   },
   {
     "title": "리눅스 파일 / 디렉터리 명령어",

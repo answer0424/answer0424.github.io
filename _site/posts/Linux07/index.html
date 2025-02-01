@@ -42,7 +42,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="리눅스 서버 복제 및 파일, 디렉터리 생성 명령어" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-01T12:26:00+08:00","datePublished":"2025-02-01T12:26:00+08:00","description":"리눅스 서버 복제 방법 (VMware 기준) VM -&gt; clone -&gt; fullclone 복제 시 IP가 충돌되기 때문에 바꿔주어야 한다","headline":"리눅스 서버 복제 및 파일, 디렉터리 생성 명령어","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Linux07/"},"url":"http://localhost:4000/posts/Linux07/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-01T12:36:01+08:00","datePublished":"2025-02-01T12:26:00+08:00","description":"리눅스 서버 복제 방법 (VMware 기준) VM -&gt; clone -&gt; fullclone 복제 시 IP가 충돌되기 때문에 바꿔주어야 한다","headline":"리눅스 서버 복제 및 파일, 디렉터리 생성 명령어","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Linux07/"},"url":"http://localhost:4000/posts/Linux07/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -500,6 +500,79 @@
 
 
 
+  
+  
+
+  
+    
+      
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+
+  
+
 
 <!-- Add header for code snippets -->
 
@@ -577,6 +650,29 @@
 
       <!-- lastmod date -->
       
+        <span>
+          Updated
+          <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1738384561"
+  data-df="ll"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  Feb  1, 2025
+</time>
+
+        </span>
+      
 
       
 
@@ -619,9 +715,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="42 words"
+  title="814 words"
 >
-  <em>1 min</em> read</span>
+  <em>4 min</em> read</span>
 
         </div>
       </div>
@@ -637,11 +733,197 @@
       <p>VM -&gt; clone -&gt; fullclone
 복제 시 IP가 충돌되기 때문에 바꿔주어야 한다</p>
     </blockquote>
+
+    <p><a href="/assets/img/linux/07cloneLinux.png" class="popup img-link  shimmer"><img src="/assets/img/linux/07cloneLinux.png" alt="리눅스 서버 복제 방법" loading="lazy"></a>
+ <a href="http://127.0.0.1:4000/posts/Linux04/">IP 변경 방법</a></p>
+
+    <p><br /></p>
+  </li>
+  <li>디렉터리 생성
+    <ul>
+      <li>mkdir [옵션] [생성할 디렉터리 명]</li>
+    </ul>
+    <ul>
+      <li>생성할 디렉터리 명을 띄어쓰기 기준으로 한번에 여러 개 생성할 수 있다</li>
+      <li>디렉터리 뒤에 중괄호를 통해 연속적으로 디렉터리를 생성할 수 있다</li>
+      <li>-p : 한 번에 하위 디렉터리 생성</li>
+      <li>디렉터리 명 앞에 ‘.’을 통해 숨김 디렉터리를 만들 수 있다 (rm -rf * 시 삭제되지 않음)
+        <div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre> <span class="nb">mkdir </span>dir1 dir2 dir3 dir4
+ <span class="nb">mkdir dir</span><span class="o">{</span>4..9<span class="o">}</span>
+ <span class="nb">mkdir</span> <span class="nt">-p</span> dir1/dir2/dir3/dir4/dir5/dir6
+ <span class="nb">mkdir</span> .dir10
+</pre></td></tr></tbody></table></code></div>        </div>
+      </li>
+    </ul>
+
+    <p><br /></p>
+  </li>
+  <li>디렉터리 삭제
+    <ul>
+      <li>rm [옵션] [디렉터리명]</li>
+    </ul>
+    <ul>
+      <li>
+        <옵션>
+</옵션>
+        <ul>
+          <li>-r : 하위 디렉터리의 파일이나 디렉터리 삭제</li>
+          <li>-f : 삭제시 삭제 여부 묻지 않기
+            <div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>  // 해당 디렉터리에 있는 모든 파일 및 디렉터리를 삭제
+  <span class="nb">rm</span> <span class="nt">-rf</span> <span class="k">*</span>
+</pre></td></tr></tbody></table></code></div>            </div>
+          </li>
+        </ul>
+      </li>
+    </ul>
   </li>
 </ol>
 
-<p><br />
-<a href="http://127.0.0.1:4000/posts/Linux04/">IP 변경 방법</a></p>
+<ul>
+  <li>rmdir [디렉터리명]
+    <blockquote>
+      <p>비어있는 디렉터리만 삭제 가능</p>
+    </blockquote>
+
+    <p><br />
+      4. 파일 생성</p>
+  </li>
+  <li>touch [옵션] [파일명]
+    <ul>
+      <li>기존 파일이 존재하는 경우 → 날짜 수정</li>
+      <li>기존 파일이 존재하지 않는 경우 → 빈 파일 생성</li>
+      <li>생성할 파일 명을 띄어쓰기 기준으로 한번에 여러 개 생성할 수 있다</li>
+      <li>타 디렉터리에서 파일을 생성할 때는 한번에 하나의 파일만 만들 수 있다</li>
+      <li>파일 명 뒤에 중괄호를 통해 연속적으로 파일을 생성할 수 있다</li>
+      <li>파일 명 앞에 ‘.’을 통해서 숨김 파일을 만들 수 있다(rm -rf * 시 삭제되지 않음)</li>
+      <li>-t [연월일시분.초] : 파일의 변경 시간을 조정할 수 있다
+        <div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre>  <span class="nb">touch </span>file1 file2 file3 file4
+  <span class="nb">touch </span>file<span class="o">{</span>5..9<span class="o">}</span>
+  <span class="nb">touch</span> .file10
+  <span class="nb">touch</span> <span class="nt">-t</span> 2301010200.30 file2
+</pre></td></tr></tbody></table></code></div>        </div>
+      </li>
+    </ul>
+
+    <p><br />
+      5. 파일 삭제</p>
+  </li>
+  <li>rm [옵션] [파일명]
+    <ul>
+      <li>-r : 하위 디렉터리의 파일이나 디렉터리 삭제</li>
+      <li>-f : 삭제 여부 묻지 않기
+        <div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>  // 해당 디렉터리에 있는 모든 파일 및 디렉터리를 삭제
+  <span class="nb">rm</span> <span class="nt">-rf</span> <span class="k">*</span>
+</pre></td></tr></tbody></table></code></div>        </div>
+      </li>
+    </ul>
+
+    <p><br />
+      6. 파일 생성 2</p>
+  </li>
+  <li>cat [옵션] [파일명]
+    <ul>
+      <li>-n : 행 번호 붙여서 보여줌</li>
+      <li>&gt; : 좌측 내용을 우측에 덮어쓰기</li>
+      <li>&gt;&gt; : 좌측 내용이 우측 내용에 추가</li>
+      <li>-b : 빈 줄을 제외하고 행 번호를 매김</li>
+      <li>|  : 2개 이상의 명령어를 연결해 주는 명령어
+        <div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>  <span class="nb">cat </span>passwd
+  <span class="nb">cat </span>file1.txt <span class="o">&gt;</span> file2.txt
+  <span class="nb">cat </span>file1.txt <span class="o">&gt;&gt;</span> file2.txt
+  <span class="nb">cat</span> <span class="nt">-b</span> file1.txt
+  <span class="nb">cat </span>passwd | more
+</pre></td></tr></tbody></table></code></div>        </div>
+      </li>
+    </ul>
+
+    <p><br />
+      7. 파일 내용 확인</p>
+  </li>
+  <li>more
+    <ul>
+      <li>페이지 단위로 확인할 수 있는 명령어
+        <div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>  more passwd
+</pre></td></tr></tbody></table></code></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li>less
+    <ul>
+      <li>아래 방향 키로 페이지 이동이 가능
+        <div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>  less passwd
+</pre></td></tr></tbody></table></code></div>        </div>
+      </li>
+    </ul>
+
+    <p><br />
+      8. 부분 출력</p>
+  </li>
+  <li>head [옵션] [파일명]
+    <ul>
+      <li>파일의 가장 앞 부분 부터 설정된 값까지 출력</li>
+      <li>default 10 줄
+        <div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>  <span class="nb">head </span>passwd
+  <span class="nb">head</span> <span class="nt">-5</span> passwd
+</pre></td></tr></tbody></table></code></div>        </div>
+      </li>
+    </ul>
+  </li>
+  <li>tail [옵션] [파일명]
+    <ul>
+      <li>파일의 가장 뒷 부분부터 설정된 값까지 보여줌</li>
+      <li>dafault 10 줄</li>
+      <li>-f : 실시간으로 모니터링 할 수 있는 기능
+        <div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>  <span class="nb">tail </span>passwd
+  <span class="nb">tail</span> <span class="nt">-4</span> passwd
+  <span class="nb">tail</span> <span class="nt">-f</span> file1.txt
+</pre></td></tr></tbody></table></code></div>        </div>
+      </li>
+    </ul>
+  </li>
+</ul>
 
   </div>
 
