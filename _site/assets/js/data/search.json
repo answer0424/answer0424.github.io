@@ -1,5 +1,13 @@
 [
   {
+    "title": "Shell 관련 명령어",
+    "url": "/posts/Linux14/",
+    "categories": "Linux, basic",
+    "tags": "linux",
+    "date": "2025-02-01 14:55:00 +0900",
+    "content": "리눅스 기본 shell : bash                 경로 및 파일 : /etc/shells                 환경 설정 파일 : /etc/bashrc            /etc/bashrc 파일에서 alias를 사용하여 해당 명령어를 설정할 수 있다            터미널이 종료되어도 명령어를 유지할 수 있다        ..."
+  },
+  {
     "title": "파일 찾기, 내용 비교, 링크, 압축",
     "url": "/posts/Linux13/",
     "categories": "Linux, basic",

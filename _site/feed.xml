@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>answer</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-01T14:56:32+09:00</updated>
+  <updated>2025-02-01T15:00:56+09:00</updated>
   <author>
     <name>코드로 답하다</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Shell 관련 명령어</title>
+    <link href="http://localhost:4000/posts/Linux14/" rel="alternate" type="text/html" title="Shell 관련 명령어" />
+    <published>2025-02-01T14:55:00+09:00</published>
+  
+    <updated>2025-02-01T14:55:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Linux14/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Linux14/" />
+    <author>
+      <name>코드로 답하다</name>
+    </author>
+
+  
+    
+    <category term="Linux" />
+    
+    <category term="basic" />
+    
+  
+
+  <summary>리눅스 기본 shell : bash                 경로 및 파일 : /etc/shells                 환경 설정 파일 : /etc/bashrc            /etc/bashrc 파일에서 alias를 사용하여 해당 명령어를 설정할 수 있다            터미널이 종료되어도 명령어를 유지할 수 있다                 chsh [옵션] → shell 변경            -l : 정의된 shell 목록 출력                 alias 단축키=’명령어’            unalias [단축키] : 해제          alias 1=&amp;#39;ls -l&amp;#39;  unalias 1                                 shell 프롬...</summary>
+
+  </entry>
 
   
   <entry>
@@ -119,32 +145,6 @@
   
 
   <summary>파일 / 디렉터리 복사            cp [옵션] [원본파일/디렉터리] [대상디렉터리]                 -i : 덮어쓰기 여부 묻기       -f : 강제로 복사       -r : 하위 디렉터리까지 복사       -b : 백업 파일 생성       -S : 확장자 지정              파일 복사 시 와일드 카드 사용 가능   .을 통해서 현재 디렉터리를 명시할 수 있다     cp file1 dir1 cp file1 file2 cp /etc/passwd . cp -b -S .bak passwd passwd7                  2. 파일 / 디렉터리 이동, 파일 명 변경      mv [원본파일/디렉터리] [파일/디렉터리명]   파일 이동 시 와일드 카드 사용...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>날짜와 시간 명령어</title>
-    <link href="http://localhost:4000/posts/Linux09/" rel="alternate" type="text/html" title="날짜와 시간 명령어" />
-    <published>2025-02-01T14:24:00+09:00</published>
-  
-    <updated>2025-02-01T14:24:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Linux09/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Linux09/" />
-    <author>
-      <name>코드로 답하다</name>
-    </author>
-
-  
-    
-    <category term="Linux" />
-    
-    <category term="basic" />
-    
-  
-
-  <summary>date [옵션]            -u : UTC 국제 표준시         date date -u                                 cal [옵션] [설정값]            -3 : 이번 달을 기준으로 전, 후 월을 보여줌       -y : 이번 년도의 모든 월을 보여줌       -yj : 현재 년도의 모든 월을 보여주고 총 일자 단위로 보여줌       월 년도 : 해당 년도의 월을 보여줌         cal cal -3 cal -y cal -y 2023 cal -yj cal 05 2023</summary>
 
   </entry>
 
