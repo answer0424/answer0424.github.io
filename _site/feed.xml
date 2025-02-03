@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>answer</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-01T17:11:45+09:00</updated>
+  <updated>2025-02-03T09:43:49+09:00</updated>
   <author>
     <name>코드로 답하다</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,35 @@
 
   
   <entry>
+    <title>websocket</title>
+    <link href="http://localhost:4000/posts/websocket01/" rel="alternate" type="text/html" title="websocket" />
+    <published>2025-02-03T09:00:00+09:00</published>
+  
+    <updated>2025-02-03T09:11:29+09:00</updated>
+  
+    <id>http://localhost:4000/posts/websocket01/</id>
+    <content type="text/html" src="http://localhost:4000/posts/websocket01/" />
+    <author>
+      <name>코드로 답하다</name>
+    </author>
+
+  
+    
+    <category term="websocket" />
+    
+  
+
+  <summary>websocket?            클라이언트와 서버 간의 실시간 양방향 통신을 가능하게 하는 프로토콜       HTTP와는 다르게 websocket은 연결을 한번 설정하면 클라이언트와 서버가 자유롭게 데이터를 주고 받을 수 있다                 특징            양방향 특징                    클라이언트와 서버가 데이터를 자유롭게 주고 받는다                       지속적인 연결                    한 번 연결이 수립되면 양쪽에서 연결을 끊기 전까지 계속 유지된다                       낮은 대기 시간                    지속적인 연결 적분에 요청-응답 방식의 HTTP보다 더 낮은 대기 시간으로 데이터...</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>프로세스 관련 명령어</title>
     <link href="http://localhost:4000/posts/Linux15/" rel="alternate" type="text/html" title="프로세스 관련 명령어" />
     <published>2025-02-01T15:02:00+09:00</published>
   
-    <updated>2025-02-01T15:02:00+09:00</updated>
+    <updated>2025-02-03T08:47:25+09:00</updated>
   
     <id>http://localhost:4000/posts/Linux15/</id>
     <content type="text/html" src="http://localhost:4000/posts/Linux15/" />
@@ -40,7 +64,7 @@
     
   
 
-  <summary>systemd            최상위 프로세스                 ps [옵션]            프로세스 출력                  -a: 현재 터미널에 로그인한 모든 사용자의 프로세스를 출력력       -u : 사용자와 프로세스 정보를 자세하게 출력       -x : 터미널에 연결되지 않은 백드라운드 프로세스도 출력       -e : 모든 프로세스를 출력       -f : 프로세스 정보를 풀 포멧으로 출력            // ps -aux  USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND  root         1  0.0  0.1 158448  8568 ?        Ss   ...</summary>
+  <summary>systemd            최상위 프로세스                 ps [옵션]            프로세스 출력                  -a: 현재 터미널에 로그인한 모든 사용자의 프로세스를 출력       -u : 사용자와 프로세스 정보를 자세하게 출력       -x : 터미널에 연결되지 않은 백드라운드 프로세스도 출력       -e : 모든 프로세스를 출력       -f : 프로세스 정보를 풀 포멧으로 출력            // ps -aux  USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND  root         1  0.0  0.1 158448  8568 ?        Ss   J...</summary>
 
   </entry>
 
@@ -119,32 +143,6 @@
   
 
   <summary>권한 확인            (파일 유형) rwxrwxrwx.(허가권) (링크 수) (소유자 명) (그룹 명) (크기) (수정 일) (파일 명)       d : dirextory       b : block       i : 심볼릭 링크       c : 문자 장치       uid , pid : root → 0 / 일반 사용자 : 1000 번 부터         drwxr-xr-x. 3 root  root  63 12월 21 17:29 dir1 drwxr-xr-x. 2 root  root   6 12월 21 15:32 dir2 drwx------. 3 test  test  99 12월 15 16:43 test drwx------. 3 test1 test1 78 12월 21 14:15 test1</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>파일 내용 확인, 편집 명령어</title>
-    <link href="http://localhost:4000/posts/Linux11/" rel="alternate" type="text/html" title="파일 내용 확인, 편집 명령어" />
-    <published>2025-02-01T14:30:00+09:00</published>
-  
-    <updated>2025-02-01T14:30:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Linux11/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Linux11/" />
-    <author>
-      <name>코드로 답하다</name>
-    </author>
-
-  
-    
-    <category term="Linux" />
-    
-    <category term="basic" />
-    
-  
-
-  <summary>파일 내용 확인            cat [옵션] [파일명]                 -n : 파일의 줄 번호를 표시          cat passwd                                 vi 편집기            모드형 편집기 : 명령 모드, 편집 모드, EX 모드                 명령 모드                    사용 방법 : 편집 모드에서 esc 키를 통해 명령 모드 전환 가능 / 편집기 명령어를 사용할 때 기본 모드           ndd : n 줄 지우기           x : 한 문자 지우기           dw : 한 단어 지우기           u : 뒤로 가기           nG :  n 줄로 이동           n...</summary>
 
   </entry>
 
