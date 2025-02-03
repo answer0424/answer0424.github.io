@@ -1,5 +1,21 @@
 [
   {
+    "title": "디스크 볼륨 확장",
+    "url": "/posts/Linux17/",
+    "categories": "Linux, basic",
+    "tags": "linux",
+    "date": "2025-02-03 20:07:00 +0900",
+    "content": "디스크 볼륨 확장 순서            PV 생성         pvcreate /dev/nvme0n3p1                       VG에 PV 추가         vgextend myvg /dev/nvme0n3p1                       LV 확장         lvextend -l +5119 /dev/myvg/my..."
+  },
+  {
+    "title": "디스크 관리",
+    "url": "/posts/Linux16/",
+    "categories": "Linux, basic",
+    "tags": "linux",
+    "date": "2025-02-03 20:07:00 +0900",
+    "content": "디스크 장착 및 마운트            디스크 장착                    edit vertual machine setting            add           vm hard disk                         파티션 나누기       fdisk : 사용할 디스크 선택하기       Primary Partiti..."
+  },
+  {
     "title": "websocket",
     "url": "/posts/websocket01/",
     "categories": "websocket",
