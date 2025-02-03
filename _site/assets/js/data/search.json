@@ -1,5 +1,13 @@
 [
   {
+    "title": "사용자 관리",
+    "url": "/posts/Linux19/",
+    "categories": "Linux, advanced",
+    "tags": "linux",
+    "date": "2025-02-03 20:58:00 +0900",
+    "content": "사용자 관련 파일 / 디렉터리            /etc/passwd : 사용자 정보 파일       /etc/shadow : 암호화된 패스워드 정보       /etc/group : 그룹 정보       /home/계정 디렉터리       /var/mail/계정명 메일 박스                 사용자 계정 생성     useradd use..."
+  },
+  {
     "title": "디스크 볼륨 확장",
     "url": "/posts/Linux17/",
     "categories": "Linux, basic",

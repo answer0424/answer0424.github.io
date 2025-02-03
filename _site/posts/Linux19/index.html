@@ -30,23 +30,23 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="디스크 볼륨 확장" />
+<meta property="og:title" content="사용자 관리" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="디스크 볼륨 확장 순서 PV 생성 1 pvcreate /dev/nvme0n3p1 VG에 PV 추가 1 vgextend myvg /dev/nvme0n3p1 LV 확장 1 lvextend -l +5119 /dev/myvg/mylv" />
-<meta property="og:description" content="디스크 볼륨 확장 순서 PV 생성 1 pvcreate /dev/nvme0n3p1 VG에 PV 추가 1 vgextend myvg /dev/nvme0n3p1 LV 확장 1 lvextend -l +5119 /dev/myvg/mylv" />
-<link rel="canonical" href="http://localhost:4000/posts/Linux17/" />
-<meta property="og:url" content="http://localhost:4000/posts/Linux17/" />
+<meta name="description" content="사용자 관련 파일 / 디렉터리 /etc/passwd : 사용자 정보 파일 /etc/shadow : 암호화된 패스워드 정보 /etc/group : 그룹 정보 /home/계정 디렉터리 /var/mail/계정명 메일 박스" />
+<meta property="og:description" content="사용자 관련 파일 / 디렉터리 /etc/passwd : 사용자 정보 파일 /etc/shadow : 암호화된 패스워드 정보 /etc/group : 그룹 정보 /home/계정 디렉터리 /var/mail/계정명 메일 박스" />
+<link rel="canonical" href="http://localhost:4000/posts/Linux19/" />
+<meta property="og:url" content="http://localhost:4000/posts/Linux19/" />
 <meta property="og:site_name" content="answer" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-02-03T20:07:00+09:00" />
+<meta property="article:published_time" content="2025-02-03T20:58:00+09:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="디스크 볼륨 확장" />
+<meta property="twitter:title" content="사용자 관리" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-03T20:07:00+09:00","datePublished":"2025-02-03T20:07:00+09:00","description":"디스크 볼륨 확장 순서 PV 생성 1 pvcreate /dev/nvme0n3p1 VG에 PV 추가 1 vgextend myvg /dev/nvme0n3p1 LV 확장 1 lvextend -l +5119 /dev/myvg/mylv","headline":"디스크 볼륨 확장","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Linux17/"},"url":"http://localhost:4000/posts/Linux17/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-03T20:58:00+09:00","datePublished":"2025-02-03T20:58:00+09:00","description":"사용자 관련 파일 / 디렉터리 /etc/passwd : 사용자 정보 파일 /etc/shadow : 암호화된 패스워드 정보 /etc/group : 그룹 정보 /home/계정 디렉터리 /var/mail/계정명 메일 박스","headline":"사용자 관리","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Linux19/"},"url":"http://localhost:4000/posts/Linux19/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>디스크 볼륨 확장 | answer
+  <title>사용자 관리 | answer
   </title>
 
   <!--
@@ -432,7 +432,7 @@
         
           
             
-              <span>디스크 볼륨 확장</span>
+              <span>사용자 관리</span>
             
 
           
@@ -547,7 +547,7 @@
 
 <article class="px-1" data-toc="false">
   <header>
-    <h1 data-toc-skip>디스크 볼륨 확장</h1>
+    <h1 data-toc-skip>사용자 관리</h1>
     
 
     <div class="post-meta text-muted">
@@ -564,7 +564,7 @@
 
 <time
   
-  data-ts="1738580820"
+  data-ts="1738583880"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
@@ -619,9 +619,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="364 words"
+  title="540 words"
 >
-  <em>2 min</em> read</span>
+  <em>3 min</em> read</span>
 
         </div>
       </div>
@@ -632,125 +632,164 @@
 
   <div class="content">
     <ol>
-  <li>디스크 볼륨 확장 순서
+  <li>사용자 관련 파일 / 디렉터리
     <ul>
-      <li>PV 생성
+      <li>/etc/passwd : 사용자 정보 파일</li>
+      <li>/etc/shadow : 암호화된 패스워드 정보</li>
+      <li>/etc/group : 그룹 정보</li>
+      <li>/home/계정 디렉터리</li>
+      <li>/var/mail/계정명 메일 박스</li>
+    </ul>
+
+    <p><br /></p>
+  </li>
+  <li>사용자 계정 생성
+    <div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>useradd user1
+passwd user1
+</pre></td></tr></tbody></table></code></div>    </div>
+
+    <p><br /></p>
+  </li>
+  <li>사용자 계정 삭제
+    <ul>
+      <li>-r : user1의 정보가 저장된 총 5개의 파일 또는 디렉터리가 삭제되는 옵션
         <div class="language-bash highlighter-rouge"><div class="code-header">
         <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>pvcreate /dev/nvme0n3p1
-</pre></td></tr></tbody></table></code></div>        </div>
-      </li>
-      <li>VG에 PV 추가
-        <div class="language-bash highlighter-rouge"><div class="code-header">
-        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>vgextend myvg /dev/nvme0n3p1
-</pre></td></tr></tbody></table></code></div>        </div>
-      </li>
-      <li>LV 확장
-        <div class="language-bash highlighter-rouge"><div class="code-header">
-        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>lvextend <span class="nt">-l</span> +5119 /dev/myvg/mylv
+</pre></td><td class="rouge-code"><pre>userdel <span class="nt">-r</span> user1
 </pre></td></tr></tbody></table></code></div>        </div>
       </li>
     </ul>
 
     <p><br /></p>
   </li>
-  <li>PV로 생성된 상세 확인
-```bash
-pvdisplay /dev/nvme0n4p1</li>
-</ol>
+  <li>사용자 계정 정보 수정
+    <ul>
+      <li>usermod [옵션] [설정값] [계정명]</li>
+    </ul>
+    <ul>
+      <li>-i : 계정명 변경</li>
+      <li>-u : UID 변경</li>
+      <li>-g : GID 변경</li>
+      <li>-c : 설명 변경</li>
+      <li>-d : 홈 디렉터리 변경</li>
+      <li>-s : shell 변경
+ ```bash
+ &lt;/etc/passwd&gt;
+ user1: 계정명
+ x:패스워드
+ 1002: UID
+ 1002: GID
+ ::설명
+ /home/user1:계정 홈 디렉터리
+ /bin/bash: 사용자 shell 종류</li>
+    </ul>
 
-<p>PV Name               물리적 볼륨 명
-VG Name               PV가 속한 그룹 명 
-PV Size               PV 크기
-Allocatable           PV 할당 가능 여부
-PE Size               물리적인 PE 크기
-Total PE              PE 전체 Extend 수
-Free PE               사용 가능한 Extend 수
-Allocated PE          할당된 Extend 수
-PV UUID               PV 식별자</p>
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+    <p>&lt;/etc/shadow&gt;
+ user1: 계정 명
+ $6$rounds=100000$1.XTVRj7fyIsKJZT$FJW8mp1dODO8vln7HT7kFWdMKckc.vVj2wjDVSOJP.b/5exvtgXYQ1cY7d3mqBm2aveKhohs1gVuCag6JuZJ71: 
+ 암호화된 패스워드
+ 20099: 최초 패스워드 변경 후 지난 일수
+ 0: 패스워드 변경 최소 일
+ 99999:패스워드 최대 유효기간
+ 7: 패스워드 만료 경고일
+ :: 패스워드 만료 후 비화성화 일 수
+ ::</p>
+
+    <p>usermod -s /bin/sh user1
+ usermod -d /home user1
+ user -c lkw user1
+ ```</p>
+
+    <p><br /></p>
+  </li>
+  <li>패스워드 정보 변경
+    <ul>
+      <li>change [옵션] [설정값] [계정명]</li>
+    </ul>
+    <ul>
+      <li>-m : 패스워드 최소 변경일</li>
+      <li>-M : 패스워드 최대 유효 기간</li>
+      <li>-W : 패스워드 만료 경고 일</li>
+      <li>-I : 패스워드 만료 후 비활성화 일 수</li>
+      <li>-E : 계정 만료일</li>
+      <li>-l : 해당 계정에 대한 정보 출력
+        <div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
 5
 6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-</pre></td><td class="rouge-code"><pre>
-    &lt;br&gt;
-3. VG로 생성된 상세 확인
-```bash
-vgdisplay
+</pre></td><td class="rouge-code"><pre> chage <span class="nt">-m</span> 100 user1
+ chage <span class="nt">-M</span> 1000 user1
+ chage <span class="nt">-W</span> 10000 user1
+ chage <span class="nt">-I</span> 100 user1
+ chage <span class="nt">-E</span> 2025/12/31 user1
+ chage <span class="nt">-l</span> user1
+</pre></td></tr></tbody></table></code></div>        </div>
+      </li>
+    </ul>
 
-VG Name               VG 명
-System ID             
-Format                lvm2
-Metadata Areas        메타 데이터 영역 개수
-Metadata Sequence No  메타 데이터 순서
-VG Access             읽기 쓰기 가능 여부 
-VG Status             크기 재설정 상태
-MAX LV                0
-Cur LV                1
-Open LV               1
-Max PV                0
-Cur PV                4
-Act PV                4
-VG Size               VG 전체 크기
-PE Size               PE 크기
-Total PE              전체 PE 수
-Alloc PE / Size       할당된 PE 수
-Free  PE / Size       할당 가능한 PE 수
-VG UUID               VG 식별자
-</pre></td></tr></tbody></table></code></div></div>
-
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+    <p><br /></p>
+  </li>
+  <li>그룹 사용자 생성
+    <ul>
+      <li>기본 그룹</li>
+    </ul>
+    <ul>
+      <li>useradd [사용자명]
+    - 일반 그룹</li>
+      <li>groupadd [그룹명]
+        <div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>&lt;br&gt; 4. LV로 생성된 상세 확인 ```bash lvdisplay
-</pre></td></tr></tbody></table></code></div></div>
+2
+</pre></td><td class="rouge-code"><pre> user1:x:1001:
+ groupadd korea
+</pre></td></tr></tbody></table></code></div>        </div>
+      </li>
+    </ul>
 
-<p>LV Path                LV 경로
-LV Name                LV 명
-VG Name                LV 가 속한 그룹 명
-LV UUID                LV 식별자
-LV Write Access        읽기 쓰기 가능 여부
-LV Creation host, time 생성된 호스트 명, 생성 시간
-LV Status              LV 상태</p>
-<h1 id="open-----------------1">open                 1</h1>
-<p>LV Size                LV 크기
-Current LE             LV Extend
-Segments               세그먼트 수
-Allocation             할당 여부
-Read ahead sectors     auto</p>
-<ul>
-  <li>currently set to     256
-Block device           253:3
-```</li>
-</ul>
+    <p><br /></p>
+  </li>
+  <li>그룹 사용자 삭제
+    <ul>
+      <li>groupdel [그룹명]
+        <div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>groupdel korea
+</pre></td></tr></tbody></table></code></div>        </div>
+      </li>
+    </ul>
+
+    <p><br /></p>
+  </li>
+  <li>그룹 사용자 추가
+    <ul>
+      <li>groupmod [옵션] [사용자명] [그룹명]</li>
+    </ul>
+    <ul>
+      <li>-G : 추가
+    - gpasswd [옵션] [사용자명] [그룹명]</li>
+      <li>-a : 추가</li>
+      <li>-d : 삭제
+ ```bash
+ usermod -G korea user1
+ usermod -G user1,korea user3 -&gt; user3을 user1과 korea 그룹에 추가</li>
+    </ul>
+
+    <p>gpasswd -a user1 korea
+ gpasswd -d user1 korea
+ ```</p>
+  </li>
+</ol>
 
   </div>
 
@@ -761,7 +800,7 @@ Block device           253:3
         <i class="far fa-folder-open fa-fw me-1"></i>
         
           <a href="/categories/linux/">Linux</a>,
-          <a href="/categories/basic/">basic</a>
+          <a href="/categories/advanced/">advanced</a>
       </div>
     
 
@@ -809,21 +848,21 @@ Block device           253:3
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=%EB%94%94%EC%8A%A4%ED%81%AC%20%EB%B3%BC%EB%A5%A8%20%ED%99%95%EC%9E%A5%20-%20answer&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux17%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EA%B4%80%EB%A6%AC%20-%20answer&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux19%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=%EB%94%94%EC%8A%A4%ED%81%AC%20%EB%B3%BC%EB%A5%A8%20%ED%99%95%EC%9E%A5%20-%20answer&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux17%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EA%B4%80%EB%A6%AC%20-%20answer&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux19%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux17%2F&text=%EB%94%94%EC%8A%A4%ED%81%AC%20%EB%B3%BC%EB%A5%A8%20%ED%99%95%EC%9E%A5%20-%20answer" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux19%2F&text=%EC%82%AC%EC%9A%A9%EC%9E%90%20%EA%B4%80%EB%A6%AC%20-%20answer" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -1231,19 +1270,19 @@ Block device           253:3
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
 
 
 
@@ -1357,22 +1396,18 @@ Block device           253:3
 
   
     <a
-      href="/posts/Linux16/"
+      href="/posts/Linux17/"
       class="btn btn-outline-primary"
       aria-label="Older"
     >
-      <p>디스크 관리</p>
+      <p>디스크 볼륨 확장</p>
     </a>
   
 
   
-    <a
-      href="/posts/Linux19/"
-      class="btn btn-outline-primary"
-      aria-label="Newer"
-    >
-      <p>사용자 관리</p>
-    </a>
+    <div class="btn btn-outline-primary disabled" aria-label="Newer">
+      <p>-</p>
+    </div>
   
 </nav>
 

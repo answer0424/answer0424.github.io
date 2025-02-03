@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>answer</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-04T08:32:26+09:00</updated>
+  <updated>2025-02-04T08:55:16+09:00</updated>
   <author>
     <name>코드로 답하다</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>사용자 관리</title>
+    <link href="http://localhost:4000/posts/Linux19/" rel="alternate" type="text/html" title="사용자 관리" />
+    <published>2025-02-03T20:58:00+09:00</published>
+  
+    <updated>2025-02-03T20:58:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Linux19/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Linux19/" />
+    <author>
+      <name>코드로 답하다</name>
+    </author>
+
+  
+    
+    <category term="Linux" />
+    
+    <category term="advanced" />
+    
+  
+
+  <summary>사용자 관련 파일 / 디렉터리            /etc/passwd : 사용자 정보 파일       /etc/shadow : 암호화된 패스워드 정보       /etc/group : 그룹 정보       /home/계정 디렉터리       /var/mail/계정명 메일 박스                 사용자 계정 생성     useradd user1 passwd user1                 사용자 계정 삭제            -r : user1의 정보가 저장된 총 5개의 파일 또는 디렉터리가 삭제되는 옵션         userdel -r user1                                 사용자 계정 정보 수정            usermod [옵션] [설정값] [...</summary>
+
+  </entry>
 
   
   <entry>
@@ -117,32 +143,6 @@
   
 
   <summary>systemd            최상위 프로세스                 ps [옵션]            프로세스 출력                  -a: 현재 터미널에 로그인한 모든 사용자의 프로세스를 출력       -u : 사용자와 프로세스 정보를 자세하게 출력       -x : 터미널에 연결되지 않은 백드라운드 프로세스도 출력       -e : 모든 프로세스를 출력       -f : 프로세스 정보를 풀 포멧으로 출력            // ps -aux  USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND  root         1  0.0  0.1 158448  8568 ?        Ss   J...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Shell 관련 명령어</title>
-    <link href="http://localhost:4000/posts/Linux14/" rel="alternate" type="text/html" title="Shell 관련 명령어" />
-    <published>2025-02-01T14:55:00+09:00</published>
-  
-    <updated>2025-02-01T14:55:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Linux14/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Linux14/" />
-    <author>
-      <name>코드로 답하다</name>
-    </author>
-
-  
-    
-    <category term="Linux" />
-    
-    <category term="basic" />
-    
-  
-
-  <summary>리눅스 기본 shell : bash                 경로 및 파일 : /etc/shells                 환경 설정 파일 : /etc/bashrc            /etc/bashrc 파일에서 alias를 사용하여 해당 명령어를 설정할 수 있다            터미널이 종료되어도 명령어를 유지할 수 있다                 chsh [옵션] → shell 변경            -l : 정의된 shell 목록 출력                 alias 단축키=’명령어’            unalias [단축키] : 해제          alias 1=&amp;#39;ls -l&amp;#39;  unalias 1                                 shell 프롬...</summary>
 
   </entry>
 
