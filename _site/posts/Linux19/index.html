@@ -619,7 +619,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="540 words"
+  title="615 words"
 >
   <em>3 min</em> read</span>
 
@@ -677,48 +677,12 @@ passwd user1
       <li>-g : GID 변경</li>
       <li>-c : 설명 변경</li>
       <li>-d : 홈 디렉터리 변경</li>
-      <li>-s : shell 변경
- ```bash
- &lt;/etc/passwd&gt;
- user1: 계정명
- x:패스워드
- 1002: UID
- 1002: GID
- ::설명
- /home/user1:계정 홈 디렉터리
- /bin/bash: 사용자 shell 종류</li>
+      <li>-s : shell 변경</li>
     </ul>
-
-    <p>&lt;/etc/shadow&gt;
- user1: 계정 명
- $6$rounds=100000$1.XTVRj7fyIsKJZT$FJW8mp1dODO8vln7HT7kFWdMKckc.vVj2wjDVSOJP.b/5exvtgXYQ1cY7d3mqBm2aveKhohs1gVuCag6JuZJ71: 
- 암호화된 패스워드
- 20099: 최초 패스워드 변경 후 지난 일수
- 0: 패스워드 변경 최소 일
- 99999:패스워드 최대 유효기간
- 7: 패스워드 만료 경고일
- :: 패스워드 만료 후 비화성화 일 수
- ::</p>
-
-    <p>usermod -s /bin/sh user1
- usermod -d /home user1
- user -c lkw user1
- ```</p>
-
-    <p><br /></p>
   </li>
-  <li>패스워드 정보 변경
-    <ul>
-      <li>change [옵션] [설정값] [계정명]</li>
-    </ul>
-    <ul>
-      <li>-m : 패스워드 최소 변경일</li>
-      <li>-M : 패스워드 최대 유효 기간</li>
-      <li>-W : 패스워드 만료 경고 일</li>
-      <li>-I : 패스워드 만료 후 비활성화 일 수</li>
-      <li>-E : 계정 만료일</li>
-      <li>-l : 해당 계정에 대한 정보 출력
-        <div class="language-bash highlighter-rouge"><div class="code-header">
+</ol>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
         <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
@@ -726,70 +690,127 @@ passwd user1
 4
 5
 6
-</pre></td><td class="rouge-code"><pre> chage <span class="nt">-m</span> 100 user1
- chage <span class="nt">-M</span> 1000 user1
- chage <span class="nt">-W</span> 10000 user1
- chage <span class="nt">-I</span> 100 user1
- chage <span class="nt">-E</span> 2025/12/31 user1
- chage <span class="nt">-l</span> user1
-</pre></td></tr></tbody></table></code></div>        </div>
-      </li>
-    </ul>
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+</pre></td><td class="rouge-code"><pre>&lt;/etc/passwd&gt;
+user1: 계정명
+x:패스워드
+1002: UID
+1002: GID
+::설명
+/home/user1:계정 홈 디렉터리
+/bin/bash: 사용자 shell 종류
 
-    <p><br /></p>
-  </li>
-  <li>그룹 사용자 생성
-    <ul>
-      <li>기본 그룹</li>
-    </ul>
-    <ul>
-      <li>useradd [사용자명]
-    - 일반 그룹</li>
-      <li>groupadd [그룹명]
-        <div class="language-bash highlighter-rouge"><div class="code-header">
+&lt;/etc/shadow&gt;
+user1: 계정 명
+<span class="nv">$6$rounds</span><span class="o">=</span>100000<span class="nv">$1</span>.XTVRj7fyIsKJZT<span class="nv">$FJW8mp1dODO8vln7HT7kFWdMKckc</span>.vVj2wjDVSOJP.b/5exvtgXYQ1cY7d3mqBm2aveKhohs1gVuCag6JuZJ71: 
+암호화된 패스워드
+20099: 최초 패스워드 변경 후 지난 일수
+0: 패스워드 변경 최소 일
+99999:패스워드 최대 유효기간
+7: 패스워드 만료 경고일
+:: 패스워드 만료 후 비화성화 일 수
+:: 
+
+
+usermod <span class="nt">-s</span> /bin/sh user1
+usermod <span class="nt">-d</span> /home user1
+user <span class="nt">-c</span> lkw user1
+</pre></td></tr></tbody></table></code></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+</pre></td><td class="rouge-code"><pre>&lt;br&gt; 5. 패스워드 정보 변경 - change [옵션] [설정값] [계정명]
+- -m : 패스워드 최소 변경일
+- -M : 패스워드 최대 유효 기간
+- -W : 패스워드 만료 경고 일
+- -I : 패스워드 만료 후 비활성화 일 수 
+- -E : 계정 만료일
+- -l : 해당 계정에 대한 정보 출력
+```bash
+chage -m 100 user1
+chage -M 1000 user1
+chage -W 10000 user1
+chage -I 100 user1
+chage -E 2025/12/31 user1
+chage -l user1
+```
+
+&lt;br&gt; 6. 그룹 사용자 생성 - 기본 그룹
+- useradd [사용자명] - 일반 그룹
+- groupadd [그룹명]
+```bash
+user1:x:1001:
+groupadd korea
+```
+
+&lt;br&gt; 7. 그룹 사용자 삭제 - groupdel [그룹명] ```bash groupdel korea ```
+
+&lt;br&gt; 8. 그룹 사용자 추가 - groupmod [옵션] [사용자명] [그룹명]
+- -G : 추가 - gpasswd [옵션] [사용자명] [그룹명]
+- -a : 추가
+- -d : 삭제
+</pre></td></tr></tbody></table></code></div></div>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
         <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
-</pre></td><td class="rouge-code"><pre> user1:x:1001:
- groupadd korea
-</pre></td></tr></tbody></table></code></div>        </div>
-      </li>
-    </ul>
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>usermod <span class="nt">-G</span> korea user1
+usermod <span class="nt">-G</span> user1,korea user3 -&gt; user3을 user1과 korea 그룹에 추가
 
-    <p><br /></p>
-  </li>
-  <li>그룹 사용자 삭제
-    <ul>
-      <li>groupdel [그룹명]
-        <div class="language-bash highlighter-rouge"><div class="code-header">
-        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>groupdel korea
-</pre></td></tr></tbody></table></code></div>        </div>
-      </li>
-    </ul>
-
-    <p><br /></p>
-  </li>
-  <li>그룹 사용자 추가
-    <ul>
-      <li>groupmod [옵션] [사용자명] [그룹명]</li>
-    </ul>
-    <ul>
-      <li>-G : 추가
-    - gpasswd [옵션] [사용자명] [그룹명]</li>
-      <li>-a : 추가</li>
-      <li>-d : 삭제
- ```bash
- usermod -G korea user1
- usermod -G user1,korea user3 -&gt; user3을 user1과 korea 그룹에 추가</li>
-    </ul>
-
-    <p>gpasswd -a user1 korea
- gpasswd -d user1 korea
- ```</p>
-  </li>
-</ol>
+gpasswd <span class="nt">-a</span> user1 korea
+gpasswd <span class="nt">-d</span> user1 korea
+</pre></td></tr></tbody></table></code></div></div>
 
   </div>
 
