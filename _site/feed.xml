@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>answer</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-04T19:29:19+09:00</updated>
+  <updated>2025-02-05T08:42:35+09:00</updated>
   <author>
     <name>코드로 답하다</name>
     <uri>http://localhost:4000/</uri>
@@ -20,14 +20,92 @@
 
   
   <entry>
-    <title>사용자 관리</title>
-    <link href="http://localhost:4000/posts/Linux19/" rel="alternate" type="text/html" title="사용자 관리" />
-    <published>2025-02-03T20:58:00+09:00</published>
+    <title>리눅스 마스터 2급 기출 문제 3</title>
+    <link href="http://localhost:4000/posts/Linux20/" rel="alternate" type="text/html" title="리눅스 마스터 2급 기출 문제 3" />
+    <published>2025-02-05T08:39:00+09:00</published>
   
-    <updated>2025-02-04T09:03:06+09:00</updated>
+    <updated>2025-02-05T08:36:45+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Linux20/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Linux20/" />
+    <author>
+      <name>코드로 답하다</name>
+    </author>
+
+  
+    
+    <category term="Linux" />
+    
+    <category term="basic" />
+    
+  
+
+  <summary>파일 시스템이 ext4인 /dev/sdb1 파티션을 /data 디렉터리로 마운트하는 명령            정답 : mount -t ext4 /dev/sdb1 /data                 ihduser 사용자의 디스크 사용량을 확인하는 과정의 명령어            정답 : du -sh ~ihduser                 fdisk 실행 상태에서 변경된 파티션 정보를 저장하지 않고 종료하는 명령            정답 : q</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>리눅스 마스터 2급 기출 문제 2</title>
+    <link href="http://localhost:4000/posts/Linux19/" rel="alternate" type="text/html" title="리눅스 마스터 2급 기출 문제 2" />
+    <published>2025-02-05T08:30:00+09:00</published>
+  
+    <updated>2025-02-05T08:36:45+09:00</updated>
   
     <id>http://localhost:4000/posts/Linux19/</id>
     <content type="text/html" src="http://localhost:4000/posts/Linux19/" />
+    <author>
+      <name>코드로 답하다</name>
+    </author>
+
+  
+    
+    <category term="Linux" />
+    
+    <category term="basic" />
+    
+  
+
+  <summary>프로세스의 우선순위를 변경할 때 사용하는 NI 값의 범위            정답 : -20 ~ 19                 실행 중인 vsftpd 프로세스를 종료시키는 과정            (…) vsftpd       해설 : kill은 PID로 종료시키는 명령어       해설 : fuser는 사용자가 어떤 파일을 사용하고 있는지 확인하는 명령어       해설 ; pidof 는 실행 중인 프로세스의 PID를 알고 싶을 때 사용하는 명령어       정답 : killall                 프로세스 아이디(PID)가 1222인 bash 프로세스의 우선순위(NI)값이 0이다. 이 프로세스의 NI 값을 10으로 우선순위를 변경하는 명령으로 알맞은 것은?            해설 :...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>허가권</title>
+    <link href="http://localhost:4000/posts/Linux22/" rel="alternate" type="text/html" title="허가권" />
+    <published>2025-02-03T20:58:00+09:00</published>
+  
+    <updated>2025-02-03T20:58:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Linux22/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Linux22/" />
+    <author>
+      <name>코드로 답하다</name>
+    </author>
+
+  
+    
+    <category term="Linux" />
+    
+    <category term="advanced" />
+    
+  
+
+  <summary>허가권이란?            파일이나 디렉터리에 대해 다양한 사용자가 접근할 수 있는 권한을 설정하는 것을 의미한다 허가권은 읽기(read), 쓰기(write), 실행(execute) 권한을 사용자(user), 그룹(group), 그리고 기타 사용(other)에게 부여할 수 있다                 허가권 변경            chmod</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>사용자 관리</title>
+    <link href="http://localhost:4000/posts/Linux21/" rel="alternate" type="text/html" title="사용자 관리" />
+    <published>2025-02-03T20:58:00+09:00</published>
+  
+    <updated>2025-02-03T20:58:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Linux21/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Linux21/" />
     <author>
       <name>코드로 답하다</name>
     </author>
@@ -46,14 +124,14 @@
 
   
   <entry>
-    <title>디스크 볼륨 확장</title>
-    <link href="http://localhost:4000/posts/Linux17/" rel="alternate" type="text/html" title="디스크 볼륨 확장" />
-    <published>2025-02-03T20:07:00+09:00</published>
+    <title>리눅스 마스터 2급 기출 문제 1</title>
+    <link href="http://localhost:4000/posts/Linux18/" rel="alternate" type="text/html" title="리눅스 마스터 2급 기출 문제 1" />
+    <published>2025-02-03T20:58:00+09:00</published>
   
-    <updated>2025-02-03T20:07:00+09:00</updated>
+    <updated>2025-02-03T20:58:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/Linux17/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Linux17/" />
+    <id>http://localhost:4000/posts/Linux18/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Linux18/" />
     <author>
       <name>코드로 답하다</name>
     </author>
@@ -66,83 +144,7 @@
     
   
 
-  <summary>디스크 볼륨 확장 순서            PV 생성         pvcreate /dev/nvme0n3p1                       VG에 PV 추가         vgextend myvg /dev/nvme0n3p1                       LV 확장         lvextend -l +5119 /dev/myvg/mylv                                 PV로 생성된 상세 확인 ```bash pvdisplay /dev/nvme0n4p1   PV Name               물리적 볼륨 명 VG Name               PV가 속한 그룹 명  PV Size               PV 크기 Allocatable           ...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>디스크 관리</title>
-    <link href="http://localhost:4000/posts/Linux16/" rel="alternate" type="text/html" title="디스크 관리" />
-    <published>2025-02-03T20:07:00+09:00</published>
-  
-    <updated>2025-02-03T20:52:08+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Linux16/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Linux16/" />
-    <author>
-      <name>코드로 답하다</name>
-    </author>
-
-  
-    
-    <category term="Linux" />
-    
-    <category term="basic" />
-    
-  
-
-  <summary>디스크 장착 및 마운트            디스크 장착                    edit vertual machine setting            add           vm hard disk                         파티션 나누기       fdisk : 사용할 디스크 선택하기       Primary Partition : 기본 파티션으로 불리며 디스크의 파티션 테이블에 직접 기록된다       Logical Partition : 확장 파티션 내부에 생성되는 파티션이다                 주로 데이터 저장을 위해 사용되며 부팅 파티션으로 사용되지 않는다        - Extended Partition : 한 디스크에는 최대 4개의 Primary Partit...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>websocket</title>
-    <link href="http://localhost:4000/posts/websocket01/" rel="alternate" type="text/html" title="websocket" />
-    <published>2025-02-03T09:00:00+09:00</published>
-  
-    <updated>2025-02-03T09:44:17+09:00</updated>
-  
-    <id>http://localhost:4000/posts/websocket01/</id>
-    <content type="text/html" src="http://localhost:4000/posts/websocket01/" />
-    <author>
-      <name>코드로 답하다</name>
-    </author>
-
-  
-    
-    <category term="websocket" />
-    
-  
-
-  <summary>websocket?            클라이언트와 서버 간의 실시간 양방향 통신을 가능하게 하는 프로토콜       HTTP와는 다르게 websocket은 연결을 한번 설정하면 클라이언트와 서버가 자유롭게 데이터를 주고 받을 수 있다                 특징            양방향 특징                    클라이언트와 서버가 데이터를 자유롭게 주고 받는다                       지속적인 연결                    한 번 연결이 수립되면 양쪽에서 연결을 끊기 전까지 계속 유지된다                       낮은 대기 시간                    지속적인 연결 적분에 요청-응답 방식의 HTTP보다 더 낮은 대기 시간으로 데이터...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>프로세스 관련 명령어</title>
-    <link href="http://localhost:4000/posts/Linux15/" rel="alternate" type="text/html" title="프로세스 관련 명령어" />
-    <published>2025-02-01T15:02:00+09:00</published>
-  
-    <updated>2025-02-03T08:47:25+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Linux15/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Linux15/" />
-    <author>
-      <name>코드로 답하다</name>
-    </author>
-
-  
-    
-    <category term="Linux" />
-    
-    <category term="basic" />
-    
-  
-
-  <summary>systemd            최상위 프로세스                 ps [옵션]            프로세스 출력                  -a: 현재 터미널에 로그인한 모든 사용자의 프로세스를 출력       -u : 사용자와 프로세스 정보를 자세하게 출력       -x : 터미널에 연결되지 않은 백드라운드 프로세스도 출력       -e : 모든 프로세스를 출력       -f : 프로세스 정보를 풀 포멧으로 출력            // ps -aux  USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND  root         1  0.0  0.1 158448  8568 ?        Ss   J...</summary>
+  <summary>10GB 용량을 가진 디스크 4개를 사용해서 RAID-0를 구성했을 경우 실제 사용 가능한 디스크 용량            40GB       만약 RAID-1일 때는 Mirroring으로 인해서 용량이 절반이 된다 → 20GB                 다음 설명에 해당하는 LVM 용어            사용자가 필요한 만큼 할당해서 생성되는 공간으로 물리적 디스크에서 분할하여 사용하는 파티션       해설 : 물리적인 디스크에서 파티션을 나누게 되면 LV가 된다       정답 : LV (Logical Volume)                 BSD 계열 유닉스에서 출력을 실행할 때 사용하는 명령            해설 : BSD 계열 출력 명령어 종류                    l...</summary>
 
   </entry>
 

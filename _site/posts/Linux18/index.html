@@ -30,23 +30,23 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="첫 포스팅 작성" />
+<meta property="og:title" content="리눅스 마스터 2급 기출 문제 1" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="배포 이후 post" />
-<meta property="og:description" content="배포 이후 post" />
-<link rel="canonical" href="http://localhost:4000/posts/test2-post/" />
-<meta property="og:url" content="http://localhost:4000/posts/test2-post/" />
+<meta name="description" content="10GB 용량을 가진 디스크 4개를 사용해서 RAID-0를 구성했을 경우 실제 사용 가능한 디스크 용량 40GB 만약 RAID-1일 때는 Mirroring으로 인해서 용량이 절반이 된다 → 20GB" />
+<meta property="og:description" content="10GB 용량을 가진 디스크 4개를 사용해서 RAID-0를 구성했을 경우 실제 사용 가능한 디스크 용량 40GB 만약 RAID-1일 때는 Mirroring으로 인해서 용량이 절반이 된다 → 20GB" />
+<link rel="canonical" href="http://localhost:4000/posts/Linux18/" />
+<meta property="og:url" content="http://localhost:4000/posts/Linux18/" />
 <meta property="og:site_name" content="answer" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-01-30T20:19:00+09:00" />
+<meta property="article:published_time" content="2025-02-03T20:58:00+09:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="첫 포스팅 작성" />
+<meta property="twitter:title" content="리눅스 마스터 2급 기출 문제 1" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-01-30T20:19:00+09:00","datePublished":"2025-01-30T20:19:00+09:00","description":"배포 이후 post","headline":"첫 포스팅 작성","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/test2-post/"},"url":"http://localhost:4000/posts/test2-post/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-03T20:58:00+09:00","datePublished":"2025-02-03T20:58:00+09:00","description":"10GB 용량을 가진 디스크 4개를 사용해서 RAID-0를 구성했을 경우 실제 사용 가능한 디스크 용량 40GB 만약 RAID-1일 때는 Mirroring으로 인해서 용량이 절반이 된다 → 20GB","headline":"리눅스 마스터 2급 기출 문제 1","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Linux18/"},"url":"http://localhost:4000/posts/Linux18/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>첫 포스팅 작성 | answer
+  <title>리눅스 마스터 2급 기출 문제 1 | answer
   </title>
 
   <!--
@@ -432,7 +432,7 @@
         
           
             
-              <span>첫 포스팅 작성</span>
+              <span>리눅스 마스터 2급 기출 문제 1</span>
             
 
           
@@ -547,7 +547,7 @@
 
 <article class="px-1" data-toc="false">
   <header>
-    <h1 data-toc-skip>첫 포스팅 작성</h1>
+    <h1 data-toc-skip>리눅스 마스터 2급 기출 문제 1</h1>
     
 
     <div class="post-meta text-muted">
@@ -564,13 +564,13 @@
 
 <time
   
-  data-ts="1738235940"
+  data-ts="1738583880"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Jan 30, 2025
+  Feb  3, 2025
 </time>
 
       </span>
@@ -619,9 +619,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="5 words"
+  title="1209 words"
 >
-  <em>1 min</em> read</span>
+  <em>6 min</em> read</span>
 
         </div>
       </div>
@@ -631,7 +631,202 @@
   
 
   <div class="content">
-    <p>배포 이후 post</p>
+    <ol>
+  <li>10GB 용량을 가진 디스크 4개를 사용해서 RAID-0를 구성했을 경우 실제 사용 가능한 디스크 용량
+    <ul>
+      <li>40GB</li>
+      <li>만약 RAID-1일 때는 Mirroring으로 인해서 용량이 절반이 된다 → 20GB</li>
+    </ul>
+
+    <p><br /></p>
+  </li>
+  <li>다음 설명에 해당하는 LVM 용어
+    <ul>
+      <li>사용자가 필요한 만큼 할당해서 생성되는 공간으로 물리적 디스크에서 분할하여 사용하는 파티션</li>
+      <li>해설 : 물리적인 디스크에서 파티션을 나누게 되면 LV가 된다</li>
+      <li>정답 : LV (Logical Volume)</li>
+    </ul>
+
+    <p><br /></p>
+  </li>
+  <li>BSD 계열 유닉스에서 출력을 실행할 때 사용하는 명령
+    <ul>
+      <li>해설 : BSD 계열 출력 명령어 종류
+        <ul>
+          <li>lpr : 출력</li>
+          <li>lpq : 상태 확인</li>
+          <li>lprm : 삭제</li>
+          <li>lpc : 라인프린트 제어</li>
+        </ul>
+      </li>
+      <li>참조 : System V 계열 출력 명령어 종류
+        <ul>
+          <li>lp : 출력</li>
+          <li>lpstat : 상태 확인</li>
+          <li>cancel : 삭제</li>
+        </ul>
+      </li>
+      <li>정답 : lpr</li>
+    </ul>
+
+    <p><br /></p>
+  </li>
+  <li>사운드 카드 제어 및 설정할 때 사용하는 명령어
+    <ul>
+      <li>정답 : alsactl</li>
+    </ul>
+
+    <p><br /></p>
+  </li>
+  <li>X 윈도 기반의 GTK+ 라이브러리로 개발된 스캐너 프로그램으로 스캔 작업 이외에 캡처된 이미지 수정도 가능한 프로그램은
+    <ul>
+      <li>해설 : OSS , ALSA는 사운드 카드와 관련된 프로그램</li>
+      <li>해설 : SANE은 텍스트 기반으로 작동되는 스캐너</li>
+      <li>해설 : XSANE은 X 윈도 기반으로 작동되는 스캐너</li>
+      <li>정답 : XSANE</li>
+    </ul>
+
+    <p><br /></p>
+  </li>
+  <li>애플이 개발한 공개 소프트 웨어 프린팅 시스템으로 유닉스 운영체제의 시스템을 프린터 서버로 사용할 수 있는 용어
+    <ul>
+      <li>해설 : OSS , ALSA는 사운드 카드와 관련된 프로그램</li>
+      <li>해설 : CUPS(애플) 와 LPRng(BSD)는 프린터와 관련된 프프로그램</li>
+      <li>해설 : CUPS는 애플이 개발했다</li>
+    </ul>
+
+    <p><br /></p>
+  </li>
+  <li>미설치된 sendmail 패키지에 대한 자세한 정보를 확인하는 명령어
+    <ul>
+      <li>해설 : yum list sendmail : 미설치된 sendmail에 대한 목록을 확인</li>
+      <li>해설 : rpm -qi sendmail : 설치된 sendmail에 대한 정보를 확인</li>
+      <li>정답 : yum info sendmail</li>
+    </ul>
+
+    <p><br /></p>
+  </li>
+  <li>rpm 명령의 설치 관련 옵션으로 가장 거리가 먼 것
+    <ul>
+      <li>-i : 설치와 관련된 옵션</li>
+      <li>-U : 업데이트와 관련된 옵션 (install + upgrade)</li>
+      <li>-F :</li>
+      <li>-f :</li>
+      <li>정답 : -f</li>
+    </ul>
+
+    <p><br /></p>
+  </li>
+  <li>tar 명령어는 GNU 프로그램에 의해 개조되어 압축 관련 옵션을 지원 gzip은  (…)옵션을 사용하고 bzip2는 (…) 옵션을 사용
+    <ul>
+      <li>참조 : xz 는 -J 옵션이다</li>
+      <li>정답 : -z / -j</li>
+    </ul>
+
+    <p><br /></p>
+  </li>
+  <li>text.tar 파일을 해제하는 과정
+    <ul>
+      <li>tar (…) text.tar</li>
+      <li>해설 : cvf 는 묶는 옵션 / tvf 는 해제하지 않고 파일 목록이나 디렉터리 목록을 확인하는 옵션 / rvf 는 tar 파일을 해제하지 않고 다른 파일을 추가하는 옵션</li>
+      <li>정답 : xvf</li>
+    </ul>
+
+    <p><br /></p>
+  </li>
+  <li>소스 파일로 프로그램을 설치하는 과정으로 관련 디렉터리는 PATH에 등록해서 작업
+    <ul>
+      <li>(…) —prefic=/usr/local/apache</li>
+      <li>정답 : configure</li>
+    </ul>
+
+    <p><br /></p>
+  </li>
+  <li>데비안 리눅스 패키지를 제거하는 과정
+    <ul>
+      <li>dpkg (…) cron</li>
+      <li>해설 : dpkg 는 리눅스 패키지 매니저 관련 명령어</li>
+      <li>정답 : -r</li>
+    </ul>
+
+    <p><br /></p>
+  </li>
+  <li>데비안 리눅스에서 다운로드 받은 rpm 파일으 deb 파일로 변환하려고 할 때 패키지 관리 도구
+    <ul>
+      <li>해설 : dselect 는 패키지 관리</li>
+      <li>해설 : dnf 는 Redhat 계열 온라인 패키지 관리 도구</li>
+      <li>해설 : apt-get 은 Debian 계열 온라인 패키지 관리 도구</li>
+      <li>정답 : alien</li>
+    </ul>
+
+    <p><br /></p>
+  </li>
+  <li>리눅스에서 사용되는 온라인 패키지 관리 도구로 거리가 먼 것
+    <ul>
+      <li>dnf : Redhat 계열 온라인 패키지 관리 도구</li>
+      <li>해설 : apt-get 은 Debian 계열 온라인 패키지 관리 도구</li>
+      <li>해설 : zypper은 Suse 계열 온라인 패키지 관리 도구</li>
+      <li>해설 : YaST은 Suse 계열 로컬 패키지 관리 도구</li>
+      <li>정답 → YaST</li>
+    </ul>
+
+    <p><br /></p>
+  </li>
+  <li>vi 편집기에서 환경 설정한 내용을 계속해서 사용하기 위해 등록하는 파일 명
+    <ul>
+      <li>정답 → exrc</li>
+    </ul>
+
+    <p><br /></p>
+  </li>
+  <li>vi 편집기에서 단어의 시작이 linux인 경우에만 전부 Linux로 치환하는 명령
+    <ul>
+      <li>정답 → s/&lt;linux/Linux/g</li>
+    </ul>
+
+    <p><br /></p>
+  </li>
+  <li>vi 편집기에서 편집 중인 문서 파일의 마지막 줄로 이동하디 위한 명령
+    <ul>
+      <li>정답 → :$</li>
+    </ul>
+
+    <p><br /></p>
+  </li>
+  <li>다음 그림에 해당하는 편집기
+    <ul>
+      <li>File Edit Options Buffers Tools Help</li>
+      <li>I study Linux</li>
+      <li>==============================</li>
+      <li>-UU-:——F1 lin.txt All L1 (Text)————————
+        <ul>
+          <li>정답 : emacs</li>
+        </ul>
+      </li>
+    </ul>
+
+    <p><br /></p>
+  </li>
+  <li>vim 편집기 개발자
+    <ul>
+      <li>해설 : vi 는 빌 조이가 개발</li>
+      <li>해설 : 제임스 고슬링은 emacs 에디터 개발과 관련</li>
+      <li>정답 : 브람 무레나르</li>
+    </ul>
+  </li>
+</ol>
+
+<p><br /></p>
+<ol>
+  <li>GNU 프로젝트에 의해 관리되는 편집기로 알맞은 것
+    <ul>
+      <li>해설 : pico 는 아보일 카사르가 개발</li>
+      <li>해설 : kwrite 는 KDE-Editer</li>
+      <li>정답 : nano</li>
+    </ul>
+  </li>
+</ol>
+
 
   </div>
 
@@ -641,8 +836,8 @@
       <div class="post-meta mb-3">
         <i class="far fa-folder-open fa-fw me-1"></i>
         
-          <a href="/categories/first/">First</a>,
-          <a href="/categories/post/">Post</a>
+          <a href="/categories/linux/">Linux</a>,
+          <a href="/categories/basic/">basic</a>
       </div>
     
 
@@ -652,9 +847,9 @@
         <i class="fa fa-tags fa-fw me-1"></i>
         
           <a
-            href="/tags/tag/"
+            href="/tags/linux/"
             class="post-tag no-text-decoration"
-          >tag</a>
+          >linux</a>
         
       </div>
     
@@ -690,21 +885,21 @@
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=%EC%B2%AB%20%ED%8F%AC%EC%8A%A4%ED%8C%85%20%EC%9E%91%EC%84%B1%20-%20answer&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Ftest2-post%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=%EB%A6%AC%EB%88%85%EC%8A%A4%20%EB%A7%88%EC%8A%A4%ED%84%B0%202%EA%B8%89%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C%201%20-%20answer&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux18%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=%EC%B2%AB%20%ED%8F%AC%EC%8A%A4%ED%8C%85%20%EC%9E%91%EC%84%B1%20-%20answer&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Ftest2-post%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=%EB%A6%AC%EB%88%85%EC%8A%A4%20%EB%A7%88%EC%8A%A4%ED%84%B0%202%EA%B8%89%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C%201%20-%20answer&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux18%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Ftest2-post%2F&text=%EC%B2%AB%20%ED%8F%AC%EC%8A%A4%ED%8C%85%20%EC%9E%91%EC%84%B1%20-%20answer" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux18%2F&text=%EB%A6%AC%EB%88%85%EC%8A%A4%20%EB%A7%88%EC%8A%A4%ED%84%B0%202%EA%B8%89%20%EA%B8%B0%EC%B6%9C%20%EB%AC%B8%EC%A0%9C%201%20-%20answer" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -932,7 +1127,247 @@
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
 
 
 
@@ -948,7 +1383,7 @@
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
       
         <article class="col">
-          <a href="/posts/test-post/" class="post-preview card h-100">
+          <a href="/posts/Linux10/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -960,16 +1395,72 @@
 
 <time
   
-  data-ts="1738235940"
+  data-ts="1738387560"
   data-df="ll"
   
 >
-  Jan 30, 2025
+  Feb  1, 2025
 </time>
 
-              <h4 class="pt-0 my-2">첫 포스팅 작성</h4>
+              <h4 class="pt-0 my-2">파일과 디렉터리 복사 및 이동</h4>
               <div class="text-muted">
-                <p>안녕하세요    제가 사용할 에디터입니다.   stackedit</p>
+                <p>파일 / 디렉터리 복사            cp [옵션] [원본파일/디렉터리] [대상디렉터리]                 -i : 덮어쓰기 여부 묻기       -f : 강제로 복사       -r : 하위 디렉터리까지 복사       -b : 백업 파일 생성       -S : 확장자 지정              파일 복사 시 와일드 카드 사용 가...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/Linux09/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1738387440"
+  data-df="ll"
+  
+>
+  Feb  1, 2025
+</time>
+
+              <h4 class="pt-0 my-2">날짜와 시간 명령어</h4>
+              <div class="text-muted">
+                <p>date [옵션]            -u : UTC 국제 표준시         date date -u                                 cal [옵션] [설정값]            -3 : 이번 달을 기준으로 전, 후 월을 보여줌       -y : 이번 년도의 모든 월을 보여줌       -yj : 현재 년도의 모든 월을 ...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/Linux08/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1738387140"
+  data-df="ll"
+  
+>
+  Feb  1, 2025
+</time>
+
+              <h4 class="pt-0 my-2">리눅스 디렉터리 구조 및 역할</h4>
+              <div class="text-muted">
+                <p>boot  : 부팅 관련 파일(커널)   etc : 모든 환경 설정 파일   lib : 동적 라이브러리 파일 (32비트)   lib64: 동적 라이브러리 파일 (64비트)   root : root 홈 디렉터리   sbin : 시스템 관련 명령어   usr : 일반 사용자 관련 명령어, 프로그램 설치   bin : 일반 명령어   dev : 장치 파일 ...</p>
               </div>
             </div>
           </a>
@@ -990,21 +1481,21 @@
 
   
     <a
-      href="/posts/test-post/"
+      href="/posts/Linux17/"
       class="btn btn-outline-primary"
       aria-label="Older"
     >
-      <p>첫 포스팅 작성</p>
+      <p>디스크 볼륨 확장</p>
     </a>
   
 
   
     <a
-      href="/posts/Linux01/"
+      href="/posts/Linux21/"
       class="btn btn-outline-primary"
       aria-label="Newer"
     >
-      <p>운영체제(OS)</p>
+      <p>사용자 관리</p>
     </a>
   
 </nav>
