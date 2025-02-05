@@ -1,19 +1,19 @@
 [
   {
+    "title": "디스크 쿼터터",
+    "url": "/posts/Linux24/",
+    "categories": "Linux, advanced",
+    "tags": "linux",
+    "date": "2025-02-06 08:51:00 +0900",
+    "content": ""
+  },
+  {
     "title": "스케줄러",
     "url": "/posts/Linux23/",
     "categories": "Linux, advanced",
     "tags": "linux",
     "date": "2025-02-06 08:39:00 +0900",
     "content": "스케줄러    crontab을 사용하여 작업을 일정한 시간에 자동으로 실행할 수 있다 특정 시간이나 간격에 반복적으로 실행되는 작업을 관리하는 데 유용하다     설정 방법    crontab            -l : 현재 등록된 스케줄 확인       -e : 스케줄 추가       -r : 스케줄 삭제           crontab -l cr..."
-  },
-  {
-    "title": "Linux24",
-    "url": "/posts/Linux24/",
-    "categories": "",
-    "tags": "",
-    "date": "2025-02-06 00:00:00 +0900",
-    "content": ""
   },
   {
     "title": "허가권",

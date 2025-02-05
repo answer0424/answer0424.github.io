@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>answer</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-06T08:50:55+09:00</updated>
+  <updated>2025-02-06T08:51:42+09:00</updated>
   <author>
     <name>코드로 답하다</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>디스크 쿼터터</title>
+    <link href="http://localhost:4000/posts/Linux24/" rel="alternate" type="text/html" title="디스크 쿼터터" />
+    <published>2025-02-06T08:51:00+09:00</published>
+  
+    <updated>2025-02-06T08:51:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Linux24/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Linux24/" />
+    <author>
+      <name>코드로 답하다</name>
+    </author>
+
+  
+    
+    <category term="Linux" />
+    
+    <category term="advanced" />
+    
+  
+
+  <summary></summary>
+
+  </entry>
 
   
   <entry>
@@ -41,28 +67,6 @@
   
 
   <summary>스케줄러    crontab을 사용하여 작업을 일정한 시간에 자동으로 실행할 수 있다 특정 시간이나 간격에 반복적으로 실행되는 작업을 관리하는 데 유용하다     설정 방법    crontab            -l : 현재 등록된 스케줄 확인       -e : 스케줄 추가       -r : 스케줄 삭제           crontab -l crontab -e crontab -r     작성 방법 * * * * * command_to_execute 분(0-59) 시(0-23) 일(1-31) 월(1-12) 요일(0-6) / 일요일 = 0 또는 7  0 */30 * * * command_to_execute (매 30분마다 실행) 0 * * * * command_to_execute    (매 시간마다 ...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Linux24</title>
-    <link href="http://localhost:4000/posts/Linux24/" rel="alternate" type="text/html" title="Linux24" />
-    <published>2025-02-06T00:00:00+09:00</published>
-  
-    <updated>2025-02-06T00:00:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Linux24/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Linux24/" />
-    <author>
-      <name>코드로 답하다</name>
-    </author>
-
-  
-    
-  
-
-  <summary></summary>
 
   </entry>
 
