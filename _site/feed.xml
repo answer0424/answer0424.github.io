@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>answer</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-05T10:46:52+09:00</updated>
+  <updated>2025-02-06T08:49:31+09:00</updated>
   <author>
     <name>코드로 답하다</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>스케줄러</title>
+    <link href="http://localhost:4000/posts/Linux23/" rel="alternate" type="text/html" title="스케줄러" />
+    <published>2025-02-06T08:39:00+09:00</published>
+  
+    <updated>2025-02-06T08:39:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Linux23/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Linux23/" />
+    <author>
+      <name>코드로 답하다</name>
+    </author>
+
+  
+    
+    <category term="Linux" />
+    
+    <category term="advanced" />
+    
+  
+
+  <summary>스케줄러    crontab을 사용하여 작업을 일정한 시간에 자동으로 실행할 수 있다 특정 시간이나 간격에 반복적으로 실행되는 작업을 관리하는 데 유용하다     설정 방법    crontab            -l : 현재 등록된 스케줄 확인       -e : 스케줄 추가       -r : 스케줄 삭제           crontab -l crontab -e crontab -r     작성 방법 * * * * * command_to_execute 분(0-59) 시(0-23) 일(1-31) 월(1-12) 요일(0-6) / 일요일 = 0 또는 7  0 */30 * * * command_to_execute (매 30분마다 실행) 0 * * * * command_to_execute    (매 시간마다 ...</summary>
+
+  </entry>
 
   
   <entry>
@@ -119,32 +145,6 @@
   
 
   <summary>사용자 관련 파일 / 디렉터리            /etc/passwd : 사용자 정보 파일       /etc/shadow : 암호화된 패스워드 정보       /etc/group : 그룹 정보       /home/계정 디렉터리       /var/mail/계정명 메일 박스                 사용자 계정 생성     useradd user1 passwd user1                 사용자 계정 삭제            -r : user1의 정보가 저장된 총 5개의 파일 또는 디렉터리가 삭제되는 옵션         userdel -r user1                                 사용자 계정 정보 수정            usermod [옵션] [설정값] [...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>리눅스 마스터 2급 기출 문제 1</title>
-    <link href="http://localhost:4000/posts/Linux18/" rel="alternate" type="text/html" title="리눅스 마스터 2급 기출 문제 1" />
-    <published>2025-02-03T20:58:00+09:00</published>
-  
-    <updated>2025-02-03T20:58:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Linux18/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Linux18/" />
-    <author>
-      <name>코드로 답하다</name>
-    </author>
-
-  
-    
-    <category term="Linux" />
-    
-    <category term="basic" />
-    
-  
-
-  <summary>10GB 용량을 가진 디스크 4개를 사용해서 RAID-0를 구성했을 경우 실제 사용 가능한 디스크 용량            40GB       만약 RAID-1일 때는 Mirroring으로 인해서 용량이 절반이 된다 → 20GB                 다음 설명에 해당하는 LVM 용어            사용자가 필요한 만큼 할당해서 생성되는 공간으로 물리적 디스크에서 분할하여 사용하는 파티션       해설 : 물리적인 디스크에서 파티션을 나누게 되면 LV가 된다       정답 : LV (Logical Volume)                 BSD 계열 유닉스에서 출력을 실행할 때 사용하는 명령            해설 : BSD 계열 출력 명령어 종류                    l...</summary>
 
   </entry>
 

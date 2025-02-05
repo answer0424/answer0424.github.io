@@ -30,23 +30,23 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="프로세스 관련 명령어" />
+<meta property="og:title" content="스케줄러" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="systemd 최상위 프로세스" />
-<meta property="og:description" content="systemd 최상위 프로세스" />
-<link rel="canonical" href="http://localhost:4000/posts/Linux15/" />
-<meta property="og:url" content="http://localhost:4000/posts/Linux15/" />
+<meta name="description" content="스케줄러 crontab을 사용하여 작업을 일정한 시간에 자동으로 실행할 수 있다 특정 시간이나 간격에 반복적으로 실행되는 작업을 관리하는 데 유용하다" />
+<meta property="og:description" content="스케줄러 crontab을 사용하여 작업을 일정한 시간에 자동으로 실행할 수 있다 특정 시간이나 간격에 반복적으로 실행되는 작업을 관리하는 데 유용하다" />
+<link rel="canonical" href="http://localhost:4000/posts/Linux23/" />
+<meta property="og:url" content="http://localhost:4000/posts/Linux23/" />
 <meta property="og:site_name" content="answer" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-02-01T15:02:00+09:00" />
+<meta property="article:published_time" content="2025-02-06T08:39:00+09:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="프로세스 관련 명령어" />
+<meta property="twitter:title" content="스케줄러" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-03T08:47:25+09:00","datePublished":"2025-02-01T15:02:00+09:00","description":"systemd 최상위 프로세스","headline":"프로세스 관련 명령어","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Linux15/"},"url":"http://localhost:4000/posts/Linux15/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-06T08:39:00+09:00","datePublished":"2025-02-06T08:39:00+09:00","description":"스케줄러 crontab을 사용하여 작업을 일정한 시간에 자동으로 실행할 수 있다 특정 시간이나 간격에 반복적으로 실행되는 작업을 관리하는 데 유용하다","headline":"스케줄러","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Linux23/"},"url":"http://localhost:4000/posts/Linux23/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>프로세스 관련 명령어 | answer
+  <title>스케줄러 | answer
   </title>
 
   <!--
@@ -212,9 +212,16 @@
 
   
 
+  
+    
+
+    
+
+  
 
 
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js,npm/tocbot@4.32.2/dist/tocbot.min.js"></script>
 
 
 
@@ -432,7 +439,7 @@
         
           
             
-              <span>프로세스 관련 명령어</span>
+              <span>스케줄러</span>
             
 
           
@@ -515,6 +522,60 @@
   
 
   
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
 
   
   
@@ -545,9 +606,9 @@
 
 
 
-<article class="px-1" data-toc="false">
+<article class="px-1" data-toc="true">
   <header>
-    <h1 data-toc-skip>프로세스 관련 명령어</h1>
+    <h1 data-toc-skip>스케줄러</h1>
     
 
     <div class="post-meta text-muted">
@@ -564,41 +625,18 @@
 
 <time
   
-  data-ts="1738389720"
+  data-ts="1738798740"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Feb  1, 2025
+  Feb  6, 2025
 </time>
 
       </span>
 
       <!-- lastmod date -->
-      
-        <span>
-          Updated
-          <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1738540045"
-  data-df="ll"
-  
-    data-bs-toggle="tooltip" data-bs-placement="bottom"
-  
->
-  Feb  3, 2025
-</time>
-
-        </span>
       
 
       
@@ -642,9 +680,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="542 words"
+  title="221 words"
 >
-  <em>3 min</em> read</span>
+  <em>1 min</em> read</span>
 
         </div>
       </div>
@@ -652,30 +690,63 @@
   </header>
 
   
+    <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
+      <span class="label text-truncate">스케줄러</span>
+      <button type="button" class="toc-trigger btn me-1">
+        <i class="fa-solid fa-list-ul fa-fw"></i>
+      </button>
+    </div>
+
+    <button id="toc-solo-trigger" type="button" class="toc-trigger btn btn-outline-secondary btn-sm">
+      <span class="label ps-2 pe-1">Contents</span>
+      <i class="fa-solid fa-angle-right fa-fw"></i>
+    </button>
+
+    <dialog id="toc-popup" class="p-0">
+      <div class="header d-flex flex-row align-items-center justify-content-between">
+        <div class="label text-truncate py-2 ms-4">스케줄러</div>
+        <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
+          <i class="fas fa-close"></i>
+        </button>
+      </div>
+      <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
+    </dialog>
+  
 
   <div class="content">
-    <ol>
-  <li>systemd
-    <blockquote>
-      <p>최상위 프로세스</p>
-    </blockquote>
+    <h2 id="스케줄러"><span class="me-2">스케줄러</span><a href="#스케줄러" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<blockquote>
+  <p>crontab을 사용하여 작업을 일정한 시간에 자동으로 실행할 수 있다
+특정 시간이나 간격에 반복적으로 실행되는 작업을 관리하는 데 유용하다</p>
+</blockquote>
 
-    <p><br /></p>
-  </li>
-  <li>ps [옵션]
-    <blockquote>
-      <p>프로세스 출력</p>
-    </blockquote>
+<p><br /></p>
 
+<h2 id="설정-방법"><span class="me-2">설정 방법</span><a href="#설정-방법" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<ul>
+  <li>crontab
     <ul>
-      <li>-a: 현재 터미널에 로그인한 모든 사용자의 프로세스를 출력</li>
-      <li>-u : 사용자와 프로세스 정보를 자세하게 출력</li>
-      <li>-x : 터미널에 연결되지 않은 백드라운드 프로세스도 출력</li>
-      <li>-e : 모든 프로세스를 출력</li>
-      <li>-f : 프로세스 정보를 풀 포멧으로 출력</li>
+      <li>-l : 현재 등록된 스케줄 확인</li>
+      <li>-e : 스케줄 추가</li>
+      <li>-r : 스케줄 삭제</li>
     </ul>
+  </li>
+</ul>
 
-    <div class="language-bash highlighter-rouge"><div class="code-header">
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>crontab <span class="nt">-l</span>
+crontab <span class="nt">-e</span>
+crontab <span class="nt">-r</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<p><br /></p>
+
+<h2 id="작성-방법"><span class="me-2">작성 방법</span><a href="#작성-방법" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<div class="language-bash highlighter-rouge"><div class="code-header">
         <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
@@ -686,97 +757,28 @@
 7
 8
 9
-</pre></td><td class="rouge-code"><pre> // ps <span class="nt">-aux</span>
- USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
- root         1  0.0  0.1 158448  8568 ?        Ss   Jan01   0:01 /sbin/init
- user       100  0.1  0.3 167120 15000 ?        Sl   14:50   0:00 /usr/bin/python3 script.py
+10
+11
+</pre></td><td class="rouge-code"><pre><span class="k">*</span> <span class="k">*</span> <span class="k">*</span> <span class="k">*</span> <span class="k">*</span> command_to_execute
+분<span class="o">(</span>0-59<span class="o">)</span>
+시<span class="o">(</span>0-23<span class="o">)</span>
+일<span class="o">(</span>1-31<span class="o">)</span>
+월<span class="o">(</span>1-12<span class="o">)</span>
+요일<span class="o">(</span>0-6<span class="o">)</span> / 일요일 <span class="o">=</span> 0 또는 7
 
- //ps <span class="nt">-ef</span>
- UID        PID  PPID  C STIME TTY          TIME CMD
- root         1     0  0 Jan01 ?        00:01:23 /sbin/init
- user       100     1  0 14:50 ?        00:00:00 /usr/bin/python3 script.py
-</pre></td></tr></tbody></table></code></div>    </div>
+0 <span class="k">*</span>/30 <span class="k">*</span> <span class="k">*</span> <span class="k">*</span> command_to_execute <span class="o">(</span>매 30분마다 실행<span class="o">)</span>
+0 <span class="k">*</span> <span class="k">*</span> <span class="k">*</span> <span class="k">*</span> command_to_execute    <span class="o">(</span>매 시간마다 실행<span class="o">)</span>
+0 0 <span class="k">*</span> <span class="k">*</span> 0 command_to_execute    <span class="o">(</span>매 주일마다 실행<span class="o">)</span>
+0 0 1 <span class="k">*</span> <span class="k">*</span> command_to_execute    <span class="o">(</span>매 월마다 실행<span class="o">)</span>
+</pre></td></tr></tbody></table></code></div></div>
 
-    <p><br /></p>
-  </li>
-  <li>pstree [옵션]
-    <blockquote>
-      <p>프로세스를 계층형 구조로 출력</p>
-    </blockquote>
+<h2 id="추가적인-팁"><span class="me-2">추가적인 팁</span><a href="#추가적인-팁" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<ul>
+  <li>절대 경로 사용</li>
+  <li>환경 변수 설정</li>
+  <li>시간대 확인</li>
+</ul>
 
-    <ul>
-      <li>-p : 프로세스 id와 함께 출력</li>
-    </ul>
-
-    <p><br /></p>
-  </li>
-  <li>top [옵션]
-    <blockquote>
-      <p>실시간으로 프로세스의 상태를 모니터링할 수 있는 명령어</p>
-    </blockquote>
-
-    <p><br /></p>
-  </li>
-  <li>gnome-system-monitor
-    <blockquote>
-      <p>프로그램의 상태를 백그라운드 창을 띄어 확인할 수 있는 명령어</p>
-    </blockquote>
-
-    <p><br /></p>
-  </li>
-  <li>nice[옵션] [설정값] [프로그램명]
-    <blockquote>
-      <p>프로세스의 우선 순위 변경</p>
-    </blockquote>
-
-    <ul>
-      <li>nice 값의 범위  -&gt; -20 ~ 19
-        <div class="language-bash highlighter-rouge"><div class="code-header">
-        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td><td class="rouge-code"><pre> <span class="nb">nice</span> <span class="nt">-10</span> top &lt;<span class="nt">--</span> 우선 순위의 값을 10만큼 낮춤
- <span class="nb">nice</span> <span class="nt">-n</span> <span class="nt">-10</span> top &lt;<span class="nt">--</span> 우선 순위의 값을 10만큼 높임
-</pre></td></tr></tbody></table></code></div>        </div>
-      </li>
-    </ul>
-
-    <p><br /></p>
-  </li>
-  <li>renice [옵션] [설정값] [PID]
-    <blockquote>
-      <p>실행 중인 프로세스의 우선 순위 변경</p>
-    </blockquote>
-
-    <div class="language-bash highlighter-rouge"><div class="code-header">
-        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td><td class="rouge-code"><pre> renice <span class="nt">-10</span> 6029 &lt;<span class="nt">--</span> 우선 순위를 10만큼 높임
- renice 10 6029 &lt;<span class="nt">--</span> 우선 순위를 10만큼 낮춤
-</pre></td></tr></tbody></table></code></div>    </div>
-
-    <p><br /></p>
-  </li>
-  <li>kill [옵션] [PID]
-    <blockquote>
-      <p>프로세스 종료 명령어</p>
-    </blockquote>
-
-    <ul>
-      <li>-l : 옵션의 종류를 출력</li>
-      <li>-1 : 재시작</li>
-      <li>-2 : 해당 프로세스에 신호를 보낼 때 사용</li>
-      <li>-3 : 사용자에 의해 프로세스가 종료되도록 하는 신호</li>
-      <li>-9 : 강제 종료</li>
-      <li>-15: 정상 종료</li>
-      <li>-18 : 일시 중지된 프로세스를 계속 실행</li>
-      <li>-19 : 프로세스를 일시 중지(pause)하는 신호</li>
-      <li>-20 : 사용자에 의해 터미널에서 일시 중지 요청</li>
-      <li>killall [옵션] [프로세스 명]</li>
-    </ul>
-  </li>
-</ol>
 
   </div>
 
@@ -787,7 +789,7 @@
         <i class="far fa-folder-open fa-fw me-1"></i>
         
           <a href="/categories/linux/">Linux</a>,
-          <a href="/categories/basic/">basic</a>
+          <a href="/categories/advanced/">advanced</a>
       </div>
     
 
@@ -835,21 +837,21 @@
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%20%EA%B4%80%EB%A0%A8%20%EB%AA%85%EB%A0%B9%EC%96%B4%20-%20answer&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux15%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=%EC%8A%A4%EC%BC%80%EC%A4%84%EB%9F%AC%20-%20answer&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux23%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%20%EA%B4%80%EB%A0%A8%20%EB%AA%85%EB%A0%B9%EC%96%B4%20-%20answer&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux15%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=%EC%8A%A4%EC%BC%80%EC%A4%84%EB%9F%AC%20-%20answer&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux23%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux15%2F&text=%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%20%EA%B4%80%EB%A0%A8%20%EB%AA%85%EB%A0%B9%EC%96%B4%20-%20answer" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux23%2F&text=%EC%8A%A4%EC%BC%80%EC%A4%84%EB%9F%AC%20-%20answer" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -1027,6 +1029,12 @@
 
 
 
+
+  <div class="toc-border-cover z-3"></div>
+  <section id="toc-wrapper" class="invisible position-sticky ps-0 pe-4 pb-4">
+    <h2 class="panel-heading ps-3 pb-2 mb-0">Contents</h2>
+    <nav id="toc"></nav>
+  </section>
 
 
             
@@ -1233,103 +1241,103 @@
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
 
 
 
@@ -1343,6 +1351,62 @@
   <aside id="related-posts" aria-labelledby="related-label">
     <h3 class="mb-4" id="related-label">Further Reading</h3>
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        <article class="col">
+          <a href="/posts/Linux22/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1738712580"
+  data-df="ll"
+  
+>
+  Feb  5, 2025
+</time>
+
+              <h4 class="pt-0 my-2">허가권</h4>
+              <div class="text-muted">
+                <p>허가권이란?            파일이나 디렉터리에 대해 다양한 사용자가 접근할 수 있는 권한을 설정하는 것을 의미한다 허가권은 읽기(read), 쓰기(write), 실행(execute) 권한을 사용자(user), 그룹(group), 그리고 기타 사용(other)에게 부여할 수 있다           허가권 변경            chmod     ...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/Linux21/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1738583880"
+  data-df="ll"
+  
+>
+  Feb  3, 2025
+</time>
+
+              <h4 class="pt-0 my-2">사용자 관리</h4>
+              <div class="text-muted">
+                <p>사용자 관련 파일 / 디렉터리            /etc/passwd : 사용자 정보 파일       /etc/shadow : 암호화된 패스워드 정보       /etc/group : 그룹 정보       /home/계정 디렉터리       /var/mail/계정명 메일 박스                 사용자 계정 생성     useradd use...</p>
+              </div>
+            </div>
+          </a>
+        </article>
       
         <article class="col">
           <a href="/posts/Linux10/" class="post-preview card h-100">
@@ -1372,62 +1436,6 @@
           </a>
         </article>
       
-        <article class="col">
-          <a href="/posts/Linux09/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1738387440"
-  data-df="ll"
-  
->
-  Feb  1, 2025
-</time>
-
-              <h4 class="pt-0 my-2">날짜와 시간 명령어</h4>
-              <div class="text-muted">
-                <p>date [옵션]            -u : UTC 국제 표준시         date date -u                                 cal [옵션] [설정값]            -3 : 이번 달을 기준으로 전, 후 월을 보여줌       -y : 이번 년도의 모든 월을 보여줌       -yj : 현재 년도의 모든 월을 ...</p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
-          <a href="/posts/Linux08/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1738387140"
-  data-df="ll"
-  
->
-  Feb  1, 2025
-</time>
-
-              <h4 class="pt-0 my-2">리눅스 디렉터리 구조 및 역할</h4>
-              <div class="text-muted">
-                <p>boot  : 부팅 관련 파일(커널)   etc : 모든 환경 설정 파일   lib : 동적 라이브러리 파일 (32비트)   lib64: 동적 라이브러리 파일 (64비트)   root : root 홈 디렉터리   sbin : 시스템 관련 명령어   usr : 일반 사용자 관련 명령어, 프로그램 설치   bin : 일반 명령어   dev : 장치 파일 ...</p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
     </nav>
   </aside>
   <!-- #related-posts -->
@@ -1443,22 +1451,18 @@
 
   
     <a
-      href="/posts/Linux14/"
+      href="/posts/Linux22/"
       class="btn btn-outline-primary"
       aria-label="Older"
     >
-      <p>Shell 관련 명령어</p>
+      <p>허가권</p>
     </a>
   
 
   
-    <a
-      href="/posts/websocket01/"
-      class="btn btn-outline-primary"
-      aria-label="Newer"
-    >
-      <p>websocket</p>
-    </a>
+    <div class="btn btn-outline-primary disabled" aria-label="Newer">
+      <p>-</p>
+    </div>
   
 </nav>
 
