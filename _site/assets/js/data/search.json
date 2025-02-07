@@ -1,5 +1,13 @@
 [
   {
+    "title": "리눅스 서버",
+    "url": "/posts/Linux25/",
+    "categories": "Linux, advanced",
+    "tags": "linux",
+    "date": "2025-02-07 08:39:00 +0900",
+    "content": "talnet server    원격 시스템에 로그온하여 인터넷 또는 로컬 네트워크의 다른 컴퓨터에 액세스할 수 있게 해주는 프로그램이다      서버 프로그램 설치     dnf -y install telnet-server-1:0.17-85.el9.x86_64            클라이언트 프로그램 설치     dnf -y install telnet ..."
+  },
+  {
     "title": "디스크 쿼터",
     "url": "/posts/Linux24/",
     "categories": "Linux, advanced",

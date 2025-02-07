@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>answer</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-06T09:07:35+09:00</updated>
+  <updated>2025-02-07T09:16:09+09:00</updated>
   <author>
     <name>코드로 답하다</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,37 @@
 
   
   <entry>
+    <title>리눅스 서버</title>
+    <link href="http://localhost:4000/posts/Linux25/" rel="alternate" type="text/html" title="리눅스 서버" />
+    <published>2025-02-07T08:39:00+09:00</published>
+  
+    <updated>2025-02-07T08:39:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Linux25/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Linux25/" />
+    <author>
+      <name>코드로 답하다</name>
+    </author>
+
+  
+    
+    <category term="Linux" />
+    
+    <category term="advanced" />
+    
+  
+
+  <summary>talnet server    원격 시스템에 로그온하여 인터넷 또는 로컬 네트워크의 다른 컴퓨터에 액세스할 수 있게 해주는 프로그램이다      서버 프로그램 설치     dnf -y install telnet-server-1:0.17-85.el9.x86_64            클라이언트 프로그램 설치     dnf -y install telnet                환경 설정 파일 : /usr/lib/systemd/system/telnet.socket      서비스 시작 및 재시작     systemctl restart telnet.socket           클라이언트에서 접속     telnet 192.168.10.50           포트 변경            /usr/lib/...</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>디스크 쿼터</title>
     <link href="http://localhost:4000/posts/Linux24/" rel="alternate" type="text/html" title="디스크 쿼터" />
     <published>2025-02-06T08:51:00+09:00</published>
   
-    <updated>2025-02-06T08:51:00+09:00</updated>
+    <updated>2025-02-06T17:49:23+09:00</updated>
   
     <id>http://localhost:4000/posts/Linux24/</id>
     <content type="text/html" src="http://localhost:4000/posts/Linux24/" />
@@ -119,32 +145,6 @@
   
 
   <summary>파일 시스템이 ext4인 /dev/sdb1 파티션을 /data 디렉터리로 마운트하는 명령            정답 : mount -t ext4 /dev/sdb1 /data                 ihduser 사용자의 디스크 사용량을 확인하는 과정의 명령어            정답 : du -sh ~ihduser                 fdisk 실행 상태에서 변경된 파티션 정보를 저장하지 않고 종료하는 명령            정답 : q</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>리눅스 마스터 2급 기출 문제 2</title>
-    <link href="http://localhost:4000/posts/Linux19/" rel="alternate" type="text/html" title="리눅스 마스터 2급 기출 문제 2" />
-    <published>2025-02-05T08:30:00+09:00</published>
-  
-    <updated>2025-02-05T08:36:45+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Linux19/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Linux19/" />
-    <author>
-      <name>코드로 답하다</name>
-    </author>
-
-  
-    
-    <category term="Linux" />
-    
-    <category term="basic" />
-    
-  
-
-  <summary>프로세스의 우선순위를 변경할 때 사용하는 NI 값의 범위            정답 : -20 ~ 19                 실행 중인 vsftpd 프로세스를 종료시키는 과정            (…) vsftpd       해설 : kill은 PID로 종료시키는 명령어       해설 : fuser는 사용자가 어떤 파일을 사용하고 있는지 확인하는 명령어       해설 ; pidof 는 실행 중인 프로세스의 PID를 알고 싶을 때 사용하는 명령어       정답 : killall                 프로세스 아이디(PID)가 1222인 bash 프로세스의 우선순위(NI)값이 0이다. 이 프로세스의 NI 값을 10으로 우선순위를 변경하는 명령으로 알맞은 것은?            해설 :...</summary>
 
   </entry>
 
