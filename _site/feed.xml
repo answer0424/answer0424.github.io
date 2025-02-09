@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>answer</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-09T22:51:20+09:00</updated>
+  <updated>2025-02-09T22:53:33+09:00</updated>
   <author>
     <name>코드로 답하다</name>
     <uri>http://localhost:4000/</uri>
@@ -21,10 +21,36 @@
   
   <entry>
     <title>Why React</title>
+    <link href="http://localhost:4000/posts/React02/" rel="alternate" type="text/html" title="Why React" />
+    <published>2025-02-09T22:52:00+09:00</published>
+  
+    <updated>2025-02-09T22:52:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/React02/</id>
+    <content type="text/html" src="http://localhost:4000/posts/React02/" />
+    <author>
+      <name>코드로 답하다</name>
+    </author>
+
+  
+    
+    <category term="React" />
+    
+    <category term="basic" />
+    
+  
+
+  <summary>JSX    Java Script XML   React에서만 XML 형식의 사용이 가능하다   최총</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Why React</title>
     <link href="http://localhost:4000/posts/React01/" rel="alternate" type="text/html" title="Why React" />
     <published>2025-02-08T17:24:00+09:00</published>
   
-    <updated>2025-02-08T17:24:00+09:00</updated>
+    <updated>2025-02-09T22:51:39+09:00</updated>
   
     <id>http://localhost:4000/posts/React01/</id>
     <content type="text/html" src="http://localhost:4000/posts/React01/" />
@@ -119,32 +145,6 @@
   
 
   <summary>스케줄러    crontab을 사용하여 작업을 일정한 시간에 자동으로 실행할 수 있다 특정 시간이나 간격에 반복적으로 실행되는 작업을 관리하는 데 유용하다     설정 방법    crontab            -l : 현재 등록된 스케줄 확인       -e : 스케줄 추가       -r : 스케줄 삭제           crontab -l crontab -e crontab -r     작성 방법 * * * * * command_to_execute 분(0-59) 시(0-23) 일(1-31) 월(1-12) 요일(0-6) / 일요일 = 0 또는 7  0 */30 * * * command_to_execute (매 30분마다 실행) 0 * * * * command_to_execute    (매 시간마다 ...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>허가권</title>
-    <link href="http://localhost:4000/posts/Linux22/" rel="alternate" type="text/html" title="허가권" />
-    <published>2025-02-05T08:43:00+09:00</published>
-  
-    <updated>2025-02-05T09:05:01+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Linux22/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Linux22/" />
-    <author>
-      <name>코드로 답하다</name>
-    </author>
-
-  
-    
-    <category term="Linux" />
-    
-    <category term="advanced" />
-    
-  
-
-  <summary>허가권이란?            파일이나 디렉터리에 대해 다양한 사용자가 접근할 수 있는 권한을 설정하는 것을 의미한다 허가권은 읽기(read), 쓰기(write), 실행(execute) 권한을 사용자(user), 그룹(group), 그리고 기타 사용(other)에게 부여할 수 있다           허가권 변경            chmod                    파일이나 디렉터리의 허가권을 변경하는 명령어이다 각 사용자 그룹, 기타 사용자에 대해 읽기, 쓰기, 실행 권한을 설정할 수 있다                                 u : 사용자 (user)       g : 그룹 (group)       o : 기타 사용자 (other)       a : 모든 사용자 (al...</summary>
 
   </entry>
 

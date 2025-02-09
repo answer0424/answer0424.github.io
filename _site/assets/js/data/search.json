@@ -1,6 +1,14 @@
 [
   {
     "title": "Why React",
+    "url": "/posts/React02/",
+    "categories": "React, basic",
+    "tags": "react",
+    "date": "2025-02-09 22:52:00 +0900",
+    "content": "JSX    Java Script XML   React에서만 XML 형식의 사용이 가능하다   최총"
+  },
+  {
+    "title": "Why React",
     "url": "/posts/React01/",
     "categories": "React, basic",
     "tags": "react",
