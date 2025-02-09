@@ -212,9 +212,16 @@
 
   
 
+  
+    
+
+    
+
+  
 
 
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js,npm/tocbot@4.32.2/dist/tocbot.min.js"></script>
 
 
 
@@ -515,6 +522,115 @@
   
 
   
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
 
   
   
@@ -545,7 +661,7 @@
 
 
 
-<article class="px-1" data-toc="false">
+<article class="px-1" data-toc="true">
   <header>
     <h1 data-toc-skip>리눅스 파일 / 디렉터리 명령어</h1>
     
@@ -642,7 +758,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="830 words"
+  title="827 words"
 >
   <em>4 min</em> read</span>
 
@@ -652,13 +768,33 @@
   </header>
 
   
+    <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
+      <span class="label text-truncate">리눅스 파일 / 디렉터리 명령어</span>
+      <button type="button" class="toc-trigger btn me-1">
+        <i class="fa-solid fa-list-ul fa-fw"></i>
+      </button>
+    </div>
+
+    <button id="toc-solo-trigger" type="button" class="toc-trigger btn btn-outline-secondary btn-sm">
+      <span class="label ps-2 pe-1">Contents</span>
+      <i class="fa-solid fa-angle-right fa-fw"></i>
+    </button>
+
+    <dialog id="toc-popup" class="p-0">
+      <div class="header d-flex flex-row align-items-center justify-content-between">
+        <div class="label text-truncate py-2 ms-4">리눅스 파일 / 디렉터리 명령어</div>
+        <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
+          <i class="fas fa-close"></i>
+        </button>
+      </div>
+      <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
+    </dialog>
+  
 
   <div class="content">
-    <ol>
-  <li>파일 / 디렉터리 목록 확인
-    <ul>
-      <li>ls [옵션] [대상 파일 / 디렉터리]</li>
-    </ul>
+    <h2 id="파일--디렉터리-목록-확인"><span class="me-2">파일 / 디렉터리 목록 확인</span><a href="#파일--디렉터리-목록-확인" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<ul>
+  <li>ls [옵션] [대상 파일 / 디렉터리]
     <ul>
       <li>
         <옵션>
@@ -685,28 +821,29 @@
 8
 9
 10
-</pre></td><td class="rouge-code"><pre>  <span class="nb">ls</span> <span class="nt">-l</span> 
-  <span class="nb">ls</span> <span class="nt">-al</span>
-  ll
-  <span class="nb">ls</span> <span class="nt">-r</span>
-  <span class="nb">ls</span> <span class="nt">-A</span>
-  <span class="nb">ls</span> <span class="nt">-m</span>
-  <span class="nb">ls</span> <span class="nt">-F</span>
-  <span class="nb">ls</span> <span class="nt">-R</span>
-  <span class="nb">ls</span> <span class="nt">-i</span>
-  <span class="nb">ls</span> <span class="nt">-n</span>
+</pre></td><td class="rouge-code"><pre><span class="nb">ls</span> <span class="nt">-l</span> 
+<span class="nb">ls</span> <span class="nt">-al</span>
+ll
+<span class="nb">ls</span> <span class="nt">-r</span>
+<span class="nb">ls</span> <span class="nt">-A</span>
+<span class="nb">ls</span> <span class="nt">-m</span>
+<span class="nb">ls</span> <span class="nt">-F</span>
+<span class="nb">ls</span> <span class="nt">-R</span>
+<span class="nb">ls</span> <span class="nt">-i</span>
+<span class="nb">ls</span> <span class="nt">-n</span>
 </pre></td></tr></tbody></table></code></div>            </div>
           </li>
         </ul>
       </li>
     </ul>
-
-    <p><br /></p>
   </li>
-  <li>디렉터리 이동
-    <ul>
-      <li>cd [대상 디렉터리]</li>
-    </ul>
+</ul>
+
+<p><br /></p>
+
+<h2 id="디렉터리-이동"><span class="me-2">디렉터리 이동</span><a href="#디렉터리-이동" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<ul>
+  <li>cd [대상 디렉터리]
     <ul>
       <li>.. : 이전 디렉터리 이동</li>
       <li>~ : 자신의 home 디렉터리 이동 (root)</li>
@@ -720,44 +857,44 @@
 3
 4
 5
-</pre></td><td class="rouge-code"><pre> <span class="nb">cd</span> ..
- <span class="nb">cd</span> ~
- <span class="nb">cd</span> /root
- <span class="nb">cd
- cd</span> -
+</pre></td><td class="rouge-code"><pre><span class="nb">cd</span> ..
+<span class="nb">cd</span> ~
+<span class="nb">cd</span> /root
+<span class="nb">cd
+cd</span> -
 </pre></td></tr></tbody></table></code></div>        </div>
       </li>
     </ul>
+  </li>
+</ul>
 
-    <p><br /></p>
-  </li>
-  <li>help
-    <blockquote>
-      <p>해당 명령어에 대한 사용법 및 옵션을 알 수 있음</p>
-    </blockquote>
+<p><br /></p>
 
-    <p><br /></p>
-  </li>
-  <li>man
-    <blockquote>
-      <p>리눅스 명령어에 대한 설명서 (모든 내용이 들어있음)</p>
-    </blockquote>
+<h2 id="help"><span class="me-2">help</span><a href="#help" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<blockquote>
+  <p>해당 명령어에 대한 사용법 및 옵션을 알 수 있음</p>
+</blockquote>
 
-    <p><br /></p>
-  </li>
-  <li>file
-    <blockquote>
-      <p>파일 유형을 출력</p>
-    </blockquote>
+<p><br /></p>
 
-    <p><br /></p>
-  </li>
-  <li>wc(word control) [파일 명]
-    <blockquote>
-      <p>해당 파일의 행, 단어, 문자 수를 출력</p>
-    </blockquote>
-  </li>
-</ol>
+<h2 id="man"><span class="me-2">man</span><a href="#man" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<blockquote>
+  <p>리눅스 명령어에 대한 설명서 (모든 내용이 들어있음)</p>
+</blockquote>
+
+<p><br /></p>
+
+<h2 id="file"><span class="me-2">file</span><a href="#file" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<blockquote>
+  <p>파일 유형을 출력</p>
+</blockquote>
+
+<p><br /></p>
+
+<h2 id="wcword-control-파일-명"><span class="me-2">wc(word control) [파일 명]</span><a href="#wcword-control-파일-명" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<blockquote>
+  <p>해당 파일의 행, 단어, 문자 수를 출력</p>
+</blockquote>
 
 <ul>
   <li>-l : 행 수</li>
@@ -772,14 +909,18 @@
 <span class="nb">wc</span> <span class="nt">-w</span>
 <span class="nb">wc</span> <span class="nt">-c</span>
 </pre></td></tr></tbody></table></code></div>    </div>
-
-    <p><br />
-      7. split [옵션] [파일 명]</p>
-    <blockquote>
-      <p>파일 내용 분할
-default 값은 1000줄이다</p>
-    </blockquote>
   </li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="split-옵션-파일-명"><span class="me-2">split [옵션] [파일 명]</span><a href="#split-옵션-파일-명" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<blockquote>
+  <p>파일 내용 분할
+default 값은 1000줄이다</p>
+</blockquote>
+
+<ul>
   <li>-l : 줄 수 를 지정해서 파일을 분할</li>
   <li>-C : byte 단위로 파일을 분할</li>
   <li>-a: 확장자 길이 지정</li>
@@ -798,17 +939,19 @@ default 값은 1000줄이다</p>
 <span class="nb">split</span> <span class="nt">-d</span> test1.txt
 <span class="nb">split</span> <span class="nt">--additional-suffix</span><span class="o">=</span>.txt test1.txt
 </pre></td></tr></tbody></table></code></div>    </div>
-
-    <p><br />
-      8. cut [옵션] [설정값] [파일 명]</p>
-    <blockquote>
-      <p>해당 파일에서 특정 문자를 추출해 낼 수 있다</p>
-    </blockquote>
   </li>
-  <li>-c 번호 : 해당 번호에 있는 문자를 추출</li>
-  <li>-f : 탭 또는 엔터를 기준으로 해당 단어를 추출</li>
-  <li>-d : 해당 문자열을 기준으로 단어를 추출
-    <div class="language-bash highlighter-rouge"><div class="code-header">
+</ul>
+
+<p><br /></p>
+
+<h2 id="cut-옵션-설정값-파일-명"><span class="me-2">cut [옵션] [설정값] [파일 명]</span><a href="#cut-옵션-설정값-파일-명" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<blockquote>
+  <p>해당 파일에서 특정 문자를 추출해 낼 수 있다</p>
+  <ul>
+    <li>-c 번호 : 해당 번호에 있는 문자를 추출</li>
+    <li>-f : 탭 또는 엔터를 기준으로 해당 단어를 추출</li>
+    <li>-d : 해당 문자열을 기준으로 단어를 추출
+      <div class="language-bash highlighter-rouge"><div class="code-header">
         <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
@@ -822,14 +965,19 @@ default 값은 1000줄이다</p>
 <span class="nb">cut</span> <span class="nt">-f</span> 2 file1.txt
 <span class="nb">cut</span> <span class="nt">-f</span> 2-3 file1.txt
 <span class="nb">cut</span> <span class="nt">-f</span> 1 <span class="nt">-d</span>: file1.txt  <span class="o">(</span>:을 기준으로 단어를 추출<span class="o">)</span>
-</pre></td></tr></tbody></table></code></div>    </div>
+</pre></td></tr></tbody></table></code></div>      </div>
+    </li>
+  </ul>
+</blockquote>
 
-    <p><br />
-      9. grep [문자열] [파일명]</p>
-    <blockquote>
-      <p>egrep : grep의 확장 버전 (grep의 기능을 더 편리하게 사용할 수 있다)</p>
-    </blockquote>
-  </li>
+<p><br /></p>
+
+<h2 id="grep-문자열-파일명"><span class="me-2">grep [문자열] [파일명]</span><a href="#grep-문자열-파일명" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<blockquote>
+  <p>egrep : grep의 확장 버전 (grep의 기능을 더 편리하게 사용할 수 있다)</p>
+</blockquote>
+
+<ul>
   <li>-n : 행 번호를 추가하여 출력</li>
   <li>-i : 대소문자를 구분하지 않고 출력</li>
   <li>^[문자열] : 해당 문자열로 시작하는 행 출력</li>
@@ -1135,6 +1283,12 @@ egrep <span class="nt">-v</span> java file2.txt
 
 
 
+
+  <div class="toc-border-cover z-3"></div>
+  <section id="toc-wrapper" class="invisible position-sticky ps-0 pe-4 pb-4">
+    <h2 class="panel-heading ps-3 pb-2 mb-0">Contents</h2>
+    <nav id="toc"></nav>
+  </section>
 
 
             
