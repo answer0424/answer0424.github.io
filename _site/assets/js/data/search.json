@@ -1,5 +1,13 @@
 [
   {
+    "title": "Why React",
+    "url": "/posts/React01/",
+    "categories": "React, basic",
+    "tags": "react",
+    "date": "2025-02-08 17:24:00 +0900",
+    "content": "웹 동작 방식 1    화면에 대한 View를 서버에서 만들어서 브라우저에게 전달   브라우저는 받은 view를 화면에 그려준다     웹 동작 방식 2    view를 받은 뒤 화면의 부분 변경이 필요한 부분을 AJAX 요청한다   JavaScript를 사용하여 AJAX 요청   주로 data를 요청하게 된다   문제점            View가..."
+  },
+  {
     "title": "리눅스 서버",
     "url": "/posts/Linux25/",
     "categories": "Linux, advanced",

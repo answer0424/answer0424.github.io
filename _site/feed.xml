@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>answer</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-07T09:16:09+09:00</updated>
+  <updated>2025-02-09T22:51:20+09:00</updated>
   <author>
     <name>코드로 답하다</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,37 @@
 
   
   <entry>
+    <title>Why React</title>
+    <link href="http://localhost:4000/posts/React01/" rel="alternate" type="text/html" title="Why React" />
+    <published>2025-02-08T17:24:00+09:00</published>
+  
+    <updated>2025-02-08T17:24:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/React01/</id>
+    <content type="text/html" src="http://localhost:4000/posts/React01/" />
+    <author>
+      <name>코드로 답하다</name>
+    </author>
+
+  
+    
+    <category term="React" />
+    
+    <category term="basic" />
+    
+  
+
+  <summary>웹 동작 방식 1    화면에 대한 View를 서버에서 만들어서 브라우저에게 전달   브라우저는 받은 view를 화면에 그려준다     웹 동작 방식 2    view를 받은 뒤 화면의 부분 변경이 필요한 부분을 AJAX 요청한다   JavaScript를 사용하여 AJAX 요청   주로 data를 요청하게 된다   문제점            View가 복잡한 UI일 경우 점점 어려워지고 힘들어진다       부분 변경해야 할 부분이 너무 많다       이러한 이련의 동작들이 클라이언트에서 이루어져야 하기 때문에 선능에 문제가 발생              REACT    AJAX를 사용하여 SPA를 구현하되 클라이언트 프로그래밍이 복잡해지지는 않도록 한다   데이터 변경 감지 -&amp;amp;gt; UI 자동 업데...</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>리눅스 서버</title>
     <link href="http://localhost:4000/posts/Linux25/" rel="alternate" type="text/html" title="리눅스 서버" />
     <published>2025-02-07T08:39:00+09:00</published>
   
-    <updated>2025-02-07T08:39:00+09:00</updated>
+    <updated>2025-02-07T09:16:47+09:00</updated>
   
     <id>http://localhost:4000/posts/Linux25/</id>
     <content type="text/html" src="http://localhost:4000/posts/Linux25/" />
@@ -119,32 +145,6 @@
   
 
   <summary>허가권이란?            파일이나 디렉터리에 대해 다양한 사용자가 접근할 수 있는 권한을 설정하는 것을 의미한다 허가권은 읽기(read), 쓰기(write), 실행(execute) 권한을 사용자(user), 그룹(group), 그리고 기타 사용(other)에게 부여할 수 있다           허가권 변경            chmod                    파일이나 디렉터리의 허가권을 변경하는 명령어이다 각 사용자 그룹, 기타 사용자에 대해 읽기, 쓰기, 실행 권한을 설정할 수 있다                                 u : 사용자 (user)       g : 그룹 (group)       o : 기타 사용자 (other)       a : 모든 사용자 (al...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>리눅스 마스터 2급 기출 문제 3</title>
-    <link href="http://localhost:4000/posts/Linux20/" rel="alternate" type="text/html" title="리눅스 마스터 2급 기출 문제 3" />
-    <published>2025-02-05T08:39:00+09:00</published>
-  
-    <updated>2025-02-05T08:36:45+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Linux20/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Linux20/" />
-    <author>
-      <name>코드로 답하다</name>
-    </author>
-
-  
-    
-    <category term="Linux" />
-    
-    <category term="basic" />
-    
-  
-
-  <summary>파일 시스템이 ext4인 /dev/sdb1 파티션을 /data 디렉터리로 마운트하는 명령            정답 : mount -t ext4 /dev/sdb1 /data                 ihduser 사용자의 디스크 사용량을 확인하는 과정의 명령어            정답 : du -sh ~ihduser                 fdisk 실행 상태에서 변경된 파티션 정보를 저장하지 않고 종료하는 명령            정답 : q</summary>
 
   </entry>
 
