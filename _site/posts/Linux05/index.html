@@ -42,7 +42,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="리눅스 시작/종료/부팅 명령어" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-01T14:20:14+09:00","datePublished":"2025-01-31T16:17:00+09:00","description":"리눅스 종료","headline":"리눅스 시작/종료/부팅 명령어","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Linux05/"},"url":"http://localhost:4000/posts/Linux05/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-09T23:17:49+09:00","datePublished":"2025-01-31T16:17:00+09:00","description":"리눅스 종료","headline":"리눅스 시작/종료/부팅 명령어","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Linux05/"},"url":"http://localhost:4000/posts/Linux05/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -212,9 +212,16 @@
 
   
 
+  
+    
+
+    
+
+  
 
 
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js,npm/tocbot@4.32.2/dist/tocbot.min.js"></script>
 
 
 
@@ -515,6 +522,137 @@
   
 
   
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
 
   
   
@@ -545,7 +683,7 @@
 
 
 
-<article class="px-1" data-toc="false">
+<article class="px-1" data-toc="true">
   <header>
     <h1 data-toc-skip>리눅스 시작/종료/부팅 명령어</h1>
     
@@ -589,13 +727,13 @@
 
 <time
   
-  data-ts="1738387214"
+  data-ts="1739110669"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Feb  1, 2025
+  Feb  9, 2025
 </time>
 
         </span>
@@ -642,7 +780,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="517 words"
+  title="516 words"
 >
   <em>2 min</em> read</span>
 
@@ -652,189 +790,192 @@
   </header>
 
   
+    <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
+      <span class="label text-truncate">리눅스 시작/종료/부팅 명령어</span>
+      <button type="button" class="toc-trigger btn me-1">
+        <i class="fa-solid fa-list-ul fa-fw"></i>
+      </button>
+    </div>
+
+    <button id="toc-solo-trigger" type="button" class="toc-trigger btn btn-outline-secondary btn-sm">
+      <span class="label ps-2 pe-1">Contents</span>
+      <i class="fa-solid fa-angle-right fa-fw"></i>
+    </button>
+
+    <dialog id="toc-popup" class="p-0">
+      <div class="header d-flex flex-row align-items-center justify-content-between">
+        <div class="label text-truncate py-2 ms-4">리눅스 시작/종료/부팅 명령어</div>
+        <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
+          <i class="fas fa-close"></i>
+        </button>
+      </div>
+      <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
+    </dialog>
+  
 
   <div class="content">
-    <ol>
-  <li>
-    <p>리눅스 종료<br />
- <br /></p>
+    <h2 id="리눅스-종료"><span class="me-2">리눅스 종료</span><a href="#리눅스-종료" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
+<ul>
+  <li>shutdown [옵션] [설정값] [시간]
+    <blockquote>
+      <p>가장 안전하게 서버를 종료하는 방법</p>
+    </blockquote>
     <ul>
-      <li>shutdown [옵션] [설정값] [시간]
-        <blockquote>
-          <p>가장 안전하게 서버를 종료하는 방법</p>
-        </blockquote>
-        <ol>
-          <li>옵션
-            <ul>
-              <li>-h : Halt(종료)</li>
-              <li>-c : cancel(shutdown 명령 취소)</li>
-              <li>-r : restart(재시작)</li>
-            </ul>
-          </li>
-          <li>시간
-            <ul>
-              <li>+1 : 1분</li>
-              <li>12:30 : 12시 30분</li>
-              <li>now : 지금
-                <div class="language-bash highlighter-rouge"><div class="code-header">
+      <li>옵션
+        <ul>
+          <li>-h : Halt(종료)</li>
+          <li>-c : cancel(shutdown 명령 취소)</li>
+          <li>-r : restart(재시작)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="시간"><span class="me-2">시간</span><a href="#시간" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<ul>
+  <li>+1 : 1분</li>
+  <li>12:30 : 12시 30분</li>
+  <li>now : 지금
+    <div class="language-bash highlighter-rouge"><div class="code-header">
         <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
 5
-</pre></td><td class="rouge-code"><pre>  shutdown <span class="nt">-h</span> +1
-  shutdown <span class="nt">-h</span> now
-  shutdown <span class="nt">-h</span> 12:30
-  shutdown <span class="nt">-c</span>
-  shutdown <span class="nt">-r</span>
-</pre></td></tr></tbody></table></code></div>                </div>
-              </li>
-            </ul>
-          </li>
-        </ol>
-      </li>
-    </ul>
-
-    <p><br /></p>
-
-    <ul>
-      <li>init [런 레벨]
-        <blockquote>
-          <p>가장 간단하게 서버를 종료하는 방법</p>
-        </blockquote>
-        <ol>
-          <li>런 레벨
-            <ul>
-              <li>0 : 종료</li>
-              <li>1 : 단일 사용자 모드(긴급 모드)</li>
-              <li>2 : 다중 사용자 모드(Not NFS)</li>
-              <li>3 : 다중 사용자, 다중 작업, 텍스트 모드(TUI, CLI)</li>
-              <li>4 : Not Used</li>
-              <li>5 : 다중 사용자 모드, 다중 작업, 그래픽 모드 (GUI)</li>
-              <li>6 : 재시작
- <br /></li>
-            </ul>
-          </li>
-        </ol>
-      </li>
-      <li>poweroff
-        <blockquote>
-          <p>안전한 방법은 아님
- <br /></p>
-        </blockquote>
-      </li>
-      <li>halt
-        <blockquote>
-          <p>리눅스 시스템만 종료됨 (poweroff는 아님)</p>
-        </blockquote>
-        <ol>
-          <li>옵션
-            <ul>
-              <li>-p: 시스템만 종료
-                <div class="language-bash highlighter-rouge"><div class="code-header">
-        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>  halt <span class="nt">-p</span>
-</pre></td></tr></tbody></table></code></div>                </div>
-                <p><br /></p>
-              </li>
-            </ul>
-          </li>
-        </ol>
-      </li>
-      <li>reboot
-        <blockquote>
-          <p>시스템 재시작</p>
-        </blockquote>
-      </li>
-    </ul>
-
-    <p><br /></p>
-
-    <ul>
-      <li>CTRL + ALT + DEL
-        <blockquote>
-          <p>재시작</p>
-        </blockquote>
-      </li>
-    </ul>
+</pre></td><td class="rouge-code"><pre>shutdown <span class="nt">-h</span> +1
+shutdown <span class="nt">-h</span> now
+shutdown <span class="nt">-h</span> 12:30
+shutdown <span class="nt">-c</span>
+shutdown <span class="nt">-r</span>
+</pre></td></tr></tbody></table></code></div>    </div>
   </li>
-</ol>
+</ul>
+
+<h2 id="init-런-레벨"><span class="me-2">init [런 레벨]</span><a href="#init-런-레벨" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<blockquote>
+  <p>가장 간단하게 서버를 종료하는 방법</p>
+  <ul>
+    <li>런 레벨</li>
+    <li>0 : 종료</li>
+    <li>1 : 단일 사용자 모드(긴급 모드)</li>
+    <li>2 : 다중 사용자 모드(Not NFS)</li>
+    <li>3 : 다중 사용자, 다중 작업, 텍스트 모드(TUI, CLI)</li>
+    <li>4 : Not Used</li>
+    <li>5 : 다중 사용자 모드, 다중 작업, 그래픽 모드 (GUI)</li>
+    <li>6 : 재시작</li>
+  </ul>
+</blockquote>
 
 <p><br /></p>
 
-<ol>
-  <li>부팅 모드
-    <ul>
-      <li>systemctl
-        <blockquote>
-          <p>대부분의 모든 프로세스를 제어할 수 있음</p>
-        </blockquote>
-      </li>
-    </ul>
-    <ul>
-      <li>텍스트 모드 : CTRL + ALT + F1~F6으로 텍스트 모드에서 리눅스 콘솔을 6개까지 사용할 수 있음</li>
-      <li>그래픽 모드 : CTRL + ALT + F2 (그래픽 모드의 콘솔 창) / F3~F6 (텍스트 모드의 콘솔 창)
-        <div class="language-bash highlighter-rouge"><div class="code-header">
+<h2 id="poweroff"><span class="me-2">poweroff</span><a href="#poweroff" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<blockquote>
+  <p>안전한 방법은 아님</p>
+</blockquote>
+
+<h2 id="halt"><span class="me-2">halt</span><a href="#halt" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<blockquote>
+  <p>리눅스 시스템만 종료됨 (poweroff는 아님)</p>
+  <ul>
+    <li>옵션
+      <ul>
+        <li>-p: 시스템만 종료
+          <div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>halt <span class="nt">-p</span>
+</pre></td></tr></tbody></table></code></div>          </div>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</blockquote>
+
+<h2 id="reboot"><span class="me-2">reboot</span><a href="#reboot" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<blockquote>
+  <p>시스템 재시작</p>
+  <ul>
+    <li>CTRL + ALT + DEL
+재시작</li>
+  </ul>
+</blockquote>
+
+<p><br /></p>
+
+<h2 id="부팅-모드"><span class="me-2">부팅 모드</span><a href="#부팅-모드" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<ul>
+  <li>systemctl
+    <blockquote>
+      <p>대부분의 모든 프로세스를 제어할 수 있음</p>
+    </blockquote>
+  </li>
+  <li>텍스트 모드 : CTRL + ALT + F1~F6으로 텍스트 모드에서 리눅스 콘솔을 6개까지 사용할 수 있음</li>
+  <li>그래픽 모드 : CTRL + ALT + F2 (그래픽 모드의 콘솔 창) / F3~F6 (텍스트 모드의 콘솔 창)
+    <div class="language-bash highlighter-rouge"><div class="code-header">
         <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
-</pre></td><td class="rouge-code"><pre> systemctl set-default multi-user.target
- systemctl set-default graphical.target
-</pre></td></tr></tbody></table></code></div>        </div>
-      </li>
-    </ul>
-
-    <p><br /></p>
+</pre></td><td class="rouge-code"><pre>systemctl set-default multi-user.target
+systemctl set-default graphical.target
+</pre></td></tr></tbody></table></code></div>    </div>
   </li>
-  <li>shell 프롬프트
-    <ul>
-      <li>[root@localhost ~]# : root 사용자 (관리자)</li>
-    </ul>
+</ul>
+
+<p><br /></p>
+
+<h2 id="shell-프롬프트"><span class="me-2">shell 프롬프트</span><a href="#shell-프롬프트" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<ul>
+  <li>[root@localhost ~]# : root 사용자 (관리자)
     <ul>
       <li>root : 사용자</li>
       <li>@ : 구분자</li>
       <li>localhost : 호스트 명</li>
       <li>~ : 디렉터리</li>
-      <li># : 관리자
-    - [test@localhost ~]$ : 일반 사용자</li>
+      <li># : 관리자</li>
+    </ul>
+  </li>
+  <li>[test@localhost ~]$ : 일반 사용자
+    <ul>
       <li>test : 사용자</li>
       <li>@ : 구분자</li>
       <li>localhost : 호스트명</li>
       <li>~ : 디렉터리</li>
       <li>$ : 일반 사용자</li>
     </ul>
-
-    <p><br /></p>
   </li>
-  <li>사용자
-    <ul>
-      <li>관리자 : root</li>
-      <li>일반 사용자 : root 사용자를 제외한 모든 사용자</li>
-    </ul>
+</ul>
 
-    <p><br /></p>
-  </li>
-  <li>리눅스에서 옵션을 처리하는 방법
-    <ul>
-      <li>
-        <ul>
-          <li>: 보통 약어의 옵션일 때 사용</li>
-        </ul>
-      </li>
-      <li>– : 보통 풀 네임 옵션일 때 사용</li>
-    </ul>
+<p><br /></p>
 
-    <p><br /></p>
-  </li>
-  <li>pwd
+<h2 id="사용자"><span class="me-2">사용자</span><a href="#사용자" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<ul>
+  <li>관리자 : root</li>
+  <li>일반 사용자 : root 사용자를 제외한 모든 사용자</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="리눅스에서-옵션을-처리하는-방법"><span class="me-2">리눅스에서 옵션을 처리하는 방법</span><a href="#리눅스에서-옵션을-처리하는-방법" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<ul>
+  <li>
     <ul>
-      <li>현재 사용자의 모든 루트의 위치를 확인하는 방법</li>
+      <li>: 보통 약어의 옵션일 때 사용</li>
     </ul>
   </li>
-</ol>
+  <li>– : 보통 풀 네임 옵션일 때 사용</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="pwd"><span class="me-2">pwd</span><a href="#pwd" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<ul>
+  <li>현재 사용자의 모든 루트의 위치를 확인하는 방법</li>
+</ul>
 
   </div>
 
@@ -962,35 +1103,35 @@
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/React02/">Why React</a>
+          <a href="/posts/Linux05/">리눅스 시작/종료/부팅 명령어</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/React01/">Why React</a>
+          <a href="/posts/Linux04/">리눅스 네트워크 설정</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/Linux25/">리눅스 서버</a>
+          <a href="/posts/Linux03/">환경 설정 및 기본 명령어</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/Linux24/">디스크 쿼터</a>
+          <a href="/posts/Linux02/">리눅스란?</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/Linux23/">스케줄러</a>
+          <a href="/posts/Linux01/">운영체제(OS)</a>
         </li>
       
     </ul>
@@ -1046,8 +1187,6 @@
     
     
     
-    
-      
     
   
     
@@ -1115,6 +1254,12 @@
 
 
 
+  <div class="toc-border-cover z-3"></div>
+  <section id="toc-wrapper" class="invisible position-sticky ps-0 pe-4 pb-4">
+    <h2 class="panel-heading ps-3 pb-2 mb-0">Contents</h2>
+    <nav id="toc"></nav>
+  </section>
+
 
             
           </aside>
@@ -1148,6 +1293,18 @@
 
 
 
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
 
   
 
@@ -1480,34 +1637,6 @@
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
       
         <article class="col">
-          <a href="/posts/Linux08/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1738387140"
-  data-df="ll"
-  
->
-  Feb  1, 2025
-</time>
-
-              <h4 class="pt-0 my-2">리눅스 디렉터리 구조 및 역할</h4>
-              <div class="text-muted">
-                <p>boot  : 부팅 관련 파일(커널)   etc : 모든 환경 설정 파일   lib : 동적 라이브러리 파일 (32비트)   lib64: 동적 라이브러리 파일 (64비트)   root : root 홈 디렉터리   sbin : 시스템 관련 명령어   usr : 일반 사용자 관련 명령어, 프로그램 설치   bin : 일반 명령어   dev : 장치 파일 ...</p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
           <a href="/posts/Linux07/" class="post-preview card h-100">
             <div class="card-body">
               <!--
@@ -1558,6 +1687,34 @@
               <h4 class="pt-0 my-2">리눅스 파일 / 디렉터리 명령어</h4>
               <div class="text-muted">
                 <p>파일 / 디렉터리 목록 확인            ls [옵션] [대상 파일 / 디렉터리]                                               -l : 목록에 대한 상세 정보를 나타냄(long) = ll           -al : 해당 디렉터리에 있는 숨김 파일이나 디렉터리를 포함하여 보여줌           -r : 해...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/Linux04/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1738306080"
+  data-df="ll"
+  
+>
+  Jan 31, 2025
+</time>
+
+              <h4 class="pt-0 my-2">리눅스 네트워크 설정</h4>
+              <div class="text-muted">
+                <p>네트워크 설정 기본         edit            virtual network editor       vmet0 -&amp;gt; type: Bridged   vmet8 -&amp;gt; type: NAT    IP 설정 시 앞 3자리는 동일하게 설정     터미널 설정 단계    NetworkManager의 system-connections 폴더로 이...</p>
               </div>
             </div>
           </a>
@@ -1691,8 +1848,6 @@
     
     
     
-    
-      
     
   
     

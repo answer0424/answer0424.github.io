@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>answer</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-09T22:53:33+09:00</updated>
+  <updated>2025-02-09T23:19:11+09:00</updated>
   <author>
     <name>코드로 답하다</name>
     <uri>http://localhost:4000/</uri>
@@ -20,11 +20,37 @@
 
   
   <entry>
-    <title>Why React</title>
-    <link href="http://localhost:4000/posts/React02/" rel="alternate" type="text/html" title="Why React" />
+    <title>React CSS 적용용</title>
+    <link href="http://localhost:4000/posts/React03/" rel="alternate" type="text/html" title="React CSS 적용용" />
+    <published>2025-02-09T23:00:00+09:00</published>
+  
+    <updated>2025-02-09T23:05:22+09:00</updated>
+  
+    <id>http://localhost:4000/posts/React03/</id>
+    <content type="text/html" src="http://localhost:4000/posts/React03/" />
+    <author>
+      <name>코드로 답하다</name>
+    </author>
+
+  
+    
+    <category term="React" />
+    
+    <category term="basic" />
+    
+  
+
+  <summary>inline const myStyle = {   color: &amp;quot;blue&amp;quot;, };      &amp;amp;lt;div style=&amp;amp;gt;coco&amp;amp;lt;/div&amp;amp;gt; &amp;amp;lt;div style={myStyle}&amp;amp;gt;chuchu&amp;amp;lt;/div&amp;amp;gt;     외부 파일 import React from &amp;#39;react&amp;#39;; import styles from &amp;#39;./example.module.css&amp;#39;;  const Example = () =&amp;amp;gt; {     return &amp;amp;lt;div className={styles.container}&amp;amp;gt;Hello, World!&amp;amp;lt;/div&amp;amp;gt;; };  export default Example;      Styled Components import React from &amp;#39;react&amp;#39;; im...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>JSX</title>
+    <link href="http://localhost:4000/posts/React02/" rel="alternate" type="text/html" title="JSX" />
     <published>2025-02-09T22:52:00+09:00</published>
   
-    <updated>2025-02-09T22:52:00+09:00</updated>
+    <updated>2025-02-09T22:59:10+09:00</updated>
   
     <id>http://localhost:4000/posts/React02/</id>
     <content type="text/html" src="http://localhost:4000/posts/React02/" />
@@ -40,7 +66,7 @@
     
   
 
-  <summary>JSX    Java Script XML   React에서만 XML 형식의 사용이 가능하다   최총</summary>
+  <summary>JSX    Java Script XML   React에서만 XML 형식의 사용이 가능하다   최초에 페이지 한 개가 로딩되고 나면 이후에 body 내용만 업데이트 되는 형태로 웹 애플리케이션이 작동한다 -&amp;amp;gt; SPA(Single Page Application)    tage 등을 사용할 수 없다     주의할 점    return 시 하나의 element만 사용 가능하다   비어 있는 태그로 감싸도 된다   변수 선언은 let, const만 사용해야 한다   JSX 안에서는 조건문 사용이 불가능하지만 삼항연산자는 사용 가능하다     function App() { // return 시 하나의 element 만 사용 가능 // 비어있는 태그로 감싸도 됨 return ( &amp;amp;lt;&amp;amp;gt;   &amp;amp;lt;h...</summary>
 
   </entry>
 
@@ -119,32 +145,6 @@
   
 
   <summary>주요 개념    소프트 리밋(soft limit) : 사용자가 기본적으로 사용할 수 있는 용량으로 이 값을 초과하면 관리자가 설정한 기간 동안 초과된 용량을 사용할 수 있다   하드 리밋(hard limit) : 사용자가 사용할 수 있는 최대 용량으로 이 값을 초과하면 사용할 수 없다   I-node 제한 : 사용자나 그룹이 생성할 수 있는 파일의 개수를 제한한다     설정 방법    Quota 패키지 설치   사용자 계정 생성 : Quota를 적용할 사용자 계정을 생성   디스크 쿼터 설정 : edquota 명령어   디스크 쿼터 확인 : quota 명령어     sudo apt-get install quota sudo useradd quota_user sudo edquota -u quota_use...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>스케줄러</title>
-    <link href="http://localhost:4000/posts/Linux23/" rel="alternate" type="text/html" title="스케줄러" />
-    <published>2025-02-06T08:39:00+09:00</published>
-  
-    <updated>2025-02-06T08:39:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Linux23/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Linux23/" />
-    <author>
-      <name>코드로 답하다</name>
-    </author>
-
-  
-    
-    <category term="Linux" />
-    
-    <category term="advanced" />
-    
-  
-
-  <summary>스케줄러    crontab을 사용하여 작업을 일정한 시간에 자동으로 실행할 수 있다 특정 시간이나 간격에 반복적으로 실행되는 작업을 관리하는 데 유용하다     설정 방법    crontab            -l : 현재 등록된 스케줄 확인       -e : 스케줄 추가       -r : 스케줄 삭제           crontab -l crontab -e crontab -r     작성 방법 * * * * * command_to_execute 분(0-59) 시(0-23) 일(1-31) 월(1-12) 요일(0-6) / 일요일 = 0 또는 7  0 */30 * * * command_to_execute (매 30분마다 실행) 0 * * * * command_to_execute    (매 시간마다 ...</summary>
 
   </entry>
 

@@ -32,8 +32,8 @@
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="리눅스 네트워크 설정" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="네트워크 설정 기본 edit virtual network editor vmet0 -&gt; type: Bridged vmet8 -&gt; type: NAT IP 설정 시 앞 3자리는 동일하게 설정" />
-<meta property="og:description" content="네트워크 설정 기본 edit virtual network editor vmet0 -&gt; type: Bridged vmet8 -&gt; type: NAT IP 설정 시 앞 3자리는 동일하게 설정" />
+<meta name="description" content="네트워크 설정 기본 edit" />
+<meta property="og:description" content="네트워크 설정 기본 edit" />
 <link rel="canonical" href="http://localhost:4000/posts/Linux04/" />
 <meta property="og:url" content="http://localhost:4000/posts/Linux04/" />
 <meta property="og:site_name" content="answer" />
@@ -42,7 +42,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="리눅스 네트워크 설정" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-01T14:20:14+09:00","datePublished":"2025-01-31T15:48:00+09:00","description":"네트워크 설정 기본 edit virtual network editor vmet0 -&gt; type: Bridged vmet8 -&gt; type: NAT IP 설정 시 앞 3자리는 동일하게 설정","headline":"리눅스 네트워크 설정","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Linux04/"},"url":"http://localhost:4000/posts/Linux04/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-09T23:13:06+09:00","datePublished":"2025-01-31T15:48:00+09:00","description":"네트워크 설정 기본 edit","headline":"리눅스 네트워크 설정","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Linux04/"},"url":"http://localhost:4000/posts/Linux04/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -212,9 +212,16 @@
 
   
 
+  
+    
+
+    
+
+  
 
 
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js,npm/tocbot@4.32.2/dist/tocbot.min.js"></script>
 
 
 
@@ -714,6 +721,49 @@
   
 
   
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
 
   
   
@@ -744,7 +794,7 @@
 
 
 
-<article class="px-1" data-toc="false">
+<article class="px-1" data-toc="true">
   <header>
     <h1 data-toc-skip>리눅스 네트워크 설정</h1>
     
@@ -788,13 +838,13 @@
 
 <time
   
-  data-ts="1738387214"
+  data-ts="1739110386"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Feb  1, 2025
+  Feb  9, 2025
 </time>
 
         </span>
@@ -851,74 +901,93 @@
   </header>
 
   
+    <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
+      <span class="label text-truncate">리눅스 네트워크 설정</span>
+      <button type="button" class="toc-trigger btn me-1">
+        <i class="fa-solid fa-list-ul fa-fw"></i>
+      </button>
+    </div>
+
+    <button id="toc-solo-trigger" type="button" class="toc-trigger btn btn-outline-secondary btn-sm">
+      <span class="label ps-2 pe-1">Contents</span>
+      <i class="fa-solid fa-angle-right fa-fw"></i>
+    </button>
+
+    <dialog id="toc-popup" class="p-0">
+      <div class="header d-flex flex-row align-items-center justify-content-between">
+        <div class="label text-truncate py-2 ms-4">리눅스 네트워크 설정</div>
+        <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
+          <i class="fas fa-close"></i>
+        </button>
+      </div>
+      <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
+    </dialog>
+  
 
   <div class="content">
-    <hr />
-<ol>
-  <li>네트워크 설정 기본
-    <ul>
-      <li>edit
- <br />
-  <a href="/assets/img/linux/04edit.png" class="popup img-link  shimmer"><img src="/assets/img/linux/04edit.png" alt="edit" loading="lazy"></a></li>
-      <li>virtual network editor
- <br />
-  <a href="/assets/img/linux/04virtualNetworkEditor.png" class="popup img-link  shimmer"><img src="/assets/img/linux/04virtualNetworkEditor.png" alt="virtualNetworkEditor" loading="lazy"></a></li>
-      <li>vmet0 -&gt; type: Bridged</li>
-      <li>vmet8 -&gt; type: NAT
- <br />
-  <a href="/assets/img/linux/04vmet0,8.png" class="popup img-link  shimmer"><img src="/assets/img/linux/04vmet0,8.png" alt="vmet0,vmet8" loading="lazy"></a></li>
-      <li>IP 설정 시 앞 3자리는 동일하게 설정</li>
-    </ul>
-
-    <p><br /></p>
+    <h2 id="네트워크-설정-기본"><span class="me-2">네트워크 설정 기본</span><a href="#네트워크-설정-기본" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<ul>
+  <li>
+    <p>edit
+<a href="/assets/img/linux/04edit.png" class="popup img-link  shimmer"><img src="/assets/img/linux/04edit.png" alt="edit" loading="lazy"></a></p>
   </li>
-  <li>터미널 설정 단계
-    <ul>
-      <li>NetworkManager의 system-connections 폴더로 이동</li>
-      <li>네트워크 설정 파일 편집 (vi 편집기에 대해서는 추후 설명 예정)
-        <div class="language-bash highlighter-rouge"><div class="code-header">
+  <li>
+    <p>virtual network editor
+<a href="/assets/img/linux/04virtualNetworkEditor.png" class="popup img-link  shimmer"><img src="/assets/img/linux/04virtualNetworkEditor.png" alt="virtualNetworkEditor" loading="lazy"></a></p>
+  </li>
+  <li>vmet0 -&gt; type: Bridged</li>
+  <li>vmet8 -&gt; type: NAT
+<a href="/assets/img/linux/04vmet0,8.png" class="popup img-link  shimmer"><img src="/assets/img/linux/04vmet0,8.png" alt="vmet0,vmet8" loading="lazy"></a></li>
+  <li>IP 설정 시 앞 3자리는 동일하게 설정</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="터미널-설정-단계"><span class="me-2">터미널 설정 단계</span><a href="#터미널-설정-단계" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<ul>
+  <li>NetworkManager의 system-connections 폴더로 이동</li>
+  <li>네트워크 설정 파일 편집 (vi 편집기에 대해서는 추후 설명 예정)
+    <div class="language-bash highlighter-rouge"><div class="code-header">
         <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
-</pre></td><td class="rouge-code"><pre> <span class="nb">cd </span>etc/NetworkManager/system-connections/
- vi ens160.nmconnection
-</pre></td></tr></tbody></table></code></div>        </div>
-      </li>
-      <li>‘i’ 키를 통해 편집모드 진입 가능</li>
-      <li>네트워크 설정이 수동으로 이루어짐을 나타냄</li>
-      <li>IP 주소와 서브넷 마스크 게이트웨이를 설정</li>
-      <li>네트워크 설정에서 사용할 DNS 서버를 지정
-        <div class="language-bash highlighter-rouge"><div class="code-header">
+</pre></td><td class="rouge-code"><pre><span class="nb">cd </span>etc/NetworkManager/system-connections/
+vi ens160.nmconnection
+</pre></td></tr></tbody></table></code></div>    </div>
+  </li>
+  <li>‘i’ 키를 통해 편집모드 진입 가능</li>
+  <li>네트워크 설정이 수동으로 이루어짐을 나타냄</li>
+  <li>IP 주소와 서브넷 마스크 게이트웨이를 설정</li>
+  <li>네트워크 설정에서 사용할 DNS 서버를 지정
+    <div class="language-bash highlighter-rouge"><div class="code-header">
         <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
-</pre></td><td class="rouge-code"><pre> <span class="o">[</span>ipv4]
- <span class="nv">method</span><span class="o">=</span>manual
- <span class="nv">address1</span><span class="o">=</span>IP주소/서브넷마스크,게이트웨이
- <span class="nv">dns</span><span class="o">=</span>DNS서버
-</pre></td></tr></tbody></table></code></div>        </div>
-      </li>
-    </ul>
-
-    <p><br /></p>
+</pre></td><td class="rouge-code"><pre><span class="o">[</span>ipv4]
+<span class="nv">method</span><span class="o">=</span>manual
+<span class="nv">address1</span><span class="o">=</span>IP주소/서브넷마스크,게이트웨이
+<span class="nv">dns</span><span class="o">=</span>DNS서버
+</pre></td></tr></tbody></table></code></div>    </div>
   </li>
-  <li>마무리 단계
-    <ul>
-      <li>시스템 재시작</li>
-      <li>IP 설정 확인
-        <div class="language-bash highlighter-rouge"><div class="code-header">
+</ul>
+
+<p><br /></p>
+
+<h2 id="마무리-단계"><span class="me-2">마무리 단계</span><a href="#마무리-단계" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<ul>
+  <li>시스템 재시작</li>
+  <li>IP 설정 확인
+    <div class="language-bash highlighter-rouge"><div class="code-header">
         <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
-</pre></td><td class="rouge-code"><pre> reboot
- ipconfig
-</pre></td></tr></tbody></table></code></div>        </div>
-      </li>
-    </ul>
+</pre></td><td class="rouge-code"><pre>reboot
+ipconfig
+</pre></td></tr></tbody></table></code></div>    </div>
   </li>
-</ol>
+</ul>
 
   </div>
 
@@ -1046,35 +1115,35 @@
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/React02/">Why React</a>
+          <a href="/posts/Linux05/">리눅스 시작/종료/부팅 명령어</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/React01/">Why React</a>
+          <a href="/posts/Linux04/">리눅스 네트워크 설정</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/Linux25/">리눅스 서버</a>
+          <a href="/posts/Linux03/">환경 설정 및 기본 명령어</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/Linux24/">디스크 쿼터</a>
+          <a href="/posts/Linux02/">리눅스란?</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/Linux23/">스케줄러</a>
+          <a href="/posts/Linux01/">운영체제(OS)</a>
         </li>
       
     </ul>
@@ -1130,8 +1199,6 @@
     
     
     
-    
-      
     
   
     
@@ -1199,6 +1266,12 @@
 
 
 
+  <div class="toc-border-cover z-3"></div>
+  <section id="toc-wrapper" class="invisible position-sticky ps-0 pe-4 pb-4">
+    <h2 class="panel-heading ps-3 pb-2 mb-0">Contents</h2>
+    <nav id="toc"></nav>
+  </section>
+
 
             
           </aside>
@@ -1232,6 +1305,18 @@
 
 
 
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
 
   
 
@@ -1564,34 +1649,6 @@
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
       
         <article class="col">
-          <a href="/posts/Linux08/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1738387140"
-  data-df="ll"
-  
->
-  Feb  1, 2025
-</time>
-
-              <h4 class="pt-0 my-2">리눅스 디렉터리 구조 및 역할</h4>
-              <div class="text-muted">
-                <p>boot  : 부팅 관련 파일(커널)   etc : 모든 환경 설정 파일   lib : 동적 라이브러리 파일 (32비트)   lib64: 동적 라이브러리 파일 (64비트)   root : root 홈 디렉터리   sbin : 시스템 관련 명령어   usr : 일반 사용자 관련 명령어, 프로그램 설치   bin : 일반 명령어   dev : 장치 파일 ...</p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
           <a href="/posts/Linux07/" class="post-preview card h-100">
             <div class="card-body">
               <!--
@@ -1642,6 +1699,34 @@
               <h4 class="pt-0 my-2">리눅스 파일 / 디렉터리 명령어</h4>
               <div class="text-muted">
                 <p>파일 / 디렉터리 목록 확인            ls [옵션] [대상 파일 / 디렉터리]                                               -l : 목록에 대한 상세 정보를 나타냄(long) = ll           -al : 해당 디렉터리에 있는 숨김 파일이나 디렉터리를 포함하여 보여줌           -r : 해...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/Linux05/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1738307820"
+  data-df="ll"
+  
+>
+  Jan 31, 2025
+</time>
+
+              <h4 class="pt-0 my-2">리눅스 시작/종료/부팅 명령어</h4>
+              <div class="text-muted">
+                <p>리눅스 종료     shutdown [옵션] [설정값] [시간]            가장 안전하게 서버를 종료하는 방법                 옵션                    -h : Halt(종료)           -c : cancel(shutdown 명령 취소)           -r : restart(재시작)             ...</p>
               </div>
             </div>
           </a>
@@ -1775,8 +1860,6 @@
     
     
     
-    
-      
     
   
     

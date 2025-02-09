@@ -42,7 +42,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="환경 설정 및 기본 명령어" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-01T14:20:14+09:00","datePublished":"2025-01-31T15:37:00+09:00","description":"환경 설정 명령어 dnf 패키지 관리자를 사용하여 GNOME 데스크 탑 환경의 설정을 조정하는 데 사용하는 gnome-tweaks 패키지를 설치 GNOME 확장 프로그램을 관리하는 데 사용 백그라운드에서 gnome-extensions-app을 실행 1 2 3 dnf -y install gnome-tweaks dnf -y install gnome-extensions-app gnome-extentions-app &amp;","headline":"환경 설정 및 기본 명령어","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Linux03/"},"url":"http://localhost:4000/posts/Linux03/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-09T23:09:53+09:00","datePublished":"2025-01-31T15:37:00+09:00","description":"환경 설정 명령어 dnf 패키지 관리자를 사용하여 GNOME 데스크 탑 환경의 설정을 조정하는 데 사용하는 gnome-tweaks 패키지를 설치 GNOME 확장 프로그램을 관리하는 데 사용 백그라운드에서 gnome-extensions-app을 실행 1 2 3 dnf -y install gnome-tweaks dnf -y install gnome-extensions-app gnome-extentions-app &amp;","headline":"환경 설정 및 기본 명령어","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Linux03/"},"url":"http://localhost:4000/posts/Linux03/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -212,9 +212,16 @@
 
   
 
+  
+    
+
+    
+
+  
 
 
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js,npm/tocbot@4.32.2/dist/tocbot.min.js"></script>
 
 
 
@@ -515,6 +522,49 @@
   
 
   
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
 
   
   
@@ -545,7 +595,7 @@
 
 
 
-<article class="px-1" data-toc="false">
+<article class="px-1" data-toc="true">
   <header>
     <h1 data-toc-skip>환경 설정 및 기본 명령어</h1>
     
@@ -589,13 +639,13 @@
 
 <time
   
-  data-ts="1738387214"
+  data-ts="1739110193"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Feb  1, 2025
+  Feb  9, 2025
 </time>
 
         </span>
@@ -652,16 +702,37 @@
   </header>
 
   
+    <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
+      <span class="label text-truncate">환경 설정 및 기본 명령어</span>
+      <button type="button" class="toc-trigger btn me-1">
+        <i class="fa-solid fa-list-ul fa-fw"></i>
+      </button>
+    </div>
+
+    <button id="toc-solo-trigger" type="button" class="toc-trigger btn btn-outline-secondary btn-sm">
+      <span class="label ps-2 pe-1">Contents</span>
+      <i class="fa-solid fa-angle-right fa-fw"></i>
+    </button>
+
+    <dialog id="toc-popup" class="p-0">
+      <div class="header d-flex flex-row align-items-center justify-content-between">
+        <div class="label text-truncate py-2 ms-4">환경 설정 및 기본 명령어</div>
+        <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
+          <i class="fas fa-close"></i>
+        </button>
+      </div>
+      <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
+    </dialog>
+  
 
   <div class="content">
     <hr />
-<ol>
-  <li>환경 설정 명령어
-    <ul>
-      <li>dnf 패키지 관리자를 사용하여 GNOME 데스크 탑 환경의 설정을 조정하는 데 사용하는 gnome-tweaks 패키지를 설치</li>
-      <li>GNOME 확장 프로그램을 관리하는 데 사용</li>
-      <li>백그라운드에서 gnome-extensions-app을 실행
-        <div class="language-bash highlighter-rouge"><div class="code-header">
+<h2 id="환경-설정-명령어"><span class="me-2">환경 설정 명령어</span><a href="#환경-설정-명령어" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<ul>
+  <li>dnf 패키지 관리자를 사용하여 GNOME 데스크 탑 환경의 설정을 조정하는 데 사용하는 gnome-tweaks 패키지를 설치</li>
+  <li>GNOME 확장 프로그램을 관리하는 데 사용</li>
+  <li>백그라운드에서 gnome-extensions-app을 실행
+    <div class="language-bash highlighter-rouge"><div class="code-header">
         <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
@@ -669,19 +740,19 @@
 </pre></td><td class="rouge-code"><pre>dnf <span class="nt">-y</span> <span class="nb">install </span>gnome-tweaks
 dnf <span class="nt">-y</span> <span class="nb">install </span>gnome-extensions-app
 gnome-extentions-app &amp;
-</pre></td></tr></tbody></table></code></div>        </div>
-      </li>
-    </ul>
-
-    <p><br /></p>
+</pre></td></tr></tbody></table></code></div>    </div>
   </li>
-  <li>기본 명령어
-    <ul>
-      <li>화면 지우기</li>
-      <li>네트워크 연결 확인</li>
-      <li>IP 주소 확인</li>
-      <li>서버 종료
-        <div class="language-bash highlighter-rouge"><div class="code-header">
+</ul>
+
+<p><br /></p>
+
+<h2 id="기본-명령어"><span class="me-2">기본 명령어</span><a href="#기본-명령어" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<ul>
+  <li>화면 지우기</li>
+  <li>네트워크 연결 확인</li>
+  <li>IP 주소 확인</li>
+  <li>서버 종료
+    <div class="language-bash highlighter-rouge"><div class="code-header">
         <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
@@ -691,20 +762,18 @@ gnome-extentions-app &amp;
 ping
 ipcofig
 init 0
-</pre></td></tr></tbody></table></code></div>        </div>
-      </li>
-    </ul>
+</pre></td></tr></tbody></table></code></div>    </div>
+  </li>
+</ul>
 
-    <p><br /></p>
-  </li>
-  <li>명령어 사용 팁
-    <ul>
-      <li>[tab] 키로 자동 완성</li>
-      <li>방향 키로 이전 명령어 탐색</li>
-      <li>history 명령어로 최근 1000개의 명령어 확인</li>
-    </ul>
-  </li>
-</ol>
+<p><br /></p>
+
+<h2 id="명령어-사용-팁"><span class="me-2">명령어 사용 팁</span><a href="#명령어-사용-팁" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<ul>
+  <li>[tab] 키로 자동 완성</li>
+  <li>방향 키로 이전 명령어 탐색</li>
+  <li>history 명령어로 최근 1000개의 명령어 확인</li>
+</ul>
 
   </div>
 
@@ -832,35 +901,35 @@ init 0
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/React02/">Why React</a>
+          <a href="/posts/Linux05/">리눅스 시작/종료/부팅 명령어</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/React01/">Why React</a>
+          <a href="/posts/Linux04/">리눅스 네트워크 설정</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/Linux25/">리눅스 서버</a>
+          <a href="/posts/Linux03/">환경 설정 및 기본 명령어</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/Linux24/">디스크 쿼터</a>
+          <a href="/posts/Linux02/">리눅스란?</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/Linux23/">스케줄러</a>
+          <a href="/posts/Linux01/">운영체제(OS)</a>
         </li>
       
     </ul>
@@ -916,8 +985,6 @@ init 0
     
     
     
-    
-      
     
   
     
@@ -985,6 +1052,12 @@ init 0
 
 
 
+  <div class="toc-border-cover z-3"></div>
+  <section id="toc-wrapper" class="invisible position-sticky ps-0 pe-4 pb-4">
+    <h2 class="panel-heading ps-3 pb-2 mb-0">Contents</h2>
+    <nav id="toc"></nav>
+  </section>
+
 
             
           </aside>
@@ -1018,6 +1091,18 @@ init 0
 
 
 
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
 
   
 
@@ -1350,34 +1435,6 @@ init 0
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
       
         <article class="col">
-          <a href="/posts/Linux08/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1738387140"
-  data-df="ll"
-  
->
-  Feb  1, 2025
-</time>
-
-              <h4 class="pt-0 my-2">리눅스 디렉터리 구조 및 역할</h4>
-              <div class="text-muted">
-                <p>boot  : 부팅 관련 파일(커널)   etc : 모든 환경 설정 파일   lib : 동적 라이브러리 파일 (32비트)   lib64: 동적 라이브러리 파일 (64비트)   root : root 홈 디렉터리   sbin : 시스템 관련 명령어   usr : 일반 사용자 관련 명령어, 프로그램 설치   bin : 일반 명령어   dev : 장치 파일 ...</p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="col">
           <a href="/posts/Linux07/" class="post-preview card h-100">
             <div class="card-body">
               <!--
@@ -1428,6 +1485,34 @@ init 0
               <h4 class="pt-0 my-2">리눅스 파일 / 디렉터리 명령어</h4>
               <div class="text-muted">
                 <p>파일 / 디렉터리 목록 확인            ls [옵션] [대상 파일 / 디렉터리]                                               -l : 목록에 대한 상세 정보를 나타냄(long) = ll           -al : 해당 디렉터리에 있는 숨김 파일이나 디렉터리를 포함하여 보여줌           -r : 해...</p>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="col">
+          <a href="/posts/Linux05/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1738307820"
+  data-df="ll"
+  
+>
+  Jan 31, 2025
+</time>
+
+              <h4 class="pt-0 my-2">리눅스 시작/종료/부팅 명령어</h4>
+              <div class="text-muted">
+                <p>리눅스 종료     shutdown [옵션] [설정값] [시간]            가장 안전하게 서버를 종료하는 방법                 옵션                    -h : Halt(종료)           -c : cancel(shutdown 명령 취소)           -r : restart(재시작)             ...</p>
               </div>
             </div>
           </a>
@@ -1561,8 +1646,6 @@ init 0
     
     
     
-    
-      
     
   
     
