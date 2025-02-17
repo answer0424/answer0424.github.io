@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>answer</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-09T23:26:29+09:00</updated>
+  <updated>2025-02-15T10:36:30+09:00</updated>
   <author>
     <name>코드로 답하다</name>
     <uri>http://localhost:4000/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>React CSS 적용용</title>
-    <link href="http://localhost:4000/posts/React03/" rel="alternate" type="text/html" title="React CSS 적용용" />
-    <published>2025-02-09T23:00:00+09:00</published>
+    <title>Form</title>
+    <link href="http://localhost:4000/posts/React10/" rel="alternate" type="text/html" title="Form" />
+    <published>2025-02-14T08:40:00+09:00</published>
   
-    <updated>2025-02-09T23:05:22+09:00</updated>
+    <updated>2025-02-14T08:40:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/React03/</id>
-    <content type="text/html" src="http://localhost:4000/posts/React03/" />
+    <id>http://localhost:4000/posts/React10/</id>
+    <content type="text/html" src="http://localhost:4000/posts/React10/" />
     <author>
       <name>코드로 답하다</name>
     </author>
@@ -36,24 +36,24 @@
     
     <category term="React" />
     
-    <category term="basic" />
+    <category term="initial" />
     
   
 
-  <summary>inline const myStyle = {   color: &amp;quot;blue&amp;quot;, };      &amp;amp;lt;div style=&amp;amp;gt;coco&amp;amp;lt;/div&amp;amp;gt; &amp;amp;lt;div style={myStyle}&amp;amp;gt;chuchu&amp;amp;lt;/div&amp;amp;gt;     외부 파일 import React from &amp;#39;react&amp;#39;; import styles from &amp;#39;./example.module.css&amp;#39;;  const Example = () =&amp;amp;gt; {     return &amp;amp;lt;div className={styles.container}&amp;amp;gt;Hello, World!&amp;amp;lt;/div&amp;amp;gt;; };  export default Example;      Styled Components import React from &amp;#39;react&amp;#39;; im...</summary>
+  <summary>폼 상태 관리    React에서는 폼 상태를 관리하기 위해 useState 훅을 자주 사용한다     import React, { useState } from &amp;#39;react&amp;#39;;  const MyForm = () =&amp;amp;gt; {   const [name, setName] = useState(&amp;#39;&amp;#39;);    const handleChange = (event) =&amp;amp;gt; {     setName(event.target.value);   }    const handleSubmit = (event) =&amp;amp;gt; {     event.preventDefault();     alert(`Submitted Name: ${name}`);   }    return (     &amp;amp;lt;form onSubmit={handleSub...</summary>
 
   </entry>
 
   
   <entry>
-    <title>JSX</title>
-    <link href="http://localhost:4000/posts/React02/" rel="alternate" type="text/html" title="JSX" />
-    <published>2025-02-09T22:52:00+09:00</published>
+    <title>useReducer</title>
+    <link href="http://localhost:4000/posts/React09/" rel="alternate" type="text/html" title="useReducer" />
+    <published>2025-02-13T08:36:00+09:00</published>
   
-    <updated>2025-02-09T22:59:10+09:00</updated>
+    <updated>2025-02-13T08:49:11+09:00</updated>
   
-    <id>http://localhost:4000/posts/React02/</id>
-    <content type="text/html" src="http://localhost:4000/posts/React02/" />
+    <id>http://localhost:4000/posts/React09/</id>
+    <content type="text/html" src="http://localhost:4000/posts/React09/" />
     <author>
       <name>코드로 답하다</name>
     </author>
@@ -62,24 +62,24 @@
     
     <category term="React" />
     
-    <category term="basic" />
+    <category term="hook" />
     
   
 
-  <summary>JSX    Java Script XML   React에서만 XML 형식의 사용이 가능하다   최초에 페이지 한 개가 로딩되고 나면 이후에 body 내용만 업데이트 되는 형태로 웹 애플리케이션이 작동한다 -&amp;amp;gt; SPA(Single Page Application)    tage 등을 사용할 수 없다     주의할 점    return 시 하나의 element만 사용 가능하다   비어 있는 태그로 감싸도 된다   변수 선언은 let, const만 사용해야 한다   JSX 안에서는 조건문 사용이 불가능하지만 삼항연산자는 사용 가능하다     function App() { // return 시 하나의 element 만 사용 가능 // 비어있는 태그로 감싸도 됨 return ( &amp;amp;lt;&amp;amp;gt;   &amp;amp;lt;h...</summary>
+  <summary>useReducer    상태 업데이트 로직이 복잡할 때 사용되는 리엑트 훅 주로 Redux와 같은 패턴에서 영감을 받았다 상태와 상태 업데이트 함수를 반환하는데 이를 통해 복잡한 상태 로직을 보다 직관적으로 관리할 수 있다     기본 사용법 const [state, dispatch] = useReducer(reducer, initialState);     reducer : 상태를 업데이트하는 함수, 두 개의 인자를 받는다   initialState : 초기 상태 값     예제    reducer 함수 : 상태 업데이트 로직을 정의한다     function reducer(state, action) {   switch (action.type) {  case &amp;#39;increment&amp;#39;:    return ...</summary>
 
   </entry>
 
   
   <entry>
-    <title>Why React</title>
-    <link href="http://localhost:4000/posts/React01/" rel="alternate" type="text/html" title="Why React" />
-    <published>2025-02-08T17:24:00+09:00</published>
+    <title>useContext</title>
+    <link href="http://localhost:4000/posts/React08/" rel="alternate" type="text/html" title="useContext" />
+    <published>2025-02-12T08:43:00+09:00</published>
   
-    <updated>2025-02-09T22:51:39+09:00</updated>
+    <updated>2025-02-13T08:44:49+09:00</updated>
   
-    <id>http://localhost:4000/posts/React01/</id>
-    <content type="text/html" src="http://localhost:4000/posts/React01/" />
+    <id>http://localhost:4000/posts/React08/</id>
+    <content type="text/html" src="http://localhost:4000/posts/React08/" />
     <author>
       <name>코드로 답하다</name>
     </author>
@@ -88,63 +88,63 @@
     
     <category term="React" />
     
-    <category term="basic" />
+    <category term="hook" />
     
   
 
-  <summary>웹 동작 방식 1    화면에 대한 View를 서버에서 만들어서 브라우저에게 전달   브라우저는 받은 view를 화면에 그려준다     웹 동작 방식 2    view를 받은 뒤 화면의 부분 변경이 필요한 부분을 AJAX 요청한다   JavaScript를 사용하여 AJAX 요청   주로 data를 요청하게 된다   문제점            View가 복잡한 UI일 경우 점점 어려워지고 힘들어진다       부분 변경해야 할 부분이 너무 많다       이러한 이련의 동작들이 클라이언트에서 이루어져야 하기 때문에 선능에 문제가 발생              REACT    AJAX를 사용하여 SPA를 구현하되 클라이언트 프로그래밍이 복잡해지지는 않도록 한다   데이터 변경 감지 -&amp;amp;gt; UI 자동 업데...</summary>
+  <summary>useContext    Context API를 통해 전역 상태를 쉽게 관리하고 접근할 수 있도록 도와준다 Context API는 컴포넌트 트리 전체에서 데이터를 전달하는 간편한 방법을 제공한다     사용법 const value = useContext(MyContext);     Context API의 구성 요소    Context 객체 생성 : React.createContext()를 사용하여 Context 객체를 생성한다     const MyContext = React.createContext(defaultValue);           Provider : Context를 통해 하위 컴포넌트에게 값을 제공하는 컴포넌트 ```javascript  &amp;amp;lt;MyContext.Provider value...</summary>
 
   </entry>
 
   
   <entry>
-    <title>리눅스 서버</title>
-    <link href="http://localhost:4000/posts/Linux25/" rel="alternate" type="text/html" title="리눅스 서버" />
-    <published>2025-02-07T08:39:00+09:00</published>
+    <title>useRef</title>
+    <link href="http://localhost:4000/posts/React07/" rel="alternate" type="text/html" title="useRef" />
+    <published>2025-02-12T08:43:00+09:00</published>
   
-    <updated>2025-02-07T09:16:47+09:00</updated>
+    <updated>2025-02-13T08:42:55+09:00</updated>
   
-    <id>http://localhost:4000/posts/Linux25/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Linux25/" />
+    <id>http://localhost:4000/posts/React07/</id>
+    <content type="text/html" src="http://localhost:4000/posts/React07/" />
     <author>
       <name>코드로 답하다</name>
     </author>
 
   
     
-    <category term="Linux" />
+    <category term="React" />
     
-    <category term="advanced" />
+    <category term="hook" />
     
   
 
-  <summary>talnet server    원격 시스템에 로그온하여 인터넷 또는 로컬 네트워크의 다른 컴퓨터에 액세스할 수 있게 해주는 프로그램이다      서버 프로그램 설치     dnf -y install telnet-server-1:0.17-85.el9.x86_64            클라이언트 프로그램 설치     dnf -y install telnet                환경 설정 파일 : /usr/lib/systemd/system/telnet.socket      서비스 시작 및 재시작     systemctl restart telnet.socket           클라이언트에서 접속     telnet 192.168.10.50           포트 변경            /usr/lib/...</summary>
+  <summary>useRef    DOM 요소나 저장 공간을 직접 참조할 수 있게 해준다 이는 클래스형 컴포넌트에서 사용되던 ref와 유사한 기능을 함수형 컴포넌트에서 사용할 수 있도록 도와준다     사용법 const myRef = useRef(initialValue);     initialValue는 useRef로 생성된 객체의 초기값을 설정한다     주요 포인트    DOM 접근            useRef는 DOM요소에 직접 접근할 수 있도록 해준다       이를 통해 특정 DOM 요소를 조작하거나 상태를 확인할 수 있다           상태 유지            컴포넌트가 다시 렌더링 될 때에도 useRef로 생성된 객체는 값을 유지한다       이는 재렌더링 시 값이 초기화되지 않아야 하는 경...</summary>
 
   </entry>
 
   
   <entry>
-    <title>디스크 쿼터</title>
-    <link href="http://localhost:4000/posts/Linux24/" rel="alternate" type="text/html" title="디스크 쿼터" />
-    <published>2025-02-06T08:51:00+09:00</published>
+    <title>useMemo</title>
+    <link href="http://localhost:4000/posts/React06/" rel="alternate" type="text/html" title="useMemo" />
+    <published>2025-02-12T08:30:00+09:00</published>
   
-    <updated>2025-02-06T17:49:23+09:00</updated>
+    <updated>2025-02-13T08:42:55+09:00</updated>
   
-    <id>http://localhost:4000/posts/Linux24/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Linux24/" />
+    <id>http://localhost:4000/posts/React06/</id>
+    <content type="text/html" src="http://localhost:4000/posts/React06/" />
     <author>
       <name>코드로 답하다</name>
     </author>
 
   
     
-    <category term="Linux" />
+    <category term="React" />
     
-    <category term="advanced" />
+    <category term="hook" />
     
   
 
-  <summary>주요 개념    소프트 리밋(soft limit) : 사용자가 기본적으로 사용할 수 있는 용량으로 이 값을 초과하면 관리자가 설정한 기간 동안 초과된 용량을 사용할 수 있다   하드 리밋(hard limit) : 사용자가 사용할 수 있는 최대 용량으로 이 값을 초과하면 사용할 수 없다   I-node 제한 : 사용자나 그룹이 생성할 수 있는 파일의 개수를 제한한다     설정 방법    Quota 패키지 설치   사용자 계정 생성 : Quota를 적용할 사용자 계정을 생성   디스크 쿼터 설정 : edquota 명령어   디스크 쿼터 확인 : quota 명령어     sudo apt-get install quota sudo useradd quota_user sudo edquota -u quota_use...</summary>
+  <summary>useMemo    성능 최적화를 위해 메모이제이션을 활용한다 즉, 특정 값이 변경될 때만 계산을 수행하여 불필요한 계산을 방지한다 이 훅은 계산 비용이 많이 드는 연산을 효율적으로 처리할 때 유용하다     사용법 const memoizedValue = useMemo(() =&amp;amp;gt; computeExpensiveValue(a, b), [a, b]);     여기서 computeExpensiveValue는 연산 비용이 많이 드는 함수이고, a와 b는 함수에 전달되는 의존성이다     주요 포인트    메모이제이션(Memoization)            useMemo는 연산 결과를 메모이제이션하여 특정 의존성 배열의 값이 변경되지 않는 한 이전 결과를 재사용한다           의존성 배열     ...</summary>
 
   </entry>
 

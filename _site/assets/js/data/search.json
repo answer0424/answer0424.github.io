@@ -1,8 +1,64 @@
 [
   {
-    "title": "React CSS 적용용",
+    "title": "Form",
+    "url": "/posts/React10/",
+    "categories": "React, initial",
+    "tags": "react",
+    "date": "2025-02-14 08:40:00 +0900",
+    "content": "폼 상태 관리    React에서는 폼 상태를 관리하기 위해 useState 훅을 자주 사용한다     import React, { useState } from &#39;react&#39;;  const MyForm = () =&amp;gt; {   const [name, setName] = useState(&#39;&#39;);    const handleChange = (event)..."
+  },
+  {
+    "title": "useReducer",
+    "url": "/posts/React09/",
+    "categories": "React, hook",
+    "tags": "react",
+    "date": "2025-02-13 08:36:00 +0900",
+    "content": "useReducer    상태 업데이트 로직이 복잡할 때 사용되는 리엑트 훅 주로 Redux와 같은 패턴에서 영감을 받았다 상태와 상태 업데이트 함수를 반환하는데 이를 통해 복잡한 상태 로직을 보다 직관적으로 관리할 수 있다     기본 사용법 const [state, dispatch] = useReducer(reducer, initialState);..."
+  },
+  {
+    "title": "useContext",
+    "url": "/posts/React08/",
+    "categories": "React, hook",
+    "tags": "react",
+    "date": "2025-02-12 08:43:00 +0900",
+    "content": "useContext    Context API를 통해 전역 상태를 쉽게 관리하고 접근할 수 있도록 도와준다 Context API는 컴포넌트 트리 전체에서 데이터를 전달하는 간편한 방법을 제공한다     사용법 const value = useContext(MyContext);     Context API의 구성 요소    Context 객체 생성 : R..."
+  },
+  {
+    "title": "useRef",
+    "url": "/posts/React07/",
+    "categories": "React, hook",
+    "tags": "react",
+    "date": "2025-02-12 08:43:00 +0900",
+    "content": "useRef    DOM 요소나 저장 공간을 직접 참조할 수 있게 해준다 이는 클래스형 컴포넌트에서 사용되던 ref와 유사한 기능을 함수형 컴포넌트에서 사용할 수 있도록 도와준다     사용법 const myRef = useRef(initialValue);     initialValue는 useRef로 생성된 객체의 초기값을 설정한다     주요 포인..."
+  },
+  {
+    "title": "useMemo",
+    "url": "/posts/React06/",
+    "categories": "React, hook",
+    "tags": "react",
+    "date": "2025-02-12 08:30:00 +0900",
+    "content": "useMemo    성능 최적화를 위해 메모이제이션을 활용한다 즉, 특정 값이 변경될 때만 계산을 수행하여 불필요한 계산을 방지한다 이 훅은 계산 비용이 많이 드는 연산을 효율적으로 처리할 때 유용하다     사용법 const memoizedValue = useMemo(() =&amp;gt; computeExpensiveValue(a, b), [a, b]);..."
+  },
+  {
+    "title": "useState",
+    "url": "/posts/React05/",
+    "categories": "React, hook",
+    "tags": "react",
+    "date": "2025-02-11 08:48:00 +0900",
+    "content": "useState    React hook 중 하나로 함수형 컴포넌트에서 상태를 관리할 수 있게 해준다 useState는 배열의 형태로 첫 번째 요소는 현재 상태의 값이고 두 번째 요소는 상태를 업데이트하는 함수이다     동작 원리    초기화            useState는 인수로 초기 상태 값을 받는다       컴포넌트가 처음 렌더링 될 때..."
+  },
+  {
+    "title": "Component",
+    "url": "/posts/React04/",
+    "categories": "React, initial",
+    "tags": "react",
+    "date": "2025-02-11 08:31:00 +0900",
+    "content": "Component    React 라이브러리에서 가장 기본적인 구성 요소이다 React를 사용하면 UI를 작은, 재사용 가능한 컴포넌트로 분할할 수 있다 이러한 컴포넌트는 각각의 상태(state)와 props를 가질 수 있다     Component의 특징    재사용성 : 컴포넌트는 여러 번 사용할 수 있으며, 여러 곳에서 재사용할 수 있다   독립..."
+  },
+  {
+    "title": "React CSS 적용",
     "url": "/posts/React03/",
-    "categories": "React, basic",
+    "categories": "React, initial",
     "tags": "react",
     "date": "2025-02-09 23:00:00 +0900",
     "content": "inline const myStyle = {   color: &quot;blue&quot;, };      &amp;lt;div style=&amp;gt;coco&amp;lt;/div&amp;gt; &amp;lt;div style={myStyle}&amp;gt;chuchu&amp;lt;/div&amp;gt;     외부 파일 import React from &#39;react&#39;; import styles from &#39;./example..."
@@ -10,7 +66,7 @@
   {
     "title": "JSX",
     "url": "/posts/React02/",
-    "categories": "React, basic",
+    "categories": "React, initial",
     "tags": "react",
     "date": "2025-02-09 22:52:00 +0900",
     "content": "JSX    Java Script XML   React에서만 XML 형식의 사용이 가능하다   최초에 페이지 한 개가 로딩되고 나면 이후에 body 내용만 업데이트 되는 형태로 웹 애플리케이션이 작동한다 -&amp;gt; SPA(Single Page Application)    tage 등을 사용할 수 없다     주의할 점    return 시 하나의 el..."
@@ -18,7 +74,7 @@
   {
     "title": "Why React",
     "url": "/posts/React01/",
-    "categories": "React, basic",
+    "categories": "React, initial",
     "tags": "react",
     "date": "2025-02-08 17:24:00 +0900",
     "content": "웹 동작 방식 1    화면에 대한 View를 서버에서 만들어서 브라우저에게 전달   브라우저는 받은 view를 화면에 그려준다     웹 동작 방식 2    view를 받은 뒤 화면의 부분 변경이 필요한 부분을 AJAX 요청한다   JavaScript를 사용하여 AJAX 요청   주로 data를 요청하게 된다   문제점            View가..."

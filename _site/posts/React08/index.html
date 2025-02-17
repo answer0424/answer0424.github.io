@@ -30,23 +30,23 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="날짜와 시간 명령어" />
+<meta property="og:title" content="useContext" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="date [옵션] -u : UTC 국제 표준시 1 2 date date -u" />
-<meta property="og:description" content="date [옵션] -u : UTC 국제 표준시 1 2 date date -u" />
-<link rel="canonical" href="http://localhost:4000/posts/Linux09/" />
-<meta property="og:url" content="http://localhost:4000/posts/Linux09/" />
+<meta name="description" content="useContext Context API를 통해 전역 상태를 쉽게 관리하고 접근할 수 있도록 도와준다 Context API는 컴포넌트 트리 전체에서 데이터를 전달하는 간편한 방법을 제공한다" />
+<meta property="og:description" content="useContext Context API를 통해 전역 상태를 쉽게 관리하고 접근할 수 있도록 도와준다 Context API는 컴포넌트 트리 전체에서 데이터를 전달하는 간편한 방법을 제공한다" />
+<link rel="canonical" href="http://localhost:4000/posts/React08/" />
+<meta property="og:url" content="http://localhost:4000/posts/React08/" />
 <meta property="og:site_name" content="answer" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-02-01T14:24:00+09:00" />
+<meta property="article:published_time" content="2025-02-12T08:43:00+09:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="날짜와 시간 명령어" />
+<meta property="twitter:title" content="useContext" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-01T14:24:00+09:00","datePublished":"2025-02-01T14:24:00+09:00","description":"date [옵션] -u : UTC 국제 표준시 1 2 date date -u","headline":"날짜와 시간 명령어","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Linux09/"},"url":"http://localhost:4000/posts/Linux09/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-13T08:44:49+09:00","datePublished":"2025-02-12T08:43:00+09:00","description":"useContext Context API를 통해 전역 상태를 쉽게 관리하고 접근할 수 있도록 도와준다 Context API는 컴포넌트 트리 전체에서 데이터를 전달하는 간편한 방법을 제공한다","headline":"useContext","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/React08/"},"url":"http://localhost:4000/posts/React08/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>날짜와 시간 명령어 | answer
+  <title>useContext | answer
   </title>
 
   <!--
@@ -212,9 +212,16 @@
 
   
 
+  
+    
+
+    
+
+  
 
 
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js,npm/tocbot@4.32.2/dist/tocbot.min.js"></script>
 
 
 
@@ -432,7 +439,7 @@
         
           
             
-              <span>날짜와 시간 명령어</span>
+              <span>useContext</span>
             
 
           
@@ -515,6 +522,60 @@
   
 
   
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
 
   
   
@@ -545,9 +606,9 @@
 
 
 
-<article class="px-1" data-toc="false">
+<article class="px-1" data-toc="true">
   <header>
-    <h1 data-toc-skip>날짜와 시간 명령어</h1>
+    <h1 data-toc-skip>useContext</h1>
     
 
     <div class="post-meta text-muted">
@@ -564,18 +625,41 @@
 
 <time
   
-  data-ts="1738387440"
+  data-ts="1739317380"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Feb  1, 2025
+  Feb 12, 2025
 </time>
 
       </span>
 
       <!-- lastmod date -->
+      
+        <span>
+          Updated
+          <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1739403889"
+  data-df="ll"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  Feb 13, 2025
+</time>
+
+        </span>
       
 
       
@@ -619,7 +703,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="117 words"
+  title="358 words"
 >
   <em>1 min</em> read</span>
 
@@ -629,49 +713,145 @@
   </header>
 
   
+    <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
+      <span class="label text-truncate">useContext</span>
+      <button type="button" class="toc-trigger btn me-1">
+        <i class="fa-solid fa-list-ul fa-fw"></i>
+      </button>
+    </div>
+
+    <button id="toc-solo-trigger" type="button" class="toc-trigger btn btn-outline-secondary btn-sm">
+      <span class="label ps-2 pe-1">Contents</span>
+      <i class="fa-solid fa-angle-right fa-fw"></i>
+    </button>
+
+    <dialog id="toc-popup" class="p-0">
+      <div class="header d-flex flex-row align-items-center justify-content-between">
+        <div class="label text-truncate py-2 ms-4">useContext</div>
+        <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
+          <i class="fas fa-close"></i>
+        </button>
+      </div>
+      <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
+    </dialog>
+  
 
   <div class="content">
-    <ol>
-  <li>date [옵션]
-    <ul>
-      <li>-u : UTC 국제 표준시
-        <div class="language-bash highlighter-rouge"><div class="code-header">
-        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td><td class="rouge-code"><pre><span class="nb">date
-date</span> <span class="nt">-u</span>
-</pre></td></tr></tbody></table></code></div>        </div>
-      </li>
-    </ul>
+    <h2 id="usecontext"><span class="me-2">useContext</span><a href="#usecontext" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<blockquote>
+  <p>Context API를 통해 전역 상태를 쉽게 관리하고 접근할 수 있도록 도와준다
+Context API는 컴포넌트 트리 전체에서 데이터를 전달하는 간편한 방법을 제공한다</p>
+</blockquote>
 
-    <p><br /></p>
+<p><br /></p>
+
+<h2 id="사용법"><span class="me-2">사용법</span><a href="#사용법" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<div class="language-javascript highlighter-rouge"><div class="code-header">
+        <span data-label-text="JavaScript"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="kd">const</span> <span class="nx">value</span> <span class="o">=</span> <span class="nf">useContext</span><span class="p">(</span><span class="nx">MyContext</span><span class="p">);</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<p><br /></p>
+
+<h2 id="context-api의-구성-요소"><span class="me-2">Context API의 구성 요소</span><a href="#context-api의-구성-요소" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<ul>
+  <li>Context 객체 생성 : React.createContext()를 사용하여 Context 객체를 생성한다
+    <div class="language-javascript highlighter-rouge"><div class="code-header">
+        <span data-label-text="JavaScript"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="kd">const</span> <span class="nx">MyContext</span> <span class="o">=</span> <span class="nx">React</span><span class="p">.</span><span class="nf">createContext</span><span class="p">(</span><span class="nx">defaultValue</span><span class="p">);</span>
+</pre></td></tr></tbody></table></code></div>    </div>
   </li>
-  <li>cal [옵션] [설정값]
-    <ul>
-      <li>-3 : 이번 달을 기준으로 전, 후 월을 보여줌</li>
-      <li>-y : 이번 년도의 모든 월을 보여줌</li>
-      <li>-yj : 현재 년도의 모든 월을 보여주고 총 일자 단위로 보여줌</li>
-      <li>월 년도 : 해당 년도의 월을 보여줌
-        <div class="language-bash highlighter-rouge"><div class="code-header">
-        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+  <li>Provider : Context를 통해 하위 컴포넌트에게 값을 제공하는 컴포넌트
+```javascript</li>
+</ul>
+<p>&lt;MyContext.Provider value={/* some value */}&gt;
+    {children}
+&lt;/MyContext.Provider&gt;</p>
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
 4
 5
 6
-</pre></td><td class="rouge-code"><pre>cal
-cal <span class="nt">-3</span>
-cal <span class="nt">-y</span>
-cal <span class="nt">-y</span> 2023
-cal <span class="nt">-yj</span>
-cal 05 2023
-</pre></td></tr></tbody></table></code></div>        </div>
-      </li>
+7
+8
+</pre></td><td class="rouge-code"><pre>
+&lt;br&gt;
+
+## 사용 예시
+1. Context 객체 생성
+- 먼저 Context 객체를 생성한다
+```javascript
+const ThemeContext = React.createContext('light');
+</pre></td></tr></tbody></table></code></div></div>
+
+<ol>
+  <li>Provider 사용
+    <ul>
+      <li>최상위 컴포넌트에서 Provider를사용하여 값을 제공한다</li>
     </ul>
   </li>
 </ol>
+
+<div class="language-javascript highlighter-rouge"><div class="code-header">
+        <span data-label-text="JavaScript"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre><span class="kd">function</span> <span class="nf">App</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">return </span><span class="p">(</span>
+    <span class="o">&lt;</span><span class="nx">ThemeContext</span><span class="p">.</span><span class="nx">Provider</span> <span class="nx">value</span><span class="o">=</span><span class="dl">"</span><span class="s2">dark</span><span class="dl">"</span><span class="o">&gt;</span>
+      <span class="o">&lt;</span><span class="nx">Toolbar</span> <span class="o">/&gt;</span>
+    <span class="o">&lt;</span><span class="sr">/ThemeContext.Provider</span><span class="err">&gt;
+</span>  <span class="p">);</span>
+<span class="p">}</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<ol>
+  <li>useContext 사용
+    <ul>
+      <li>하위 컴포넌트에서 useContext 훅을 사용하여 Context 값을 가져온다
+        <div class="language-javascript highlighter-rouge"><div class="code-header">
+        <span data-label-text="JavaScript"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre><span class="kd">function</span> <span class="nf">Toolbar</span><span class="p">()</span> <span class="p">{</span>
+<span class="kd">const</span> <span class="nx">theme</span> <span class="o">=</span> <span class="nf">useContext</span><span class="p">(</span><span class="nx">ThemeContext</span><span class="p">);</span>
+<span class="k">return</span> <span class="o">&lt;</span><span class="nx">div</span> <span class="nx">style</span><span class="o">=&gt;</span><span class="nx">Toolbar</span><span class="o">&lt;</span><span class="sr">/div</span><span class="err">&gt;
+</span><span class="p">};</span>
+</pre></td></tr></tbody></table></code></div>        </div>
+      </li>
+      <li>위 예제는 Toolbar 컴포넌트는 ThemeContext 값을 사용하여 배경색을 설정한다</li>
+    </ul>
+  </li>
+</ol>
+
+<p><br /></p>
+
+<h2 id="주의사항"><span class="me-2">주의사항</span><a href="#주의사항" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<ul>
+  <li>Context의 값 변경
+    <ul>
+      <li>Context의 값이 변경되면 해당 Context를 사용하는 모든 하위 컴포넌트가 다시 렌더링된다</li>
+    </ul>
+  </li>
+  <li>Provider 중첩
+    <ul>
+      <li>여러 Context를 사용할 경우, Provider를 중첩해서 사용할 수 있다</li>
+      <li>이때 각각의 Context는 독립적으로 작동한다다</li>
+    </ul>
+  </li>
+</ul>
 
   </div>
 
@@ -681,8 +861,8 @@ cal 05 2023
       <div class="post-meta mb-3">
         <i class="far fa-folder-open fa-fw me-1"></i>
         
-          <a href="/categories/linux/">Linux</a>,
-          <a href="/categories/basic/">basic</a>
+          <a href="/categories/react/">React</a>,
+          <a href="/categories/hook/">hook</a>
       </div>
     
 
@@ -692,9 +872,9 @@ cal 05 2023
         <i class="fa fa-tags fa-fw me-1"></i>
         
           <a
-            href="/tags/linux/"
+            href="/tags/react/"
             class="post-tag no-text-decoration"
-          >linux</a>
+          >react</a>
         
       </div>
     
@@ -730,21 +910,21 @@ cal 05 2023
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=%EB%82%A0%EC%A7%9C%EC%99%80%20%EC%8B%9C%EA%B0%84%20%EB%AA%85%EB%A0%B9%EC%96%B4%20-%20answer&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux09%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=useContext%20-%20answer&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FReact08%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=%EB%82%A0%EC%A7%9C%EC%99%80%20%EC%8B%9C%EA%B0%84%20%EB%AA%85%EB%A0%B9%EC%96%B4%20-%20answer&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux09%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=useContext%20-%20answer&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FReact08%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux09%2F&text=%EB%82%A0%EC%A7%9C%EC%99%80%20%EC%8B%9C%EA%B0%84%20%EB%AA%85%EB%A0%B9%EC%96%B4%20-%20answer" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FReact08%2F&text=useContext%20-%20answer" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -950,6 +1130,12 @@ cal 05 2023
 
 
 
+  <div class="toc-border-cover z-3"></div>
+  <section id="toc-wrapper" class="invisible position-sticky ps-0 pe-4 pb-4">
+    <h2 class="panel-heading ps-3 pb-2 mb-0">Contents</h2>
+    <nav id="toc"></nav>
+  </section>
+
 
             
           </aside>
@@ -1071,187 +1257,7 @@ cal 05 2023
   
 
   
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
     
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
   
 
   
@@ -1291,7 +1297,7 @@ cal 05 2023
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
       
         <article class="col">
-          <a href="/posts/Linux10/" class="post-preview card h-100">
+          <a href="/posts/React09/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -1303,23 +1309,23 @@ cal 05 2023
 
 <time
   
-  data-ts="1738387560"
+  data-ts="1739403360"
   data-df="ll"
   
 >
-  Feb  1, 2025
+  Feb 13, 2025
 </time>
 
-              <h4 class="pt-0 my-2">파일과 디렉터리 복사 및 이동</h4>
+              <h4 class="pt-0 my-2">useReducer</h4>
               <div class="text-muted">
-                <p>파일 / 디렉터리 복사            cp [옵션] [원본파일/디렉터리] [대상디렉터리]                 -i : 덮어쓰기 여부 묻기       -f : 강제로 복사       -r : 하위 디렉터리까지 복사       -b : 백업 파일 생성       -S : 확장자 지정              파일 복사 시 와일드 카드 사용 가...</p>
+                <p>useReducer    상태 업데이트 로직이 복잡할 때 사용되는 리엑트 훅 주로 Redux와 같은 패턴에서 영감을 받았다 상태와 상태 업데이트 함수를 반환하는데 이를 통해 복잡한 상태 로직을 보다 직관적으로 관리할 수 있다     기본 사용법 1 const [state, dispatch] = useReducer(reducer, initialState...</p>
               </div>
             </div>
           </a>
         </article>
       
         <article class="col">
-          <a href="/posts/Linux08/" class="post-preview card h-100">
+          <a href="/posts/React07/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -1331,23 +1337,23 @@ cal 05 2023
 
 <time
   
-  data-ts="1738387140"
+  data-ts="1739317380"
   data-df="ll"
   
 >
-  Feb  1, 2025
+  Feb 12, 2025
 </time>
 
-              <h4 class="pt-0 my-2">리눅스 디렉터리 구조 및 역할</h4>
+              <h4 class="pt-0 my-2">useRef</h4>
               <div class="text-muted">
-                <p>boot  : 부팅 관련 파일(커널)   etc : 모든 환경 설정 파일   lib : 동적 라이브러리 파일 (32비트)   lib64: 동적 라이브러리 파일 (64비트)   root : root 홈 디렉터리   sbin : 시스템 관련 명령어   usr : 일반 사용자 관련 명령어, 프로그램 설치   bin : 일반 명령어   dev : 장치 파일 ...</p>
+                <p>useRef    DOM 요소나 저장 공간을 직접 참조할 수 있게 해준다 이는 클래스형 컴포넌트에서 사용되던 ref와 유사한 기능을 함수형 컴포넌트에서 사용할 수 있도록 도와준다     사용법 const myRef = useRef(initialValue);     initialValue는 useRef로 생성된 객체의 초기값을 설정한다     주요 포인...</p>
               </div>
             </div>
           </a>
         </article>
       
         <article class="col">
-          <a href="/posts/Linux07/" class="post-preview card h-100">
+          <a href="/posts/React06/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -1359,16 +1365,16 @@ cal 05 2023
 
 <time
   
-  data-ts="1738383960"
+  data-ts="1739316600"
   data-df="ll"
   
 >
-  Feb  1, 2025
+  Feb 12, 2025
 </time>
 
-              <h4 class="pt-0 my-2">리눅스 서버 복제 및 파일, 디렉터리 생성 명령어</h4>
+              <h4 class="pt-0 my-2">useMemo</h4>
               <div class="text-muted">
-                <p>리눅스 서버 복제 방법 (VMware 기준)    VM -&amp;gt; clone -&amp;gt; fullclone 복제 시 IP가 충돌되기 때문에 바꿔주어야 한다    IP 변경 방법    디렉터리 생성    mkdir [옵션] [생성할 디렉터리 명]            생성할 디렉터리 명을 띄어쓰기 기준으로 한번에 여러 개 생성할 수 있다       디렉터리...</p>
+                <p>useMemo    성능 최적화를 위해 메모이제이션을 활용한다 즉, 특정 값이 변경될 때만 계산을 수행하여 불필요한 계산을 방지한다 이 훅은 계산 비용이 많이 드는 연산을 효율적으로 처리할 때 유용하다     사용법 const memoizedValue = useMemo(() =&amp;gt; computeExpensiveValue(a, b), [a, b]);...</p>
               </div>
             </div>
           </a>
@@ -1389,21 +1395,21 @@ cal 05 2023
 
   
     <a
-      href="/posts/Linux08/"
+      href="/posts/React07/"
       class="btn btn-outline-primary"
       aria-label="Older"
     >
-      <p>리눅스 디렉터리 구조 및 역할</p>
+      <p>useRef</p>
     </a>
   
 
   
     <a
-      href="/posts/Linux10/"
+      href="/posts/React09/"
       class="btn btn-outline-primary"
       aria-label="Newer"
     >
-      <p>파일과 디렉터리 복사 및 이동</p>
+      <p>useReducer</p>
     </a>
   
 </nav>
