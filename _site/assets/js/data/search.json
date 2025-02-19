@@ -1,5 +1,37 @@
 [
   {
+    "title": "Redux",
+    "url": "/posts/React12/",
+    "categories": "React, initial",
+    "tags": "react",
+    "date": "2025-02-19 12:05:00 +0900",
+    "content": "Redux    React와 Redux를 함께 사용하는 방식은 React-Redux 라이브러리를 통해 연결되며, 주로 상태관리와 UI 렌더링을 효율적으로 처리하는 데 사용된다     설치    먼저 React 애플리케이션에서 Redux와 React-Redux를 설치해야 한다   npm install redux react-redux     Redux S..."
+  },
+  {
+    "title": "변수",
+    "url": "/posts/Java01/",
+    "categories": "Java, Fundamentals",
+    "tags": "java",
+    "date": "2025-02-19 12:05:00 +0900",
+    "content": "변수(Variable)이란?    변수는 데이터를 저장하는 공갑(메모리)이다. Java에서는 변수를 선언할 때 데이터 타입을 명시해야 한다   int number = 10; // 정수형 변수 선언 및 초기화           위 코드에서 int는 데이터 타입, number는 변수명, 10은 변수에 저장된 값이다        데이터 타입    Java의..."
+  },
+  {
+    "title": "Flux 패턴",
+    "url": "/posts/React11/",
+    "categories": "React, initial",
+    "tags": "react",
+    "date": "2025-02-19 10:58:00 +0900",
+    "content": "Flux 패턴    React 애플리케이션에서 데이터 흐름을 관리하기 위한 아키텍처 패턴 Facebook에서 개발되었으며, 단방향 데이터 흐름을 강조     Flux의 핵심 요소    Action : 상태 변경을 위한 명령을 담은 객체   Dispatcher : 액션을 받아 스토어에 전달하는 중앙 허브   Store : 애플리케이션 상태를 저장하고 관..."
+  },
+  {
+    "title": "운동 성향 (HBTI)",
+    "url": "/posts/HBTI/",
+    "categories": "HBTI, type",
+    "tags": "hbti",
+    "date": "2025-02-17 16:42:00 +0900",
+    "content": "MICP 힐링 러너 운동가    short description            주로 트레드밀 위에서 달리며 스트레스를 해소하고 마음의 편화를 찾는 유형           full description            MICP (Medical-Improvised-Cardio-Personal)는 건강 증진을 목표로 즉흥적인 유산소 운동을 선호하며..."
+  },
+  {
     "title": "Form",
     "url": "/posts/React10/",
     "categories": "React, initial",

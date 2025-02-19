@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>answer</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-15T10:36:30+09:00</updated>
+  <updated>2025-02-19T16:57:29+09:00</updated>
   <author>
     <name>코드로 답하다</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,110 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Redux</title>
+    <link href="http://localhost:4000/posts/React12/" rel="alternate" type="text/html" title="Redux" />
+    <published>2025-02-19T12:05:00+09:00</published>
+  
+    <updated>2025-02-19T15:49:12+09:00</updated>
+  
+    <id>http://localhost:4000/posts/React12/</id>
+    <content type="text/html" src="http://localhost:4000/posts/React12/" />
+    <author>
+      <name>코드로 답하다</name>
+    </author>
+
+  
+    
+    <category term="React" />
+    
+    <category term="initial" />
+    
+  
+
+  <summary>Redux    React와 Redux를 함께 사용하는 방식은 React-Redux 라이브러리를 통해 연결되며, 주로 상태관리와 UI 렌더링을 효율적으로 처리하는 데 사용된다     설치    먼저 React 애플리케이션에서 Redux와 React-Redux를 설치해야 한다   npm install redux react-redux     Redux Store 설정    애플리케이션의 상태를 관리할 Redux Store를 생성한다 이 과정에서 createStore()를 사용하여 리듀서와 상태를 설정한다      리듀서 작성            리듀서는 상태를 어떻게 변경하지 정의하는 함수이다 예를 등러 간단한 카운터 상태를 관리하는 리듀서를 만들어 봅시다           // src/redux/coun...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>변수</title>
+    <link href="http://localhost:4000/posts/Java01/" rel="alternate" type="text/html" title="변수" />
+    <published>2025-02-19T12:05:00+09:00</published>
+  
+    <updated>2025-02-19T12:05:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Java01/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Java01/" />
+    <author>
+      <name>코드로 답하다</name>
+    </author>
+
+  
+    
+    <category term="Java" />
+    
+    <category term="Fundamentals" />
+    
+  
+
+  <summary>변수(Variable)이란?    변수는 데이터를 저장하는 공갑(메모리)이다. Java에서는 변수를 선언할 때 데이터 타입을 명시해야 한다   int number = 10; // 정수형 변수 선언 및 초기화           위 코드에서 int는 데이터 타입, number는 변수명, 10은 변수에 저장된 값이다        데이터 타입    Java의 데이터 타입은 크게 기본형(Primitive Type) 과 참조형(Reference Type) 으로 나뉩니다.      기본형 데이터 타입(Primitive Type)            기본형 데이터 타입은 총 8가지가 있으며 값 자체를 메모리에 저장한다                          데이터 타입       크기       기본값     ...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Flux 패턴</title>
+    <link href="http://localhost:4000/posts/React11/" rel="alternate" type="text/html" title="Flux 패턴" />
+    <published>2025-02-19T10:58:00+09:00</published>
+  
+    <updated>2025-02-19T12:23:18+09:00</updated>
+  
+    <id>http://localhost:4000/posts/React11/</id>
+    <content type="text/html" src="http://localhost:4000/posts/React11/" />
+    <author>
+      <name>코드로 답하다</name>
+    </author>
+
+  
+    
+    <category term="React" />
+    
+    <category term="initial" />
+    
+  
+
+  <summary>Flux 패턴    React 애플리케이션에서 데이터 흐름을 관리하기 위한 아키텍처 패턴 Facebook에서 개발되었으며, 단방향 데이터 흐름을 강조     Flux의 핵심 요소    Action : 상태 변경을 위한 명령을 담은 객체   Dispatcher : 액션을 받아 스토어에 전달하는 중앙 허브   Store : 애플리케이션 상태를 저장하고 관리하는 역할   View(react 컴포넌트) : 스토어에서 상태를 가져와 UI를 렌더링     Flux 데이터 흐름    사용자의 이벤트 발생 (ex. 버튼 클릭)   액션이 생성되고 디스패처에 전달된다   디스패처가 해당 액션을 스토어에 전달   스토어가 변경된 상태를 View에 반영     Flux 기본 사용법 const addTodoAction = ...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>운동 성향 (HBTI)</title>
+    <link href="http://localhost:4000/posts/HBTI/" rel="alternate" type="text/html" title="운동 성향 (HBTI)" />
+    <published>2025-02-17T16:42:00+09:00</published>
+  
+    <updated>2025-02-17T16:42:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/HBTI/</id>
+    <content type="text/html" src="http://localhost:4000/posts/HBTI/" />
+    <author>
+      <name>코드로 답하다</name>
+    </author>
+
+  
+    
+    <category term="HBTI" />
+    
+    <category term="type" />
+    
+  
+
+  <summary>MICP 힐링 러너 운동가    short description            주로 트레드밀 위에서 달리며 스트레스를 해소하고 마음의 편화를 찾는 유형           full description            MICP (Medical-Improvised-Cardio-Personal)는 건강 증진을 목표로 즉흥적인 유산소 운동을 선호하며 개인 운동을 즐기는 유형입니다. 심폐 지구력 향상과 전반적인 건강 관리에 초점을 맞추되, 정해진 계획 없이 그날의 컨디션에 따라 운동 강도를 조절하는 특징이 있습니다. 혼자만의 조깅이나 수영과 같은 개인 유산소 운동을 통해 건강 목표를 달성하는 것을 선호하며, 자신의 체력 상태를 꼼꼼히 모니터링하는 습관이 있습니다. 이들에게 추천되는 운동으로는 실내 사이...</summary>
+
+  </entry>
 
   
   <entry>
@@ -41,110 +145,6 @@
   
 
   <summary>폼 상태 관리    React에서는 폼 상태를 관리하기 위해 useState 훅을 자주 사용한다     import React, { useState } from &amp;#39;react&amp;#39;;  const MyForm = () =&amp;amp;gt; {   const [name, setName] = useState(&amp;#39;&amp;#39;);    const handleChange = (event) =&amp;amp;gt; {     setName(event.target.value);   }    const handleSubmit = (event) =&amp;amp;gt; {     event.preventDefault();     alert(`Submitted Name: ${name}`);   }    return (     &amp;amp;lt;form onSubmit={handleSub...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>useReducer</title>
-    <link href="http://localhost:4000/posts/React09/" rel="alternate" type="text/html" title="useReducer" />
-    <published>2025-02-13T08:36:00+09:00</published>
-  
-    <updated>2025-02-13T08:49:11+09:00</updated>
-  
-    <id>http://localhost:4000/posts/React09/</id>
-    <content type="text/html" src="http://localhost:4000/posts/React09/" />
-    <author>
-      <name>코드로 답하다</name>
-    </author>
-
-  
-    
-    <category term="React" />
-    
-    <category term="hook" />
-    
-  
-
-  <summary>useReducer    상태 업데이트 로직이 복잡할 때 사용되는 리엑트 훅 주로 Redux와 같은 패턴에서 영감을 받았다 상태와 상태 업데이트 함수를 반환하는데 이를 통해 복잡한 상태 로직을 보다 직관적으로 관리할 수 있다     기본 사용법 const [state, dispatch] = useReducer(reducer, initialState);     reducer : 상태를 업데이트하는 함수, 두 개의 인자를 받는다   initialState : 초기 상태 값     예제    reducer 함수 : 상태 업데이트 로직을 정의한다     function reducer(state, action) {   switch (action.type) {  case &amp;#39;increment&amp;#39;:    return ...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>useContext</title>
-    <link href="http://localhost:4000/posts/React08/" rel="alternate" type="text/html" title="useContext" />
-    <published>2025-02-12T08:43:00+09:00</published>
-  
-    <updated>2025-02-13T08:44:49+09:00</updated>
-  
-    <id>http://localhost:4000/posts/React08/</id>
-    <content type="text/html" src="http://localhost:4000/posts/React08/" />
-    <author>
-      <name>코드로 답하다</name>
-    </author>
-
-  
-    
-    <category term="React" />
-    
-    <category term="hook" />
-    
-  
-
-  <summary>useContext    Context API를 통해 전역 상태를 쉽게 관리하고 접근할 수 있도록 도와준다 Context API는 컴포넌트 트리 전체에서 데이터를 전달하는 간편한 방법을 제공한다     사용법 const value = useContext(MyContext);     Context API의 구성 요소    Context 객체 생성 : React.createContext()를 사용하여 Context 객체를 생성한다     const MyContext = React.createContext(defaultValue);           Provider : Context를 통해 하위 컴포넌트에게 값을 제공하는 컴포넌트 ```javascript  &amp;amp;lt;MyContext.Provider value...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>useRef</title>
-    <link href="http://localhost:4000/posts/React07/" rel="alternate" type="text/html" title="useRef" />
-    <published>2025-02-12T08:43:00+09:00</published>
-  
-    <updated>2025-02-13T08:42:55+09:00</updated>
-  
-    <id>http://localhost:4000/posts/React07/</id>
-    <content type="text/html" src="http://localhost:4000/posts/React07/" />
-    <author>
-      <name>코드로 답하다</name>
-    </author>
-
-  
-    
-    <category term="React" />
-    
-    <category term="hook" />
-    
-  
-
-  <summary>useRef    DOM 요소나 저장 공간을 직접 참조할 수 있게 해준다 이는 클래스형 컴포넌트에서 사용되던 ref와 유사한 기능을 함수형 컴포넌트에서 사용할 수 있도록 도와준다     사용법 const myRef = useRef(initialValue);     initialValue는 useRef로 생성된 객체의 초기값을 설정한다     주요 포인트    DOM 접근            useRef는 DOM요소에 직접 접근할 수 있도록 해준다       이를 통해 특정 DOM 요소를 조작하거나 상태를 확인할 수 있다           상태 유지            컴포넌트가 다시 렌더링 될 때에도 useRef로 생성된 객체는 값을 유지한다       이는 재렌더링 시 값이 초기화되지 않아야 하는 경...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>useMemo</title>
-    <link href="http://localhost:4000/posts/React06/" rel="alternate" type="text/html" title="useMemo" />
-    <published>2025-02-12T08:30:00+09:00</published>
-  
-    <updated>2025-02-13T08:42:55+09:00</updated>
-  
-    <id>http://localhost:4000/posts/React06/</id>
-    <content type="text/html" src="http://localhost:4000/posts/React06/" />
-    <author>
-      <name>코드로 답하다</name>
-    </author>
-
-  
-    
-    <category term="React" />
-    
-    <category term="hook" />
-    
-  
-
-  <summary>useMemo    성능 최적화를 위해 메모이제이션을 활용한다 즉, 특정 값이 변경될 때만 계산을 수행하여 불필요한 계산을 방지한다 이 훅은 계산 비용이 많이 드는 연산을 효율적으로 처리할 때 유용하다     사용법 const memoizedValue = useMemo(() =&amp;amp;gt; computeExpensiveValue(a, b), [a, b]);     여기서 computeExpensiveValue는 연산 비용이 많이 드는 함수이고, a와 b는 함수에 전달되는 의존성이다     주요 포인트    메모이제이션(Memoization)            useMemo는 연산 결과를 메모이제이션하여 특정 의존성 배열의 값이 변경되지 않는 한 이전 결과를 재사용한다           의존성 배열     ...</summary>
 
   </entry>
 
