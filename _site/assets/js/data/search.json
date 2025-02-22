@@ -1,5 +1,13 @@
 [
   {
+    "title": "vsftpd",
+    "url": "/posts/Linux26/",
+    "categories": "Linux, advanced",
+    "tags": "linux",
+    "date": "2025-02-22 13:53:00 +0900",
+    "content": "vsftpd (Very Secure FTP Daemon) 개요    vsftpd는 Linux/Unix 기반의 FTP 서버 중 하나로 보안성과 성능이 뛰어나기 때문에 널리 사용된다 이름에서 알 수 있듯이 매우 안전한 FTP 데몬으로 설계되었으며, 빠른 속도, 강력한 보안, 가벼운 성능을 제공하는 것이 특징이다     vsftpd 설치    Ubuntu/..."
+  },
+  {
     "title": "제어문",
     "url": "/posts/Java03/",
     "categories": "Java, Fundamentals",

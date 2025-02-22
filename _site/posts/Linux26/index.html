@@ -30,23 +30,23 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="프로세스 관련 명령어" />
+<meta property="og:title" content="vsftpd" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="systemd 최상위 프로세스" />
-<meta property="og:description" content="systemd 최상위 프로세스" />
-<link rel="canonical" href="http://localhost:4000/posts/Linux15/" />
-<meta property="og:url" content="http://localhost:4000/posts/Linux15/" />
+<meta name="description" content="vsftpd (Very Secure FTP Daemon) 개요 vsftpd는 Linux/Unix 기반의 FTP 서버 중 하나로 보안성과 성능이 뛰어나기 때문에 널리 사용된다 이름에서 알 수 있듯이 매우 안전한 FTP 데몬으로 설계되었으며, 빠른 속도, 강력한 보안, 가벼운 성능을 제공하는 것이 특징이다" />
+<meta property="og:description" content="vsftpd (Very Secure FTP Daemon) 개요 vsftpd는 Linux/Unix 기반의 FTP 서버 중 하나로 보안성과 성능이 뛰어나기 때문에 널리 사용된다 이름에서 알 수 있듯이 매우 안전한 FTP 데몬으로 설계되었으며, 빠른 속도, 강력한 보안, 가벼운 성능을 제공하는 것이 특징이다" />
+<link rel="canonical" href="http://localhost:4000/posts/Linux26/" />
+<meta property="og:url" content="http://localhost:4000/posts/Linux26/" />
 <meta property="og:site_name" content="answer" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-02-01T15:02:00+09:00" />
+<meta property="article:published_time" content="2025-02-22T13:53:00+09:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="프로세스 관련 명령어" />
+<meta property="twitter:title" content="vsftpd" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-03T08:47:25+09:00","datePublished":"2025-02-01T15:02:00+09:00","description":"systemd 최상위 프로세스","headline":"프로세스 관련 명령어","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Linux15/"},"url":"http://localhost:4000/posts/Linux15/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-02-22T13:53:00+09:00","datePublished":"2025-02-22T13:53:00+09:00","description":"vsftpd (Very Secure FTP Daemon) 개요 vsftpd는 Linux/Unix 기반의 FTP 서버 중 하나로 보안성과 성능이 뛰어나기 때문에 널리 사용된다 이름에서 알 수 있듯이 매우 안전한 FTP 데몬으로 설계되었으며, 빠른 속도, 강력한 보안, 가벼운 성능을 제공하는 것이 특징이다","headline":"vsftpd","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Linux26/"},"url":"http://localhost:4000/posts/Linux26/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>프로세스 관련 명령어 | answer
+  <title>vsftpd | answer
   </title>
 
   <!--
@@ -212,9 +212,16 @@
 
   
 
+  
+    
+
+    
+
+  
 
 
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js,npm/tocbot@4.32.2/dist/tocbot.min.js"></script>
 
 
 
@@ -432,7 +439,7 @@
         
           
             
-              <span>프로세스 관련 명령어</span>
+              <span>vsftpd</span>
             
 
           
@@ -515,6 +522,82 @@
   
 
   
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
 
   
   
@@ -524,6 +607,82 @@
   
   
 
+  
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
   
 
   
@@ -545,9 +704,9 @@
 
 
 
-<article class="px-1" data-toc="false">
+<article class="px-1" data-toc="true">
   <header>
-    <h1 data-toc-skip>프로세스 관련 명령어</h1>
+    <h1 data-toc-skip>vsftpd</h1>
     
 
     <div class="post-meta text-muted">
@@ -564,41 +723,18 @@
 
 <time
   
-  data-ts="1738389720"
+  data-ts="1740199980"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Feb  1, 2025
+  Feb 22, 2025
 </time>
 
       </span>
 
       <!-- lastmod date -->
-      
-        <span>
-          Updated
-          <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1738540045"
-  data-df="ll"
-  
-    data-bs-toggle="tooltip" data-bs-placement="bottom"
-  
->
-  Feb  3, 2025
-</time>
-
-        </span>
       
 
       
@@ -642,9 +778,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="542 words"
+  title="760 words"
 >
-  <em>3 min</em> read</span>
+  <em>4 min</em> read</span>
 
         </div>
       </div>
@@ -652,30 +788,63 @@
   </header>
 
   
+    <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
+      <span class="label text-truncate">vsftpd</span>
+      <button type="button" class="toc-trigger btn me-1">
+        <i class="fa-solid fa-list-ul fa-fw"></i>
+      </button>
+    </div>
+
+    <button id="toc-solo-trigger" type="button" class="toc-trigger btn btn-outline-secondary btn-sm">
+      <span class="label ps-2 pe-1">Contents</span>
+      <i class="fa-solid fa-angle-right fa-fw"></i>
+    </button>
+
+    <dialog id="toc-popup" class="p-0">
+      <div class="header d-flex flex-row align-items-center justify-content-between">
+        <div class="label text-truncate py-2 ms-4">vsftpd</div>
+        <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
+          <i class="fas fa-close"></i>
+        </button>
+      </div>
+      <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
+    </dialog>
+  
 
   <div class="content">
-    <ol>
-  <li>systemd
-    <blockquote>
-      <p>최상위 프로세스</p>
-    </blockquote>
+    <h2 id="vsftpd-very-secure-ftp-daemon-개요"><span class="me-2">vsftpd (Very Secure FTP Daemon) 개요</span><a href="#vsftpd-very-secure-ftp-daemon-개요" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">vsftpd</code>는 Linux/Unix 기반의 FTP 서버 중 하나로 보안성과 성능이 뛰어나기 때문에 널리 사용된다
+이름에서 알 수 있듯이 매우 안전한 FTP 데몬으로 설계되었으며, 빠른 속도, 강력한 보안, 가벼운 성능을 제공하는 것이 특징이다</p>
+</blockquote>
 
-    <p><br /></p>
-  </li>
-  <li>ps [옵션]
-    <blockquote>
-      <p>프로세스 출력</p>
-    </blockquote>
+<p><br /></p>
 
-    <ul>
-      <li>-a: 현재 터미널에 로그인한 모든 사용자의 프로세스를 출력</li>
-      <li>-u : 사용자와 프로세스 정보를 자세하게 출력</li>
-      <li>-x : 터미널에 연결되지 않은 백드라운드 프로세스도 출력</li>
-      <li>-e : 모든 프로세스를 출력</li>
-      <li>-f : 프로세스 정보를 풀 포멧으로 출력</li>
-    </ul>
+<h2 id="vsftpd-설치"><span class="me-2">vsftpd 설치</span><a href="#vsftpd-설치" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<blockquote>
+  <p>Ubuntu/Debian 계열</p>
+</blockquote>
 
-    <div class="language-bash highlighter-rouge"><div class="code-header">
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre><span class="nb">sudo </span>dnf update
+<span class="nb">sudo </span>dnf <span class="nb">install </span>vsftpd <span class="nt">-y</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<ul>
+  <li>설치가 완료되면 <code class="language-plaintext highlighter-rouge">vsftpd</code> 서비스가 자동으로 실행된다</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="vsftpd-서비스-관리"><span class="me-2">vsftpd 서비스 관리</span><a href="#vsftpd-서비스-관리" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<blockquote>
+  <p>vsftpd가 실행되고 있는지 확인하고 필요시 재시작할 수 있다</p>
+</blockquote>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
         <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
@@ -686,97 +855,202 @@
 7
 8
 9
-</pre></td><td class="rouge-code"><pre> // ps <span class="nt">-aux</span>
- USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
- root         1  0.0  0.1 158448  8568 ?        Ss   Jan01   0:01 /sbin/init
- user       100  0.1  0.3 167120 15000 ?        Sl   14:50   0:00 /usr/bin/python3 script.py
+10
+11
+</pre></td><td class="rouge-code"><pre><span class="c"># 서비스 시작</span>
+<span class="nb">sudo </span>systemctl start vsftpd
 
- //ps <span class="nt">-ef</span>
- UID        PID  PPID  C STIME TTY          TIME CMD
- root         1     0  0 Jan01 ?        00:01:23 /sbin/init
- user       100     1  0 14:50 ?        00:00:00 /usr/bin/python3 script.py
-</pre></td></tr></tbody></table></code></div>    </div>
+<span class="c"># 서비스 자동 시작 설정 (서버 재부팅 시 자동 실행)</span>
+<span class="nb">sudo </span>systemctl <span class="nb">enable </span>vsftpd
 
-    <p><br /></p>
-  </li>
-  <li>pstree [옵션]
-    <blockquote>
-      <p>프로세스를 계층형 구조로 출력</p>
-    </blockquote>
+<span class="c"># 현재 상태 확인</span>
+<span class="nb">sudo </span>systemctl status vsftpd
 
-    <ul>
-      <li>-p : 프로세스 id와 함께 출력</li>
-    </ul>
+<span class="c"># 설정 변경 후 vsftpd 재시작</span>
+<span class="nb">sudo </span>systemctl restart vsftpd
+</pre></td></tr></tbody></table></code></div></div>
 
-    <p><br /></p>
-  </li>
-  <li>top [옵션]
-    <blockquote>
-      <p>실시간으로 프로세스의 상태를 모니터링할 수 있는 명령어</p>
-    </blockquote>
+<p><br /></p>
 
-    <p><br /></p>
-  </li>
-  <li>gnome-system-monitor
-    <blockquote>
-      <p>프로그램의 상태를 백그라운드 창을 띄어 확인할 수 있는 명령어</p>
-    </blockquote>
+<h2 id="vsftps-설정-파일-변경"><span class="me-2">vsftps 설정 파일 변경</span><a href="#vsftps-설정-파일-변경" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">vsftpd</code>의 모든 설정은 <code class="language-plaintext highlighter-rouge">/etc/vsftpd.conf</code> 파일에 저장되어 있다
+FTP 서버의 보안 및 기능을 조정하려면 이 파일을 수정해야 한다</p>
+</blockquote>
 
-    <p><br /></p>
-  </li>
-  <li>nice[옵션] [설정값] [프로그램명]
-    <blockquote>
-      <p>프로세스의 우선 순위 변경</p>
-    </blockquote>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="nb">sudo </span>vi /etc/vsftpd.conf
+</pre></td></tr></tbody></table></code></div></div>
 
-    <ul>
-      <li>nice 값의 범위  -&gt; -20 ~ 19
-        <div class="language-bash highlighter-rouge"><div class="code-header">
+<h4 id="주요-설정-옵션"><span class="me-2">주요 설정 옵션</span><a href="#주요-설정-옵션" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+
+<div class="table-wrapper"><table>
+  <thead>
+    <tr>
+      <th>설정 옵션</th>
+      <th>설명</th>
+      <th>기본값</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">anonymous_enable=NO</code></td>
+      <td>익명 사용자의 FTP 접근 허용 여부</td>
+      <td><code class="language-plaintext highlighter-rouge">YES</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">local_enable=YES</code></td>
+      <td>로컬 사용자 로그인 허용</td>
+      <td><code class="language-plaintext highlighter-rouge">NO</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">write_enable=YES</code></td>
+      <td>파일 업로드/수정 허용</td>
+      <td><code class="language-plaintext highlighter-rouge">NO</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">chroot_local_user=YES</code></td>
+      <td>사용자 홈 디렉토리 제한 (보안)</td>
+      <td><code class="language-plaintext highlighter-rouge">NO</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pasv_enable=YES</code></td>
+      <td>Passive모드 활성화(NAT 환경 필수)</td>
+      <td><code class="language-plaintext highlighter-rouge">YES</code></td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pasv_min_port=40000</code></td>
+      <td>Passive 모드의 최소 포트</td>
+      <td>없음</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">pasv_max_port=50000</code></td>
+      <td>Passive 모드의 최대 포트</td>
+      <td>없음</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">utf8_filesystem=YES</code></td>
+      <td>UTF-8 파일명 지원</td>
+      <td><code class="language-plaintext highlighter-rouge">NO</code></td>
+    </tr>
+  </tbody>
+</table></div>
+
+<blockquote>
+  <p>설정 변경 후 반드시 <code class="language-plaintext highlighter-rouge">vsftpd</code>를 재시작해야 적용된다</p>
+</blockquote>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="nb">sudo </span>systemctl restart vsftpd
+</pre></td></tr></tbody></table></code></div></div>
+
+<p><br /></p>
+
+<h2 id="ftp-사용자-계정-관리"><span class="me-2">FTP 사용자 계정 관리</span><a href="#ftp-사용자-계정-관리" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<blockquote>
+  <p>vsftpd는 로컬 계정을 사용하여 로그인할 수 있으며, FTP 전용 계정을 따로 생성할 수도 있다다</p>
+</blockquote>
+
+<h4 id="ftp-전용-계정-생성"><span class="me-2">FTP 전용 계정 생성</span><a href="#ftp-전용-계정-생성" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
         <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
-</pre></td><td class="rouge-code"><pre> <span class="nb">nice</span> <span class="nt">-10</span> top &lt;<span class="nt">--</span> 우선 순위의 값을 10만큼 낮춤
- <span class="nb">nice</span> <span class="nt">-n</span> <span class="nt">-10</span> top &lt;<span class="nt">--</span> 우선 순위의 값을 10만큼 높임
-</pre></td></tr></tbody></table></code></div>        </div>
-      </li>
-    </ul>
+</pre></td><td class="rouge-code"><pre><span class="nb">sudo </span>useradd <span class="nt">-m</span> <span class="nt">-s</span> /sbin/nologin ftpuser   <span class="c"># 쉘 접근 금지</span>
+<span class="nb">sudo </span>passwd ftpuser  <span class="c"># 비밀번호 설정</span>
+</pre></td></tr></tbody></table></code></div></div>
 
-    <p><br /></p>
-  </li>
-  <li>renice [옵션] [설정값] [PID]
-    <blockquote>
-      <p>실행 중인 프로세스의 우선 순위 변경</p>
-    </blockquote>
+<h4 id="ftp-사용자-디렉토리-설정"><span class="me-2">FTP 사용자 디렉토리 설정</span><a href="#ftp-사용자-디렉토리-설정" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<blockquote>
+  <p>FTP 사용자의 홈 디렉토리를 <code class="language-plaintext highlighter-rouge">/home/ftpuser</code>로 설정하고 해당 디렉토리의 권한을 변경한다</p>
+</blockquote>
 
-    <div class="language-bash highlighter-rouge"><div class="code-header">
+<div class="language-bash highlighter-rouge"><div class="code-header">
         <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
-</pre></td><td class="rouge-code"><pre> renice <span class="nt">-10</span> 6029 &lt;<span class="nt">--</span> 우선 순위를 10만큼 높임
- renice 10 6029 &lt;<span class="nt">--</span> 우선 순위를 10만큼 낮춤
-</pre></td></tr></tbody></table></code></div>    </div>
+</pre></td><td class="rouge-code"><pre><span class="nb">sudo chown </span>ftpuser:ftpuser /home/ftpuser
+<span class="nb">sudo chmod </span>750 /home/ftpuser
+</pre></td></tr></tbody></table></code></div></div>
 
-    <p><br /></p>
-  </li>
-  <li>kill [옵션] [PID]
-    <blockquote>
-      <p>프로세스 종료 명령어</p>
-    </blockquote>
+<h4 id="특정-사용자만-ftp-접속-허용"><span class="me-2">특정 사용자만 FTP 접속 허용</span><a href="#특정-사용자만-ftp-접속-허용" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<blockquote>
+  <p>특정 사용자만 FTP에 로그인하도록 설정하려면 <code class="language-plaintext highlighter-rouge">/etx/vsftpd.user_list</code> 파일을 사용한다</p>
+</blockquote>
 
-    <ul>
-      <li>-l : 옵션의 종류를 출력</li>
-      <li>-1 : 재시작</li>
-      <li>-2 : 해당 프로세스에 신호를 보낼 때 사용</li>
-      <li>-3 : 사용자에 의해 프로세스가 종료되도록 하는 신호</li>
-      <li>-9 : 강제 종료</li>
-      <li>-15: 정상 종료</li>
-      <li>-18 : 일시 중지된 프로세스를 계속 실행</li>
-      <li>-19 : 프로세스를 일시 중지(pause)하는 신호</li>
-      <li>-20 : 사용자에 의해 터미널에서 일시 중지 요청</li>
-      <li>killall [옵션] [프로세스 명]</li>
-    </ul>
-  </li>
-</ol>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="nb">echo</span> <span class="s2">"ftpuser"</span> | <span class="nb">sudo tee</span> <span class="nt">-a</span> /etc/vsftpd.user_list
+</pre></td></tr></tbody></table></code></div></div>
+
+<ul>
+  <li>그 후, <code class="language-plaintext highlighter-rouge">vsftpd.conf</code>에 아래 설정을 추가한다</li>
+</ul>
+
+<div class="language-ini highlighter-rouge"><div class="code-header">
+        <span data-label-text="Ini"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre><span class="py">userlist_enable</span><span class="p">=</span><span class="s">YES</span>
+<span class="py">userlist_file</span><span class="p">=</span><span class="s">/etc/vsftpd.user_list</span>
+<span class="py">userlist_deny</span><span class="p">=</span><span class="s">NO</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<p><br /></p>
+
+<h2 id="passive-모드-설정-방화벽-이슈-해결"><span class="me-2">Passive 모드 설정 (방화벽 이슈 해결)</span><a href="#passive-모드-설정-방화벽-이슈-해결" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<blockquote>
+  <p>Passive Mode(수동 모드)는 NAT 환경(공유기 뒤에 있느 서버)에서 필수적인 설정이다
+<code class="language-plaintext highlighter-rouge">/etc/vsftpd.conf</code> 파일에 다음 내용을 추가하기</p>
+</blockquote>
+
+<div class="language-ini highlighter-rouge"><div class="code-header">
+        <span data-label-text="Ini"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre><span class="py">pasv_enable</span><span class="p">=</span><span class="s">YES</span>
+<span class="py">pasv_min_port</span><span class="p">=</span><span class="s">40000</span>
+<span class="py">pasv_max_port</span><span class="p">=</span><span class="s">50000</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<ul>
+  <li>이후 방화벽에서 해당 포트를 열어줘야 한다</li>
+</ul>
+
+<h4 id="ubuntu-방화벽-설정"><span class="me-2">Ubuntu 방화벽 설정</span><a href="#ubuntu-방화벽-설정" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre><span class="nb">sudo </span>ufw allow 20/tcp   <span class="c"># FTP 데이터 포트</span>
+<span class="nb">sudo </span>ufw allow 21/tcp   <span class="c"># FTP 제어 포트</span>
+<span class="nb">sudo </span>ufw allow 40000:50000/tcp  <span class="c"># Passive 모드 포트</span>
+<span class="nb">sudo </span>ufw reload
+</pre></td></tr></tbody></table></code></div></div>
+
+<h4 id="centos-방화벽-설정"><span class="me-2">CentOs 방화벽 설정</span><a href="#centos-방화벽-설정" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre><span class="nb">sudo </span>firewall-cmd <span class="nt">--permanent</span> <span class="nt">--add-service</span><span class="o">=</span>ftp
+<span class="nb">sudo </span>firewall-cmd <span class="nt">--permanent</span> <span class="nt">--add-port</span><span class="o">=</span>40000-50000/tcp
+<span class="nb">sudo </span>firewall-cmd <span class="nt">--reload</span>
+</pre></td></tr></tbody></table></code></div></div>
+
 
   </div>
 
@@ -787,7 +1061,7 @@
         <i class="far fa-folder-open fa-fw me-1"></i>
         
           <a href="/categories/linux/">Linux</a>,
-          <a href="/categories/basic/">basic</a>
+          <a href="/categories/advanced/">advanced</a>
       </div>
     
 
@@ -835,21 +1109,21 @@
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%20%EA%B4%80%EB%A0%A8%20%EB%AA%85%EB%A0%B9%EC%96%B4%20-%20answer&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux15%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=vsftpd%20-%20answer&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux26%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%20%EA%B4%80%EB%A0%A8%20%EB%AA%85%EB%A0%B9%EC%96%B4%20-%20answer&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux15%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=vsftpd%20-%20answer&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux26%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux15%2F&text=%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%20%EA%B4%80%EB%A0%A8%20%EB%AA%85%EB%A0%B9%EC%96%B4%20-%20answer" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FLinux26%2F&text=vsftpd%20-%20answer" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -1126,6 +1400,12 @@
 
 
 
+  <div class="toc-border-cover z-3"></div>
+  <section id="toc-wrapper" class="invisible position-sticky ps-0 pe-4 pb-4">
+    <h2 class="panel-heading ps-3 pb-2 mb-0">Contents</h2>
+    <nav id="toc"></nav>
+  </section>
+
 
             
           </aside>
@@ -1331,139 +1611,139 @@
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
 
 
 
@@ -1479,7 +1759,7 @@
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
       
         <article class="col">
-          <a href="/posts/Linux10/" class="post-preview card h-100">
+          <a href="/posts/Linux25/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -1491,23 +1771,23 @@
 
 <time
   
-  data-ts="1738387560"
+  data-ts="1738885140"
   data-df="ll"
   
 >
-  Feb  1, 2025
+  Feb  7, 2025
 </time>
 
-              <h4 class="pt-0 my-2">파일과 디렉터리 복사 및 이동</h4>
+              <h4 class="pt-0 my-2">리눅스 서버</h4>
               <div class="text-muted">
-                <p>파일 / 디렉터리 복사            cp [옵션] [원본파일/디렉터리] [대상디렉터리]                 -i : 덮어쓰기 여부 묻기       -f : 강제로 복사       -r : 하위 디렉터리까지 복사       -b : 백업 파일 생성       -S : 확장자 지정              파일 복사 시 와일드 카드 사용 가...</p>
+                <p>talnet server    원격 시스템에 로그온하여 인터넷 또는 로컬 네트워크의 다른 컴퓨터에 액세스할 수 있게 해주는 프로그램이다      서버 프로그램 설치     dnf -y install telnet-server-1:0.17-85.el9.x86_64            클라이언트 프로그램 설치     dnf -y install telnet ...</p>
               </div>
             </div>
           </a>
         </article>
       
         <article class="col">
-          <a href="/posts/Linux09/" class="post-preview card h-100">
+          <a href="/posts/Linux24/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -1519,23 +1799,23 @@
 
 <time
   
-  data-ts="1738387440"
+  data-ts="1738799460"
   data-df="ll"
   
 >
-  Feb  1, 2025
+  Feb  6, 2025
 </time>
 
-              <h4 class="pt-0 my-2">날짜와 시간 명령어</h4>
+              <h4 class="pt-0 my-2">디스크 쿼터</h4>
               <div class="text-muted">
-                <p>date [옵션]            -u : UTC 국제 표준시         date date -u                                 cal [옵션] [설정값]            -3 : 이번 달을 기준으로 전, 후 월을 보여줌       -y : 이번 년도의 모든 월을 보여줌       -yj : 현재 년도의 모든 월을 ...</p>
+                <p>주요 개념    소프트 리밋(soft limit) : 사용자가 기본적으로 사용할 수 있는 용량으로 이 값을 초과하면 관리자가 설정한 기간 동안 초과된 용량을 사용할 수 있다   하드 리밋(hard limit) : 사용자가 사용할 수 있는 최대 용량으로 이 값을 초과하면 사용할 수 없다   I-node 제한 : 사용자나 그룹이 생성할 수 있는 파일의 개...</p>
               </div>
             </div>
           </a>
         </article>
       
         <article class="col">
-          <a href="/posts/Linux08/" class="post-preview card h-100">
+          <a href="/posts/Linux23/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -1547,16 +1827,16 @@
 
 <time
   
-  data-ts="1738387140"
+  data-ts="1738798740"
   data-df="ll"
   
 >
-  Feb  1, 2025
+  Feb  6, 2025
 </time>
 
-              <h4 class="pt-0 my-2">리눅스 디렉터리 구조 및 역할</h4>
+              <h4 class="pt-0 my-2">스케줄러</h4>
               <div class="text-muted">
-                <p>boot  : 부팅 관련 파일(커널)   etc : 모든 환경 설정 파일   lib : 동적 라이브러리 파일 (32비트)   lib64: 동적 라이브러리 파일 (64비트)   root : root 홈 디렉터리   sbin : 시스템 관련 명령어   usr : 일반 사용자 관련 명령어, 프로그램 설치   bin : 일반 명령어   dev : 장치 파일 ...</p>
+                <p>스케줄러    crontab을 사용하여 작업을 일정한 시간에 자동으로 실행할 수 있다 특정 시간이나 간격에 반복적으로 실행되는 작업을 관리하는 데 유용하다     설정 방법    crontab            -l : 현재 등록된 스케줄 확인       -e : 스케줄 추가       -r : 스케줄 삭제           crontab -l cr...</p>
               </div>
             </div>
           </a>
@@ -1577,22 +1857,18 @@
 
   
     <a
-      href="/posts/Linux14/"
+      href="/posts/Java03/"
       class="btn btn-outline-primary"
       aria-label="Older"
     >
-      <p>Shell 관련 명령어</p>
+      <p>제어문</p>
     </a>
   
 
   
-    <a
-      href="/posts/websocket01/"
-      class="btn btn-outline-primary"
-      aria-label="Newer"
-    >
-      <p>websocket</p>
-    </a>
+    <div class="btn btn-outline-primary disabled" aria-label="Newer">
+      <p>-</p>
+    </div>
   
 </nav>
 

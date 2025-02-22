@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>answer</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-21T12:49:42+09:00</updated>
+  <updated>2025-02-22T14:53:54+09:00</updated>
   <author>
     <name>코드로 답하다</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>vsftpd</title>
+    <link href="http://localhost:4000/posts/Linux26/" rel="alternate" type="text/html" title="vsftpd" />
+    <published>2025-02-22T13:53:00+09:00</published>
+  
+    <updated>2025-02-22T13:53:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Linux26/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Linux26/" />
+    <author>
+      <name>코드로 답하다</name>
+    </author>
+
+  
+    
+    <category term="Linux" />
+    
+    <category term="advanced" />
+    
+  
+
+  <summary>vsftpd (Very Secure FTP Daemon) 개요    vsftpd는 Linux/Unix 기반의 FTP 서버 중 하나로 보안성과 성능이 뛰어나기 때문에 널리 사용된다 이름에서 알 수 있듯이 매우 안전한 FTP 데몬으로 설계되었으며, 빠른 속도, 강력한 보안, 가벼운 성능을 제공하는 것이 특징이다     vsftpd 설치    Ubuntu/Debian 계열   sudo dnf update sudo dnf install vsftpd -y      설치가 완료되면 vsftpd 서비스가 자동으로 실행된다     vsftpd 서비스 관리    vsftpd가 실행되고 있는지 확인하고 필요시 재시작할 수 있다   # 서비스 시작 sudo systemctl start vsftpd  # 서비스 자동 시작 ...</summary>
+
+  </entry>
 
   
   <entry>
@@ -119,32 +145,6 @@
   
 
   <summary>변수(Variable)이란?    변수는 데이터를 저장하는 공갑(메모리)이다. Java에서는 변수를 선언할 때 데이터 타입을 명시해야 한다   int number = 10; // 정수형 변수 선언 및 초기화           위 코드에서 int는 데이터 타입, number는 변수명, 10은 변수에 저장된 값이다        데이터 타입    Java의 데이터 타입은 크게 기본형(Primitive Type) 과 참조형(Reference Type) 으로 나뉩니다.      기본형 데이터 타입(Primitive Type)            기본형 데이터 타입은 총 8가지가 있으며 값 자체를 메모리에 저장한다                          데이터 타입       크기       기본값     ...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Flux 패턴</title>
-    <link href="http://localhost:4000/posts/React11/" rel="alternate" type="text/html" title="Flux 패턴" />
-    <published>2025-02-19T10:58:00+09:00</published>
-  
-    <updated>2025-02-19T12:23:18+09:00</updated>
-  
-    <id>http://localhost:4000/posts/React11/</id>
-    <content type="text/html" src="http://localhost:4000/posts/React11/" />
-    <author>
-      <name>코드로 답하다</name>
-    </author>
-
-  
-    
-    <category term="React" />
-    
-    <category term="initial" />
-    
-  
-
-  <summary>Flux 패턴    React 애플리케이션에서 데이터 흐름을 관리하기 위한 아키텍처 패턴 Facebook에서 개발되었으며, 단방향 데이터 흐름을 강조     Flux의 핵심 요소    Action : 상태 변경을 위한 명령을 담은 객체   Dispatcher : 액션을 받아 스토어에 전달하는 중앙 허브   Store : 애플리케이션 상태를 저장하고 관리하는 역할   View(react 컴포넌트) : 스토어에서 상태를 가져와 UI를 렌더링     Flux 데이터 흐름    사용자의 이벤트 발생 (ex. 버튼 클릭)   액션이 생성되고 디스패처에 전달된다   디스패처가 해당 액션을 스토어에 전달   스토어가 변경된 상태를 View에 반영     Flux 기본 사용법 const addTodoAction = ...</summary>
 
   </entry>
 
