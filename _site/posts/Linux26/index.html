@@ -595,6 +595,50 @@
 
       
     
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
 
     
   
@@ -615,6 +659,61 @@
       
         
         
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
       
 
       
@@ -778,9 +877,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="760 words"
+  title="1035 words"
 >
-  <em>4 min</em> read</span>
+  <em>5 min</em> read</span>
 
         </div>
       </div>
@@ -1051,6 +1150,128 @@ FTP 서버의 보안 및 기능을 조정하려면 이 파일을 수정해야 �
 <span class="nb">sudo </span>firewall-cmd <span class="nt">--reload</span>
 </pre></td></tr></tbody></table></code></div></div>
 
+<h2 id="vsftpd-보안-강화"><span class="me-2">vsftpd 보안 강화</span><a href="#vsftpd-보안-강화" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<blockquote>
+  <p>FTP는 기본적으로 보안에 취약하므로 SSL/TLS를 적용하는 것이 좋다</p>
+</blockquote>
+
+<h4 id="ssl--tls-설정"><span class="me-2">SSL / TLS 설정</span><a href="#ssl--tls-설정" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<ul>
+  <li>SSL 인증서 생성</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre><span class="nb">sudo </span>openssl req <span class="nt">-x509</span> <span class="nt">-nodes</span> <span class="nt">-days</span> 365 <span class="nt">-newkey</span> rsa:2048 <span class="se">\</span>
+<span class="nt">-keyout</span> /etc/ssl/private/vsftpd.pem <span class="nt">-out</span> /etc/ssl/private/vsftpd.pem
+</pre></td></tr></tbody></table></code></div></div>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">vsftpd.conf</code>에 SSL 적용</li>
+</ul>
+
+<div class="language-ini highlighter-rouge"><div class="code-header">
+        <span data-label-text="Ini"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre><span class="py">ssl_enable</span><span class="p">=</span><span class="s">YES</span>
+<span class="py">rsa_cert_file</span><span class="p">=</span><span class="s">/etc/ssl/private/vsftpd.pem</span>
+<span class="py">rsa_private_key_file</span><span class="p">=</span><span class="s">/etc/ssl/private/vsftpd.pem</span>
+<span class="py">force_local_logins_ssl</span><span class="p">=</span><span class="s">YES</span>
+<span class="py">force_local_data_ssl</span><span class="p">=</span><span class="s">YES</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<ul>
+  <li>vsftpd 재시작</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="nb">sudo </span>systemctl restart vsftpd
+</pre></td></tr></tbody></table></code></div></div>
+
+<p><br /></p>
+
+<h2 id="ftp-접속-및-테스트"><span class="me-2">FTP 접속 및 테스트</span><a href="#ftp-접속-및-테스트" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<h4 id="cli에서-ftp-접속"><span class="me-2">CLI에서 FTP 접속</span><a href="#cli에서-ftp-접속" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>ftp &lt;서버 IP&gt;
+</pre></td></tr></tbody></table></code></div></div>
+
+<ul>
+  <li>또는 SFTP(보안 FTP) 사용</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>sftp ftpuser@&lt;서버 IP&gt;
+</pre></td></tr></tbody></table></code></div></div>
+
+<p><br /></p>
+
+<h2 id="로그-및-문제-해결"><span class="me-2">로그 및 문제 해결</span><a href="#로그-및-문제-해결" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<h4 id="로그-확인"><span class="me-2">로그 확인</span><a href="#로그-확인" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<ul>
+  <li>FTP 접속 및 오류 로그는 아래 경로에서 확인할 수 있다</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre><span class="nb">sudo </span>journalctl <span class="nt">-u</span> vsftpd <span class="nt">--no-pager</span>
+<span class="nb">sudo tail</span> <span class="nt">-f</span> /var/log/vsftpd.log
+</pre></td></tr></tbody></table></code></div></div>
+
+<h4 id="포트가-열려있는지-확인"><span class="me-2">포트가 열려있는지 확인</span><a href="#포트가-열려있는지-확인" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="nb">sudo </span>netstat <span class="nt">-tulnp</span> | <span class="nb">grep </span>vsftpd
+</pre></td></tr></tbody></table></code></div></div>
+
+<h4 id="selinux-설정-centos"><span class="me-2">SELinux 설정 (CentOS)</span><a href="#selinux-설정-centos" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<ul>
+  <li>CentOS에서 FTP 접속이 안된다면 SELinux를 확인해야 한다</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="nb">sudo </span>setsebool <span class="nt">-P</span> ftp_home_dir on
+</pre></td></tr></tbody></table></code></div></div>
+
+<ul>
+  <li>또는 SELinux를 일시적으로 비활성화하기</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="nb">sudo </span>setenforce 0
+</pre></td></tr></tbody></table></code></div></div>
+
+<h2 id="-마무리-정리"><span class="me-2">🎯 마무리 정리</span><a href="#-마무리-정리" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<ul>
+  <li>vsftpd는 가볍고 안전한 FTP 서버</li>
+  <li>보안 강화를 위해 SSL 적용이 필수</li>
+  <li>Passive 모드 설정 및 방화벽 조정이 필요</li>
+  <li>문제 발생 시 로그 확인</li>
+</ul>
+
 
   </div>
 
@@ -1178,35 +1399,35 @@ FTP 서버의 보안 및 기능을 조정하려면 이 파일을 수정해야 �
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/Linux26/">vsftpd</a>
+          <a href="/posts/Linux34/">리눅스 마스터 2급 2차 2023-03 (1)</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/Java02/">연산자</a>
+          <a href="/posts/Linux33/">(실습) Virtual Hosting</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/Java03/">제어문</a>
+          <a href="/posts/Linux32/">Virtual Hosting</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/React12/">Redux</a>
+          <a href="/posts/Linux31/">Web Server</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/React11/">Flux 패턴</a>
+          <a href="/posts/Linux30/">DNS Server</a>
         </li>
       
     </ul>
@@ -1744,6 +1965,102 @@ FTP 서버의 보안 및 기능을 조정하려면 이 파일을 수정해야 �
 
   
     
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
 
 
 
@@ -1759,7 +2076,7 @@ FTP 서버의 보안 및 기능을 조정하려면 이 파일을 수정해야 �
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
       
         <article class="col">
-          <a href="/posts/Linux25/" class="post-preview card h-100">
+          <a href="/posts/Linux34/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -1771,23 +2088,23 @@ FTP 서버의 보안 및 기능을 조정하려면 이 파일을 수정해야 �
 
 <time
   
-  data-ts="1738885140"
+  data-ts="1740539220"
   data-df="ll"
   
 >
-  Feb  7, 2025
+  Feb 26, 2025
 </time>
 
-              <h4 class="pt-0 my-2">리눅스 서버</h4>
+              <h4 class="pt-0 my-2">리눅스 마스터 2급 2차 2023-03 (1)</h4>
               <div class="text-muted">
-                <p>talnet server    원격 시스템에 로그온하여 인터넷 또는 로컬 네트워크의 다른 컴퓨터에 액세스할 수 있게 해주는 프로그램이다      서버 프로그램 설치     dnf -y install telnet-server-1:0.17-85.el9.x86_64            클라이언트 프로그램 설치     dnf -y install telnet ...</p>
+                <p>다음 설명의 상황에 설정해야 하는 작업으로 가장 알맞은 것은?     project 그룹 소유의 디렉터리인 project에 ifduser 사용자가 파일을 생성 시 그룹 소유권을 자동으로 project 그룹 권한을 지정되도록 한다   ① ihduser 사용자를 project 그룹에 추가시킨다  ② project 디렉터리에 Set-UID를 부여한다  ③ ...</p>
               </div>
             </div>
           </a>
         </article>
       
         <article class="col">
-          <a href="/posts/Linux24/" class="post-preview card h-100">
+          <a href="/posts/Linux33/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -1799,23 +2116,23 @@ FTP 서버의 보안 및 기능을 조정하려면 이 파일을 수정해야 �
 
 <time
   
-  data-ts="1738799460"
+  data-ts="1740536760"
   data-df="ll"
   
 >
-  Feb  6, 2025
+  Feb 26, 2025
 </time>
 
-              <h4 class="pt-0 my-2">디스크 쿼터</h4>
+              <h4 class="pt-0 my-2">(실습) Virtual Hosting</h4>
               <div class="text-muted">
-                <p>주요 개념    소프트 리밋(soft limit) : 사용자가 기본적으로 사용할 수 있는 용량으로 이 값을 초과하면 관리자가 설정한 기간 동안 초과된 용량을 사용할 수 있다   하드 리밋(hard limit) : 사용자가 사용할 수 있는 최대 용량으로 이 값을 초과하면 사용할 수 없다   I-node 제한 : 사용자나 그룹이 생성할 수 있는 파일의 개...</p>
+                <p>개요    DNS 서버 (192.168.10.50) -&amp;gt; user4.co.kr 도메인을 192.168.10.100 (Web Server)로 연결   웹 서버 (192.168.10.100) -&amp;gt; 사용자 user4의 웹 사이트 /home/user4/public_html을 설정     DNS 서버 설정 (192.168.10.50)    BIND(...</p>
               </div>
             </div>
           </a>
         </article>
       
         <article class="col">
-          <a href="/posts/Linux23/" class="post-preview card h-100">
+          <a href="/posts/Linux32/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -1827,16 +2144,16 @@ FTP 서버의 보안 및 기능을 조정하려면 이 파일을 수정해야 �
 
 <time
   
-  data-ts="1738798740"
+  data-ts="1740536760"
   data-df="ll"
   
 >
-  Feb  6, 2025
+  Feb 26, 2025
 </time>
 
-              <h4 class="pt-0 my-2">스케줄러</h4>
+              <h4 class="pt-0 my-2">Virtual Hosting</h4>
               <div class="text-muted">
-                <p>스케줄러    crontab을 사용하여 작업을 일정한 시간에 자동으로 실행할 수 있다 특정 시간이나 간격에 반복적으로 실행되는 작업을 관리하는 데 유용하다     설정 방법    crontab            -l : 현재 등록된 스케줄 확인       -e : 스케줄 추가       -r : 스케줄 삭제           crontab -l cr...</p>
+                <p>Virtual Hosting 개념     도메인 별로 서로 다른 웹 사이트 제공   서버 하나로 여러 개의 도메인 운영 가능   각 사용자 계정마다 개별적인 디렉토리 할당 가능   Virtual Hosting 방식     IP 기반 : 하나의 IP에서 여러 개의 IP를 할당하고 각 IP에 다른 웹 사이트를 연결   이름 기반 : 하나의 IP에서 여러 ...</p>
               </div>
             </div>
           </a>
@@ -1866,9 +2183,13 @@ FTP 서버의 보안 및 기능을 조정하려면 이 파일을 수정해야 �
   
 
   
-    <div class="btn btn-outline-primary disabled" aria-label="Newer">
-      <p>-</p>
-    </div>
+    <a
+      href="/posts/Linux27/"
+      class="btn btn-outline-primary"
+      aria-label="Newer"
+    >
+      <p>DHCP Server</p>
+    </a>
   
 </nav>
 

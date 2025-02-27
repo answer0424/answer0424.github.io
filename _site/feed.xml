@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>answer</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-02-22T14:53:54+09:00</updated>
+  <updated>2025-02-27T13:15:08+09:00</updated>
   <author>
     <name>코드로 답하다</name>
     <uri>http://localhost:4000/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>vsftpd</title>
-    <link href="http://localhost:4000/posts/Linux26/" rel="alternate" type="text/html" title="vsftpd" />
-    <published>2025-02-22T13:53:00+09:00</published>
+    <title>리눅스 마스터 2급 2차 2023-03 (1)</title>
+    <link href="http://localhost:4000/posts/Linux34/" rel="alternate" type="text/html" title="리눅스 마스터 2급 2차 2023-03 (1)" />
+    <published>2025-02-26T12:07:00+09:00</published>
   
-    <updated>2025-02-22T13:53:00+09:00</updated>
+    <updated>2025-02-27T12:47:35+09:00</updated>
   
-    <id>http://localhost:4000/posts/Linux26/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Linux26/" />
+    <id>http://localhost:4000/posts/Linux34/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Linux34/" />
     <author>
       <name>코드로 답하다</name>
     </author>
@@ -40,111 +40,111 @@
     
   
 
-  <summary>vsftpd (Very Secure FTP Daemon) 개요    vsftpd는 Linux/Unix 기반의 FTP 서버 중 하나로 보안성과 성능이 뛰어나기 때문에 널리 사용된다 이름에서 알 수 있듯이 매우 안전한 FTP 데몬으로 설계되었으며, 빠른 속도, 강력한 보안, 가벼운 성능을 제공하는 것이 특징이다     vsftpd 설치    Ubuntu/Debian 계열   sudo dnf update sudo dnf install vsftpd -y      설치가 완료되면 vsftpd 서비스가 자동으로 실행된다     vsftpd 서비스 관리    vsftpd가 실행되고 있는지 확인하고 필요시 재시작할 수 있다   # 서비스 시작 sudo systemctl start vsftpd  # 서비스 자동 시작 ...</summary>
+  <summary>다음 설명의 상황에 설정해야 하는 작업으로 가장 알맞은 것은?     project 그룹 소유의 디렉터리인 project에 ifduser 사용자가 파일을 생성 시 그룹 소유권을 자동으로 project 그룹 권한을 지정되도록 한다   ① ihduser 사용자를 project 그룹에 추가시킨다  ② project 디렉터리에 Set-UID를 부여한다  ③ project 디렉터리에 Set-GID를 부여한다  ④ project 디렉터리에 Sticky-Bit를 부여한다     그룹 소유권을 자동으로 부여하기 위해서는 특수 bit가 부여되어야 한다   즉 그룹 ID 를 부여해야 한다   참고 : Set-UID(4) Set-GID(2) Sticky-Bit(1)   정답 : 3번   다음 중 lin.txt 파일의 그룹...</summary>
 
   </entry>
 
   
   <entry>
-    <title>제어문</title>
-    <link href="http://localhost:4000/posts/Java03/" rel="alternate" type="text/html" title="제어문" />
-    <published>2025-02-21T11:43:00+09:00</published>
+    <title>(실습) Virtual Hosting</title>
+    <link href="http://localhost:4000/posts/Linux33/" rel="alternate" type="text/html" title="(실습) Virtual Hosting" />
+    <published>2025-02-26T11:26:00+09:00</published>
   
-    <updated>2025-02-21T12:38:14+09:00</updated>
+    <updated>2025-02-27T12:35:51+09:00</updated>
   
-    <id>http://localhost:4000/posts/Java03/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Java03/" />
+    <id>http://localhost:4000/posts/Linux33/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Linux33/" />
     <author>
       <name>코드로 답하다</name>
     </author>
 
   
     
-    <category term="Java" />
+    <category term="Linux" />
     
-    <category term="Fundamentals" />
+    <category term="advanced" />
     
   
 
-  <summary>제어문(Control Statements)    제어문은 프로그램의 흐름을 제어하는 구문이다      조건문(if, switch)   반복문(for, while, do-while)   분기문(break, continue, return)   조건문 (Conditional Statements)    조건에 따라 실행 흐름을 결정하는 문법이다   if-else문    조건이 true면 실행, false면 다른 코드 실행   else if를 이용해 여러 조건을 체크 가능   public class IfExample {     public static void main(String[] args) {         int num = 10;                  if (num &amp;amp;gt; 0) {       ...</summary>
+  <summary>개요    DNS 서버 (192.168.10.50) -&amp;amp;gt; user4.co.kr 도메인을 192.168.10.100 (Web Server)로 연결   웹 서버 (192.168.10.100) -&amp;amp;gt; 사용자 user4의 웹 사이트 /home/user4/public_html을 설정     DNS 서버 설정 (192.168.10.50)    BIND(named)를 사용하여 user4.co.kr 도메인을 192.168.10.100에 연결 DNS 설정이 완료되면 ping user4.co.kr 하면 192.168.10.100으로 응답해야 한다   DNS 존 파일 생성    설정 파일 : /var/named/user4.co.kr.zone   sudo vi /var/named/user4.co.kr.zone   ...</summary>
 
   </entry>
 
   
   <entry>
-    <title>연산자</title>
-    <link href="http://localhost:4000/posts/Java02/" rel="alternate" type="text/html" title="연산자" />
-    <published>2025-02-21T11:05:00+09:00</published>
+    <title>Virtual Hosting</title>
+    <link href="http://localhost:4000/posts/Linux32/" rel="alternate" type="text/html" title="Virtual Hosting" />
+    <published>2025-02-26T11:26:00+09:00</published>
   
-    <updated>2025-02-21T12:38:14+09:00</updated>
+    <updated>2025-02-27T11:48:21+09:00</updated>
   
-    <id>http://localhost:4000/posts/Java02/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Java02/" />
+    <id>http://localhost:4000/posts/Linux32/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Linux32/" />
     <author>
       <name>코드로 답하다</name>
     </author>
 
   
     
-    <category term="Java" />
+    <category term="Linux" />
     
-    <category term="Fundamentals" />
+    <category term="advanced" />
     
   
 
-  <summary>연산자    변수나 값에 대한 연산을 수행하는 기호이다   연산자의 종류                 연산자 종류       설명                       산술연산자       사칙 연산 (+, -, *, /, %)                 대입연산자       변수에 값을 할당 (=, +=, -=, *=, /=, %=)                 비교연산자       두 값을 비교 (==,!=, &amp;amp;gt;, &amp;amp;lt;, &amp;amp;gt;=, &amp;amp;lt;=)                 논리연산자       논리연산 (&amp;amp;amp;&amp;amp;amp;, \|\|)                 증감연산자       변수 값을 1 증가 또는 감소 (++, --)                 비트연산자       비트...</summary>
+  <summary>Virtual Hosting 개념     도메인 별로 서로 다른 웹 사이트 제공   서버 하나로 여러 개의 도메인 운영 가능   각 사용자 계정마다 개별적인 디렉토리 할당 가능   Virtual Hosting 방식     IP 기반 : 하나의 IP에서 여러 개의 IP를 할당하고 각 IP에 다른 웹 사이트를 연결   이름 기반 : 하나의 IP에서 여러 도메인을 운영 (주로 사용)   포트 기반 : 같은 IP지만, 포트를 다르게 설정하여 여러 웹 사이트 제공     Apache Virtual Hosting 설정    Apache(htppd)를 사용하여 사용자 계정별 웹 사이트 구성하는 방법   사용자 계정 생성  sudo useradd user1 sudo useradd user2   사용자별 웹 디렉토리 ...</summary>
 
   </entry>
 
   
   <entry>
-    <title>Redux</title>
-    <link href="http://localhost:4000/posts/React12/" rel="alternate" type="text/html" title="Redux" />
-    <published>2025-02-19T12:05:00+09:00</published>
+    <title>Web Server</title>
+    <link href="http://localhost:4000/posts/Linux31/" rel="alternate" type="text/html" title="Web Server" />
+    <published>2025-02-23T18:13:00+09:00</published>
   
-    <updated>2025-02-19T15:49:12+09:00</updated>
+    <updated>2025-02-23T18:13:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/React12/</id>
-    <content type="text/html" src="http://localhost:4000/posts/React12/" />
+    <id>http://localhost:4000/posts/Linux31/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Linux31/" />
     <author>
       <name>코드로 답하다</name>
     </author>
 
   
     
-    <category term="React" />
+    <category term="Linux" />
     
-    <category term="initial" />
+    <category term="advanced" />
     
   
 
-  <summary>Redux    React와 Redux를 함께 사용하는 방식은 React-Redux 라이브러리를 통해 연결되며, 주로 상태관리와 UI 렌더링을 효율적으로 처리하는 데 사용된다     설치    먼저 React 애플리케이션에서 Redux와 React-Redux를 설치해야 한다   npm install redux react-redux     Redux Store 설정    애플리케이션의 상태를 관리할 Redux Store를 생성한다 이 과정에서 createStore()를 사용하여 리듀서와 상태를 설정한다      리듀서 작성            리듀서는 상태를 어떻게 변경하지 정의하는 함수이다 예를 등러 간단한 카운터 상태를 관리하는 리듀서를 만들어 봅시다           // src/redux/coun...</summary>
+  <summary>Web Server    웹 서버 (Web Server)는 클라이언트(브라우저)의 요청을 받아 HTML, CSS, JS 등의 웹 페이지를 제공하는 역할을 한다 대표적인 웹 서버로는 APache, Nginx, Caddy, Lighttpd 등이 있다   웹 서버의 역할    클라이언트 (웹 브라우저)의 HTTP 요청을 처리   HTML, CSS, JS 등의 정적 콘텐츠 제공   PHP, Python, Java 등을 실행하여 동적 콘턴츠 제공   리버스 프록시 (Reverse Proxy) 역할 수행 가능     웹 서버 종류                 웹 서버       특징                       Apache (httpd)       가장 많이 사용됨, 모듈 확장 가능           ...</summary>
 
   </entry>
 
   
   <entry>
-    <title>변수</title>
-    <link href="http://localhost:4000/posts/Java01/" rel="alternate" type="text/html" title="변수" />
-    <published>2025-02-19T12:05:00+09:00</published>
+    <title>DNS Server</title>
+    <link href="http://localhost:4000/posts/Linux30/" rel="alternate" type="text/html" title="DNS Server" />
+    <published>2025-02-23T17:30:00+09:00</published>
   
-    <updated>2025-02-19T12:05:00+09:00</updated>
+    <updated>2025-02-23T18:12:37+09:00</updated>
   
-    <id>http://localhost:4000/posts/Java01/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Java01/" />
+    <id>http://localhost:4000/posts/Linux30/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Linux30/" />
     <author>
       <name>코드로 답하다</name>
     </author>
 
   
     
-    <category term="Java" />
+    <category term="Linux" />
     
-    <category term="Fundamentals" />
+    <category term="advanced" />
     
   
 
-  <summary>변수(Variable)이란?    변수는 데이터를 저장하는 공갑(메모리)이다. Java에서는 변수를 선언할 때 데이터 타입을 명시해야 한다   int number = 10; // 정수형 변수 선언 및 초기화           위 코드에서 int는 데이터 타입, number는 변수명, 10은 변수에 저장된 값이다        데이터 타입    Java의 데이터 타입은 크게 기본형(Primitive Type) 과 참조형(Reference Type) 으로 나뉩니다.      기본형 데이터 타입(Primitive Type)            기본형 데이터 타입은 총 8가지가 있으며 값 자체를 메모리에 저장한다                          데이터 타입       크기       기본값     ...</summary>
+  <summary>DNS (Domain Name System) 서버 개요    DNS는 도메인 이름(www.example.com)을 IP 주소(192.168.1.1)로 변환하는 시스템이다 웹사이트에 접속할 때 사람이 기억하기 쉬운 도메인 대신 서버의 IP 주소를 자동으로 찾아주는 역할을 한다     DNS 서버의 역할    도메인 -&amp;amp;gt; IP 주소 변환 (예: www.google.com =&amp;amp;gt; 142.250.185.36)   IP 주소 -&amp;amp;gt; 도메인 변환 (역방향 조회, PTR 레코드)   메인 서버 (MX 레코드) 및 기타 네트워크 서비스 제공   캐싱을 통한 빠른 네트워크 응답     DNS 조회 과정    사용자가 www.example.com입력   클라이언트(PC)는 로컬 DNS 캐시 확인   없으면 ...</summary>
 
   </entry>
 
