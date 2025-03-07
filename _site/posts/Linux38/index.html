@@ -32,8 +32,8 @@
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="wordpress" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="A minimal, responsive and feature-rich Jekyll theme for technical writing." />
-<meta property="og:description" content="A minimal, responsive and feature-rich Jekyll theme for technical writing." />
+<meta name="description" content="wordpress 설치" />
+<meta property="og:description" content="wordpress 설치" />
 <link rel="canonical" href="http://localhost:4000/posts/Linux38/" />
 <meta property="og:url" content="http://localhost:4000/posts/Linux38/" />
 <meta property="og:site_name" content="answer" />
@@ -42,7 +42,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="wordpress" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-03-02T14:06:00+09:00","datePublished":"2025-03-02T14:06:00+09:00","description":"A minimal, responsive and feature-rich Jekyll theme for technical writing.","headline":"wordpress","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Linux38/"},"url":"http://localhost:4000/posts/Linux38/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-03-06T12:36:43+09:00","datePublished":"2025-03-02T14:06:00+09:00","description":"wordpress 설치","headline":"wordpress","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Linux38/"},"url":"http://localhost:4000/posts/Linux38/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -212,9 +212,16 @@
 
   
 
+  
+    
+
+    
+
+  
 
 
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.13/dayjs.min.js,npm/dayjs@1.11.13/locale/en.js,npm/dayjs@1.11.13/plugin/relativeTime.js,npm/dayjs@1.11.13/plugin/localizedFormat.js,npm/tocbot@4.32.2/dist/tocbot.min.js"></script>
 
 
 
@@ -515,6 +522,49 @@
   
 
   
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
 
   
   
@@ -524,6 +574,27 @@
   
   
 
+  
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
   
 
   
@@ -545,7 +616,7 @@
 
 
 
-<article class="px-1" data-toc="false">
+<article class="px-1" data-toc="true">
   <header>
     <h1 data-toc-skip>wordpress</h1>
     
@@ -576,6 +647,29 @@
       </span>
 
       <!-- lastmod date -->
+      
+        <span>
+          Updated
+          <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1741232203"
+  data-df="ll"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  Mar  6, 2025
+</time>
+
+        </span>
       
 
       
@@ -619,7 +713,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="0 words"
+  title="176 words"
 >
   <em>1 min</em> read</span>
 
@@ -629,9 +723,120 @@
   </header>
 
   
+    <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
+      <span class="label text-truncate">wordpress</span>
+      <button type="button" class="toc-trigger btn me-1">
+        <i class="fa-solid fa-list-ul fa-fw"></i>
+      </button>
+    </div>
+
+    <button id="toc-solo-trigger" type="button" class="toc-trigger btn btn-outline-secondary btn-sm">
+      <span class="label ps-2 pe-1">Contents</span>
+      <i class="fa-solid fa-angle-right fa-fw"></i>
+    </button>
+
+    <dialog id="toc-popup" class="p-0">
+      <div class="header d-flex flex-row align-items-center justify-content-between">
+        <div class="label text-truncate py-2 ms-4">wordpress</div>
+        <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
+          <i class="fas fa-close"></i>
+        </button>
+      </div>
+      <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
+    </dialog>
+  
 
   <div class="content">
-    
+    <h2 id="wordpress-설치"><span class="me-2">wordpress 설치</span><a href="#wordpress-설치" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<div class="language-shell highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td><td class="rouge-code"><pre><span class="c"># 설치</span>
+wget https://ko.wordpress.org/latest-ko_KR.zip
+
+<span class="c"># 압축 해제</span>
+unzip latest-ko_KR.zip
+
+<span class="c"># 파일 복사</span>
+<span class="nb">cp</span> <span class="nt">-rf</span> wordpress/ /var/www/html
+</pre></td></tr></tbody></table></code></div></div>
+
+<h4 id="복사된-파일-수정"><span class="me-2">복사된 파일 수정</span><a href="#복사된-파일-수정" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+
+<div class="language-shell highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+</pre></td><td class="rouge-code"><pre><span class="nb">cd </span>wordpress
+<span class="nb">cp </span>wp-config-sample wp-config.php
+vi wp-config.php
+
+ 23 define<span class="o">(</span> <span class="s1">'DB_NAME'</span>, <span class="s1">'DB 사용자 이름'</span> <span class="o">)</span><span class="p">;</span>
+ 24 
+ 25 /<span class="k">**</span> Database username <span class="k">*</span>/
+ 26 define<span class="o">(</span> <span class="s1">'DB_USER'</span>, <span class="s1">'DB 사용자 ID'</span> <span class="o">)</span><span class="p">;</span>
+ 27 
+ 28 /<span class="k">**</span> Database password <span class="k">*</span>/
+ 29 define<span class="o">(</span> <span class="s1">'DB_PASSWORD'</span>, <span class="s1">'DB 사용자 password'</span> <span class="o">)</span><span class="p">;</span>
+ 30 
+ 31 /<span class="k">**</span> Database <span class="nb">hostname</span> <span class="k">*</span>/
+ 32 define<span class="o">(</span> <span class="s1">'DB_HOST'</span>, <span class="s1">'localhost'</span> <span class="o">)</span><span class="p">;</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<h2 id="php-설치"><span class="me-2">PHP 설치</span><a href="#php-설치" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<div class="language-shell highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre>dnf <span class="nt">-y</span> intstall php
+dnf <span class="nt">-y</span> intstall php-common
+dnf <span class="nt">-y</span> intstall php-opcache
+dnf <span class="nt">-y</span> intstall php-cli
+dnf <span class="nt">-y</span> intstall php-gd
+dnf <span class="nt">-y</span> intstall php-curl
+dnf <span class="nt">-y</span> intstall php-mysqlnd
+</pre></td></tr></tbody></table></code></div></div>
+
+<h2 id="mariadb-설치"><span class="me-2">MariaDB 설치</span><a href="#mariadb-설치" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<div class="language-shell highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>dnf <span class="nt">-y</span> <span class="nb">install </span>mariadb<span class="k">*</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<pre><code class="language-mysql">MariaDB [mysql]&gt; create database wp;
+
+MariaDB [mysql]&gt; show databases;
+
+MariaDB [mysql]&gt; grant all privileges on wp.* to 'wp'@'localhost';
+</code></pre>
 
   </div>
 
@@ -766,28 +971,28 @@
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/Linux37/">리눅스 마스터 2급 2차 2023-03 (4)</a>
+          <a href="/posts/Week01_03/">객체 지향 4대 원칙</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/Linux32/">Virtual Hosting</a>
+          <a href="/posts/Week01_02/">Call By Value vs Call By Reference</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/Linux33/">(실습) Virtual Hosting</a>
+          <a href="/posts/Week01_01/">JVM 구조</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/Linux34/">리눅스 마스터 2급 2차 2023-03 (1)</a>
+          <a href="/posts/Week01_04/">Spring 동작원리</a>
         </li>
       
     </ul>
@@ -864,6 +1069,35 @@
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
@@ -893,10 +1127,6 @@
     
     
     
-      
-        
-        
-
   
     
     
@@ -912,6 +1142,20 @@
     
     
       
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
     
   
     
@@ -955,6 +1199,9 @@
         <a class="post-tag btn btn-outline-primary" href="/tags/react/">react</a>
       
         
+        <a class="post-tag btn btn-outline-primary" href="/tags/study/">study</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/tags/java/">java</a>
       
         
@@ -980,6 +1227,12 @@
 
 
 
+
+  <div class="toc-border-cover z-3"></div>
+  <section id="toc-wrapper" class="invisible position-sticky ps-0 pe-4 pb-4">
+    <h2 class="panel-heading ps-3 pb-2 mb-0">Contents</h2>
+    <nav id="toc"></nav>
+  </section>
 
 
             
@@ -1463,6 +1716,18 @@
 
   
     
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
 
 
 
@@ -1476,6 +1741,34 @@
   <aside id="related-posts" aria-labelledby="related-label">
     <h3 class="mb-4" id="related-label">Further Reading</h3>
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        <article class="col">
+          <a href="/posts/Linux39/" class="post-preview card h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1740891960"
+  data-df="ll"
+  
+>
+  Mar  2, 2025
+</time>
+
+              <h4 class="pt-0 my-2">wordpress</h4>
+              <div class="text-muted">
+                <p></p>
+              </div>
+            </div>
+          </a>
+        </article>
       
         <article class="col">
           <a href="/posts/Linux10/" class="post-preview card h-100">
@@ -1533,34 +1826,6 @@
           </a>
         </article>
       
-        <article class="col">
-          <a href="/posts/Linux08/" class="post-preview card h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1738387140"
-  data-df="ll"
-  
->
-  Feb  1, 2025
-</time>
-
-              <h4 class="pt-0 my-2">리눅스 디렉터리 구조 및 역할</h4>
-              <div class="text-muted">
-                <p>boot  : 부팅 관련 파일(커널)   etc : 모든 환경 설정 파일   lib : 동적 라이브러리 파일 (32비트)   lib64: 동적 라이브러리 파일 (64비트)   root : root 홈 디렉터리   sbin : 시스템 관련 명령어   usr : 일반 사용자 관련 명령어, 프로그램 설치   bin : 일반 명령어   dev : 장치 파일 ...</p>
-              </div>
-            </div>
-          </a>
-        </article>
-      
     </nav>
   </aside>
   <!-- #related-posts -->
@@ -1585,9 +1850,13 @@
   
 
   
-    <div class="btn btn-outline-primary disabled" aria-label="Newer">
-      <p>-</p>
-    </div>
+    <a
+      href="/posts/Linux39/"
+      class="btn btn-outline-primary"
+      aria-label="Newer"
+    >
+      <p>wordpress</p>
+    </a>
   
 </nav>
 
@@ -1706,6 +1975,35 @@
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
@@ -1735,10 +2033,6 @@
     
     
     
-      
-        
-        
-
   
     
     
@@ -1754,6 +2048,20 @@
     
     
       
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
     
   
     
@@ -1795,6 +2103,9 @@
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/react/">react</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/study/">study</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/java/">java</a>

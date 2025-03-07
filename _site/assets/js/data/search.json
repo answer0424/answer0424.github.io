@@ -1,11 +1,59 @@
 [
   {
+    "title": "TCP & UDP",
+    "url": "/posts/Week01_05/",
+    "categories": "Study, week01",
+    "tags": "study",
+    "date": "2025-03-04 15:11:00 +0900",
+    "content": "TCP (Transmission Control Protocol)    신뢰성 있는 데이터 전송을 보장하는 연결 지향 프로토콜   주요 특징    연결 지향 : 3-way Handshake를 통해 연결을 설정한 후 데이터 전송   신뢰성 보장 : 데이터 패킷이 손실되거나 순서가 바뀌면 재전송 및 정렬을 수행   흐름 제어 : 송신자가 수신자의 처리 속도..."
+  },
+  {
+    "title": "Spring 동작원리",
+    "url": "/posts/Week01_04/",
+    "categories": "Study, week01",
+    "tags": "study",
+    "date": "2025-03-04 15:11:00 +0900",
+    "content": "중요한 개념    IoC (Inversion of Control, 제어의 역전)   DI (Dependency Injection, 의존성 주입)   AOP (Aspect-Oriented Programing, 관점 지향 프로그래밍)   PSA (Portable Service Abstraction, 범용 서비스 추상화)   POJO (Plain Old J..."
+  },
+  {
+    "title": "객체 지향 4대 원칙",
+    "url": "/posts/Week01_03/",
+    "categories": "Study, week01",
+    "tags": "study",
+    "date": "2025-03-04 14:01:00 +0900",
+    "content": "객체 지향 프로그래밍(OOP)의 4대 원칙    객체 지향 프로그래밍(Object-Oriented Programing)은 객체를 더 효율적이고 유지보수하기 쉽게 만들기 위한 개념                  원칙       설명                       캡슐화(Encapsulation)       데이터와 메서드를 하나로 묶고 외부에서..."
+  },
+  {
+    "title": "Call By Value vs Call By Reference",
+    "url": "/posts/Week01_02/",
+    "categories": "Study, week01",
+    "tags": "study",
+    "date": "2025-03-04 13:10:00 +0900",
+    "content": "값을 전달하는 방식에 따른 분류    Call By Value(값 호출)   Call By Reference(참조 호출)     Call By Value    함수에 인자로 전달된 값의 복사본을 전달하는 방식   원본 데이터는 변경되지 않음   Java는 기본적으로 Call By Value 방식을 사용   public class CallByValueE..."
+  },
+  {
+    "title": "JVM 구조",
+    "url": "/posts/Week01_01/",
+    "categories": "Study, week01",
+    "tags": "study",
+    "date": "2025-03-04 11:06:00 +0900",
+    "content": "JVM (Java Virtual Machine)    자바 프로그램을 실행하는 가상 머신으로 플랫폼 독립성을 제공하는 핵심요소이다. JVM의 주요 구성 요소는 크게 클래스 로더 시스템, 런타임 데이터 영역, 실행 엔진, 네이티브 인터페이스 로 나뉜다.       JVM 구조에 대한 이해    우리가 프로그래밍 언어로 코드를 짜도 컴퓨터는 이해하지 못한..."
+  },
+  {
+    "title": "wordpress",
+    "url": "/posts/Linux39/",
+    "categories": "Linux, master",
+    "tags": "linux",
+    "date": "2025-03-02 14:06:00 +0900",
+    "content": ""
+  },
+  {
     "title": "wordpress",
     "url": "/posts/Linux38/",
     "categories": "Linux, master",
     "tags": "linux",
     "date": "2025-03-02 14:06:00 +0900",
-    "content": ""
+    "content": "wordpress 설치  # 설치 wget https://ko.wordpress.org/latest-ko_KR.zip  # 압축 해제 unzip latest-ko_KR.zip  # 파일 복사 cp -rf wordpress/ /var/www/html   복사된 파일 수정  cd wordpress cp wp-config-sample wp-config.ph..."
   },
   {
     "title": "리눅스 마스터 2급 2차 2023-03 (4)",
