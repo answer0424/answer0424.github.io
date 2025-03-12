@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>answer</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-03-07T14:02:08+09:00</updated>
+  <updated>2025-03-12T11:32:04+09:00</updated>
   <author>
     <name>코드로 답하다</name>
     <uri>http://localhost:4000/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>TCP &amp; UDP</title>
-    <link href="http://localhost:4000/posts/Week01_05/" rel="alternate" type="text/html" title="TCP &amp;amp; UDP" />
-    <published>2025-03-04T15:11:00+09:00</published>
+    <title>Chapter 06. 객체와 자료 구조</title>
+    <link href="http://localhost:4000/posts/CleanCode06/" rel="alternate" type="text/html" title="Chapter 06. 객체와 자료 구조" />
+    <published>2025-03-11T13:15:00+09:00</published>
   
-    <updated>2025-03-04T15:11:00+09:00</updated>
+    <updated>2025-03-11T13:17:23+09:00</updated>
   
-    <id>http://localhost:4000/posts/Week01_05/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Week01_05/" />
+    <id>http://localhost:4000/posts/CleanCode06/</id>
+    <content type="text/html" src="http://localhost:4000/posts/CleanCode06/" />
     <author>
       <name>코드로 답하다</name>
     </author>
@@ -36,24 +36,24 @@
     
     <category term="Study" />
     
-    <category term="week01" />
+    <category term="CleanCode" />
     
   
 
-  <summary>TCP (Transmission Control Protocol)    신뢰성 있는 데이터 전송을 보장하는 연결 지향 프로토콜   주요 특징    연결 지향 : 3-way Handshake를 통해 연결을 설정한 후 데이터 전송   신뢰성 보장 : 데이터 패킷이 손실되거나 순서가 바뀌면 재전송 및 정렬을 수행   흐름 제어 : 송신자가 수신자의 처리 속도를 고려하여 데이터를 조절   혼잡 제어 : 네트워크 상태를 고려하여 전송 속도를 조절   패킷의 순서 보장 : 패킷이 순서대로 도착하도록 관리 (Sequence Number 활용)   TCP 연결 과정 (3-Way Handshake)    클라이언트 ➡️ 서버 : SYN 요청 (연결 요청)   서버 ➡️ 클라이언트 : SYN + ACK 응답 (요청 수락)...</summary>
+  <summary>private    비공개로 정의하는 이유 → 남들이 변수에 의존하지 않게 만들고 싶어서   그렇다면 왜 getter와 setter 함수를 public으로 만들어서 비공개 변수를 외부에 노출할까?? (이 부분 정말 궁금했음..)            가능하면 추상적 메서드를 제공             자료 추상화  public class Point {     public double x;     public double y; }   public interface Point {     double getX();     double getY();     void setCharesian(double x, double y);     double getR();     double getTheta();     vo...</summary>
 
   </entry>
 
   
   <entry>
-    <title>Spring 동작원리</title>
-    <link href="http://localhost:4000/posts/Week01_04/" rel="alternate" type="text/html" title="Spring 동작원리" />
-    <published>2025-03-04T15:11:00+09:00</published>
+    <title>Chapter 05. 형식 맞추기</title>
+    <link href="http://localhost:4000/posts/CleanCode05/" rel="alternate" type="text/html" title="Chapter 05. 형식 맞추기" />
+    <published>2025-03-11T13:13:00+09:00</published>
   
-    <updated>2025-03-04T15:11:00+09:00</updated>
+    <updated>2025-03-11T13:13:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/Week01_04/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Week01_04/" />
+    <id>http://localhost:4000/posts/CleanCode05/</id>
+    <content type="text/html" src="http://localhost:4000/posts/CleanCode05/" />
     <author>
       <name>코드로 답하다</name>
     </author>
@@ -62,24 +62,24 @@
     
     <category term="Study" />
     
-    <category term="week01" />
+    <category term="CleanCode" />
     
   
 
-  <summary>중요한 개념    IoC (Inversion of Control, 제어의 역전)   DI (Dependency Injection, 의존성 주입)   AOP (Aspect-Oriented Programing, 관점 지향 프로그래밍)   PSA (Portable Service Abstraction, 범용 서비스 추상화)   POJO (Plain Old Java Object)     Ioc    기존 프로그램 흐름과 달리, 객체의 생성과 관리를 개발자가 아닌 Spring 컨테이너가 담당하는 개념   기존 방식 (IoC 적용 ❌)    개발자가 직접 객체를 생성하고 객체 간의 의존 관계를 관리함   class Car {     private Engine engine;      public Car() {    ...</summary>
+  <summary>형식을 맞추는 목적    코드의 형식은 의사소통의 일환   현재 돌아가는 코드가 다음 버전에서는 바뀔 확률 ↑   유지보수 용이성과 확장성에 영향     적절한 행 길이를 유지    일반적으로 큰 파일보다 작은 파일이 이해하기 쉽다.   500줄을 넘지 않고서 대부분 200줄의 파일로도 커다란 프로그램을 구축할 수 있다.     신문 기사처럼 작성하라    이름만 보고도 올바른 모듈을 살펴보고 있는지 아닌지를 판단할 수 있어야 한다.     개념은 빈 행으로 분리하라    생각 사이에는 빈 행을 넣어 분리   빈 행은 새로운 개념이 시작한다는 시각적 단서   줄바꿈 → 개념 분리     세로 밀집도    세로 밀집도 → 연관성     수직 거리    서로 밀접한 개념은 세로롤 가까이 둬야 한다.   p...</summary>
 
   </entry>
 
   
   <entry>
-    <title>객체 지향 4대 원칙</title>
-    <link href="http://localhost:4000/posts/Week01_03/" rel="alternate" type="text/html" title="객체 지향 4대 원칙" />
-    <published>2025-03-04T14:01:00+09:00</published>
+    <title>Chapter 04. 주석</title>
+    <link href="http://localhost:4000/posts/CleanCode04/" rel="alternate" type="text/html" title="Chapter 04. 주석" />
+    <published>2025-03-11T13:12:00+09:00</published>
   
-    <updated>2025-03-05T19:08:05+09:00</updated>
+    <updated>2025-03-11T13:12:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/Week01_03/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Week01_03/" />
+    <id>http://localhost:4000/posts/CleanCode04/</id>
+    <content type="text/html" src="http://localhost:4000/posts/CleanCode04/" />
     <author>
       <name>코드로 답하다</name>
     </author>
@@ -88,24 +88,24 @@
     
     <category term="Study" />
     
-    <category term="week01" />
+    <category term="CleanCode" />
     
   
 
-  <summary>객체 지향 프로그래밍(OOP)의 4대 원칙    객체 지향 프로그래밍(Object-Oriented Programing)은 객체를 더 효율적이고 유지보수하기 쉽게 만들기 위한 개념                  원칙       설명                       캡슐화(Encapsulation)       데이터와 메서드를 하나로 묶고 외부에서 직접 접근하지 못하도록 제한                 상속(Inheritance)       기존 클래스를 재사용하여 새로운 클래스를 생성                 다형성 (Polymorphism)       같은 인터페이스를 다양한 방식으로 구현                 추상화 (Abstraction)       핵심적인 부분만 추출하여 설계...</summary>
+  <summary>주석    우리가 프로그래밍 언어를 치밀하게 사용해 의도를 표현할 능력이 있다면 주석은 거의 필요하지 않다.   즉, 주석은 실패를 만회하기 위한 도구이다.   주석은 오래될수록 코드에서 멀어진다.     주석은 나쁜 코드를 보완하지 못한다    코드에 주석을 추가하는 이유는 보통 코드 품질이 나쁘기 때문이다.     코드로 의도를 표현하라    주석으로 달련느 설명을 함수로 만들어 표현해도 충분하다.     좋은 주석이란 무엇인가?    법적인 주석            저작권 정보, 라이선스, 소유권 정보           정보를 제공하는 주석   의도를 설명하는 주석   의도를 명료하게 밝히는 주석   결과를 경고하는 주석     TODO 주석    앞으로 할 일을 //TODO 주석으로 남겨두면 편...</summary>
 
   </entry>
 
   
   <entry>
-    <title>Call By Value vs Call By Reference</title>
-    <link href="http://localhost:4000/posts/Week01_02/" rel="alternate" type="text/html" title="Call By Value vs Call By Reference" />
-    <published>2025-03-04T13:10:00+09:00</published>
+    <title>Chapter 03. 함수</title>
+    <link href="http://localhost:4000/posts/CleanCode03/" rel="alternate" type="text/html" title="Chapter 03. 함수" />
+    <published>2025-03-11T13:11:00+09:00</published>
   
-    <updated>2025-03-05T18:15:01+09:00</updated>
+    <updated>2025-03-11T13:18:44+09:00</updated>
   
-    <id>http://localhost:4000/posts/Week01_02/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Week01_02/" />
+    <id>http://localhost:4000/posts/CleanCode03/</id>
+    <content type="text/html" src="http://localhost:4000/posts/CleanCode03/" />
     <author>
       <name>코드로 답하다</name>
     </author>
@@ -114,24 +114,24 @@
     
     <category term="Study" />
     
-    <category term="week01" />
+    <category term="CleanCode" />
     
   
 
-  <summary>값을 전달하는 방식에 따른 분류    Call By Value(값 호출)   Call By Reference(참조 호출)     Call By Value    함수에 인자로 전달된 값의 복사본을 전달하는 방식   원본 데이터는 변경되지 않음   Java는 기본적으로 Call By Value 방식을 사용   public class CallByValueExample {     public static void changeValue(int num) {         num = 10; // num의 값만 변경 (복사본이므로 원본 영향 없음)     }      public static void main(String[] args) {         int x = 5;         changeValue(x); ...</summary>
+  <summary>함수를 만드는 규칙 1    작게 만들어라   중첩 구조가 생길만큼 함수가 커져서는 안된다     함수를 만드는 규칙 2    한 가지만 해라   지정된 함수 이름 아래에서 추상화 수준이 하나인 단계만 수행한다면 그 함수는 한가지만 수행할 수 있다.   우리가 함수를 만드는 이유는 추상화 수준에서 여러 단계로 나누어 수행하기 위해서이다.     함수를 만드는 규칙 3    함수 당 추상화 수준은 하나로   함수가 확실히 하나의 작업만 수행하려면 함수 내 모든 문장의 추상화 수준이 동일해야 한다.   특정 표현이 근본 개념인지 세부사항인지 구분하기 어렵기 때문에 추상화 수준을 섞으면 코드를 읽기 어려워진다.     내려가기 규칙    위에서 아래로 코드 읽기   이야기처럼 읽혀야 좋다.     Switc...</summary>
 
   </entry>
 
   
   <entry>
-    <title>JVM 구조</title>
-    <link href="http://localhost:4000/posts/Week01_01/" rel="alternate" type="text/html" title="JVM 구조" />
-    <published>2025-03-04T11:06:00+09:00</published>
+    <title>Chapter 02. 의미 있는 이름</title>
+    <link href="http://localhost:4000/posts/CleanCode02/" rel="alternate" type="text/html" title="Chapter 02. 의미 있는 이름" />
+    <published>2025-03-11T13:10:00+09:00</published>
   
-    <updated>2025-03-05T17:56:45+09:00</updated>
+    <updated>2025-03-11T13:19:27+09:00</updated>
   
-    <id>http://localhost:4000/posts/Week01_01/</id>
-    <content type="text/html" src="http://localhost:4000/posts/Week01_01/" />
+    <id>http://localhost:4000/posts/CleanCode02/</id>
+    <content type="text/html" src="http://localhost:4000/posts/CleanCode02/" />
     <author>
       <name>코드로 답하다</name>
     </author>
@@ -140,11 +140,11 @@
     
     <category term="Study" />
     
-    <category term="week01" />
+    <category term="CleanCode" />
     
   
 
-  <summary>JVM (Java Virtual Machine)    자바 프로그램을 실행하는 가상 머신으로 플랫폼 독립성을 제공하는 핵심요소이다. JVM의 주요 구성 요소는 크게 클래스 로더 시스템, 런타임 데이터 영역, 실행 엔진, 네이티브 인터페이스 로 나뉜다.       JVM 구조에 대한 이해    우리가 프로그래밍 언어로 코드를 짜도 컴퓨터는 이해하지 못한다   즉, 코드를 컴퓨터가 알아듣도록 번역(Compiled) 또는 통역(Interpreted)을 통해 컴퓨터의 언어로 바꿔줘야 한다   둘의 간단한 차이점은 번역은 컴퓨터에게 보낼 때 미리 번역 작업을 해두냐에 대한 차이이다   JVM을 요리에 비유            프로그래머 ➡️ 새로운 요리에 대한 레시피를 만듦       컴퓨터 ➡️ 국가     ...</summary>
+  <summary>이름을 잘 짓는 방법 1    의도를 분명히 밝혀라   좋은 이름으로 절약하는 시간이 훨씬 많다.   따로 주석이 필요하지 않게 이름을 지어야 한다.   주석이 필요하다면 의도를를 분명하게 나타내지 못했다는 뜻   코드가 하는 일을 짐작하기 어렵다면 문제는 단순성이 아니라 코드의 함축성이다.   public List&amp;amp;lt;Cell&amp;amp;gt; getFlaggedCells() {     List&amp;amp;lt;Cell&amp;amp;gt; flaggedCells = new ArrayList&amp;amp;lt;Cell&amp;amp;gt;();     for(Cell cell : gameBoard)         if(cell.isFallgged())             flaggedCells.add(cell);     return flaggedCells; ...</summary>
 
   </entry>
 
