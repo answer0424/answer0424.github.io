@@ -42,7 +42,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="프로세스 vs 스레드" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-03-11T12:07:00+09:00","datePublished":"2025-03-11T12:07:00+09:00","description":"프로세스(Process)란??","headline":"프로세스 vs 스레드","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Week02_04/"},"url":"http://localhost:4000/posts/Week02_04/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-03-13T15:10:10+09:00","datePublished":"2025-03-11T12:07:00+09:00","description":"프로세스(Process)란??","headline":"프로세스 vs 스레드","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Week02_04/"},"url":"http://localhost:4000/posts/Week02_04/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -720,6 +720,39 @@
 
       
     
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
 
     
   
@@ -817,6 +850,29 @@
 
       <!-- lastmod date -->
       
+        <span>
+          Updated
+          <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1741846210"
+  data-df="ll"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  Mar 13, 2025
+</time>
+
+        </span>
+      
 
       
 
@@ -859,9 +915,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="537 words"
+  title="847 words"
 >
-  <em>2 min</em> read</span>
+  <em>4 min</em> read</span>
 
         </div>
       </div>
@@ -937,6 +993,34 @@
       <li>자원 고유로 인한 동기화 문제 (경쟁 상태, 데드락 등) 발생 가능</li>
     </ul>
   </li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="스레드가-더-가볍다고-하는-이유"><span class="me-2">스레드가 더 가볍다고 하는 이유</span><a href="#스레드가-더-가볍다고-하는-이유" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+<ul>
+  <li>스레드는 프로세스처럼 독립된 메모리 공간을 새로 만들 필요가 없고 프로세스 자원을 공유해서 생성/전환 비용이 훨씬 적다.</li>
+  <li>따라서 스레드는 생성, 종료, 컨텍스트 스위칭 시 시스템 오버헤드가 작다.</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="멀티스레드가-항상-좋은지"><span class="me-2">멀티스레드가 항상 좋은지?</span><a href="#멀티스레드가-항상-좋은지" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<ul>
+  <li>그렇지 않다</li>
+  <li>스레드 간 자원 경쟁, 동기화 비용, 컨텍스트 스위칭 비용 등으로 인해 오히려 단일 스레드보다 느려질 수도 있다.</li>
+  <li>또한 CPU 코어 수보다 많은 스레드는 오히려 문맥 전환 오버헤드만 증가시킬 수 있다.</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="프로세스-간-통신ipc과-스레드-간-통신의-차이"><span class="me-2">프로세스 간 통신(IPC)과 스레드 간 통신의 차이</span><a href="#프로세스-간-통신ipc과-스레드-간-통신의-차이" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<ul>
+  <li>스레드는 같은 메모리를 공유하므로 데이터 전달이 빠르고 간단하다</li>
+  <li>프로세스는 서로 메모리를 공유하지 않기 때문에 IPC를 사용해야 하고, 이 과정에서 속도 저하와 복잡성이 생긴다</li>
+  <li>대신 프로세스 간 격리성이 높아 보안/안정성은 더 좋다</li>
 </ul>
 
 <p><br /></p>
@@ -1124,35 +1208,35 @@
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/CleanCode01/">Chapter 01. 깨끗한 코드</a>
+          <a href="/posts/Week03_04/">Spring AOP & 프록시 개념</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/CleanCode02/">Chapter 02. 의미 있는 이름</a>
+          <a href="/posts/Week03_03/">CPU 스케줄링</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/CleanCode03/">Chapter 03. 함수</a>
+          <a href="/posts/Week03_02/">String vs StringBuffer vs StringBuilder</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/CleanCode06/">Chapter 06. 객체와 자료 구조</a>
+          <a href="/posts/Week03_01/">Garbage Collection</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/CleanCode05/">Chapter 05. 형식 맞추기</a>
+          <a href="/posts/CleanCode09/">Chapter 09. 단위 테스트</a>
         </li>
       
     </ul>
@@ -1528,6 +1612,90 @@
 
   
     
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
   
 
   

@@ -1,5 +1,61 @@
 [
   {
+    "title": "Spring AOP & 프록시 개념",
+    "url": "/posts/Week03_04/",
+    "categories": "Study, week03",
+    "tags": "study",
+    "date": "2025-03-20 13:20:00 +0900",
+    "content": "AOP(Aspect-Oriented Programming)     AOP는 관점 지향 프로그래밍이라고 불린다. 관점 지향은 쉽게 말해 어떤 로직을 기준으로 핵심적인 관점, 부가적인 관점을 나누어서 보고 기 관점을 기준으로 각각 모듈화하겠다는 것     기본 구성 요소  Aspect (관점)     AOP의 핵심 개념으로 공통 관심사를 하나의 모듈로 분..."
+  },
+  {
+    "title": "CPU 스케줄링",
+    "url": "/posts/Week03_03/",
+    "categories": "Study, week03",
+    "tags": "study",
+    "date": "2025-03-18 14:26:00 +0900",
+    "content": "CPU 스케줄링이란??     CPU 스케줄링은 Ready Queue에 있는 프로세스들 중에서 어떤 프로세스에게 CPU를 할당할지 결정하는 운영체제의 핵심 기능   한정된 자원인 CPU를 효율적으로 사용하기 위해 필수적인 개념     CPU 스케줄링이 필요한 이유     다수의 프로세스가 동시에 실행될 수 없음 → CPU는 하나만 실행   I/O 대기..."
+  },
+  {
+    "title": "String vs StringBuffer vs StringBuilder",
+    "url": "/posts/Week03_02/",
+    "categories": "Study, week03",
+    "tags": "study",
+    "date": "2025-03-18 13:11:00 +0900",
+    "content": "String vs StringBuffer vs StringBuilder 개요                 항목       String       StringBuffer       StringBuilder                       불변성       불변 (Immutable)       가변 (Mutable)       가변 (Mutable..."
+  },
+  {
+    "title": "Garbage Collection",
+    "url": "/posts/Week03_01/",
+    "categories": "Study, week03",
+    "tags": "study",
+    "date": "2025-03-18 10:57:00 +0900",
+    "content": "Garbage Collection이란??     더 이상 사용되지 않는 객체(메모리)를 자동으로 탐지하고 제거하는 프로세스 개발자가 직접 메모리를 해제하지 않아도 되므로, 메모리 누수(Memory Leak)를 줄이고 안정성을 높이는 역할     주요 기능     Heap 메모리 관리 :  객체가 생성되는 영역인 Heap을 자동 관리   불필요한 객체 ..."
+  },
+  {
+    "title": "Chapter 09. 단위 테스트",
+    "url": "/posts/CleanCode09/",
+    "categories": "Study, CleanCode",
+    "tags": "study",
+    "date": "2025-03-15 14:52:00 +0900",
+    "content": "TDD 법칙 3가지 (Test Driven Development)     첫째 법칙 : 실패하는 단위 테스트를 작성할 때까지 실제 코드를 작성하지 않는다.   둘째 법칙 : 컴파일은 실패하지 않으면서 실행이 실패하는 정도로만 단위 테스트를 작성한다.   섯째 법칙 : 현재 실패하는 테스트를 통과할 정도로만 실제 코드를 작성한다.            실..."
+  },
+  {
+    "title": "Chapter 08. 경계",
+    "url": "/posts/CleanCode08/",
+    "categories": "Study, CleanCode",
+    "tags": "study",
+    "date": "2025-03-15 13:45:00 +0900",
+    "content": "소프트웨어 경계를 깔끔하게 처리하는 기법과 기교를 살펴볼 예정    외부 코드 사용하기     외부 코드의 예시로 java.util.Map이 있다            Map은 굉장히 다양한 인터페이스로 수많은 기능을 제공하나 그만큼 위험도 크다       Map이 반환하는 Object를 올바른 유형으로 변환할 책임은 Map을 사용하는 클라이언트에 있음..."
+  },
+  {
+    "title": "Chapter 07. 오류 처리",
+    "url": "/posts/CleanCode07/",
+    "categories": "Study, CleanCode",
+    "tags": "study",
+    "date": "2025-03-15 12:30:00 +0900",
+    "content": "오류 코드보다 예외를 사용하라     논리가 오류 처리 코드와 뒤섞이지 않기 위해서는 오류가 발생하면 예외를 던지는 편이 낫다     Try-Catch-Finally 문부터 작성하라     예외에서 프로그램 안에다 범위를 정의한다는 사실   어떤 면에서 try 블록은 트랜잭션과 비슷   단위 테스트에서의 리팩터링이 가능   강제로 예외를 일으키는 테스..."
+  },
+  {
     "title": "Chapter 06. 객체와 자료 구조",
     "url": "/posts/CleanCode06/",
     "categories": "Study, CleanCode",
