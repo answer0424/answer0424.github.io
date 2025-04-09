@@ -80,7 +80,7 @@ for ($rset=0; $rset < $Total_set_request; $rset++) {
         $hun2->query($sql_car_request_info_request_in);
 
         // 원본 요청 테이블 상태 업데이트
-        // 해당 요청을 발행 완료 상태로 마킹킹
+        // 해당 요청을 발행 완료 상태로 마킹
         $sql_car_request_info_request_up="
                 UPDATE tb_pot_rpa_issue_req SET
                         path = '1'
