@@ -1,8 +1,7 @@
 # The Site Configuration
 
 # Import the theme
-theme: null
-remote_theme: cotes2020/jekyll-theme-chirpy
+theme: jekyll-theme-chirpy
 
 # The language of the webpage
 lang: en
@@ -45,7 +44,7 @@ pageviews:
 # Prefer color scheme setting.
 theme_mode: 
 
-cdn: "https://cdn.jsdelivr.net/gh/cotes2020/chirpy-assets@latest"
+cdn: ""
 
 avatar: "/assets/img/mainImg.png"
 
@@ -175,7 +174,3 @@ jekyll-archives:
 #   id: 'G-RWD9ZLZLM0'
 
 source: .
-
-plugins:
-  - jekyll-include-cache
-
