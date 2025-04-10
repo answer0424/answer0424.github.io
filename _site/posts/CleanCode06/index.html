@@ -34,15 +34,15 @@
 <meta property="og:locale" content="en" />
 <meta name="description" content="private 비공개로 정의하는 이유 → 남들이 변수에 의존하지 않게 만들고 싶어서 그렇다면 왜 getter와 setter 함수를 public으로 만들어서 비공개 변수를 외부에 노출할까?? (이 부분 정말 궁금했음..) 가능하면 추상적 메서드를 제공" />
 <meta property="og:description" content="private 비공개로 정의하는 이유 → 남들이 변수에 의존하지 않게 만들고 싶어서 그렇다면 왜 getter와 setter 함수를 public으로 만들어서 비공개 변수를 외부에 노출할까?? (이 부분 정말 궁금했음..) 가능하면 추상적 메서드를 제공" />
-<link rel="canonical" href="http://localhost:4000/posts/CleanCode06/" />
-<meta property="og:url" content="http://localhost:4000/posts/CleanCode06/" />
+<link rel="canonical" href="https://answer0424.github.io//answer0424.github.io/posts/CleanCode06/" />
+<meta property="og:url" content="https://answer0424.github.io//answer0424.github.io/posts/CleanCode06/" />
 <meta property="og:site_name" content="answer" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2025-03-11T13:15:00+09:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Chapter 06. 객체와 자료 구조" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-03-11T13:17:23+09:00","datePublished":"2025-03-11T13:15:00+09:00","description":"private 비공개로 정의하는 이유 → 남들이 변수에 의존하지 않게 만들고 싶어서 그렇다면 왜 getter와 setter 함수를 public으로 만들어서 비공개 변수를 외부에 노출할까?? (이 부분 정말 궁금했음..) 가능하면 추상적 메서드를 제공","headline":"Chapter 06. 객체와 자료 구조","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/CleanCode06/"},"url":"http://localhost:4000/posts/CleanCode06/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-03-11T13:17:23+09:00","datePublished":"2025-03-11T13:15:00+09:00","description":"private 비공개로 정의하는 이유 → 남들이 변수에 의존하지 않게 만들고 싶어서 그렇다면 왜 getter와 setter 함수를 public으로 만들어서 비공개 변수를 외부에 노출할까?? (이 부분 정말 궁금했음..) 가능하면 추상적 메서드를 제공","headline":"Chapter 06. 객체와 자료 구조","mainEntityOfPage":{"@type":"WebPage","@id":"https://answer0424.github.io//answer0424.github.io/posts/CleanCode06/"},"url":"https://answer0424.github.io//answer0424.github.io/posts/CleanCode06/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -56,17 +56,17 @@
 
 
 
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/mainImg.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/mainImg.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/answer0424.github.io/assets/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/answer0424.github.io/assets/img/mainImg.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/answer0424.github.io/assets/img/mainImg.png">
 
-  <link rel="manifest" href="/assets/img/site.webmanifest">
+  <link rel="manifest" href="/answer0424.github.io/assets/img/site.webmanifest">
 
-<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="shortcut icon" href="/answer0424.github.io/assets/img/favicon.ico">
 <meta name="apple-mobile-web-app-title" content="answer">
 <meta name="application-name" content="answer">
 <meta name="msapplication-TileColor" content="#da532c">
-<meta name="msapplication-config" content="/assets/img/browserconfig.xml">
+<meta name="msapplication-config" content="/answer0424.github.io/assets/img/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
 
 
@@ -99,7 +99,7 @@
   
 
   <!-- Theme style -->
-  <link rel="stylesheet" href="/assets/css/jekyll-theme-chirpy.css">
+  <link rel="stylesheet" href="/answer0424.github.io/assets/css/.css">
 
   <!-- Web Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Source+Sans+Pro:wght@400;600;700;900&display=swap">
@@ -124,7 +124,7 @@
 
   <!-- Scripts -->
 
-  <script src="/assets/js/dist/theme.min.js"></script>
+  <script src="/answer0424.github.io/assets/js/dist/theme.min.js"></script>
 
   <!-- JS selector for site. -->
 
@@ -229,7 +229,7 @@
 
 
 
-<script defer src="/assets/js/dist/post.min.js"></script>
+<script defer src="/answer0424.github.io/assets/js/dist/post.min.js"></script>
 
 
 
@@ -253,9 +253,9 @@
 
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
   <header class="profile-wrapper">
-    <a href="/" id="avatar" class="rounded-circle"><img src="/assets/img/mainImg.png" width="112" height="112" alt="avatar" onerror="this.style.display='none'"></a>
+    <a href="/answer0424.github.io/" id="avatar" class="rounded-circle"><img src="https://cdn.jsdelivr.net/gh/cotes2020/chirpy-assets@latest/assets/img/mainImg.png" width="112" height="112" alt="avatar" onerror="this.style.display='none'"></a>
 
-    <a class="site-title d-block" href="/">answer</a>
+    <a class="site-title d-block" href="/answer0424.github.io/">answer</a>
     <p class="site-subtitle fst-italic mb-0">코드로 답하다</p>
   </header>
   <!-- .profile-wrapper -->
@@ -264,7 +264,7 @@
     <ul class="nav">
       <!-- home -->
       <li class="nav-item">
-        <a href="/" class="nav-link">
+        <a href="/answer0424.github.io/" class="nav-link">
           <i class="fa-fw fas fa-home"></i>
           <span>HOME</span>
         </a>
@@ -272,7 +272,7 @@
       <!-- the real tabs -->
       
         <li class="nav-item">
-          <a href="/categories/" class="nav-link">
+          <a href="/answer0424.github.io/categories/" class="nav-link">
             <i class="fa-fw fas fa-stream"></i>
             
 
@@ -282,7 +282,7 @@
         <!-- .nav-item -->
       
         <li class="nav-item">
-          <a href="/tags/" class="nav-link">
+          <a href="/answer0424.github.io/tags/" class="nav-link">
             <i class="fa-fw fas fa-tags"></i>
             
 
@@ -292,7 +292,7 @@
         <!-- .nav-item -->
       
         <li class="nav-item">
-          <a href="/archives/" class="nav-link">
+          <a href="/answer0424.github.io/archives/" class="nav-link">
             <i class="fa-fw fas fa-archive"></i>
             
 
@@ -302,7 +302,7 @@
         <!-- .nav-item -->
       
         <li class="nav-item">
-          <a href="/about/" class="nav-link">
+          <a href="/answer0424.github.io/about/" class="nav-link">
             <i class="fa-fw fas fa-info-circle"></i>
             
 
@@ -394,7 +394,7 @@
 
       
         <a
-          href="/feed.xml"
+          href="/answer0424.github.io/feed.xml"
           aria-label="rss"
           
 
@@ -430,7 +430,7 @@
         
           
             <span>
-              <a href="/">Home</a>
+              <a href="/answer0424.github.io/">Home</a>
             </span>
 
           
@@ -474,7 +474,7 @@
     <button type="button" class="btn btn-link text-decoration-none" id="search-cancel">Cancel</button>
   </div>
 </header>
-
+<div id="mask" class="d-none"></div>
 
         <div class="row flex-grow-1">
           <main aria-label="Main Content" class="col-12 col-lg-11 col-xl-9 px-md-4">
@@ -1267,8 +1267,8 @@
       <div class="post-meta mb-3">
         <i class="far fa-folder-open fa-fw me-1"></i>
         
-          <a href="/categories/study/">Study</a>,
-          <a href="/categories/cleancode/">CleanCode</a>
+          <a href="answer0424.github.io/categories/study/">Study</a>,
+          <a href="answer0424.github.io/categories/cleancode/">CleanCode</a>
       </div>
     
 
@@ -1278,7 +1278,7 @@
         <i class="fa fa-tags fa-fw me-1"></i>
         
           <a
-            href="/tags/study/"
+            href="answer0424.github.io/tags/study/"
             class="post-tag no-text-decoration"
           >study</a>
         
@@ -1316,21 +1316,21 @@
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=Chapter%2006.%20%EA%B0%9D%EC%B2%B4%EC%99%80%20%EC%9E%90%EB%A3%8C%20%EA%B5%AC%EC%A1%B0%20-%20answer&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FCleanCode06%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=Chapter%2006.%20%EA%B0%9D%EC%B2%B4%EC%99%80%20%EC%9E%90%EB%A3%8C%20%EA%B5%AC%EC%A1%B0%20-%20answer&url=https%3A%2F%2Fanswer0424.github.io%2F%2Fanswer0424.github.io%2Fposts%2FCleanCode06%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=Chapter%2006.%20%EA%B0%9D%EC%B2%B4%EC%99%80%20%EC%9E%90%EB%A3%8C%20%EA%B5%AC%EC%A1%B0%20-%20answer&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FCleanCode06%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=Chapter%2006.%20%EA%B0%9D%EC%B2%B4%EC%99%80%20%EC%9E%90%EB%A3%8C%20%EA%B5%AC%EC%A1%B0%20-%20answer&u=https%3A%2F%2Fanswer0424.github.io%2F%2Fanswer0424.github.io%2Fposts%2FCleanCode06%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2FCleanCode06%2F&text=Chapter%2006.%20%EA%B0%9D%EC%B2%B4%EC%99%80%20%EC%9E%90%EB%A3%8C%20%EA%B5%AC%EC%A1%B0%20-%20answer" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=https%3A%2F%2Fanswer0424.github.io%2F%2Fanswer0424.github.io%2Fposts%2FCleanCode06%2F&text=Chapter%2006.%20%EA%B0%9D%EC%B2%B4%EC%99%80%20%EC%9E%90%EB%A3%8C%20%EA%B5%AC%EC%A1%B0%20-%20answer" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -1385,35 +1385,35 @@
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/Week03_04/">Spring AOP & 프록시 개념</a>
+          <a href="/answer0424.github.io/posts/CarBang08/">전자수입인지</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/Week03_03/">CPU 스케줄링</a>
+          <a href="/answer0424.github.io/posts/CarBang07/">클래스 구조 파악</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/Week03_02/">String vs StringBuffer vs StringBuilder</a>
+          <a href="/answer0424.github.io/posts/CarBang05/">SVN 형상 관리 툴</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/Week03_01/">Garbage Collection</a>
+          <a href="/answer0424.github.io/posts/CarBang06/">팝업 구현</a>
         </li>
       
         
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/CleanCode09/">Chapter 09. 단위 테스트</a>
+          <a href="/answer0424.github.io/posts/CarBang02/">MySQL 데이터베이스 연동 및 프로젝트 구조</a>
         </li>
       
     </ul>
@@ -1452,25 +1452,6 @@
     
     
     
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
   
     
     
@@ -1505,10 +1486,11 @@
     
     
     
-      
-        
-        
-
+  
+    
+    
+    
+    
   
     
     
@@ -1566,6 +1548,121 @@
         
         
 
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
   
     
     
@@ -1614,25 +1711,31 @@
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/linux/">linux</a>
+        <a class="post-tag btn btn-outline-primary" href="/answer0424.github.io/tags/linux/">linux</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/study/">study</a>
+        <a class="post-tag btn btn-outline-primary" href="/answer0424.github.io/tags/study/">study</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/react/">react</a>
+        <a class="post-tag btn btn-outline-primary" href="/answer0424.github.io/tags/react/">react</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/java/">java</a>
+        <a class="post-tag btn btn-outline-primary" href="/answer0424.github.io/tags/carbang/">carbang</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/tag/">tag</a>
+        <a class="post-tag btn btn-outline-primary" href="/answer0424.github.io/tags/java/">java</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/hbti/">hbti</a>
+        <a class="post-tag btn btn-outline-primary" href="/answer0424.github.io/tags/tag/">tag</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/websocket/">websocket</a>
+        <a class="post-tag btn btn-outline-primary" href="/answer0424.github.io/tags/cloud/">cloud</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/answer0424.github.io/tags/hbti/">hbti</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/answer0424.github.io/tags/websocket/">websocket</a>
       
     </div>
   </section>
@@ -1972,7 +2075,7 @@
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
       
         <article class="col">
-          <a href="/posts/CleanCode09/" class="post-preview card h-100">
+          <a href="/answer0424.github.io/posts/CleanCode09/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -2000,7 +2103,7 @@
         </article>
       
         <article class="col">
-          <a href="/posts/CleanCode08/" class="post-preview card h-100">
+          <a href="/answer0424.github.io/posts/CleanCode08/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -2028,7 +2131,7 @@
         </article>
       
         <article class="col">
-          <a href="/posts/CleanCode07/" class="post-preview card h-100">
+          <a href="/answer0424.github.io/posts/CleanCode07/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -2070,7 +2173,7 @@
 
   
     <a
-      href="/posts/CleanCode05/"
+      href="answer0424.github.io/posts/CleanCode05/"
       class="btn btn-outline-primary"
       aria-label="Older"
     >
@@ -2080,7 +2183,7 @@
 
   
     <a
-      href="/posts/CleanCode07/"
+      href="answer0424.github.io/posts/CleanCode07/"
       class="btn btn-outline-primary"
       aria-label="Newer"
     >
@@ -2119,7 +2222,7 @@
   <p>Using the <a
         data-bs-toggle="tooltip"
         data-bs-placement="top"
-        title="v7.2.4"
+        title="v"
         href="https://github.com/cotes2020/jekyll-theme-chirpy"
         target="_blank"
         rel="noopener"
@@ -2166,25 +2269,6 @@
     
     
     
-      
-        
-        
-
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
-  
-    
-    
-    
-    
   
     
     
@@ -2219,10 +2303,11 @@
     
     
     
-      
-        
-        
-
+  
+    
+    
+    
+    
   
     
     
@@ -2280,6 +2365,121 @@
         
         
 
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
   
     
     
@@ -2328,25 +2528,31 @@
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/linux/">linux</a>
+        <a class="post-tag btn btn-outline-primary" href="/answer0424.github.io/tags/linux/">linux</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/study/">study</a>
+        <a class="post-tag btn btn-outline-primary" href="/answer0424.github.io/tags/study/">study</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/react/">react</a>
+        <a class="post-tag btn btn-outline-primary" href="/answer0424.github.io/tags/react/">react</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/java/">java</a>
+        <a class="post-tag btn btn-outline-primary" href="/answer0424.github.io/tags/carbang/">carbang</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/tag/">tag</a>
+        <a class="post-tag btn btn-outline-primary" href="/answer0424.github.io/tags/java/">java</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/hbti/">hbti</a>
+        <a class="post-tag btn btn-outline-primary" href="/answer0424.github.io/tags/tag/">tag</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/websocket/">websocket</a>
+        <a class="post-tag btn btn-outline-primary" href="/answer0424.github.io/tags/cloud/">cloud</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/answer0424.github.io/tags/hbti/">hbti</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/answer0424.github.io/tags/websocket/">websocket</a>
       
     </div>
   </section>
@@ -2420,7 +2626,7 @@
     SimpleJekyllSearch({
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('search-results'),
-      json: '/assets/js/data/search.json',
+      json: '/answer0424.github.io/assets/js/data/search.json',
       searchResultTemplate: '  <article class="px-1 px-sm-2 px-lg-4 px-xl-0">    <header>      <h2><a href="{url}">{title}</a></h2>      <div class="post-meta d-flex flex-column flex-sm-row text-muted mt-1 mb-1">        {categories}        {tags}      </div>    </header>    <p>{content}</p>  </article>',
       noResultsText: '<p class="mt-5">Oops! No results found.</p>',
       templateMiddleware: function(prop, value, template) {

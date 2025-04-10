@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-gemspec
+# gemspec
 
 gem "html-proofer", "~> 5.0", group: :test
 
@@ -16,3 +16,6 @@ gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
 gem 'jekyll-sitemap'
 gem 'faraday-retry'
 gem "webrick", "~> 1.9"
+gem "jekyll-include-cache"
+gem "jekyll-seo-tag"
+gem "jekyll-paginate"

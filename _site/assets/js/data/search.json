@@ -1,39 +1,151 @@
 [
   {
+    "title": "전자수입인지",
+    "url": "/answer0424.github.io/posts/CarBang08/",
+    "categories": "carbang, week02",
+    "tags": "carbang",
+    "date": "2025-04-10 09:56:00 +0900",
+    "content": "전자 수입 인지"
+  },
+  {
+    "title": "클래스 구조 파악",
+    "url": "/answer0424.github.io/posts/CarBang07/",
+    "categories": "carbang, week02",
+    "tags": "carbang",
+    "date": "2025-04-08 11:27:00 +0900",
+    "content": "TO  Ase256.java     암호화를 수행하는 유틸리티      알고리즘 : AES   모드 : CTR (Counter)   패딩 : NoPadding   키/IV : Base64로 인코딩된 문자열을 byte[]로 디코딩하여 사용   주요 메서드     encrypt(String) - 평문을 AES 방식으로 암호화하여 바이트 배열 반환   en..."
+  },
+  {
+    "title": "팝업 구현",
+    "url": "/answer0424.github.io/posts/CarBang06/",
+    "categories": "carbang, week02",
+    "tags": "carbang",
+    "date": "2025-04-08 11:27:00 +0900",
+    "content": "개요  외부 장치용 등록 번호판 반납 팝업 열기     차량 분석 결과 페이지에서 다음 페이지로 이동할 때 해당 파업을 띄워줘야 함   아래에서 위로 올라오는 ui     Step 01     팝업을 열고 닫는 메서드 작성   최초에는 모달의 display 속성을 변경하고 css를 추가해서 해당 모달을 아래에서 위로 올라오도록 설계하려고 했음   찾아..."
+  },
+  {
+    "title": "SVN 형상 관리 툴",
+    "url": "/answer0424.github.io/posts/CarBang05/",
+    "categories": "carbang, week02",
+    "tags": "carbang",
+    "date": "2025-04-07 11:12:00 +0900",
+    "content": "SVN 기본 개념     Apache Subversion(SVN)은 파일과 디렉토리의 변경 이력을 관리하는 버전 관리 시스템   GIT과 달리 중앙집중형 구조로 중앙저장소 (repository)를 기준으로 동작     주요 용어                 용어       설명                       repository       소스..."
+  },
+  {
+    "title": "carbang 모바일 앱 이전 신청 전반적인 프로세스 및 데이터베이스 검색",
+    "url": "/answer0424.github.io/posts/CarBang04/",
+    "categories": "carbang, week01",
+    "tags": "carbang",
+    "date": "2025-04-04 12:56:00 +0900",
+    "content": "이전 신청     차량 번호와 소유자명 입력   차량 정보 분석 (nice D&amp;amp;R, 쿠콘)   이전 신청   거래 금액 입력   주행 거리 입력   양수인 정보 입력 (RAON)   양도인 정보 입력 (RAON)   상호 인증 (SCI)   예상 인도 비용 계산 후 가상 계좌 발급 (KSNET)   이전 등록 요청 (KTNET)         ..."
+  },
+  {
+    "title": "tomcat을 활용한 로컬 서버 구성",
+    "url": "/answer0424.github.io/posts/CarBang03/",
+    "categories": "carbang, week01",
+    "tags": "carbang",
+    "date": "2025-04-03 09:30:00 +0900",
+    "content": "tomcat 설치     버전은 9로 설치했음     pom.xml 파일     svn repository에서 복제받은 파일 중 pom.xml 파일 찾기 (trunk 폴더 바로 아래에 있음)   maven-compiler-plugin 버전 3.8.1로 바꾸기            쉘 또는 프롬프트에 mvn -v로 확인해보니 3.9.9로 설치했었음    ..."
+  },
+  {
+    "title": "MySQL 데이터베이스 연동 및 프로젝트 구조",
+    "url": "/answer0424.github.io/posts/CarBang02/",
+    "categories": "carbang, week01",
+    "tags": "carbang",
+    "date": "2025-04-02 10:36:00 +0900",
+    "content": "MySQL 데이터 베이스 연동     workbranch 설치   OT, VES 개발 DB (Name) 확인하기   MySQL Workbranch 접속 후 Database 클릭 후 Connect to Database (단축키 ctrl + u)   확인한 Host, User, Password, Database(Schema) 입력하기   root 계정이 ..."
+  },
+  {
+    "title": "svn repository 복제(Intellij)",
+    "url": "/answer0424.github.io/posts/CarBang01/",
+    "categories": "carbang, week01",
+    "tags": "carbang",
+    "date": "2025-04-01 10:36:00 +0900",
+    "content": "svn repository 복제 (intellij)     intellij 설치   저장소 복제 선택 (좌측 상단 메뉴에 있음)   버전 관리 클릭 후 Subversion 선택   저장소 추가하기 선택   전산팀 업무사이트정보_20241129에서 svn repository 주소 복사 (4개)            dev(cct)       dev(to)..."
+  },
+  {
+    "title": "AWS 클라우드 개요",
+    "url": "/answer0424.github.io/posts/Cloud01/",
+    "categories": "aws, cloud",
+    "tags": "cloud",
+    "date": "2025-03-29 11:16:00 +0900",
+    "content": "AWS 클라우드 서비스     컴퓨팅, 스토리지, 데이터베이스, 분석 등 기존에 물리적으로 구성했던 ICT 인프라를 클라우드 형태로 제공   온디맨드 방식의 요금 - 리소스를 사용한 만큼만 지불   초기 자본 지출 없이 신속하게 프로비저닝 가능       클라우드 컴퓨팅     IT 리소스를 인터넷을 통해 제공   이점     비용 절감   규모의 경..."
+  },
+  {
+    "title": "2023년 12월 09일 시행 (4)",
+    "url": "/answer0424.github.io/posts/Linux45/",
+    "categories": "Linux, master",
+    "tags": "linux",
+    "date": "2025-03-27 12:47:00 +0900",
+    "content": "다음은 원격지의 IP 주소가 192.168.5.13번인 ssh 서버에 kaitman 계정으로 변경해서 접속하는 과정이다. (괄호) 안에 들어갈 내용으로 알맞은 것은?     [ihd@www ~]#ssh ( 괄호 )   ① kaitman@192.168.5.13  ② -n kaitman 192.168.5.13  ③ -p kaitman 192.168.5.1..."
+  },
+  {
+    "title": "2023년 12월 09일 시행 (3)",
+    "url": "/answer0424.github.io/posts/Linux44/",
+    "categories": "Linux, master",
+    "tags": "linux",
+    "date": "2025-03-24 12:17:00 +0900",
+    "content": "다음은 ihduser 사용자의 홈 디렉터리가 차지하고 있는 디스크 용량을 확인하는 과정이다. (괄호) 안에 들어갈 명령어로 알맞은 것은?     ( 괄호 ) 56M /home/ihduser   ① df –sh ~ihduser  ② quota ihduser  ③ du –sh ~ihduser  ④ df –sh /home/ihduser     -h : MB..."
+  },
+  {
+    "title": "2023년 12월 09일 시행 (2)",
+    "url": "/answer0424.github.io/posts/Linux43/",
+    "categories": "Linux, master",
+    "tags": "linux",
+    "date": "2025-03-24 12:17:00 +0900",
+    "content": "작업번호가 2번인 백그라운드 프로세스를 종료시키는 명령으로 알맞은 것은?  ① kill 2  ② kill %2  ③ kill -j 2  ④ kill –b 2     정답 : 2번     ps 명령의 상태(STAT) 코드 중에 작업은 종료되었으나 부모프로세스에 의해 회수되지 않아 메모리를 차지하고 상태를 나타내는 값으로 알맞은 것은?  ① R  ② S ..."
+  },
+  {
+    "title": "2023년 12월 09일 시행 (1)",
+    "url": "/answer0424.github.io/posts/Linux42/",
+    "categories": "Linux, master",
+    "tags": "linux",
+    "date": "2025-03-24 12:17:00 +0900",
+    "content": "다음 (괄호) 안에 들어갈 내용으로 알맞은 것은?     10GB 용량의 하드디스크 8개가 장착된 시스템이다. 하나의 스패어(Spare) 디스크를 구성하고, 나머지 디스크로 RAID-5를 구성하려고 한다. 이 경우에 실제로 사용 가능한 용량은 ( 괄호 ) GB가 된다.   ① 40  ② 50  ③ 60  ④ 70     총 용량 : 80GB   하나를..."
+  },
+  {
+    "title": "리눅스 가상 머신 설치",
+    "url": "/answer0424.github.io/posts/Linux41/",
+    "categories": "Linux, master",
+    "tags": "linux",
+    "date": "2025-03-24 12:17:00 +0900",
+    "content": "패키지 다운로드 [KVM]  dnf -y group install &quot;Virtualization Host&quot;  dnf -y install virt-manager  systemctl status libvirtd  systemctl restart libvirtd  groupadd virt  usermod -aG virt test  # 일반 사용자도 libvi..."
+  },
+  {
     "title": "Spring AOP & 프록시 개념",
-    "url": "/posts/Week03_04/",
-    "categories": "Study, week03",
+    "url": "/answer0424.github.io/posts/Week03_04/",
+    "categories": "Study, W03",
     "tags": "study",
     "date": "2025-03-20 13:20:00 +0900",
     "content": "AOP(Aspect-Oriented Programming)     AOP는 관점 지향 프로그래밍이라고 불린다. 관점 지향은 쉽게 말해 어떤 로직을 기준으로 핵심적인 관점, 부가적인 관점을 나누어서 보고 기 관점을 기준으로 각각 모듈화하겠다는 것     기본 구성 요소  Aspect (관점)     AOP의 핵심 개념으로 공통 관심사를 하나의 모듈로 분..."
   },
   {
     "title": "CPU 스케줄링",
-    "url": "/posts/Week03_03/",
-    "categories": "Study, week03",
+    "url": "/answer0424.github.io/posts/Week03_03/",
+    "categories": "Study, W03",
     "tags": "study",
     "date": "2025-03-18 14:26:00 +0900",
     "content": "CPU 스케줄링이란??     CPU 스케줄링은 Ready Queue에 있는 프로세스들 중에서 어떤 프로세스에게 CPU를 할당할지 결정하는 운영체제의 핵심 기능   한정된 자원인 CPU를 효율적으로 사용하기 위해 필수적인 개념     CPU 스케줄링이 필요한 이유     다수의 프로세스가 동시에 실행될 수 없음 → CPU는 하나만 실행   I/O 대기..."
   },
   {
     "title": "String vs StringBuffer vs StringBuilder",
-    "url": "/posts/Week03_02/",
-    "categories": "Study, week03",
+    "url": "/answer0424.github.io/posts/Week03_02/",
+    "categories": "Study, W03",
     "tags": "study",
     "date": "2025-03-18 13:11:00 +0900",
     "content": "String vs StringBuffer vs StringBuilder 개요                 항목       String       StringBuffer       StringBuilder                       불변성       불변 (Immutable)       가변 (Mutable)       가변 (Mutable..."
   },
   {
     "title": "Garbage Collection",
-    "url": "/posts/Week03_01/",
-    "categories": "Study, week03",
+    "url": "/answer0424.github.io/posts/Week03_01/",
+    "categories": "Study, W03",
     "tags": "study",
     "date": "2025-03-18 10:57:00 +0900",
     "content": "Garbage Collection이란??     더 이상 사용되지 않는 객체(메모리)를 자동으로 탐지하고 제거하는 프로세스 개발자가 직접 메모리를 해제하지 않아도 되므로, 메모리 누수(Memory Leak)를 줄이고 안정성을 높이는 역할     주요 기능     Heap 메모리 관리 :  객체가 생성되는 영역인 Heap을 자동 관리   불필요한 객체 ..."
   },
   {
     "title": "Chapter 09. 단위 테스트",
-    "url": "/posts/CleanCode09/",
+    "url": "/answer0424.github.io/posts/CleanCode09/",
     "categories": "Study, CleanCode",
     "tags": "study",
     "date": "2025-03-15 14:52:00 +0900",
@@ -41,7 +153,7 @@
   },
   {
     "title": "Chapter 08. 경계",
-    "url": "/posts/CleanCode08/",
+    "url": "/answer0424.github.io/posts/CleanCode08/",
     "categories": "Study, CleanCode",
     "tags": "study",
     "date": "2025-03-15 13:45:00 +0900",
@@ -49,7 +161,7 @@
   },
   {
     "title": "Chapter 07. 오류 처리",
-    "url": "/posts/CleanCode07/",
+    "url": "/answer0424.github.io/posts/CleanCode07/",
     "categories": "Study, CleanCode",
     "tags": "study",
     "date": "2025-03-15 12:30:00 +0900",
@@ -57,7 +169,7 @@
   },
   {
     "title": "Chapter 06. 객체와 자료 구조",
-    "url": "/posts/CleanCode06/",
+    "url": "/answer0424.github.io/posts/CleanCode06/",
     "categories": "Study, CleanCode",
     "tags": "study",
     "date": "2025-03-11 13:15:00 +0900",
@@ -65,7 +177,7 @@
   },
   {
     "title": "Chapter 05. 형식 맞추기",
-    "url": "/posts/CleanCode05/",
+    "url": "/answer0424.github.io/posts/CleanCode05/",
     "categories": "Study, CleanCode",
     "tags": "study",
     "date": "2025-03-11 13:13:00 +0900",
@@ -73,7 +185,7 @@
   },
   {
     "title": "Chapter 04. 주석",
-    "url": "/posts/CleanCode04/",
+    "url": "/answer0424.github.io/posts/CleanCode04/",
     "categories": "Study, CleanCode",
     "tags": "study",
     "date": "2025-03-11 13:12:00 +0900",
@@ -81,7 +193,7 @@
   },
   {
     "title": "Chapter 03. 함수",
-    "url": "/posts/CleanCode03/",
+    "url": "/answer0424.github.io/posts/CleanCode03/",
     "categories": "Study, CleanCode",
     "tags": "study",
     "date": "2025-03-11 13:11:00 +0900",
@@ -89,7 +201,7 @@
   },
   {
     "title": "Chapter 02. 의미 있는 이름",
-    "url": "/posts/CleanCode02/",
+    "url": "/answer0424.github.io/posts/CleanCode02/",
     "categories": "Study, CleanCode",
     "tags": "study",
     "date": "2025-03-11 13:10:00 +0900",
@@ -97,7 +209,7 @@
   },
   {
     "title": "Chapter 01. 깨끗한 코드",
-    "url": "/posts/CleanCode01/",
+    "url": "/answer0424.github.io/posts/CleanCode01/",
     "categories": "Study, CleanCode",
     "tags": "study",
     "date": "2025-03-11 13:08:00 +0900",
@@ -105,47 +217,47 @@
   },
   {
     "title": "React vs Vue vs Svelte",
-    "url": "/posts/Week02_05/",
-    "categories": "Study, week02",
+    "url": "/answer0424.github.io/posts/Week02_05/",
+    "categories": "Study, W02",
     "tags": "study",
     "date": "2025-03-11 12:39:00 +0900",
     "content": "비교                 항목       React       Vue       Svelte                       개발사       Meta(Facebook)       Evan You(전 google 개발자)       Rich Harris                 출시년도       2013       2014    ..."
   },
   {
     "title": "프로세스 vs 스레드",
-    "url": "/posts/Week02_04/",
-    "categories": "Study, week02",
+    "url": "/answer0424.github.io/posts/Week02_04/",
+    "categories": "Study, W02",
     "tags": "study",
     "date": "2025-03-11 12:07:00 +0900",
     "content": "프로세스(Process)란??     정의 : 실행 중인 프로그램   운영체제는 프로그램이 실행되면 메모라 상에 독립적인 실행 단위 (프로세스)로 관리   각 프로세스는 고유한 메모리 공간(Code, Data, Stack, Heap)을 가지고 있음   프로세스 구조       특징            서로 독립적이므로 다른 프로세스에 직접 접근 불가 ..."
   },
   {
     "title": "TDZ(Temporal Dead Zone)",
-    "url": "/posts/Week02_03/",
-    "categories": "Study, week02",
+    "url": "/answer0424.github.io/posts/Week02_03/",
+    "categories": "Study, W02",
     "tags": "study",
     "date": "2025-03-11 11:30:00 +0900",
     "content": "TDZ(Temporal Dead Zone)란??     일시적 사각지대는 let과 const가 호이스팅되지만, 초기화 전까지는 접근할 수 없는 영역을 말한다. 즉, 변수는 메모리에 할당은 되어 있지만, 초기화 전까지는 사용할 수 없으며, 이 구간에서 접근하면 ReferenceError가 발생한다.     예시 코드  console.log(x);    ..."
   },
   {
     "title": "Hoisting",
-    "url": "/posts/Week02_02/",
-    "categories": "Study, week02",
+    "url": "/answer0424.github.io/posts/Week02_02/",
+    "categories": "Study, W02",
     "tags": "study",
     "date": "2025-03-11 10:56:00 +0900",
     "content": "호이스팅(Hoisting) 이란??     인터프리터가 코드를 실행하기 전에 함수, 변수, 클래스 또는 임포트(import)의 선언문을 해당 범위의 맨 위로 끌어올리는 것처럼 보이는 현상 mozilla reference      발생 이유 : 자바스크립트 엔진이 먼저 전체 코드를 한 번 스캔하고 실행 컨텍스트에 미리 기록해 놓기 때문    var의 호..."
   },
   {
     "title": "let, var, const",
-    "url": "/posts/Week02_01/",
-    "categories": "Study, week02",
+    "url": "/answer0424.github.io/posts/Week02_01/",
+    "categories": "Study, W02",
     "tags": "study",
     "date": "2025-03-09 15:46:00 +0900",
     "content": "var  특징    ES5(기존 자바 스크립트)에서 사용되던 변수 선언 방식   함수 스코프(function scope)를 가짐   중복 선언 가능   변수 호이스팅 (hoisting) 발생 : 선언이 코드의 맨 위로 끌어올려짐 (단, 값은 끌어올려지지 않음)   var가 실무에서 권장되지 않는 이유            스코프와 호이스팅 특성 때문에 ..."
   },
   {
     "title": "Mail Server",
-    "url": "/posts/Linux40/",
+    "url": "/answer0424.github.io/posts/Linux40/",
     "categories": "Linux, master",
     "tags": "linux",
     "date": "2025-03-09 15:28:00 +0900",
@@ -153,47 +265,47 @@
   },
   {
     "title": "TCP & UDP",
-    "url": "/posts/Week01_05/",
-    "categories": "Study, week01",
+    "url": "/answer0424.github.io/posts/Week01_05/",
+    "categories": "Study, W01",
     "tags": "study",
     "date": "2025-03-04 15:11:00 +0900",
     "content": "TCP (Transmission Control Protocol)    신뢰성 있는 데이터 전송을 보장하는 연결 지향 프로토콜   주요 특징    연결 지향 : 3-way Handshake를 통해 연결을 설정한 후 데이터 전송   신뢰성 보장 : 데이터 패킷이 손실되거나 순서가 바뀌면 재전송 및 정렬을 수행   흐름 제어 : 송신자가 수신자의 처리 속도..."
   },
   {
     "title": "Spring 동작원리",
-    "url": "/posts/Week01_04/",
-    "categories": "Study, week01",
+    "url": "/answer0424.github.io/posts/Week01_04/",
+    "categories": "Study, W01",
     "tags": "study",
     "date": "2025-03-04 15:11:00 +0900",
     "content": "중요한 개념    IoC (Inversion of Control, 제어의 역전)   DI (Dependency Injection, 의존성 주입)   AOP (Aspect-Oriented Programing, 관점 지향 프로그래밍)   PSA (Portable Service Abstraction, 범용 서비스 추상화)   POJO (Plain Old J..."
   },
   {
     "title": "객체 지향 4대 원칙",
-    "url": "/posts/Week01_03/",
-    "categories": "Study, week01",
+    "url": "/answer0424.github.io/posts/Week01_03/",
+    "categories": "Study, W01",
     "tags": "study",
     "date": "2025-03-04 14:01:00 +0900",
     "content": "객체 지향 프로그래밍(OOP)의 4대 원칙    객체 지향 프로그래밍(Object-Oriented Programing)은 객체를 더 효율적이고 유지보수하기 쉽게 만들기 위한 개념                  원칙       설명                       캡슐화(Encapsulation)       데이터와 메서드를 하나로 묶고 외부에서..."
   },
   {
     "title": "Call By Value vs Call By Reference",
-    "url": "/posts/Week01_02/",
-    "categories": "Study, week01",
+    "url": "/answer0424.github.io/posts/Week01_02/",
+    "categories": "Study, W01",
     "tags": "study",
     "date": "2025-03-04 13:10:00 +0900",
     "content": "값을 전달하는 방식에 따른 분류    Call By Value(값 호출)   Call By Reference(참조 호출)     Call By Value    함수에 인자로 전달된 값의 복사본을 전달하는 방식   원본 데이터는 변경되지 않음   Java는 기본적으로 Call By Value 방식을 사용   public class CallByValueE..."
   },
   {
     "title": "JVM 구조",
-    "url": "/posts/Week01_01/",
-    "categories": "Study, week01",
+    "url": "/answer0424.github.io/posts/Week01_01/",
+    "categories": "Study, W01",
     "tags": "study",
     "date": "2025-03-04 11:06:00 +0900",
     "content": "JVM (Java Virtual Machine)    자바 프로그램을 실행하는 가상 머신으로 플랫폼 독립성을 제공하는 핵심요소이다. JVM의 주요 구성 요소는 크게 클래스 로더 시스템, 런타임 데이터 영역, 실행 엔진, 네이티브 인터페이스 로 나뉜다.       JVM 구조에 대한 이해    우리가 프로그래밍 언어로 코드를 짜도 컴퓨터는 이해하지 못한..."
   },
   {
     "title": "wordpress",
-    "url": "/posts/Linux39/",
+    "url": "/answer0424.github.io/posts/Linux39/",
     "categories": "Linux, master",
     "tags": "linux",
     "date": "2025-03-02 14:06:00 +0900",
@@ -201,7 +313,7 @@
   },
   {
     "title": "wordpress",
-    "url": "/posts/Linux38/",
+    "url": "/answer0424.github.io/posts/Linux38/",
     "categories": "Linux, master",
     "tags": "linux",
     "date": "2025-03-02 14:06:00 +0900",
@@ -209,7 +321,7 @@
   },
   {
     "title": "리눅스 마스터 2급 2차 2023-03 (4)",
-    "url": "/posts/Linux37/",
+    "url": "/answer0424.github.io/posts/Linux37/",
     "categories": "Linux, advanced",
     "tags": "linux",
     "date": "2025-02-28 12:16:00 +0900",
@@ -217,7 +329,7 @@
   },
   {
     "title": "리눅스 마스터 2급 2차 2023-03 (3)",
-    "url": "/posts/Linux36/",
+    "url": "/answer0424.github.io/posts/Linux36/",
     "categories": "Linux, advanced",
     "tags": "linux",
     "date": "2025-02-27 16:01:00 +0900",
@@ -225,7 +337,7 @@
   },
   {
     "title": "리눅스 마스터 2급 2차 2023-03 (2)",
-    "url": "/posts/Linux35/",
+    "url": "/answer0424.github.io/posts/Linux35/",
     "categories": "Linux, advanced",
     "tags": "linux",
     "date": "2025-02-27 14:51:00 +0900",
@@ -233,7 +345,7 @@
   },
   {
     "title": "리눅스 마스터 2급 2차 2023-03 (1)",
-    "url": "/posts/Linux34/",
+    "url": "/answer0424.github.io/posts/Linux34/",
     "categories": "Linux, advanced",
     "tags": "linux",
     "date": "2025-02-27 12:07:00 +0900",
@@ -241,7 +353,7 @@
   },
   {
     "title": "(실습) Virtual Hosting",
-    "url": "/posts/Linux33/",
+    "url": "/answer0424.github.io/posts/Linux33/",
     "categories": "Linux, advanced",
     "tags": "linux",
     "date": "2025-02-26 11:28:00 +0900",
@@ -249,7 +361,7 @@
   },
   {
     "title": "Virtual Hosting",
-    "url": "/posts/Linux32/",
+    "url": "/answer0424.github.io/posts/Linux32/",
     "categories": "Linux, advanced",
     "tags": "linux",
     "date": "2025-02-25 11:26:00 +0900",
@@ -257,7 +369,7 @@
   },
   {
     "title": "Web Server",
-    "url": "/posts/Linux31/",
+    "url": "/answer0424.github.io/posts/Linux31/",
     "categories": "Linux, advanced",
     "tags": "linux",
     "date": "2025-02-23 18:13:00 +0900",
@@ -265,7 +377,7 @@
   },
   {
     "title": "DNS Server",
-    "url": "/posts/Linux30/",
+    "url": "/answer0424.github.io/posts/Linux30/",
     "categories": "Linux, advanced",
     "tags": "linux",
     "date": "2025-02-23 17:30:00 +0900",
@@ -273,7 +385,7 @@
   },
   {
     "title": "PXE + 킥스타트",
-    "url": "/posts/Linux29/",
+    "url": "/answer0424.github.io/posts/Linux29/",
     "categories": "Linux, advanced",
     "tags": "linux",
     "date": "2025-02-23 17:16:00 +0900",
@@ -281,7 +393,7 @@
   },
   {
     "title": "PXE Server",
-    "url": "/posts/Linux28/",
+    "url": "/answer0424.github.io/posts/Linux28/",
     "categories": "Linux, advanced",
     "tags": "linux",
     "date": "2025-02-23 17:00:00 +0900",
@@ -289,7 +401,7 @@
   },
   {
     "title": "DHCP Server",
-    "url": "/posts/Linux27/",
+    "url": "/answer0424.github.io/posts/Linux27/",
     "categories": "Linux, advanced",
     "tags": "linux",
     "date": "2025-02-22 15:25:00 +0900",
@@ -297,7 +409,7 @@
   },
   {
     "title": "vsftpd",
-    "url": "/posts/Linux26/",
+    "url": "/answer0424.github.io/posts/Linux26/",
     "categories": "Linux, advanced",
     "tags": "linux",
     "date": "2025-02-22 13:53:00 +0900",
@@ -305,7 +417,7 @@
   },
   {
     "title": "제어문",
-    "url": "/posts/Java03/",
+    "url": "/answer0424.github.io/posts/Java03/",
     "categories": "Java, Fundamentals",
     "tags": "java",
     "date": "2025-02-21 11:43:00 +0900",
@@ -313,7 +425,7 @@
   },
   {
     "title": "연산자",
-    "url": "/posts/Java02/",
+    "url": "/answer0424.github.io/posts/Java02/",
     "categories": "Java, Fundamentals",
     "tags": "java",
     "date": "2025-02-21 11:05:00 +0900",
@@ -321,7 +433,7 @@
   },
   {
     "title": "Redux",
-    "url": "/posts/React12/",
+    "url": "/answer0424.github.io/posts/React12/",
     "categories": "React, initial",
     "tags": "react",
     "date": "2025-02-19 12:05:00 +0900",
@@ -329,7 +441,7 @@
   },
   {
     "title": "변수",
-    "url": "/posts/Java01/",
+    "url": "/answer0424.github.io/posts/Java01/",
     "categories": "Java, Fundamentals",
     "tags": "java",
     "date": "2025-02-19 12:05:00 +0900",
@@ -337,7 +449,7 @@
   },
   {
     "title": "Flux 패턴",
-    "url": "/posts/React11/",
+    "url": "/answer0424.github.io/posts/React11/",
     "categories": "React, initial",
     "tags": "react",
     "date": "2025-02-19 10:58:00 +0900",
@@ -345,7 +457,7 @@
   },
   {
     "title": "운동 성향 (HBTI)",
-    "url": "/posts/HBTI/",
+    "url": "/answer0424.github.io/posts/HBTI/",
     "categories": "HBTI, type",
     "tags": "hbti",
     "date": "2025-02-17 16:42:00 +0900",
@@ -353,7 +465,7 @@
   },
   {
     "title": "Form",
-    "url": "/posts/React10/",
+    "url": "/answer0424.github.io/posts/React10/",
     "categories": "React, initial",
     "tags": "react",
     "date": "2025-02-14 08:40:00 +0900",
@@ -361,7 +473,7 @@
   },
   {
     "title": "useReducer",
-    "url": "/posts/React09/",
+    "url": "/answer0424.github.io/posts/React09/",
     "categories": "React, hook",
     "tags": "react",
     "date": "2025-02-13 08:36:00 +0900",
@@ -369,7 +481,7 @@
   },
   {
     "title": "useContext",
-    "url": "/posts/React08/",
+    "url": "/answer0424.github.io/posts/React08/",
     "categories": "React, hook",
     "tags": "react",
     "date": "2025-02-12 08:43:00 +0900",
@@ -377,7 +489,7 @@
   },
   {
     "title": "useRef",
-    "url": "/posts/React07/",
+    "url": "/answer0424.github.io/posts/React07/",
     "categories": "React, hook",
     "tags": "react",
     "date": "2025-02-12 08:43:00 +0900",
@@ -385,7 +497,7 @@
   },
   {
     "title": "useMemo",
-    "url": "/posts/React06/",
+    "url": "/answer0424.github.io/posts/React06/",
     "categories": "React, hook",
     "tags": "react",
     "date": "2025-02-12 08:30:00 +0900",
@@ -393,7 +505,7 @@
   },
   {
     "title": "useState",
-    "url": "/posts/React05/",
+    "url": "/answer0424.github.io/posts/React05/",
     "categories": "React, hook",
     "tags": "react",
     "date": "2025-02-11 08:48:00 +0900",
@@ -401,7 +513,7 @@
   },
   {
     "title": "Component",
-    "url": "/posts/React04/",
+    "url": "/answer0424.github.io/posts/React04/",
     "categories": "React, initial",
     "tags": "react",
     "date": "2025-02-11 08:31:00 +0900",
@@ -409,7 +521,7 @@
   },
   {
     "title": "React CSS 적용",
-    "url": "/posts/React03/",
+    "url": "/answer0424.github.io/posts/React03/",
     "categories": "React, initial",
     "tags": "react",
     "date": "2025-02-09 23:00:00 +0900",
@@ -417,7 +529,7 @@
   },
   {
     "title": "JSX",
-    "url": "/posts/React02/",
+    "url": "/answer0424.github.io/posts/React02/",
     "categories": "React, initial",
     "tags": "react",
     "date": "2025-02-09 22:52:00 +0900",
@@ -425,7 +537,7 @@
   },
   {
     "title": "Why React",
-    "url": "/posts/React01/",
+    "url": "/answer0424.github.io/posts/React01/",
     "categories": "React, initial",
     "tags": "react",
     "date": "2025-02-08 17:24:00 +0900",
@@ -433,7 +545,7 @@
   },
   {
     "title": "리눅스 서버",
-    "url": "/posts/Linux25/",
+    "url": "/answer0424.github.io/posts/Linux25/",
     "categories": "Linux, advanced",
     "tags": "linux",
     "date": "2025-02-07 08:39:00 +0900",
@@ -441,7 +553,7 @@
   },
   {
     "title": "디스크 쿼터",
-    "url": "/posts/Linux24/",
+    "url": "/answer0424.github.io/posts/Linux24/",
     "categories": "Linux, advanced",
     "tags": "linux",
     "date": "2025-02-06 08:51:00 +0900",
@@ -449,7 +561,7 @@
   },
   {
     "title": "스케줄러",
-    "url": "/posts/Linux23/",
+    "url": "/answer0424.github.io/posts/Linux23/",
     "categories": "Linux, advanced",
     "tags": "linux",
     "date": "2025-02-06 08:39:00 +0900",
@@ -457,7 +569,7 @@
   },
   {
     "title": "허가권",
-    "url": "/posts/Linux22/",
+    "url": "/answer0424.github.io/posts/Linux22/",
     "categories": "Linux, advanced",
     "tags": "linux",
     "date": "2025-02-05 08:43:00 +0900",
@@ -465,7 +577,7 @@
   },
   {
     "title": "리눅스 마스터 2급 기출 문제 3",
-    "url": "/posts/Linux20/",
+    "url": "/answer0424.github.io/posts/Linux20/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-02-05 08:39:00 +0900",
@@ -473,7 +585,7 @@
   },
   {
     "title": "리눅스 마스터 2급 기출 문제 2",
-    "url": "/posts/Linux19/",
+    "url": "/answer0424.github.io/posts/Linux19/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-02-05 08:30:00 +0900",
@@ -481,7 +593,7 @@
   },
   {
     "title": "사용자 관리",
-    "url": "/posts/Linux21/",
+    "url": "/answer0424.github.io/posts/Linux21/",
     "categories": "Linux, advanced",
     "tags": "linux",
     "date": "2025-02-03 20:58:00 +0900",
@@ -489,7 +601,7 @@
   },
   {
     "title": "리눅스 마스터 2급 기출 문제 1",
-    "url": "/posts/Linux18/",
+    "url": "/answer0424.github.io/posts/Linux18/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-02-03 20:58:00 +0900",
@@ -497,7 +609,7 @@
   },
   {
     "title": "디스크 볼륨 확장",
-    "url": "/posts/Linux17/",
+    "url": "/answer0424.github.io/posts/Linux17/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-02-03 20:07:00 +0900",
@@ -505,7 +617,7 @@
   },
   {
     "title": "디스크 관리",
-    "url": "/posts/Linux16/",
+    "url": "/answer0424.github.io/posts/Linux16/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-02-03 20:07:00 +0900",
@@ -513,7 +625,7 @@
   },
   {
     "title": "websocket",
-    "url": "/posts/websocket01/",
+    "url": "/answer0424.github.io/posts/websocket01/",
     "categories": "websocket",
     "tags": "websocket",
     "date": "2025-02-03 09:00:00 +0900",
@@ -521,7 +633,7 @@
   },
   {
     "title": "프로세스 관련 명령어",
-    "url": "/posts/Linux15/",
+    "url": "/answer0424.github.io/posts/Linux15/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-02-01 15:02:00 +0900",
@@ -529,7 +641,7 @@
   },
   {
     "title": "Shell 관련 명령어",
-    "url": "/posts/Linux14/",
+    "url": "/answer0424.github.io/posts/Linux14/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-02-01 14:55:00 +0900",
@@ -537,7 +649,7 @@
   },
   {
     "title": "파일 찾기, 내용 비교, 링크, 압축",
-    "url": "/posts/Linux13/",
+    "url": "/answer0424.github.io/posts/Linux13/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-02-01 14:47:00 +0900",
@@ -545,7 +657,7 @@
   },
   {
     "title": "파일 실행 권한 변경",
-    "url": "/posts/Linux12/",
+    "url": "/answer0424.github.io/posts/Linux12/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-02-01 14:45:00 +0900",
@@ -553,7 +665,7 @@
   },
   {
     "title": "파일 내용 확인, 편집 명령어",
-    "url": "/posts/Linux11/",
+    "url": "/answer0424.github.io/posts/Linux11/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-02-01 14:30:00 +0900",
@@ -561,7 +673,7 @@
   },
   {
     "title": "파일과 디렉터리 복사 및 이동",
-    "url": "/posts/Linux10/",
+    "url": "/answer0424.github.io/posts/Linux10/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-02-01 14:26:00 +0900",
@@ -569,7 +681,7 @@
   },
   {
     "title": "날짜와 시간 명령어",
-    "url": "/posts/Linux09/",
+    "url": "/answer0424.github.io/posts/Linux09/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-02-01 14:24:00 +0900",
@@ -577,7 +689,7 @@
   },
   {
     "title": "리눅스 디렉터리 구조 및 역할",
-    "url": "/posts/Linux08/",
+    "url": "/answer0424.github.io/posts/Linux08/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-02-01 14:19:00 +0900",
@@ -585,7 +697,7 @@
   },
   {
     "title": "리눅스 서버 복제 및 파일, 디렉터리 생성 명령어",
-    "url": "/posts/Linux07/",
+    "url": "/answer0424.github.io/posts/Linux07/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-02-01 13:26:00 +0900",
@@ -593,7 +705,7 @@
   },
   {
     "title": "리눅스 파일 / 디렉터리 명령어",
-    "url": "/posts/Linux06/",
+    "url": "/answer0424.github.io/posts/Linux06/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-02-01 13:20:00 +0900",
@@ -601,7 +713,7 @@
   },
   {
     "title": "리눅스 시작/종료/부팅 명령어",
-    "url": "/posts/Linux05/",
+    "url": "/answer0424.github.io/posts/Linux05/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-01-31 16:17:00 +0900",
@@ -609,7 +721,7 @@
   },
   {
     "title": "리눅스 네트워크 설정",
-    "url": "/posts/Linux04/",
+    "url": "/answer0424.github.io/posts/Linux04/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-01-31 15:48:00 +0900",
@@ -617,7 +729,7 @@
   },
   {
     "title": "환경 설정 및 기본 명령어",
-    "url": "/posts/Linux03/",
+    "url": "/answer0424.github.io/posts/Linux03/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-01-31 15:37:00 +0900",
@@ -625,7 +737,7 @@
   },
   {
     "title": "리눅스란?",
-    "url": "/posts/Linux02/",
+    "url": "/answer0424.github.io/posts/Linux02/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-01-31 15:27:00 +0900",
@@ -633,7 +745,7 @@
   },
   {
     "title": "운영체제(OS)",
-    "url": "/posts/Linux01/",
+    "url": "/answer0424.github.io/posts/Linux01/",
     "categories": "Linux, basic",
     "tags": "linux",
     "date": "2025-01-31 15:09:00 +0900",
@@ -641,7 +753,7 @@
   },
   {
     "title": "첫 포스팅 작성",
-    "url": "/posts/test2-post/",
+    "url": "/answer0424.github.io/posts/test2-post/",
     "categories": "First, Post",
     "tags": "tag",
     "date": "2025-01-30 20:19:00 +0900",
@@ -649,7 +761,7 @@
   },
   {
     "title": "첫 포스팅 작성",
-    "url": "/posts/test-post/",
+    "url": "/answer0424.github.io/posts/test-post/",
     "categories": "First, Post",
     "tags": "tag",
     "date": "2025-01-30 20:19:00 +0900",
