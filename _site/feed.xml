@@ -1,150 +1,150 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://answer0424.github.io//answer0424.github.io/</id>
+  <id>http://localhost:4000/</id>
   <title>answer</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2025-04-10T11:16:25+09:00</updated>
+  <updated>2025-03-21T12:35:31+09:00</updated>
   <author>
     <name>코드로 답하다</name>
-    <uri>https://answer0424.github.io//answer0424.github.io/</uri>
+    <uri>http://localhost:4000/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="https://answer0424.github.io//answer0424.github.io/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="https://answer0424.github.io//answer0424.github.io/"/>
+    href="http://localhost:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <rights> © 2025 코드로 답하다 </rights>
-  <icon>answer0424.github.io/assets/img/favicons/favicon.ico</icon>
-  <logo>answer0424.github.io/assets/img/favicons/favicon-96x96.png</logo>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
 
   
   <entry>
-    <title>전자수입인지</title>
-    <link href="https://answer0424.github.io//answer0424.github.io/posts/CarBang08/" rel="alternate" type="text/html" title="전자수입인지" />
-    <published>2025-04-10T09:56:00+09:00</published>
+    <title>Spring AOP &amp; 프록시 개념</title>
+    <link href="http://localhost:4000/posts/Week03_04/" rel="alternate" type="text/html" title="Spring AOP &amp;amp; 프록시 개념" />
+    <published>2025-03-20T13:20:00+09:00</published>
   
-    <updated>2025-04-10T10:00:28+09:00</updated>
+    <updated>2025-03-20T19:28:05+09:00</updated>
   
-    <id>https://answer0424.github.io//answer0424.github.io/posts/CarBang08/</id>
-    <content type="text/html" src="https://answer0424.github.io//answer0424.github.io/posts/CarBang08/" />
+    <id>http://localhost:4000/posts/Week03_04/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Week03_04/" />
     <author>
       <name>코드로 답하다</name>
     </author>
 
   
     
-    <category term="carbang" />
+    <category term="Study" />
     
-    <category term="week02" />
+    <category term="week03" />
     
   
 
-  <summary>전자 수입 인지</summary>
+  <summary>AOP(Aspect-Oriented Programming)     AOP는 관점 지향 프로그래밍이라고 불린다. 관점 지향은 쉽게 말해 어떤 로직을 기준으로 핵심적인 관점, 부가적인 관점을 나누어서 보고 기 관점을 기준으로 각각 모듈화하겠다는 것     기본 구성 요소  Aspect (관점)     AOP의 핵심 개념으로 공통 관심사를 하나의 모듈로 분리한 것   예를 들어 로그를 남기는 코드나 트랜잭션 처리 코드가 Aspect가 될 수 있음     Joinpoint (조인포인트)     Aspect가 적용될 수 있는 지점, 즉 메서드 호출 지점을 의미   Spring AOP에서는 메서드 실행 전후 예외 발생 시점 등이 조인 포인트가 될 수 있음     Advice (어드바이드)     조인포인트에서 실...</summary>
 
   </entry>
 
   
   <entry>
-    <title>클래스 구조 파악</title>
-    <link href="https://answer0424.github.io//answer0424.github.io/posts/CarBang07/" rel="alternate" type="text/html" title="클래스 구조 파악" />
-    <published>2025-04-08T11:27:00+09:00</published>
+    <title>CPU 스케줄링</title>
+    <link href="http://localhost:4000/posts/Week03_03/" rel="alternate" type="text/html" title="CPU 스케줄링" />
+    <published>2025-03-18T14:26:00+09:00</published>
   
-    <updated>2025-04-09T16:22:33+09:00</updated>
+    <updated>2025-03-18T16:03:29+09:00</updated>
   
-    <id>https://answer0424.github.io//answer0424.github.io/posts/CarBang07/</id>
-    <content type="text/html" src="https://answer0424.github.io//answer0424.github.io/posts/CarBang07/" />
+    <id>http://localhost:4000/posts/Week03_03/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Week03_03/" />
     <author>
       <name>코드로 답하다</name>
     </author>
 
   
     
-    <category term="carbang" />
+    <category term="Study" />
     
-    <category term="week02" />
+    <category term="week03" />
     
   
 
-  <summary>TO  Ase256.java     암호화를 수행하는 유틸리티      알고리즘 : AES   모드 : CTR (Counter)   패딩 : NoPadding   키/IV : Base64로 인코딩된 문자열을 byte[]로 디코딩하여 사용   주요 메서드     encrypt(String) - 평문을 AES 방식으로 암호화하여 바이트 배열 반환   encryptAndEncodeByBase64(String) - 암호화 후 Base64로 인코딩한 문자열 반환   encodeBase64(byte[]) - 바이트 배열을 Base64 인코딩   decrypt(String) - Base64 인코딩된 암호문을 복호화하여 원본 바이트 배열 반환     AuthMsgVO.java     USIM 인증 시 필요한 사용자 ...</summary>
+  <summary>CPU 스케줄링이란??     CPU 스케줄링은 Ready Queue에 있는 프로세스들 중에서 어떤 프로세스에게 CPU를 할당할지 결정하는 운영체제의 핵심 기능   한정된 자원인 CPU를 효율적으로 사용하기 위해 필수적인 개념     CPU 스케줄링이 필요한 이유     다수의 프로세스가 동시에 실행될 수 없음 → CPU는 하나만 실행   I/O 대기 중인 프로세스는 CPU를 낭비하지 않도록 다른 프로세스에 할당   사용자 응답 속도 향상, 처리량 증가, 자원 낭비 최소화 등을 목표     CPU 스케줄러는 언제 스케줄링을 결정하는가??     실행(running) 상태에서 대기(waiting) 상태로 전환(switching) 될 때   실행(running) 상태에서 준비(ready) 상태로 전환(sw...</summary>
 
   </entry>
 
   
   <entry>
-    <title>팝업 구현</title>
-    <link href="https://answer0424.github.io//answer0424.github.io/posts/CarBang06/" rel="alternate" type="text/html" title="팝업 구현" />
-    <published>2025-04-08T11:27:00+09:00</published>
+    <title>String vs StringBuffer vs StringBuilder</title>
+    <link href="http://localhost:4000/posts/Week03_02/" rel="alternate" type="text/html" title="String vs StringBuffer vs StringBuilder" />
+    <published>2025-03-18T13:11:00+09:00</published>
   
-    <updated>2025-04-08T11:27:00+09:00</updated>
+    <updated>2025-03-18T15:46:37+09:00</updated>
   
-    <id>https://answer0424.github.io//answer0424.github.io/posts/CarBang06/</id>
-    <content type="text/html" src="https://answer0424.github.io//answer0424.github.io/posts/CarBang06/" />
+    <id>http://localhost:4000/posts/Week03_02/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Week03_02/" />
     <author>
       <name>코드로 답하다</name>
     </author>
 
   
     
-    <category term="carbang" />
+    <category term="Study" />
     
-    <category term="week02" />
+    <category term="week03" />
     
   
 
-  <summary>개요  외부 장치용 등록 번호판 반납 팝업 열기     차량 분석 결과 페이지에서 다음 페이지로 이동할 때 해당 파업을 띄워줘야 함   아래에서 위로 올라오는 ui     Step 01     팝업을 열고 닫는 메서드 작성   최초에는 모달의 display 속성을 변경하고 css를 추가해서 해당 모달을 아래에서 위로 올라오도록 설계하려고 했음   찾아보니 이미 만들어진 함수가 있어 해당 함수를 사용했음     Step 02     모달 구현   Body 태그 안에 해당 모달을 구현   위에서 언급한 메서드를 사용하기 위해서는 아래의 태그들에 특정 class를 부여해야 했음   조건을 정확하게 숙지하지 못해서 모달 ui가 적용되지 않았음     Step 03     함수를 호출하려는 시점 파악   진행하...</summary>
+  <summary>String vs StringBuffer vs StringBuilder 개요                 항목       String       StringBuffer       StringBuilder                       불변성       불변 (Immutable)       가변 (Mutable)       가변 (Mutable)                 스레드 안정성       불안전       Thread-safe       Thread-unsafe                 성능       느림 (많은 객체 생성)       빠름 (동기화 비용)       아주 빠름 (동기화 없음)                 사용 목적       문자열 변경이 적을 때       멀...</summary>
 
   </entry>
 
   
   <entry>
-    <title>SVN 형상 관리 툴</title>
-    <link href="https://answer0424.github.io//answer0424.github.io/posts/CarBang05/" rel="alternate" type="text/html" title="SVN 형상 관리 툴" />
-    <published>2025-04-07T11:12:00+09:00</published>
+    <title>Garbage Collection</title>
+    <link href="http://localhost:4000/posts/Week03_01/" rel="alternate" type="text/html" title="Garbage Collection" />
+    <published>2025-03-18T10:57:00+09:00</published>
   
-    <updated>2025-04-08T13:34:27+09:00</updated>
+    <updated>2025-03-18T15:29:29+09:00</updated>
   
-    <id>https://answer0424.github.io//answer0424.github.io/posts/CarBang05/</id>
-    <content type="text/html" src="https://answer0424.github.io//answer0424.github.io/posts/CarBang05/" />
+    <id>http://localhost:4000/posts/Week03_01/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Week03_01/" />
     <author>
       <name>코드로 답하다</name>
     </author>
 
   
     
-    <category term="carbang" />
+    <category term="Study" />
     
-    <category term="week02" />
+    <category term="week03" />
     
   
 
-  <summary>SVN 기본 개념     Apache Subversion(SVN)은 파일과 디렉토리의 변경 이력을 관리하는 버전 관리 시스템   GIT과 달리 중앙집중형 구조로 중앙저장소 (repository)를 기준으로 동작     주요 용어                 용어       설명                       repository       소스 코드와 변경 이력이 저장되는 중앙 저장소                 Working Copy       내 컴퓨터에 체크아웃한 로컬 작업 공간                 Checkout       저장소의 내용을 가져와 내 로컬에 복사                 Commit       로컬에서 수정한 내용을 저장소에 업로드                ...</summary>
+  <summary>Garbage Collection이란??     더 이상 사용되지 않는 객체(메모리)를 자동으로 탐지하고 제거하는 프로세스 개발자가 직접 메모리를 해제하지 않아도 되므로, 메모리 누수(Memory Leak)를 줄이고 안정성을 높이는 역할     주요 기능     Heap 메모리 관리 :  객체가 생성되는 영역인 Heap을 자동 관리   불필요한 객체 제거 : 참조되지 않는 객체는 제거하여 메모리 공간 확보   메모리 누수 방지 : 사용하지 않는 객체가 계속 남아있는 문제를 방지   응답성/성능 관리 : 애플리케이션이 메모리 부족 없이 효율적으로 동작하도록 유지     JVM 메모리 구조와 GC 관련 영역     Garbage Collection은 JVM 메모리 구조 중 Heap 영역에 관련이 있다.  ...</summary>
 
   </entry>
 
   
   <entry>
-    <title>carbang 모바일 앱 이전 신청 전반적인 프로세스 및 데이터베이스 검색</title>
-    <link href="https://answer0424.github.io//answer0424.github.io/posts/CarBang04/" rel="alternate" type="text/html" title="carbang 모바일 앱 이전 신청 전반적인 프로세스 및 데이터베이스 검색" />
-    <published>2025-04-04T12:56:00+09:00</published>
+    <title>Chapter 09. 단위 테스트</title>
+    <link href="http://localhost:4000/posts/CleanCode09/" rel="alternate" type="text/html" title="Chapter 09. 단위 테스트" />
+    <published>2025-03-15T14:52:00+09:00</published>
   
-    <updated>2025-04-04T12:56:00+09:00</updated>
+    <updated>2025-03-15T15:55:50+09:00</updated>
   
-    <id>https://answer0424.github.io//answer0424.github.io/posts/CarBang04/</id>
-    <content type="text/html" src="https://answer0424.github.io//answer0424.github.io/posts/CarBang04/" />
+    <id>http://localhost:4000/posts/CleanCode09/</id>
+    <content type="text/html" src="http://localhost:4000/posts/CleanCode09/" />
     <author>
       <name>코드로 답하다</name>
     </author>
 
   
     
-    <category term="carbang" />
+    <category term="Study" />
     
-    <category term="week01" />
+    <category term="CleanCode" />
     
   
 
-  <summary>이전 신청     차량 번호와 소유자명 입력   차량 정보 분석 (nice D&amp;amp;amp;R, 쿠콘)   이전 신청   거래 금액 입력   주행 거리 입력   양수인 정보 입력 (RAON)   양도인 정보 입력 (RAON)   상호 인증 (SCI)   예상 인도 비용 계산 후 가상 계좌 발급 (KSNET)   이전 등록 요청 (KTNET)            전자수입인지           과세 정보 수신   채권 구매 (RPA)   데이터베이스 테이블 이름 조회     우선 테이블들을 관리하고 있는 information_schema 테이블에서 생성되어 있는 테이블 조회가 가능하다   select table_name from information_schema.tables where table_name lik...</summary>
+  <summary>TDD 법칙 3가지 (Test Driven Development)     첫째 법칙 : 실패하는 단위 테스트를 작성할 때까지 실제 코드를 작성하지 않는다.   둘째 법칙 : 컴파일은 실패하지 않으면서 실행이 실패하는 정도로만 단위 테스트를 작성한다.   섯째 법칙 : 현재 실패하는 테스트를 통과할 정도로만 실제 코드를 작성한다.            실제 코드를 사실상 전부 테스트하는 테스트 케이스가 나온다.       하지만 실제 코드와 맞먹을 정도로 방대한 테스트 코드는 심각한 관리 문제를 유발하기도 함             깨끗한 테스트 코드 유지하기     실제 코드가 진화하면 테스트 코드도 변해야 함   그렇기 때문에 실제 코드를 짜는 시간보다 테스트 케이스를 추가하는 시간이 더 걸림   그렇기...</summary>
 
   </entry>
 
