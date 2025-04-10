@@ -45,7 +45,7 @@ pageviews:
 # Prefer color scheme setting.
 theme_mode: 
 
-cdn: ""
+cdn: "https://cdn.jsdelivr.net/gh/cotes2020/chirpy-assets@latest"
 
 avatar: "/assets/img/mainImg.png"
 
