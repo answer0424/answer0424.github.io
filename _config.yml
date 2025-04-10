@@ -175,3 +175,7 @@ jekyll-archives:
 #   id: 'G-RWD9ZLZLM0'
 
 source: .
+
+plugins:
+  - jekyll-include-cache
+
