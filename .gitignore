@@ -24,3 +24,6 @@ package-lock.json
 
 # Misc
 assets/js/dist
+
+# gitigore
+_posts/Carbang/ktnet_stamp_auto_output.php
