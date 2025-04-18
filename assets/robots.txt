@@ -7,8 +7,7 @@ User-agent: *
 
 Disallow: /norobots/
 
-Sitemap: {{ '/sitemap.xml' | absolute_url }}
-
 Allow: /
 
 Sitemap: https://answer0424.github.io/sitemap.xml
+
