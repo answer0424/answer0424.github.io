@@ -13,7 +13,7 @@ timezone: Asia/Seoul
 title: answer # the main title
 tagline: 코드로 답하다 # it will display as the subtitle
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Code is how a developer keeps their word.
 url: "https://answer0424.github.io/"
 
 github:
@@ -48,7 +48,7 @@ cdn: ""
 
 avatar: "/assets/img/mainImg.png"
 
-social_preview_image: 
+social_preview_image: "/assets/img/mainImg.png"
 
 toc: true
 
