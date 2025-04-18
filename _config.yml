@@ -177,3 +177,7 @@ source: .
 
 plugins:
   - jekyll-sitemap
+
+include:
+  - robots.txt
+
