@@ -22,18 +22,19 @@ if ('serviceWorker' in navigator) {
         registration.installing.addEventListener('statechange', () => {
           if (registration.waiting) {
             if (navigator.serviceWorker.controller) {
-              popupWindow.show();
+              popupWindow.show();  // Show the update notification
             }
           }
         });
       });
 
-      // btnRefresh.addEventListener('click', () => {
-      //   if (registration.waiting) {
-      //     registration.waiting.postMessage('SKIP_WAITING');
-      //   }
-      //   popupWindow.hide();
-      // });
+      // Handle the refresh button click
+      btnRefresh.addEventListener('click', () => {
+        if (registration.waiting) {
+          registration.waiting.postMessage('SKIP_WAITING'); // Skip waiting state and activate the new service worker
+        }
+        popupWindow.hide();  // Hide the notification
+      });
     });
 
     let refreshing = false;
@@ -41,14 +42,14 @@ if ('serviceWorker' in navigator) {
     // Detect controller change and refresh all the opened tabs
     navigator.serviceWorker.addEventListener('controllerchange', () => {
       if (!refreshing) {
-        window.location.reload();
+        window.location.reload();  // Force refresh once the new service worker takes control
         refreshing = true;
       }
     });
   } else {
     navigator.serviceWorker.getRegistrations().then(function (registrations) {
       for (let registration of registrations) {
-        registration.unregister();
+        registration.unregister();  // Unregister service workers if not needed
       }
     });
   }
