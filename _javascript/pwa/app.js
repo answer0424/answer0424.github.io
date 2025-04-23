@@ -15,7 +15,7 @@ if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register(swUrl).then((registration) => {
       // Restore the update window that was last manually closed by the user
       if (registration.waiting) {
-        popupWindow.show();
+        registration.waiting.postMessage('SKIP_WAITING');
       }
 
       registration.addEventListener('updatefound', () => {
@@ -28,12 +28,12 @@ if ('serviceWorker' in navigator) {
         });
       });
 
-      btnRefresh.addEventListener('click', () => {
-        if (registration.waiting) {
-          registration.waiting.postMessage('SKIP_WAITING');
-        }
-        popupWindow.hide();
-      });
+      // btnRefresh.addEventListener('click', () => {
+      //   if (registration.waiting) {
+      //     registration.waiting.postMessage('SKIP_WAITING');
+      //   }
+      //   popupWindow.hide();
+      // });
     });
 
     let refreshing = false;
