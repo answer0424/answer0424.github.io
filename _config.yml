@@ -180,4 +180,4 @@ plugins:
 
 include:
   - robots.txt
-
+  - _javascript
