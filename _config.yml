@@ -53,22 +53,22 @@ social_preview_image: "/assets/img/mainImg.png"
 toc: true
 
 comments:
-  provider: 
+  provider: giscus
   disqus:
     shortname: 
   utterances:
     repo: 
     issue_term: 
   giscus:
-    repo: 
-    repo_id:
-    category:
-    category_id:
-    mapping: 
-    strict: 
-    input_position: 
-    lang: 
-    reactions_enabled: 
+    repo: answer0424/answer0424.github.io
+    repo_id: R_kgDONxvoUg
+    category: General
+    category_id: DIC_kwDONxvoUs4CrOAS
+    mapping: pathname
+    strict: false
+    input_position: bottom
+    lang: ko
+    reactions_enabled: true
 
 assets:
   self_host:
