@@ -1,1 +1,82 @@
-<feed xmlns="http://www.w3.org/2005/Atom"> <id>https://answer0424.github.io//</id><title>answer</title><subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle> <updated>2025-04-17T17:47:52+09:00</updated> <author> <name>코드로 답하다</name> <uri>https://answer0424.github.io//</uri> </author><link rel="self" type="application/atom+xml" href="https://answer0424.github.io//feed.xml"/><link rel="alternate" type="text/html" hreflang="en" href="https://answer0424.github.io//"/> <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator> <rights> © 2025 코드로 답하다 </rights> <icon>/assets/img/favicons/favicon.ico</icon> <logo>/assets/img/favicons/favicon-96x96.png</logo> <entry><title>주행거리 체크박스 요청 건</title><link href="https://answer0424.github.io//posts/CarBang13/" rel="alternate" type="text/html" title="주행거리 체크박스 요청 건" /><published>2025-04-16T09:00:00+09:00</published> <updated>2025-04-16T09:00:00+09:00</updated> <id>https://answer0424.github.io//posts/CarBang13/</id> <content type="text/html" src="https://answer0424.github.io//posts/CarBang13/" /> <author> <name>코드로 답하다</name> </author> <summary>상태에 따른 버튼 활성/비활성 초기 화면에는 버튼을 비활성화해야 함 두가지 조건에 따라 활성 여부를 결정 (두가지 모두 만족시 활성화) 체크박스 체크 여부 주행거리 입력 여부 우선 window.onload와 $(document).ready 같은 브라우저 창이 로딩될 때의 함수가 mocaframework에 있어서 해당 함수를 사용 아래에 구현한 함수를 추가하고 체크박스 여부와 주행거리 입력 여부에 따른 버튼 상태를 변경할 수 있도록 설정 $(&amp;#39;체크박스, 주행거리&amp;#39;).on(&amp;#39;change input&amp;#39;, 조건에따른버튼상태결정함수); 조건에 따른 버튼 상태 결정 함수 체크박스가 체크되어 있는지 여부를 판단할 변수 ...</summary> </entry> <entry><title>svn</title><link href="https://answer0424.github.io//posts/CarBang12/" rel="alternate" type="text/html" title="svn" /><published>2025-04-16T09:00:00+09:00</published> <updated>2025-04-16T15:59:05+09:00</updated> <id>https://answer0424.github.io//posts/CarBang12/</id> <content type="text/html" src="https://answer0424.github.io//posts/CarBang12/" /> <author> <name>코드로 답하다</name> </author> <summary># 변경 파일 확인하가 svn status # chagelist에서 특정 파일 지우기 svn changelist --remove target_file # 특정 changelist만 commit하기 svn commit --changelist &amp;quot;default&amp;quot; -m &amp;quot;commit message&amp;quot; # 파일을 다른 chagelist로 옮기기 svn changelist &amp;quot;target chagelist&amp;quot; target_file # 특정 파일 변경 내용 되돌리기 svn revert target_file # 특정 파일 chagelist에서 지우기 svn changelist --remove target_file # 특정 파일 변경 내용 확인 svn diff target_file</summary> </entry> <entry><title>IDC-운영관리</title><link href="https://answer0424.github.io//posts/CarBang11/" rel="alternate" type="text/html" title="IDC-운영관리" /><published>2025-04-15T09:24:00+09:00</published> <updated>2025-04-15T09:24:00+09:00</updated> <id>https://answer0424.github.io//posts/CarBang11/</id> <content type="text/html" src="https://answer0424.github.io//posts/CarBang11/" /> <author> <name>코드로 답하다</name> </author> <category term="carbang" /> <category term="week03" /> <summary>IDC-운영관리 메뉴 요약 핵심 기능 핵심 목적 자동차 운영 관리 업무 흐름 실시간 모니터링 - 차량 거래(이전 설정 등) 처리 현황 시각화 - 조건별 필드 검색 - 채권 관련 금액 정보 조회 처리량/상태를 빠르게 파악하고 이슈에 즉각 대응 업무 관리 처리 건별 상세 및 정산 관리 - 요청별 상세 정보 조회 - 정산 관련 비용 확인 - 영수증 관리 및 채권단가 관리 거래별 처리 상태 및 세금/비용 정산 통합 관리 정보 조회 및 검증 원부/이력/소유자 정보 검증 ...</summary> </entry> <entry><title>프로젝트 이해 tip, FCM token</title><link href="https://answer0424.github.io//posts/CarBang10/" rel="alternate" type="text/html" title="프로젝트 이해 tip, FCM token" /><published>2025-04-14T10:24:00+09:00</published> <updated>2025-04-15T11:32:54+09:00</updated> <id>https://answer0424.github.io//posts/CarBang10/</id> <content type="text/html" src="https://answer0424.github.io//posts/CarBang10/" /> <author> <name>코드로 답하다</name> </author> <category term="carbang" /> <category term="week03" /> <summary>전통적인 Java 기반 웹 어플리케이션 구조 Servlet/JSP 기반이거나 Spring MVC 기반 여기에 HTML, CSS, JS가 함께 사용돼서 정적인 프론트엔드가 구성되고 서버 쪽에서 동적으로 데이터를 렌더링해주는 구조 전체 구조 개요 먼저 파악 /src └── /main ├── /java ← Java 소스 코드 (Controller, Service, DAO 등) ├── /resources ← 설정 파일 (application.properties, log4j.xml 등) └── /webapp ├── /WEB-INF │ └── *.jsp ← View (서버 측 렌더링 ...</summary> </entry> <entry><title>VPC 구성성</title><link href="https://answer0424.github.io//posts/Cloud04/" rel="alternate" type="text/html" title="VPC 구성성" /><published>2025-04-13T17:24:00+09:00</published> <updated>2025-04-13T17:24:00+09:00</updated> <id>https://answer0424.github.io//posts/Cloud04/</id> <content type="text/html" src="https://answer0424.github.io//posts/Cloud04/" /> <author> <name>코드로 답하다</name> </author> <category term="cloud" /> <category term="aws" /> <summary>VPC 구성 VPC는 AWS 리소스들을 위한 가상 네트워크 서비스 VPC를 구성하면 외부에서 접근 가능한 퍼블릭 네트워크 환경과 VPC 환경에서만 접근 가능한 프라이빗 네트워크 환경을 운영할 수 있음 VPC 생성 인터넷 게이트웨이 생성 및 VPC 연결 퍼블릭 서브넷 생성 퍼블릭 라우팅 테이블 생성 퍼블릭 보안 그룹 생성 퍼블릭 서브넷에 EC2 인스턴스 생성 퍼블릭 EC2 인스턴스 접속 및 통신 테스트 NAT 게이트웨이 생성 프라이빗 서브넷 생성 프라이빗 라우팅 테이블 생성 프라이빗 보안 그룹 생성 프라이빗 서브넷에 EC2 인스턴스 생성 프라이빗 EC2 인스턴스 접속 및 통신 테스트 EC2 인스턴스 메타데이터 확인 Defa...</summary> </entry> </feed>
+<feed xmlns="http://www.w3.org/2005/Atom"> 
+    <id>https://answer0424.github.io//</id>
+    <title>answer</title>
+    <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle> 
+    <updated>2025-04-17T17:47:52+09:00</updated> 
+    <author> 
+        <name>코드로 답하다</name> 
+        <uri>https://answer0424.github.io//</uri>
+    </author>
+    <link rel="self" type="application/atom+xml" href="https://answer0424.github.io//feed.xml"/>
+    <link rel="alternate" type="text/html" hreflang="en" href="https://answer0424.github.io//"/> 
+    <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator> 
+    <rights> © 2025 코드로 답하다 </rights> 
+    <icon>/assets/img/favicons/favicon.ico</icon> 
+    <logo>/assets/img/favicons/favicon-96x96.png</logo> 
+    <entry>
+        <title>주행거리 체크박스 요청 건</title>
+        <link href="https://answer0424.github.io//posts/CarBang13/" rel="alternate" type="text/html" title="주행거리 체크박스 요청 건" />
+        <published>2025-04-16T09:00:00+09:00</published> 
+        <updated>2025-04-16T09:00:00+09:00</updated> 
+        <id>https://answer0424.github.io//posts/CarBang13/</id> 
+        <content type="text/html" src="https://answer0424.github.io//posts/CarBang13/" /> 
+        <author> 
+            <name>코드로 답하다</name> 
+        </author> 
+        <summary>상태에 따른 버튼 활성/비활성 초기 화면에는 버튼을 비활성화해야 함 두가지 조건에 따라 활성 여부를 결정 (두가지 모두 만족시 활성화) 체크박스 체크 여부 주행거리 입력 여부 우선 window.onload와 $(document).ready 같은 브라우저 창이 로딩될 때의 함수가 mocaframework에 있어서 해당 함수를 사용 아래에 구현한 함수를 추가하고 체크박스 여부와 주행거리 입력 여부에 따른 버튼 상태를 변경할 수 있도록 설정 $(&amp;#39;체크박스, 주행거리&amp;#39;).on(&amp;#39;change input&amp;#39;, 조건에따른버튼상태결정함수); 조건에 따른 버튼 상태 결정 함수 체크박스가 체크되어 있는지 여부를 판단할 변수 ...</summary> 
+    </entry> 
+    <entry>
+        <title>svn</title>
+        <link href="https://answer0424.github.io//posts/CarBang12/" rel="alternate" type="text/html" title="svn" />
+        <published>2025-04-16T09:00:00+09:00</published> 
+        <updated>2025-04-16T15:59:05+09:00</updated> 
+        <id>https://answer0424.github.io//posts/CarBang12/</id> 
+        <content type="text/html" src="https://answer0424.github.io//posts/CarBang12/" /> 
+        <author> 
+            <name>코드로 답하다</name> 
+        </author> 
+        <summary># 변경 파일 확인하가 svn status # chagelist에서 특정 파일 지우기 svn changelist --remove target_file # 특정 changelist만 commit하기 svn commit --changelist &amp;quot;default&amp;quot; -m &amp;quot;commit message&amp;quot; # 파일을 다른 chagelist로 옮기기 svn changelist &amp;quot;target chagelist&amp;quot; target_file # 특정 파일 변경 내용 되돌리기 svn revert target_file # 특정 파일 chagelist에서 지우기 svn changelist --remove target_file # 특정 파일 변경 내용 확인 svn diff target_file</summary> 
+    </entry> 
+    <entry>
+        <title>IDC-운영관리</title>
+        <link href="https://answer0424.github.io//posts/CarBang11/" rel="alternate" type="text/html" title="IDC-운영관리" />
+        <published>2025-04-15T09:24:00+09:00</published> 
+        <updated>2025-04-15T09:24:00+09:00</updated> 
+        <id>https://answer0424.github.io//posts/CarBang11/</id> 
+        <content type="text/html" src="https://answer0424.github.io//posts/CarBang11/" /> 
+        <author> 
+            <name>코드로 답하다</name> 
+        </author> 
+        <category term="carbang" /> 
+        <category term="week03" /> 
+        <summary>IDC-운영관리 메뉴 요약 핵심 기능 핵심 목적 자동차 운영 관리 업무 흐름 실시간 모니터링 - 차량 거래(이전 설정 등) 처리 현황 시각화 - 조건별 필드 검색 - 채권 관련 금액 정보 조회 처리량/상태를 빠르게 파악하고 이슈에 즉각 대응 업무 관리 처리 건별 상세 및 정산 관리 - 요청별 상세 정보 조회 - 정산 관련 비용 확인 - 영수증 관리 및 채권단가 관리 거래별 처리 상태 및 세금/비용 정산 통합 관리 정보 조회 및 검증 원부/이력/소유자 정보 검증 ...</summary> 
+    </entry> 
+    <entry>
+        <title>프로젝트 이해 tip, FCM token</title>
+        <link href="https://answer0424.github.io//posts/CarBang10/" rel="alternate" type="text/html" title="프로젝트 이해 tip, FCM token" />
+        <published>2025-04-14T10:24:00+09:00</published> 
+        <updated>2025-04-15T11:32:54+09:00</updated> 
+        <id>https://answer0424.github.io//posts/CarBang10/</id> 
+        <content type="text/html" src="https://answer0424.github.io//posts/CarBang10/" /> 
+        <author> 
+            <name>코드로 답하다</name> 
+        </author> 
+        <category term="carbang" /> 
+        <category term="week03" /> 
+        <summary>전통적인 Java 기반 웹 어플리케이션 구조 Servlet/JSP 기반이거나 Spring MVC 기반 여기에 HTML, CSS, JS가 함께 사용돼서 정적인 프론트엔드가 구성되고 서버 쪽에서 동적으로 데이터를 렌더링해주는 구조 전체 구조 개요 먼저 파악 /src └── /main ├── /java ← Java 소스 코드 (Controller, Service, DAO 등) ├── /resources ← 설정 파일 (application.properties, log4j.xml 등) └── /webapp ├── /WEB-INF │ └── *.jsp ← View (서버 측 렌더링 ...</summary> 
+    </entry> 
+    <entry>
+        <title>VPC 구성성</title>
+        <link href="https://answer0424.github.io//posts/Cloud04/" rel="alternate" type="text/html" title="VPC 구성성" />
+        <published>2025-04-13T17:24:00+09:00</published> 
+        <updated>2025-04-13T17:24:00+09:00</updated> 
+        <id>https://answer0424.github.io//posts/Cloud04/</id>
+        <content type="text/html" src="https://answer0424.github.io//posts/Cloud04/" /> 
+        <author>
+            <name>코드로 답하다</name> 
+        </author> 
+        <category term="cloud" /> 
+        <category term="aws" /> 
+        <summary>VPC 구성 VPC는 AWS 리소스들을 위한 가상 네트워크 서비스 VPC를 구성하면 외부에서 접근 가능한 퍼블릭 네트워크 환경과 VPC 환경에서만 접근 가능한 프라이빗 네트워크 환경을 운영할 수 있음 VPC 생성 인터넷 게이트웨이 생성 및 VPC 연결 퍼블릭 서브넷 생성 퍼블릭 라우팅 테이블 생성 퍼블릭 보안 그룹 생성 퍼블릭 서브넷에 EC2 인스턴스 생성 퍼블릭 EC2 인스턴스 접속 및 통신 테스트 NAT 게이트웨이 생성 프라이빗 서브넷 생성 프라이빗 라우팅 테이블 생성 프라이빗 보안 그룹 생성 프라이빗 서브넷에 EC2 인스턴스 생성 프라이빗 EC2 인스턴스 접속 및 통신 테스트 EC2 인스턴스 메타데이터 확인 Defa...</summary> 
+    </entry>
+</feed>
