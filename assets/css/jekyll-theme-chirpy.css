@@ -1,0 +1,69 @@
+    body {
+      font-family: 'Pretendard', sans-serif;
+      background: #f5f7fa;
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .resume-card {
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      padding: 2.5rem;
+      width: 100%;
+      max-width: 720px;
+      animation: fadeIn 1s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      color: #555;
+    }
+
+    .section {
+      margin-top: 2rem;
+    }
+
+    .section h2 {
+      font-size: 1.3rem;
+      color: #2c3e50;
+      border-left: 4px solid #3498db;
+      padding-left: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    .highlight {
+      background: #ffeaa7;
+      display: inline-block;
+      padding: 0.2rem 0.4rem;
+      border-radius: 6px;
+    }
+
+    .contact {
+      margin-top: 1rem;
+      color: #888;
+      font-size: 0.95rem;
+    }
+
+    .contact span {
+      display: inline-block;
+      margin-right: 1rem;
+    }

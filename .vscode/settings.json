@@ -27,6 +27,6 @@
   "terminal.integrated.profiles.osx": {
     "zsh": { "path": "/bin/zsh", "args": ["-l", "-i"] }
   },
-  "markdown-preview-enhanced.breakOnSingleNewLine": true
-  
+  "markdown-preview-enhanced.breakOnSingleNewLine": true,
+  "liveServer.settings.port": 5501
 }
