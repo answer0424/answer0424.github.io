@@ -14,7 +14,7 @@ order: 4
 - **Java** / Spring Boot 🌱  
 - **React** / JavaScript ⚛️  
 - **MySQL** / Docker 🐳  
-- **GitHub** / notion ![alt text](image.png)
+- **GitHub** / notion 🐈‍⬛
 - 코드 리뷰어 & 시스템 구조 덕후 🧐
 
 ### 📌 Experience
