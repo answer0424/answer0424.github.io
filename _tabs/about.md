@@ -25,4 +25,4 @@ order: 4
 > “보다 나은 구조로, 보다 나은 내일을 짓다.”
 
 ### 📫 Contact
-✉️ [wonwon123123@naver.com](mailto:wonwon123123@naver.com)
+✉️ [구글 메일 보내기](https://mail.google.com/mail/?view=cm&to=leekyungwon0424@gmail.com) 
