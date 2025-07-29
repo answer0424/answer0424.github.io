@@ -28,5 +28,6 @@
     "zsh": { "path": "/bin/zsh", "args": ["-l", "-i"] }
   },
   "markdown-preview-enhanced.breakOnSingleNewLine": true,
-  "liveServer.settings.port": 5501
+  "liveServer.settings.port": 5501,
+  "editor.cursorBlinking": "blink"
 }
