@@ -58,3 +58,12 @@ tags: [spring]
 
 <br>
 
+#### ResourceHttpRequestHandler
+
+- 소속: Spring MVC
+- 역할: 정적 리소스 제공용 핸들러(DefaultServlet 대체)
+- 비고: Spring Boot에서 기본 활성화
+
+<br>
+
+#### 
