@@ -49,3 +49,12 @@ tags: [spring]
 - 비고: 모든 Spring MVC 요청의 진입점
 
 <br>
+
+#### FrameworkServlet
+
+- 소속: Spring Framework
+- 역할: DispatcherServlet의 부모 - ApplicationContext 초기화 관리
+- 비고: 직접 등록하지 않음
+
+<br>
+
