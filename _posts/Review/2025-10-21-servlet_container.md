@@ -31,3 +31,9 @@ tags: [spring]
 - 시점: 현재는 거의 사용 안함
 
 <br>
+
+#### ErrorReportValue
+
+- 소속: Tomcat 내부
+- 역할: 에러 발생 시 HTTP 상태코드별 기본 에러 페이지 출력
+- 시점: 404, 500 등 발생 시
