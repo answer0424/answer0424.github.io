@@ -87,3 +87,14 @@ tags: [spring]
 - 소속: Spring Boot
 - 역할: DispatcherServlet을 ServletContext에 자동 등록
 - 비고: Boot 환경에서 필수
+
+<br>
+
+## 실무 포인트
+
+1. DispatcherServlet은 Tomcat의 하나의 서블릿으로 등록되어 실행됨
+2. 정적 리소스 요청은 DispatcherServlet이 아닌 DefaultServlet이 처리
+3. Spring Boot에서는 DispatcherServlet이 자동 등록되며, `ServletRegistrationBean`으로 관리됨
+4. 필터와 리스너는 서블릿과 함께 HTTP 요청 체인을 구성
+5. JSPServlet은 `.jsp` 파일을 자바 서블릿 코드로 변환하여 실행
+
