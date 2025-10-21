@@ -71,3 +71,13 @@ tags: [spring]
 - 소속: Spring Web
 - 역할: `_method` 파라미터를 통해 PUT, DELETE 지원
 - 비고: RESTful API 구현 시 유용
+
+<br>
+
+#### HttpServletBean
+
+- 소속: Spring 내부 추상 클래스
+- 역할: 서블릿 초기화 파라미터를 Spring Bean 프로퍼티에 자동 주입
+- 비고: DispatcherServlet의 상위
+
+<br>
