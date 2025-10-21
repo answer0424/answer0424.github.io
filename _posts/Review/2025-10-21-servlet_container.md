@@ -81,3 +81,9 @@ tags: [spring]
 - 비고: DispatcherServlet의 상위
 
 <br>
+
+#### DispatcherServletRegistrationBean
+
+- 소속: Spring Boot
+- 역할: DispatcherServlet을 ServletContext에 자동 등록
+- 비고: Boot 환경에서 필수
