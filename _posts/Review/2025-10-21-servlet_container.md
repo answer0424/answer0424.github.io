@@ -37,3 +37,15 @@ tags: [spring]
 - 소속: Tomcat 내부
 - 역할: 에러 발생 시 HTTP 상태코드별 기본 에러 페이지 출력
 - 시점: 404, 500 등 발생 시
+
+<br>
+
+## 스프링 기반 서블릿(Spring MVC / Spring Boot에서 추가 등록)
+
+#### DispatcherServlet
+
+- 소속: Spring MVC
+- 역할: Front Controller - 요청을 컨트롤러로 분배하고 뷰 렌더링 관리
+- 비고: 모든 Spring MVC 요청의 진입점
+
+<br>
