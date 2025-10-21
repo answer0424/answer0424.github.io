@@ -23,3 +23,11 @@ tags: [spring]
 - 시점: JSP 기반 뷰 사용할 떄
 
 <br>
+
+#### InvokeServlet
+
+- 소속: 과거 Tomcat에서 사용
+- 역할: web.xml 매핑 없이 클래스를 직접 URL로 호출할 수 있게 함
+- 시점: 현재는 거의 사용 안함
+
+<br>
