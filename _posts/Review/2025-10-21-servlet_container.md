@@ -66,4 +66,8 @@ tags: [spring]
 
 <br>
 
-#### 
+#### HiddenHttpMethodFilter
+
+- 소속: Spring Web
+- 역할: `_method` 파라미터를 통해 PUT, DELETE 지원
+- 비고: RESTful API 구현 시 유용
