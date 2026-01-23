@@ -1,0 +1,1 @@
+![alt text](../../assets/img/stock/stock01_01.png)
