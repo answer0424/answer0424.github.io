@@ -1,3 +1,10 @@
+---
+layout: post
+title: 1과목 - 정보시스템 기반 기술 용어
+date: 2026-02-22 09:00 +09:00
+categories: [IEIP, Subject 1]
+tags: [IEIP]
+---
 #!/usr/bin/env bash
 #
 # Run jekyll serve and then launch the site
