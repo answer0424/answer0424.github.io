@@ -153,3 +153,52 @@ tags: [forklift]
 - 설계 제작 시 기어비 선정 용이
 - 굴곡 노면 충격 흡수
 - 시미 현상 감소
+
+<br>
+
+## 휠얼라이먼트
+
+#### 토인
+
+![alt text](../../../assets/img/certification/forklift/powertransmission_03.png)
+
+- 토인은 앞바퀴의 간격이 뒤보다 앞이 좁은 것
+- 토인 조정을 통해 고속주행 안정성과 타이어 편마모를 방지함
+- 지게차의 토인조정은 타이로드로 함
+
+<br>
+
+#### 캠버각
+
+![alt text](../../../assets/img/certification/forklift/powertransmission_02.png)
+
+- 앞바퀴를 앞에서 보면 약간 바깥쪽으로 벌어져 있음
+  - 핸들 조작을 가볍게 하고 타이어 이상 마멸 방지
+- 지게차의 캠버각이 틀어지면 핸들쏠림이 발생하고 트레드 편마모되므로 휠얼라이먼트를 조정
+
+<br>
+
+#### 킹핀 경사각
+
+![alt text](../../../assets/img/certification/forklift/powertransmission_01.png)
+
+- 앞에서 앞바퀴를 볼 때 킹핀중심선과 수직선이 이루는 각도
+  - 핸들 조작력, 복원력을 증대시키고 충격 감소 역할
+
+<br>
+
+#### 캐스터 각
+
+![alt text](../../../assets/img/certification/forklift/powertransmission_04.png)
+
+- 앞바퀴를 옆에서 보았을 때 조향축이 기울어있는 각도
+  - 주행방향성 향상, 핸들 복원력 증가
+
+- 앞바퀴 정렬(휠얼라이먼트)을 통해
+  - 타이어 마모를 최소화
+  - 직진성, 조향복원력, 방향안정성을 향상
+  - 핸들조작을 작은 힘으로 할 수 있음
+
+<br>
+
+## 제동장치
