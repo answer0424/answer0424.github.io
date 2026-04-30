@@ -464,3 +464,16 @@ tags: [forklift]
 4. 불연성 재료의 사요ㅏㅇ 금지
 
 > 4번
+
+<br>
+
+## 다음 기호의 의미는?
+
+![alt text](../../../assets/img/certification/forklift/test_03_01.png)
+
+1. 녹십자 표지
+2. 응급구호 표지
+3. 엠뷸런스 표지
+4. 비상용 기구 표지
+
+> 2번 / 응급구호 표지
