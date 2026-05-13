@@ -13,7 +13,11 @@ tags: [IEIP]
 
 ## OSI 참조 모델
 
-####
+#### 응용 계층(Application Layer)
+
+- HTTPS, HTTP, FTP, SMTP, DNS, Telnet, SNMP 등과 같은 프로토콜이 존재하며, 사용자와 직접 상호작용하는 계층
+
+
 
 
 
