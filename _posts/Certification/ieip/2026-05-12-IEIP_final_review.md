@@ -37,7 +37,10 @@ tags: [IEIP]
 
 #### 전송 계층(Transport Layer)
 
-- 
+- 종단 시스템 간에 투명한 데이터 전송 및 연결 해제 기능을 함
+- 주소 설정, 다중화, 오류 제어, 흐름 제어를 수행
+- TCP(Transmission Control Protocol): 연결 지향적 프로토콜로, 신뢰성 있는 데이터 전송을 보장
+- UDP(User Datagram Protocol): 비연결 지향적 프로토콜로, 빠른 데이터 전송이 필요한 경우에 사용
 
 
 
