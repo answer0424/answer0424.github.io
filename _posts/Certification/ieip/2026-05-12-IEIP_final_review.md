@@ -42,6 +42,16 @@ tags: [IEIP]
 - TCP(Transmission Control Protocol): 연결 지향적 프로토콜로, 신뢰성 있는 데이터 전송을 보장
 - UDP(User Datagram Protocol): 비연결 지향적 프로토콜로, 빠른 데이터 전송이 필요한 경우에 사용
 
+<br>
+
+#### 네트워크 계층(Network Layer)
+
+- 개방 시스템 간의 네트워크 연결을 관리하는 기능과 데이터의 교환 및 중계 기능
+- 경로 설정, 데이터 교환 및 중계, 트래픽 제어, 패킷 정보전송을 수행
+- IP, ICMP, ARP, RARP 등의 프로토콜이 존재
+
+
+
 
 
 ## UML
