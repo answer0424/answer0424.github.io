@@ -60,3 +60,15 @@ tags: [IEIP]
 17. pwd: 현재 작업중인 디렉터리 경로를 화면에 표시
 18. top: 시스템의 프로세스와 메모리 사용 현황을 표시
 19. who: 현재 시스템에 접속해 있는 사용자를 표시
+
+---
+
+## 예제
+
+#### 1. UNIX 시반 시스템에서 `batch.sh` 파일에 대해 소유자와 그룹에게는 전체 권한, 기타 사용자에게는 읽기와 실행 권한만 부여하는 명령문을 8진법 숫자를 이용하여 작성
+
+![alt text](../../../../assets/img/certification/information_processing_technician/practical/basic_commands_of_the_operating_system_01.png)
+
+```bash
+chmod 775 batch.sh
+```
