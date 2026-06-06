@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 7. 관계형 데이터베이스의 구조 / 관계형 데이터 모델
+title: 8. 관계형 데이터베이스의 구조 / 관계형 데이터 모델
 date: 2026-06-06 09:00 +09:00
 categories: [IEIP, Practical Exam]
 tags: [IEIP]
