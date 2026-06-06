@@ -13,3 +13,15 @@ tags: [IEIP]
 - 개체(Entity)와 관계(Relationship)를 모두 릴레이션(Relation)이라는 표(Table)로 표현하기 때문에 개체를 릴레이션과 관계 릴레이션이 존재
 - 장점: 간결하고 보기 편리하며, 다른 데이터베이스로의 변환이 용이
 - 단점: 성능이 다소 떨어짐
+
+---
+
+## 관계형 데이터베이스의 릴레이션 구조
+
+![alt text](../../../../assets/img/certification/information_processing_technician/practical/relational_database_structure_01.png)
+
+- 튜플 = 카디널리티 = 대응수 = 레코드 = 기수
+
+<br>
+
+## 
