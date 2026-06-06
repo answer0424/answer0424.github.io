@@ -37,3 +37,7 @@ tags: [IEIP]
 - Join의 결과는 Cartesian Product를 수행한 다음 Select를 수행한 것과 같음
 
 <br>
+
+#### Division
+
+- X ⊃ Y인 두 개의 릴레이션 R(X)와 S(Y)가 있을 때, R의 속성이 S의 속성값을 모두 가진 튜플에서 S가 가진 속성을 제외한 속성만을 구하는 연산
