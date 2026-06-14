@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 004. 스케줄링
+title: 005. 데이터베이스 개요
 date: 2026-06-14 09:00 +09:00
 categories: [IEIP, final]
 tags: [IEIP]
