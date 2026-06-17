@@ -82,27 +82,31 @@ class PasswordProtectedContent {
 
       // Base64 디코딩
       const encryptedData = atob(encrypted);
-      
+
       // IV 추출 (첫 16바이트)
       const iv = encryptedData.slice(0, 16);
       const ciphertext = encryptedData.slice(16);
-      
+
       // SHA256으로 키 생성
       const keyHex = CryptoJS.SHA256(password).toString();
       const key = CryptoJS.enc.Hex.parse(keyHex);
       const ivBytes = CryptoJS.enc.Latin1.parse(iv);
       const ciphertextBytes = CryptoJS.enc.Latin1.parse(ciphertext);
-      
+
       // AES-256-CBC 복호화
-      const decrypted = CryptoJS.AES.decrypt({
-        ciphertext: ciphertextBytes,
-        salt: ''
-      }, key, {
-        iv: ivBytes,
-        mode: CryptoJS.mode.CBC,
-        padding: CryptoJS.pad.Pkcs7
-      });
-      
+      const decrypted = CryptoJS.AES.decrypt(
+        {
+          ciphertext: ciphertextBytes,
+          salt: ''
+        },
+        key,
+        {
+          iv: ivBytes,
+          mode: CryptoJS.mode.CBC,
+          padding: CryptoJS.pad.Pkcs7
+        }
+      );
+
       const content = decrypted.toString(CryptoJS.enc.Utf8);
 
       if (!content) {
