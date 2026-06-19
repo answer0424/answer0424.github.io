@@ -23,3 +23,11 @@ tags: [IEIP]
 | 엑스 코드 | Apple | Mac, iPhone | MacOS, iOS | C, C++, C#, Java, AppleScript 등 |
 | 안드로이드 스튜디오 | Google | Android | Windows, Linux, MacOS | Java, C, C++ |
 | IDEA | JetBrains | 크로스 플랫폼 | Windows, Linux, MacOS | Java, JSP, XML, Go, Kotlin, PHP 등 |
+
+
+---
+
+## 빌드도구
+
+- 빌드는 **소스 코드 파일들을 컴퓨터에서 실행할 수 있는 제품 소프트웨어로 변환하는 과정 또는 결과물**
+- 빌드 도구는 전처리, 컴파일 등의 작업을 수행
