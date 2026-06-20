@@ -60,3 +60,10 @@ tags: [IEIP]
 #### 데이터 다이어트
 
 - 데이터를 삭제하는 것이 아니라 압축하고 중복된 정보는 중복을 배제하고 새로운 기준에 따라 나누어 저장하는 작업
+
+<br>
+
+#### OLAP(Online Analytical Processing)
+
+- 다차원으로 이루어진 데이터로부터 통계적인 요약 정보를 분석하여 의사결정에 활용하는 방식
+- OLAP 연산: Roll-up, Drill-down, Drill-through, Drill-across, Pivoting, Slicing, Dicing
