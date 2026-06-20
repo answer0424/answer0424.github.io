@@ -67,3 +67,9 @@ tags: [IEIP]
 
 - 다차원으로 이루어진 데이터로부터 통계적인 요약 정보를 분석하여 의사결정에 활용하는 방식
 - OLAP 연산: Roll-up, Drill-down, Drill-through, Drill-across, Pivoting, Slicing, Dicing
+
+<br>
+
+#### 데이터 마이닝
+
+- 대량의 데이터를 분석하여 데이터에 내재된 변수 사이의 상호 관계를 규명하여 일정한 패턴을 찾아내는 기법
