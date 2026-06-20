@@ -19,3 +19,15 @@ tags: [IEIP]
 ---
 
 ## 경로 제어 프로토콜
+
+#### IGP(Interior Gateway Protocol)
+
+- 하나의 자율 시스템 내의 라우팅에 사용되는 프로토콜
+- RIP(Routing Information Protocol)
+  - 현재 가장 널리 사용되는 라우팅 프로토콜로 거리 벡터 라우팅 프로토콜이라고도 함
+  - 소규모 동종의 네트워크 내에서 효율적
+- OSPF(Open Shortest Path First Protocol)
+  - RIP의 단점을 해경하여 새로운 기능을 지원하는 인터넷 프로토콜로 대규모 네트워크에서 많이 사용
+  - 라우팅 정보에 변화가 생길 경우 변화된 정보만 네트워크 내의 모든 라우터에 알림
+
+<br>f
