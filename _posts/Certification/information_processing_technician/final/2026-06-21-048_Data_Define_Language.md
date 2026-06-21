@@ -73,3 +73,16 @@ CREATE TABLE 테이블명
 - CONSTRAINT: 제약 조건의 이름을 지정
 - CHECK: 속성 값에 대한 제약 조건을 정의
 
+---
+
+## CREATE VIEW
+
+- **뷰를 정의하는 명령문**
+- 표기 형식
+
+```sql
+CREATE VIEW 뷰명[(속성명[, 속성명, ...])]
+AS SELECT문;
+```
+
+
