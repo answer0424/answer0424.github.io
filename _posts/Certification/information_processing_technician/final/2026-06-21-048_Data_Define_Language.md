@@ -124,3 +124,21 @@ ALTER TABLE 테이블명 DROP COLUMN 속성명 [CASCASDE];
 - ALTER: 특정 속성의 DEFAULT 값을 변경할 때 사용
 - DROP COLUMN: 특정 속성을 삭제할 때 사용
 
+---
+
+## DROP
+
+- **스키마, 도메인, 기본 테이블, 뷰 테이블, 인덱스, 제약조건 등을 제거하는 명령문**
+- 표기 형식
+
+```sql
+DROP SCHEMA 스키마명 [CASCADE | RESTRICT];
+DROP DOMAIN 도메인명 [CASCADE | RESTRICT];
+DROP TABLE 테이블명 [CASCADE | RESTRICT];
+DROP VIEW 뷰명 [CASCADE | RESTRICT];
+DROP INDEX 인덱스명 [CASCADE | RESTRICT];
+DROP CONSTRAINT 제약조건명;
+```
+
+- CASCADE: 제거할 요소를 참조하는 다른 모든 개체를 함께 제거
+- RESTRICT: 다른 개체가 제거할 요소를 참조줄일 때는 제거를 취소
