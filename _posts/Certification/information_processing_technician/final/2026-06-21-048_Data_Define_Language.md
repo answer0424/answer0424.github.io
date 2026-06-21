@@ -34,7 +34,7 @@ CREATE SCHEMA 스키마명 AUTHORIZATION 사용자_id;
 ## CREATE DOMAIN
 
 - **도메인을 정의하는 명령문**
-- 표기형식
+- 표기 형식
 
 ```sql
 CREATE DOMAIN 도메인명 [AS] 데이터_타입
@@ -44,3 +44,32 @@ CREATE DOMAIN 도메인명 [AS] 데이터_타입
 
 - 데이터 타입: SQL에서 지원하는 데이터타입
 - 기본값: 데이터를 입력하지 않았을 때 자동으로 입력되는 값
+
+---
+
+## CREATE TABLE
+
+- **테이블을 정의하는 명령문**
+- 표기 형식
+
+```sql
+CREATE TABLE 테이블명
+    (속성명 데이터_타입 [DEFAULT 기본값] [NOT NULL]
+    [, PRIMARY KEY(기본키_속성명, ...)]
+    [, UNIQUE(대체키_속성명, ...)]
+    [, FOREIGN KEY(외래키_속성명, ...)
+        REFERENCES 참조테이블(기본키_속성명, ...)]
+        [ON DELETE 옵션]
+        [ON UPDATE 옵션]
+    [, CONSTATINT 제약조건명] [CHECK (조건식)]);
+```
+
+- 기본 테이블에 포함될 모든 속성에 대하여 속성명과 그 속성의 데이터 타입, 기본값, NOT NULL여부를 저장
+- PRIMARY KEY: 기본키로 사용할 속성을 지정
+- UNIQUE: 대체키로 사용할 속성을 지정, 중복된 값을 가질 수 없음
+- FOREIGN KEY ~ REFERNECES ~: 외래키로 사용할 속성을 지정
+  - ON DELETE 옵션: 참조 테이블의 튜플이 삭제되었을 때 기본 테이블에 취해야 할 사항을 지정
+  - ON UPDATE 옵션: 참조 테이블의 참조 속성 값이 변경되었을 때 기본 테이블이 취해야 할 사항을 지정
+- CONSTRAINT: 제약 조건의 이름을 지정
+- CHECK: 속성 값에 대한 제약 조건을 정의
+
