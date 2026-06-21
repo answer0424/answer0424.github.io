@@ -18,3 +18,13 @@ tags: [IEIP]
 | ALTER | TABLE에 대한 정의를 변경하는 데 사용 |
 | DROP | SCHEMA, DOMAIN, TABLE, VIEW, INDEX를 삭제 |
 
+---
+
+## CREATE SCHEMA
+
+- **스키마를 정의하는 명령문**
+- 표기 형식
+
+```sql
+CREATE SCHEMA 스키마명 AUTHORIZATION 사용자_id;
+```
