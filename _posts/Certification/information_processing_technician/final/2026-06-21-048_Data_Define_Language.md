@@ -108,3 +108,19 @@ ON 테이블명(속성명 [ASC | DESC] [, 속성명 [ASC | DESC]])
 - CULSTER: 사용하면 인덱스가 클러스터드 인덱스로 설정됨
 
 ---
+
+## ALTER TABLE
+
+- **테이블에 대한 정의를 변경하는 명령문**
+- 표기 형식
+
+```sql
+ALTER TABLE 테이블명 ADD 속성명 데이터_타입 [DEFAULT '기본값'];
+ALTER TABLE 테이블명 ALTER 속성명 [SET DEFAULT '기본값'];
+ALTER TABLE 테이블명 DROP COLUMN 속성명 [CASCASDE];
+```
+
+- ADD: 새로운 석성을 추가할 때 사용
+- ALTER: 특정 속성의 DEFAULT 값을 변경할 때 사용
+- DROP COLUMN: 특정 속성을 삭제할 때 사용
+
