@@ -63,3 +63,22 @@ tags: [IEIP]
 - 서버 개발 과정은 **DTO/VO, SQL, DAO, Service, Controller를 각각 구현하는 과정**
 - 구현 순서는 개발자가 임의로 변경할 수 있음
 - 개발하려는 서버 프로그램의 목적, 개발 언어, 규모 등의 이유로 통합하거나 세분화할 수 있음
+
+---
+
+## MVC 접근법
+
+- DTO: 데이터 교환을 위해 사용할 객체를 만드는 과정
+- DAO: DB에 접근, SQL을 활용해 데이터를 실제로 조작
+
+![alt text](../../../../assets/img/certification/information_processing_technician/practical/server_development_01.png)
+
+1. 웹 사이트로부터 사용자의 요청이 Controller에 전달
+2. Controller는 해당 요청을 위한 데이터를 DAO에 요청
+3. Service는 수행을 위한 데이터를 DAO에 요청
+4. ~ 6. DAO는 XML을 통해 Database로부터 Service가 요청한 데이터를 가져옴
+7. 가져온 데이터를 Service에 반환
+8. Service의 수행 결과를 Controller에 반환
+9. Controller의 수행 결과를 웹 사이트에 반환
+
+※ DTO/VO는 1, 5, 9를 제외한 데이터 교환 전 과정에서 요청과 응답 시 사용됨
