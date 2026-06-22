@@ -87,3 +87,11 @@ tags: [IEIP]
 #### SDN(Software Defined Networking)
 
 - 네트워크를 컴퓨터처럼 모델링하여 여러 사용자가 각각의 소프트웨어로 네트워킹을 가상화하여 제어하고 관리하는 네트워크
+
+<br>
+
+#### NFC(Near Field Communication)
+
+- 고주파를 이용한 근거리 무선 통신 기술
+- 아주 가까운 거리에서 양방향 통신을 지원하는 RFID 기술의 일좀임
+- 
