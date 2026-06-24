@@ -74,3 +74,10 @@ tags: [IEIP]
 
 - 다차원으로 이루어진 데이터로부터 통계적인 요약 정보를 분석하여 의사결정에 활용하는 방식
 - OLAP 연산: Roll up, Drill down, Drill through, Drill across, Pivoting, Slicing, Dicing
+
+<br>
+
+#### 가상 데이터 웨어하우스(VDW, Virtual Data Warehouse)
+
+- 물리적으로 데이터 웨어하우스를 구축하지 않아도 실제 구축한 것과 같은 효과를 내는 가상 시스템
+- 실제 데이터 웨어하우스를 구축하는 것에 비해 노력과 시간이 절감되나 신뢰성 및 안정성에 문제가 발생할 수 있음
