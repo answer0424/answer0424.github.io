@@ -22,6 +22,8 @@ create view CC(ccid, ccname, instname) as
     from course, instructor
     where course.instructor = instructor.id;
 
+---
+
 update salaries
 set salary = 2500
 where emp_num = 2073;
@@ -39,6 +41,8 @@ update set
 alter create drop 
 select delete insert update
 grant revoek
+
+---
 
 11 17
 
@@ -62,3 +66,21 @@ SELECT NAME FROM CUSTOMER WHERE AGE IS NULL;
 SELECT NAME FROM CUSTOMER WHERE AGE IS NOT NULL;
 
 AND BETWEEN
+
+---
+
+1. avg sub_Code
+
+2. 매출액 > 1000 소속도시 3
+
+3. SELECT 과목이름, MIN(점수) AS 최소점수, MAX(점수) AS 최대점수 FROM 성적 GROUP BY 과목이름 HAVING AVG(점수) >= 90;
+
+4. SELECT 학생정보.이름, 학생정보.전공, 신청정보.신청과목 FROM 학생정보, 신청정보 WHERE 학생정보.학번 = 신청정보.학번 GROUP BY 전공, 신청과목 HAVING 전공 = '컴퓨터공학' AND 신청과목 = 'Java';
+
+5. 1
+
+6. HAVING
+
+7. 장학내역 장학금 NUM
+
+8. 학과 장학내역 SUM(장학금)
