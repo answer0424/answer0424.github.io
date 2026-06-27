@@ -22,3 +22,20 @@ create view CC(ccid, ccname, instname) as
     from course, instructor
     where course.instructor = instructor.id;
 
+update salaries
+set salary = 2500
+where emp_num = 2073;
+
+into values set
+
+delete
+from 학생
+where 이름 = 'Scott';
+
+set where
+
+update set
+
+alter create drop 
+select delete insert update
+grant revoek
