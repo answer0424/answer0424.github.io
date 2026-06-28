@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 001. 운영체제의 개념
-date: 2026-06-27 09:00 +09:00
+date: 2026-06-28 09:00 +09:00
 categories: [IEIP, final]
 tags: [IEIP]
 ---
