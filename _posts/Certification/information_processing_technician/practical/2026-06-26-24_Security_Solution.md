@@ -60,7 +60,7 @@ tags: [IEIP]
 
 ---
 
-## SIEM
+## SIEM(Security Information and Event Management)
 
 - 다양한 장비에서 발생하는 로그 및 보안 이벤트를 통합하여 관리하는 보안 솔루션
 - 방화벽, IDS, IPS, 웹 방화벽, VPN 등에서 발생한 로그 및 보안 이벤트를 통합 및 연동하여 종합적인 보안 관리 체계를 수립할 수 있음
