@@ -20,3 +20,12 @@ tags: [IEIP]
 - 가장 많이 사용되는 빌드 자동화 도구
 - SVN, GIT 등 대부분의 형상 관리 도구와 연동이 가능
 - 친숙한 Web GUI 제공으로 사용이 쉬움
+
+---
+
+## Gradle
+
+- Gradle은 Groovy를 기반으로 한 오픈 소스 형태의 자동화 도구
+- 안드로이드 앱 개발 환경에서 사용
+- 안드로이드뿐만 아니라 플러그인을 설정하면 Java, C/C++, Python 등의 언어도 빌드할 수 있음
+- Groovy를 사용해서 만든 DSL(Domain Specific Language)을 스크립트 언어로 사용
