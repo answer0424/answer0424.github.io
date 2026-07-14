@@ -82,3 +82,14 @@ tags: [bedrock]
 
 ---
 
+## Chunking 전략
+
+#### 문서 벡터화를 위한 단계
+
+1. 문서 로드
+2. 문서 나누기
+3. 임베딩
+
+---
+
+## Knowledge bases for Amazon Bedrock
