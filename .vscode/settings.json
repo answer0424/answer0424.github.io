@@ -29,5 +29,6 @@
   },
   "markdown-preview-enhanced.breakOnSingleNewLine": true,
   "liveServer.settings.port": 5501,
-  "editor.cursorBlinking": "blink"
+  "editor.cursorBlinking": "blink",
+  "markdown.validate.enabled": false
 }
