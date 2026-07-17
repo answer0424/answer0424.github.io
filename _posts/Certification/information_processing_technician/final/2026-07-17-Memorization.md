@@ -187,3 +187,14 @@ tags: [IEIP]
 - ARP: IP 주소를 MAC 주소로 변환
 - RARP: MAC 주소를 IP 주소로 변환
 
+<br>
+
+#### 네트워크 액세스 계층의 주요 프로토콜
+
+- Ethernet
+- IEEE 802
+- HDLC: 비트 위주의 데이터 링크 제어 프로토콜
+- X.25
+- RS-232C
+
+---
