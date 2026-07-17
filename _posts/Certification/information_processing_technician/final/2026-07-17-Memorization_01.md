@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 암기 정리
+title: 암기 정리 1
 date: 2026-07-17 09:00 +09:00
 categories: [IEIP, final]
 tags: [IEIP]
