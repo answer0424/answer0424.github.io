@@ -30,3 +30,61 @@ tags: [certification]
   - DNS 서버 주소
 
 --- 
+
+# Rocky 리눅스 설치의 실제
+
+## 설치 초기 설정
+
+#### 1. 설치 시작 화면
+
+- Install Rocky Linux 9.5
+- Test this media & Install Rocky Linux 9.5
+- Rescue a Rocky Linux system
+- Run a memory test
+- Boot from local drive
+
+#### 2. 언어 선택
+
+#### 3. 설치 요약
+
+<br>
+
+## 시스템 구성 및 설정
+
+#### 4. 소프트웨어 선택
+
+- 시스템 운영 목적에 맞도록 소프트웨어 기본환경을 설정
+  - Server with GUI
+  - Server
+  - Minimal Install
+  - Workstation
+  - Custom Operating System
+  - Virtualization Host
+
+#### 5. 설치 목적지
+
+- 리눅스가 설치할 로컬 표준 디스크를 선정
+- 파티션은 기본적으로 루트(/) 파티션과 Swap 파티션으로도 운영이 가능
+  - SWAP 파티션은 RAM의 2배 이상 설정을 권고
+  - SWAP은 하드디스크의 일부를 메모리처럼 사용하게 하는 기술로 RAM 부족 시 SWAP 파티션을 사용
+  - 루트(/) 파티션과 Swap 파티션 외에 서버의 운영 방식에 따라 추가 파티션을 지정한 다음 용량을 지정
+
+#### 6. KDUMP
+
+- 커널 클래시 덤프 매커니즘
+  - 커널 충돌이 발생 시 시트메에서 정보를 수집하여 충돌 원인을 규명하는 자료를 제공
+  - 시스템운영 중 장애를 확인하기 위해 사용하는 기능
+- KDUMP를 활성화 시 충돌원인을 파악할 물리적 메모리 용량을 지정
+
+#### 7. 네트워크와 호스트 이름
+
+- 고정 또는 유동 IP 주소 환경을 지정
+- 수동을 선택시 네트워크를 위해 필요한 정보를 입력
+- 가상화 환경을 구성 시 자동(DHCP)으로 IPv4를 설정
+
+#### 8. 보안 프로파일
+
+#### 9. 사용자 설정
+
+- root 비밀번호를 설정
+- 사용자 생성과 비밀번호를 설정
