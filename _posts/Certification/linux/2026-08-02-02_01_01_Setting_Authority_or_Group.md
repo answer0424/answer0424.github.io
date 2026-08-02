@@ -198,3 +198,15 @@ cat fstab
 | usrjquota=파일명 | vfsv0 | 저널 사용자 할당량 사용 |
 | grpjquota=파일명 | vfsv0 | 저널 그룹 할당량 사용 |
 | jqfmt=format | vfsv0 | usrjquota 또는 grpjquota가 지정될 떄 사용된 할당량의 형식 |
+
+<br>
+
+##### 2. 재마운팅 실행 후 확인
+
+```bash
+mount -o remount /QUOTA
+mount
+/dev/sdb1   on  /QUOTA  type    ext4    (rw,usrjquota.user,jqfmt=vfsv0)
+```
+
+<br>
