@@ -245,3 +245,21 @@ quotaon -avug - 2
    1. 명령어 quotaon은 쿼터 서비스를 활성화함
 
 <br>
+
+##### 5. 사용자별 쿼터 지정
+
+```bash
+edquota -u user
+Disk quotas for user user {uid 122} : 
+Filesystem      blocks  soft    hard    inodes  soft    hard
+/dev/sdb1       0       10240   15360   0       0       0
+```
+
+| 필드 | 설명 |
+|-|-|
+| Filesystem | 사용자별 쿼터를 할당하는 파일 시스템 |
+| blocks | 현재 사용자가 사용하는 디스크 블록 |
+| soft | 소프트 사용 한도, 사용자가 사용할 수 있는 최대 한도 |
+| hard | 하드 사용 한도, 사용자가 사용할 수 있는 최대 한도 |
+| inodes | 현재 사용자가 사용하는 inode 개수 |
+| soft | 사용자에게 지정된 파일 과 디렉터리 생성 개수 |
