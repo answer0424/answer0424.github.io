@@ -290,7 +290,7 @@ Filesystem      blocks  soft    hard    inodes  soft    hard
 | -g | 그룹 쿼터 비활성화 |
 | -v | 메시지 출력 |
 
-<bR>
+<br>
 
 #### 명령어 quotacheck
 
@@ -306,3 +306,20 @@ Filesystem      blocks  soft    hard    inodes  soft    hard
 | -n | 첫번째 검색된 것을 사용 |
 | -p | 처리 결과를 출력 |
 | -v | 파일 시스템의 상태를 보여줌 |
+
+<br>
+
+#### 명령어 edquota
+
+- 편집기를 이용하여 사용자나 그룹에 디스크 사용량을 할당하는 명령어
+
+```bash
+edquota [옵션] [계정명 또는 그룹명]
+```
+
+| 옵션 | 설명 |
+|-|-|
+| -u | 사용자 디스크 할당량 설정 |
+| -g | 그룹 디스크 할당량 설정 |
+| -l | 디스크 할당량 유예기간 설정 |
+| -p | 디스크 할당량 설정을 다른 사용자와 동일하게 설정 |
