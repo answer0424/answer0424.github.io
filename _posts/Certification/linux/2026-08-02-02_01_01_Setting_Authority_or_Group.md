@@ -227,3 +227,21 @@ rm -rf aquota.* - 3
 3. 생성된 쿼터 파일 삭제
 
 <br>
+
+##### 4. 쿼터 데이터베이스 생성
+
+```bash
+touch aquota.user quota.group - 1
+chmod 600 aquota.*
+quotacheck - augmn
+quotaon -avug - 2
+/dev/sdb1   [/QUOTA]: user quotas turned on
+```
+
+1. 디스크 쿼터 파일 생성 후 권한 설정
+   1. aquota.user: 사용자 쿼터 파일
+   2. aquota.group: 그룹 쿼터 파일
+2. 쿼터 관련 점검 후 쿼터 서비스 개시
+   1. 명령어 quotaon은 쿼터 서비스를 활성화함
+
+<br>
