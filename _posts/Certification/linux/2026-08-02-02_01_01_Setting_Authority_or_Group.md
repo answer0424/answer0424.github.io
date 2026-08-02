@@ -263,3 +263,29 @@ Filesystem      blocks  soft    hard    inodes  soft    hard
 | hard | 하드 사용 한도, 사용자가 사용할 수 있는 최대 한도 |
 | inodes | 현재 사용자가 사용하는 inode 개수 |
 | soft | 사용자에게 지정된 파일 과 디렉터리 생성 개수 |
+
+<br>
+
+##### 6. 쿼터 현재 상황 점검
+
+| 옵션 | 설명 |
+|-|-|
+|  used | 현재 사용량 |
+| soft | 현재 설정된 soft limit |
+| hard | 현재 설정된 hard limit |
+| grace | soft limit에서 지정된 용량 초과 시 남은 유예기간 표시 |
+
+---
+
+## 디스크 쿼터 관련 명령어
+
+##### 명령어 quotaoff
+
+- 명령이 quotaoff 쿼터 서비스를 비활성화함
+
+| 옵션 | 설명 |
+|-|-|
+| -a | 파티션 정보 출력 |
+| -u | 사용자 쿼터 비활성화 |
+| -g | 그룹 쿼터 비활성화 |
+| -v | 메시지 출력 |
