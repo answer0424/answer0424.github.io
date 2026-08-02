@@ -210,3 +210,20 @@ mount
 ```
 
 <br>
+
+##### 3. 마운트된 쿼터를 끄고 생성된 쿼터 파일 삭제
+
+```bash
+cd /QUOTA
+quotaoff -qugp - 1
+group quota on /QUOTA (/dev/sdb1) is off
+user quota on /QUOTA (/dev/sdb1) is off
+quotacheck -augmn - 2
+rm -rf aquota.* - 3
+```
+
+1. 디스크 쿼터 기능 해제
+2. 파일 시스템의 쿼터 관련 점검
+3. 생성된 쿼터 파일 삭제
+
+<br>
