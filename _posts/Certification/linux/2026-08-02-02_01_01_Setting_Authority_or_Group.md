@@ -289,3 +289,20 @@ Filesystem      blocks  soft    hard    inodes  soft    hard
 | -u | 사용자 쿼터 비활성화 |
 | -g | 그룹 쿼터 비활성화 |
 | -v | 메시지 출력 |
+
+<bR>
+
+#### 명령어 quotacheck
+
+- 파일 시스템의 디스크 사용 상태를 검색
+- quota 기록 파일인 `quota.user, quota.group` 또는 `aquota.user, aquota.group` 파일들을 최근 상태로 갱신하기 위해서 사용
+
+| 옵션 | 기능 |
+|-|-|
+| -a | 모든 파일 시스템 체크 |
+| -u | 사용자 쿼터 관련 체크 |
+| -g | 그룹 쿼터 관련 체크 |
+| -m | 재마운트를 생략 |
+| -n | 첫번째 검색된 것을 사용 |
+| -p | 처리 결과를 출력 |
+| -v | 파일 시스템의 상태를 보여줌 |
