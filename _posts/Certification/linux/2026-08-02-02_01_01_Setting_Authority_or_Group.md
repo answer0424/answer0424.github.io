@@ -176,3 +176,25 @@ umask [옵션] [값]
 
 - 쿼터는 사용자별, 파일 시스템별로 동작
 - 그룹 단위로도 용량을 제한할 수 있으며 웹 호스팅 서비스를 하는 경우에 유용
+
+<br>
+
+#### 디스크 쿼터를 지정
+
+##### 1. 파일 /etc/fstab에 디스크 쿼터 관련 설정
+
+
+```bash
+cat fstab
+/dev/sdb1   /QUOTA  ext4    defaults,usrjquota=quota.user,jqfmt=vfsv0   1   2
+```
+
+| 옵션 | 적용 대상 | 설명 | 
+|-|-|-|
+| quota | fsfold, vfsv0 | 사용자 할당량 사용 |
+| gquota | xfs | 그룹 할당량 사용 |
+| usrquota | 모든 유형 | 사용자 할당량 사용 |
+| grpquota | 모든 유형 | 그룹 할당량 사용 |
+| usrjquota=파일명 | vfsv0 | 저널 사용자 할당량 사용 |
+| grpjquota=파일명 | vfsv0 | 저널 그룹 할당량 사용 |
+| jqfmt=format | vfsv0 | usrjquota 또는 grpjquota가 지정될 떄 사용된 할당량의 형식 |
