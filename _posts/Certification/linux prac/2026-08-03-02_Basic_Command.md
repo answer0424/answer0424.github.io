@@ -38,3 +38,15 @@ tags: [linux]
 - 명령어의 실행 파일들의 위치를 저장해 놓은 환경변수
 
 <br>
+
+## 명령어 echo
+
+- 화면에 무언가를 출력하라는 명령어
+
+```bash
+> echo $PS1
+> \$
+> echo $PATH
+> /sbin:/usr/sbin:/bin:/usr/bin 
+```
+
