@@ -265,11 +265,19 @@ tags: [linux]
 
 - 파일의 내용을 전체 출력하는 명령어
 
+```bash
+> cat /etc/passwd
+```
+
 <br>
 
 #### 명령어 head
 
 - 파일의 앞부분을 지정한 만큼 출력하는 명령어
+
+```bash
+> haed /etc/passwd
+```
 
 <br>
 
@@ -282,6 +290,10 @@ tags: [linux]
 #### 명령어 more
 
 - 파일을 화면 단위로 끊어서 출력하는 명령어
+
+```bash
+> more /etc/passwd
+```
 
 <br>
 
@@ -339,3 +351,6 @@ tags: [linux]
 
 - 두개의 파일을 줄 단위로 비교하여 출력하는 명령어
 
+---
+
+## 
