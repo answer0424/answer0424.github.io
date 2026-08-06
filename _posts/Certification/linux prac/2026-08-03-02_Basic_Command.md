@@ -217,4 +217,10 @@ tags: [linux]
 
 #### 명령어 cd
 
-- change directory의 약자로 디렉터리를 이동할 때 사용하는 명령어 
+- change directory의 약자로 디렉터리를 이동할 때 사용하는 명령어
+
+<br>
+
+#### 명령어 mkdir
+
+- make directory의 약자로 새로운 디렉터리를 생성할 때 사용하는 명령어
