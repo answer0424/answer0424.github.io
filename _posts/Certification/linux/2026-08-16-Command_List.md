@@ -479,3 +479,6 @@ tags: [certification]
 <br>
 
 ## halt
+
+> 시스템을 종료하는 명령어
+
