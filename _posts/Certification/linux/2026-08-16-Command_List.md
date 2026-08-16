@@ -417,3 +417,13 @@ tags: [certification]
   - CNAME: 별칭으로 부여된 canonical name
   - SOA: 도메인의 start-of-authority 정보
   - PRT: IP 주소에 대한 호스트명
+
+<br>
+
+## dig
+
+- 명령어 nsloopup과 유사한 기능이며 호스트명에 대한 IP 주소 정보 또는 IP 주소에 대한 호스트명을 조회
+
+<br>
+
+## host
