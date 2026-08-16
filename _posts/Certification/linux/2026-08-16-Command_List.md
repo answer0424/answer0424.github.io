@@ -189,3 +189,11 @@ tags: [certification]
 <br>
 
 ## w
+
+> 현재 접속중인 사용자들의 정보를 나타냄
+
+<br>
+
+## id
+
+> 사용자 계정의 uid, gid, group을 확인
