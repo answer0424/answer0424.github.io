@@ -197,3 +197,9 @@ tags: [certification]
 ## id
 
 > 사용자 계정의 uid, gid, group을 확인
+
+<br>
+
+## groups
+
+> 사용자가 속한 그룹을 확인
