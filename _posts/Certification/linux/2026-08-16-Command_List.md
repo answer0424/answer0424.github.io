@@ -228,3 +228,7 @@ tags: [certification]
 - -p: 상위 경로 생성
 
 <br>
+
+## rmdir
+
+- remove directory의 약자로 디렉터리만 사용할 때 사용
