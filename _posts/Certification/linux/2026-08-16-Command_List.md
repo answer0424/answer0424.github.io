@@ -167,3 +167,11 @@ tags: [certification]
 > 그룹 안에 사용자가 있을 경우 삭제 불가능
 
 <br>
+
+## groupmod
+
+- 그룹의 설정을 변경
+
+<br>
+
+##
