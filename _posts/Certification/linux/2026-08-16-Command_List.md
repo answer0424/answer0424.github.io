@@ -211,3 +211,9 @@ tags: [certification]
 > 현재 작업 중인 디렉터리의 위치를 나타냄
 
 <br>
+
+## cd
+
+> change directory의 약자
+>
+> 디렉터리를 이동할 때 사용
