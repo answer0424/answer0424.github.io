@@ -489,3 +489,9 @@ tags: [certification]
 > 시스템에 설정된 달력을 출력
 
 <br>
+
+## date
+
+> 시스템의 날짜와 시간을 표시
+
+<br>
