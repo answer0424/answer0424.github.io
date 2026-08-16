@@ -245,3 +245,7 @@ tags: [certification]
 
 <br>
 
+## cp
+
+> 파일 또는 디렉터리를 복사할 때 사용
+
