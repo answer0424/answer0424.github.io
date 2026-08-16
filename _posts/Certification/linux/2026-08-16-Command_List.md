@@ -174,4 +174,8 @@ tags: [certification]
 
 <br>
 
-##
+## users
+
+- 시스템에 로그인한 사용자 정보를 출력하는 명령어
+
+<br>
