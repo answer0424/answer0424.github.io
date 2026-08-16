@@ -404,3 +404,16 @@ tags: [certification]
 > 
 > 목적지 호슽까지의 패킷 전송 지역을 측정하거나 목적지 호스트로 향하는 경로 상에 어떤 장애가 있는 경우 위치를 파악할 수 있음
 
+<br>
+
+## nslookup
+
+> 도메인명으로 IP 주소를 조회하거나 거꾸로 IP 주소를 도메인명을 조회하는 명령어
+
+- 레코드 타입
+  - NS: 도메인의 네임서버 정보
+  - MX: 도메인의 Mail Exchange 서버
+  - A: 호스트의 IP 주소
+  - CNAME: 별칭으로 부여된 canonical name
+  - SOA: 도메인의 start-of-authority 정보
+  - PRT: IP 주소에 대한 호스트명
