@@ -203,3 +203,11 @@ tags: [certification]
 ## groups
 
 > 사용자가 속한 그룹을 확인
+
+<br>
+
+## pwd
+
+> 현재 작업 중인 디렉터리의 위치를 나타냄
+
+<br>
