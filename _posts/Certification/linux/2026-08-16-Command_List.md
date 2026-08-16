@@ -138,3 +138,8 @@ tags: [certification]
 - -c 주석: 새로운 주석 지정
 
 <br>
+
+## userdel
+
+- 기존 계정 정보를 삭제
+
