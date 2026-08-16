@@ -217,3 +217,14 @@ tags: [certification]
 > change directory의 약자
 >
 > 디렉터리를 이동할 때 사용
+
+<br>
+
+## mkdir
+
+> make directory의 약자로 새로운 디렉터리를 생성할 때 사용
+
+- -m: 디렉터리를 생성할 때 권한을 설정(default: 755)
+- -p: 상위 경로 생성
+
+<br>
