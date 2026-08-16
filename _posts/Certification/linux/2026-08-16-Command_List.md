@@ -469,3 +469,13 @@ tags: [certification]
 - 6: 재가동 모드
 
 <br>
+
+## reboot
+
+> 시스템 재부팅
+
+- -f: 강제 재부팅
+
+<br>
+
+## halt
