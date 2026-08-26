@@ -1,0 +1,89 @@
+{
+  "metadataAttributes": {
+    "packageId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "LOAN_RATE_20260615_26_23"
+      },
+      "includeForEmbedding": false
+    },
+    "documentId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "LOAN_RATE_20260615_26_23_PREFERENTIAL_RATE_TABLE"
+      },
+      "includeForEmbedding": false
+    },
+    "documentType": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "RATE_TABLE"
+      },
+      "includeForEmbedding": true
+    },
+    "documentTitle": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "20260615 우대금리테이블 변경(안)"
+      },
+      "includeForEmbedding": true
+    },
+    "issueDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260611
+      },
+      "includeForEmbedding": false
+    },
+    "effectiveDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260615
+      },
+      "includeForEmbedding": false
+    },
+    "businessArea": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "여신·대출금리"
+      },
+      "includeForEmbedding": true
+    },
+    "products": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "대면 주택담보대출"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "topics": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "가계대출 우대금리",
+          "주택담보대출 우대금리",
+          "고정금리",
+          "주기형 금리",
+          "변동금리",
+          "지역경제 활성화 프로그램",
+          "지역경제 활성화 우대 폐지",
+          "농업인 우대",
+          "NH포용금융 우대",
+          "비거치식 분할상환대출",
+          "대출금액 2억원 이하",
+          "부동산 전자계약 우대"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "documentRole": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "주택담보대출 우대금리 변경 세부기준표"
+      },
+      "includeForEmbedding": true
+    }
+  }
+}

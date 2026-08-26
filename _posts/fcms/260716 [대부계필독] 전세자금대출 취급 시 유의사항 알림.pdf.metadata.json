@@ -1,0 +1,90 @@
+{
+  "metadataAttributes": {
+    "packageId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "JEONSE_LOAN_HANDLING_GUIDELINE_20260716"
+      },
+      "includeForEmbedding": false
+    },
+    "documentId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "JEONSE_LOAN_HANDLING_GUIDELINE_20260716_NOTICE"
+      },
+      "includeForEmbedding": false
+    },
+    "documentType": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "BUSINESS_GUIDELINE"
+      },
+      "includeForEmbedding": true
+    },
+    "documentTitle": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "전세자금대출 취급 시 유의사항 알림"
+      },
+      "includeForEmbedding": true
+    },
+    "issueDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260716
+      },
+      "includeForEmbedding": false
+    },
+    "businessArea": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "가계여신·전세자금대출"
+      },
+      "includeForEmbedding": true
+    },
+    "products": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "전세자금대출",
+          "전세자금보증",
+          "전세보증금반환보증",
+          "HF전세자금보증"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "topics": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "전세자금대출",
+          "전세자금보증",
+          "전세보증금반환보증",
+          "반환보증",
+          "임대차계약",
+          "임대권한",
+          "신탁부동산",
+          "위반건축물",
+          "미등기 건물",
+          "보증 가입",
+          "보증 연장",
+          "기한연장",
+          "전세대출 특약",
+          "주택 추가 취득 금지",
+          "HF",
+          "보증료 우대",
+          "사고예방"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "documentRole": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "전세자금대출 취급 및 반환보증·임대차계약 확인을 위한 사고예방 업무 기준"
+      },
+      "includeForEmbedding": true
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "metadataAttributes": {
+    "packageId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "LOAN_RATE_20260527_26_21"
+      },
+      "includeForEmbedding": false
+    },
+    "documentId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "LOAN_RATE_20260527_26_21_INTERNAL_NOTICE"
+      },
+      "includeForEmbedding": false
+    },
+    "documentType": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "INTERNAL_NOTICE"
+      },
+      "includeForEmbedding": true
+    },
+    "documentTitle": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "금융자금 대출금리 운용방법 변경('26-21차, 가계대출) 알림"
+      },
+      "includeForEmbedding": true
+    },
+    "issueDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260527
+      },
+      "includeForEmbedding": false
+    },
+    "effectiveDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260601
+      },
+      "includeForEmbedding": false
+    },
+    "businessArea": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "여신·대출금리"
+      },
+      "includeForEmbedding": true
+    },
+    "products": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "가계대출",
+          "주택담보대출",
+          "전세자금대출",
+          "신용대출",
+          "주택외부동산담보대출"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "topics": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "대출금리",
+          "우대금리",
+          "주택외부동산",
+          "신용대출",
+          "농업인 우대",
+          "본부조정금리",
+          "여신운용 포트폴리오"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "documentRole": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "가계대출 금리운용 변경 업무지침"
+      },
+      "includeForEmbedding": true
+    }
+  }
+}

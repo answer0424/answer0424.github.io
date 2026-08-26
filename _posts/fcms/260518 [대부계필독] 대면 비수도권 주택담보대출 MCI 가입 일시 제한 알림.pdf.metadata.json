@@ -1,0 +1,87 @@
+{
+  "metadataAttributes": {
+    "packageId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "MCI_RESTRICTION_NON_CAPITAL_20260518"
+      },
+      "includeForEmbedding": false
+    },
+    "documentId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "MCI_RESTRICTION_NON_CAPITAL_20260518_NOTICE"
+      },
+      "includeForEmbedding": false
+    },
+    "documentType": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "INTERNAL_NOTICE"
+      },
+      "includeForEmbedding": true
+    },
+    "documentTitle": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "대면 비수도권 주택담보대출 MCI 가입 일시 제한 알림"
+      },
+      "includeForEmbedding": true
+    },
+    "issueDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260518
+      },
+      "includeForEmbedding": false
+    },
+    "effectiveDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260520
+      },
+      "includeForEmbedding": false
+    },
+    "businessArea": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "가계여신·주택담보대출"
+      },
+      "includeForEmbedding": true
+    },
+    "products": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "대면 주택담보대출",
+          "MCI"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "topics": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "MCI",
+          "모기지신용보험",
+          "비수도권",
+          "대면 주택담보대출",
+          "MCI 가입 제한",
+          "MCI 발급 제한",
+          "가계여신 물량관리",
+          "집단잔금대출",
+          "여신심사 접수"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "documentRole": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "비수도권 대면 주택담보대출 MCI 가입 일시 제한 기준"
+      },
+      "includeForEmbedding": true
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "metadataAttributes": {
+    "packageId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "HF_JEONSE_GUARANTEE_20260624"
+      },
+      "includeForEmbedding": false
+    },
+    "documentId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "HF_JEONSE_GUARANTEE_20260624_GUARANTEE_FEE_RULE_DETAIL_COMPARISON"
+      },
+      "includeForEmbedding": false
+    },
+    "documentType": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "REVISION_COMPARISON"
+      },
+      "includeForEmbedding": true
+    },
+    "documentTitle": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "보증료 등의 운용세칙 개정 전후대비표"
+      },
+      "includeForEmbedding": true
+    },
+    "issueDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260601
+      },
+      "includeForEmbedding": false
+    },
+    "effectiveDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260622
+      },
+      "includeForEmbedding": false
+    },
+    "businessArea": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "대부·주택보증"
+      },
+      "includeForEmbedding": true
+    },
+    "products": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "개인보증",
+          "전세자금보증",
+          "구입자금보증",
+          "건축자금보증",
+          "개량자금보증"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "topics": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "보증료 운용세칙",
+          "보증료율 인하대상",
+          "보증료 우대",
+          "노부모부양가구",
+          "녹색건축물",
+          "보증료 환급",
+          "미환급보증료"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "documentRole": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "보증료 운용세칙 현행·개정 기준 비교자료"
+      },
+      "includeForEmbedding": true
+    }
+  }
+}

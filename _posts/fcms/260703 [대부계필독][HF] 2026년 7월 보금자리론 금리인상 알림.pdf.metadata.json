@@ -1,0 +1,92 @@
+{
+  "metadataAttributes": {
+    "packageId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "HF_BOGEUMJARI_RATE_20260703"
+      },
+      "includeForEmbedding": false
+    },
+    "documentId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "HF_BOGEUMJARI_RATE_20260703_NOTICE"
+      },
+      "includeForEmbedding": false
+    },
+    "documentType": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "RATE_CHANGE_NOTICE"
+      },
+      "includeForEmbedding": true
+    },
+    "documentTitle": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "2026년 7월 보금자리론 금리인상 알림"
+      },
+      "includeForEmbedding": true
+    },
+    "issueDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260703
+      },
+      "includeForEmbedding": false
+    },
+    "effectiveDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260707
+      },
+      "includeForEmbedding": false
+    },
+    "businessArea": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "주택금융·정책모기지"
+      },
+      "includeForEmbedding": true
+    },
+    "products": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "보금자리론",
+          "u-보금자리론",
+          "아낌e-보금자리론"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "topics": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "보금자리론",
+          "한국주택금융공사",
+          "HF",
+          "대출금리",
+          "금리인상",
+          "대출만기",
+          "10년 만기",
+          "15년 만기",
+          "20년 만기",
+          "30년 만기",
+          "40년 만기",
+          "50년 만기",
+          "공사 신청일자"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "documentRole": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "2026년 7월 보금자리론 만기별 금리 인상 기준"
+      },
+      "includeForEmbedding": true
+    }
+  }
+}

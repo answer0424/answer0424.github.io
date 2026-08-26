@@ -1,0 +1,95 @@
+{
+  "metadataAttributes": {
+    "packageId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "LOAN_RATE_20260617_26_24"
+      },
+      "includeForEmbedding": false
+    },
+    "documentId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "LOAN_RATE_20260617_26_24_INTERNAL_NOTICE"
+      },
+      "includeForEmbedding": false
+    },
+    "documentType": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "INTERNAL_NOTICE"
+      },
+      "includeForEmbedding": true
+    },
+    "documentTitle": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "대출금리 운용방법 변경(26-24차, 법적비용 산출기준)"
+      },
+      "includeForEmbedding": true
+    },
+    "issueDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260616
+      },
+      "includeForEmbedding": false
+    },
+    "effectiveDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260623
+      },
+      "includeForEmbedding": false
+    },
+    "businessArea": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "여신·대출금리"
+      },
+      "includeForEmbedding": true
+    },
+    "products": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "기업대출",
+          "가계대출",
+          "주택담보대출",
+          "전세자금대출",
+          "신용대출"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "topics": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "법적비용",
+          "출연요율",
+          "출연금",
+          "교육세",
+          "가산금리",
+          "은행법 개정",
+          "보증서 대출",
+          "보증비율",
+          "농신보",
+          "신보",
+          "기보",
+          "지역신보",
+          "주택신보",
+          "서민금융"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "documentRole": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "대출금리 법적비용 산출기준 변경 업무지침"
+      },
+      "includeForEmbedding": true
+    }
+  }
+}

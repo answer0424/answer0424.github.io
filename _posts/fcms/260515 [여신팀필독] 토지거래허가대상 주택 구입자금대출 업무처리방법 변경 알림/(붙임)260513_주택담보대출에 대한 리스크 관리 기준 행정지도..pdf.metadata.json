@@ -1,0 +1,93 @@
+{
+  "metadataAttributes": {
+    "packageId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "LAND_TRANSACTION_MORTGAGE_20260515"
+      },
+      "includeForEmbedding": false
+    },
+    "documentId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "LAND_TRANSACTION_MORTGAGE_20260515_REGULATORY_GUIDELINE"
+      },
+      "includeForEmbedding": false
+    },
+    "documentType": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "REGULATORY_GUIDELINE"
+      },
+      "includeForEmbedding": true
+    },
+    "documentTitle": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "주택담보대출에 대한 리스크 관리 기준 행정지도"
+      },
+      "includeForEmbedding": true
+    },
+    "issueDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260513
+      },
+      "includeForEmbedding": false
+    },
+    "effectiveDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260513
+      },
+      "includeForEmbedding": false
+    },
+    "businessArea": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "여신·주택담보대출"
+      },
+      "includeForEmbedding": true
+    },
+    "products": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "주택담보대출",
+          "주택구입자금대출",
+          "전세자금대출",
+          "사업자대출"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "topics": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "주택담보대출 리스크 관리",
+          "가계부채 관리",
+          "토지거래허가구역",
+          "전입의무",
+          "다주택자",
+          "만기연장",
+          "주택보유수",
+          "LTV",
+          "DSR",
+          "전세자금대출",
+          "대출한도",
+          "규제지역",
+          "사업자대출"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "documentRole": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "주택담보대출 리스크 관리 행정지도 및 업무처리 근거자료"
+      },
+      "includeForEmbedding": true
+    }
+  }
+}

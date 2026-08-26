@@ -1,0 +1,90 @@
+{
+  "metadataAttributes": {
+    "packageId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "MCI_RESTRICTION_CAPITAL_20260504"
+      },
+      "includeForEmbedding": false
+    },
+    "documentId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "MCI_RESTRICTION_CAPITAL_20260504_REVISED_NOTICE"
+      },
+      "includeForEmbedding": false
+    },
+    "documentType": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "REVISED_NOTICE"
+      },
+      "includeForEmbedding": true
+    },
+    "documentTitle": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "수도권 주택담보대출 MCI 가입 일시 제한 알림"
+      },
+      "includeForEmbedding": true
+    },
+    "issueDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260504
+      },
+      "includeForEmbedding": false
+    },
+    "effectiveDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260506
+      },
+      "includeForEmbedding": false
+    },
+    "businessArea": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "가계여신·주택담보대출"
+      },
+      "includeForEmbedding": true
+    },
+    "products": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "대면 주택담보대출",
+          "MCI"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "topics": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "MCI",
+          "모기지신용보험",
+          "수도권",
+          "서울",
+          "경기",
+          "인천",
+          "대면 주택담보대출",
+          "MCI 가입 제한",
+          "MCI 발급 제한",
+          "여신심사 접수",
+          "집단잔금대출",
+          "가계대출 물량관리"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "documentRole": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "수도권 대면 주택담보대출 MCI 가입 제한 수정 재공지"
+      },
+      "includeForEmbedding": true
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "metadataAttributes": {
+    "packageId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "VARIABLE_MORTGAGE_RESUMPTION_20260819"
+      },
+      "includeForEmbedding": false
+    },
+    "documentId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "VARIABLE_MORTGAGE_RESUMPTION_20260819_NOTICE"
+      },
+      "includeForEmbedding": false
+    },
+    "documentType": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "PRODUCT_SALES_NOTICE"
+      },
+      "includeForEmbedding": true
+    },
+    "documentTitle": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "변동형 주택담보대출 상품 판매 재개 알림"
+      },
+      "includeForEmbedding": true
+    },
+    "issueDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260819
+      },
+      "includeForEmbedding": false
+    },
+    "effectiveDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260820
+      },
+      "includeForEmbedding": false
+    },
+    "businessArea": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "가계여신·주택담보대출"
+      },
+      "includeForEmbedding": true
+    },
+    "products": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "NH주택담보대출",
+          "변동형 주택담보대출",
+          "가계일반 NH주택담보대출",
+          "주택자금 NH주택담보대출"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "topics": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "변동형 주택담보대출",
+          "상품 판매 재개",
+          "주택담보대출",
+          "가계일반",
+          "주택자금",
+          "대면채널",
+          "비가격조치",
+          "가계대출 물량관리"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "documentRole": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "변동형 NH주택담보대출 상품 판매 재개 기준"
+      },
+      "includeForEmbedding": true
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "metadataAttributes": {
+    "packageId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "HF_JEONSE_GUARANTEE_20260624"
+      },
+      "includeForEmbedding": false
+    },
+    "documentId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "HF_JEONSE_GUARANTEE_20260624_RETURN_GUARANTEE_FULL"
+      },
+      "includeForEmbedding": false
+    },
+    "documentType": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "FULL_GUIDELINE"
+      },
+      "includeForEmbedding": true
+    },
+    "documentTitle": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "전세보증금반환보증 업무지침 개정 전문"
+      },
+      "includeForEmbedding": true
+    },
+    "issueDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260608
+      },
+      "includeForEmbedding": false
+    },
+    "businessArea": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "대부·주택보증"
+      },
+      "includeForEmbedding": true
+    },
+    "products": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "전세보증금반환보증",
+          "전세지킴보증",
+          "일반 전세보증금반환보증",
+          "특례 전세보증금반환보증"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "topics": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "전세보증금반환보증",
+          "보증신청인",
+          "보증대상 임대차계약",
+          "보증대상목적물",
+          "보증신청시기",
+          "보증한도",
+          "주택가격 평가",
+          "채권보전조치",
+          "보증료",
+          "조건변경",
+          "사후관리",
+          "특례 반환보증",
+          "전세금반환대출 연계"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "documentRole": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "개정사항이 반영된 전세보증금반환보증 업무지침 전체 기준"
+      },
+      "includeForEmbedding": true
+    }
+  }
+}

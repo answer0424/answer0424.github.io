@@ -1,0 +1,98 @@
+{
+  "metadataAttributes": {
+    "packageId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "LOAN_RATE_20260615_26_23"
+      },
+      "includeForEmbedding": false
+    },
+    "documentId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "LOAN_RATE_20260615_26_23_HEAD_OFFICE_RATE"
+      },
+      "includeForEmbedding": false
+    },
+    "documentType": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "RATE_TABLE"
+      },
+      "includeForEmbedding": true
+    },
+    "documentTitle": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "본부조정금리 변경(안)"
+      },
+      "includeForEmbedding": true
+    },
+    "issueDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260611
+      },
+      "includeForEmbedding": false
+    },
+    "effectiveDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260615
+      },
+      "includeForEmbedding": false
+    },
+    "businessArea": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "여신·대출금리"
+      },
+      "includeForEmbedding": true
+    },
+    "products": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "가계대출",
+          "기업대출",
+          "주택담보대출",
+          "전세자금대출",
+          "신용대출",
+          "주택외담보대출",
+          "일반운전·시설자금",
+          "농식품기업운전·시설자금",
+          "기업성장론",
+          "어깨동무론",
+          "NH농식품그린성장론"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "topics": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "본부조정금리",
+          "기업여신",
+          "가계여신",
+          "시설자금",
+          "기업대출 금리",
+          "주택담보대출",
+          "전세자금대출",
+          "신용대출",
+          "주택외담보대출",
+          "표준형식 금리체계",
+          "비표준형식 금리체계"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "documentRole": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "가계·기업여신 본부조정금리 변경 기준표"
+      },
+      "includeForEmbedding": true
+    }
+  }
+}

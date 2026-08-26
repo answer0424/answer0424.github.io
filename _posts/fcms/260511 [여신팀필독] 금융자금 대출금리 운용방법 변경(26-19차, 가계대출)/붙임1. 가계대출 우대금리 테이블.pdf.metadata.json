@@ -1,0 +1,94 @@
+{
+  "metadataAttributes": {
+    "packageId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "LOAN_RATE_20260511_26_19"
+      },
+      "includeForEmbedding": false
+    },
+    "documentId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "LOAN_RATE_20260511_26_19_PREFERENTIAL_RATE_TABLE"
+      },
+      "includeForEmbedding": false
+    },
+    "documentType": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "RATE_TABLE"
+      },
+      "includeForEmbedding": true
+    },
+    "documentTitle": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "가계대출 우대금리 테이블 변경내용"
+      },
+      "includeForEmbedding": true
+    },
+    "issueDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260508
+      },
+      "includeForEmbedding": false
+    },
+    "effectiveDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260513
+      },
+      "includeForEmbedding": false
+    },
+    "businessArea": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "여신·대출금리"
+      },
+      "includeForEmbedding": true
+    },
+    "products": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "대면 주택담보대출",
+          "비대면 주택담보대출",
+          "대면 전세자금대출",
+          "올원직장인대출",
+          "올원마이너스대출",
+          "직장인대출V",
+          "우량신용대출",
+          "일반신용대출"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "topics": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "가계대출 우대금리",
+          "주택담보대출 우대금리",
+          "전세자금대출 우대금리",
+          "신용대출 우대금리",
+          "대출금액 2억원 이하",
+          "만 34세 이하",
+          "농업인 우대",
+          "최초신규우대",
+          "NH상생지원 프로그램",
+          "거래실적 우대"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "documentRole": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "가계대출 우대금리 변경 세부기준표"
+      },
+      "includeForEmbedding": true
+    }
+  }
+}

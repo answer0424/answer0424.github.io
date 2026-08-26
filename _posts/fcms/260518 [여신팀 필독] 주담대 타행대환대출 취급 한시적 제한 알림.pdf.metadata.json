@@ -1,0 +1,92 @@
+{
+  "metadataAttributes": {
+    "packageId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "MORTGAGE_REFINANCE_RESTRICTION_20260518"
+      },
+      "includeForEmbedding": false
+    },
+    "documentId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "MORTGAGE_REFINANCE_RESTRICTION_20260518_NOTICE"
+      },
+      "includeForEmbedding": false
+    },
+    "documentType": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "INTERNAL_NOTICE"
+      },
+      "includeForEmbedding": true
+    },
+    "documentTitle": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "주담대 타행대환대출 취급 한시적 제한 알림"
+      },
+      "includeForEmbedding": true
+    },
+    "issueDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260518
+      },
+      "includeForEmbedding": false
+    },
+    "effectiveDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260520
+      },
+      "includeForEmbedding": false
+    },
+    "businessArea": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "가계여신·주택담보대출"
+      },
+      "includeForEmbedding": true
+    },
+    "products": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "주택담보대출",
+          "타행대환대출"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "topics": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "타행대환",
+          "대환대출",
+          "주택담보대출",
+          "CSS심사",
+          "가계대출",
+          "주택자금대출",
+          "중도금대출",
+          "이주비대출",
+          "잔금대출",
+          "정책자금대출",
+          "디딤돌대출",
+          "보금자리론",
+          "나라사랑대출",
+          "비대면대출"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "documentRole": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "주택담보대출 타행대환 신규 취급 한시적 제한 기준"
+      },
+      "includeForEmbedding": true
+    }
+  }
+}

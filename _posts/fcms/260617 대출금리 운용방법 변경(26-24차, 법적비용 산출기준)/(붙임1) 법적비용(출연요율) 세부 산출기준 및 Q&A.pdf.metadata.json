@@ -1,0 +1,101 @@
+{
+  "metadataAttributes": {
+    "packageId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "LOAN_RATE_20260617_26_24"
+      },
+      "includeForEmbedding": false
+    },
+    "documentId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "LOAN_RATE_20260617_26_24_LEGAL_COST_GUIDE"
+      },
+      "includeForEmbedding": false
+    },
+    "documentType": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "GUIDELINE_QNA"
+      },
+      "includeForEmbedding": true
+    },
+    "documentTitle": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "법적비용(출연요율) 세부 산출기준 및 Q&A"
+      },
+      "includeForEmbedding": true
+    },
+    "issueDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260616
+      },
+      "includeForEmbedding": false
+    },
+    "effectiveDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260623
+      },
+      "includeForEmbedding": false
+    },
+    "businessArea": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "여신·대출금리"
+      },
+      "includeForEmbedding": true
+    },
+    "products": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "기업운전자금대출",
+          "기업시설자금대출",
+          "NH기업성장론",
+          "주택담보대출",
+          "전세자금대출",
+          "신용대출"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "topics": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "법적비용",
+          "출연요율",
+          "출연요율 산출식",
+          "출연요율 산출 알고리즘",
+          "보증서 대출",
+          "보증비율",
+          "담보코드",
+          "농신보",
+          "신보",
+          "기보",
+          "지역신보",
+          "주택신보",
+          "서민금융",
+          "MCG",
+          "법정최대요율",
+          "금리산출일자",
+          "금리시산",
+          "예상마진율",
+          "대고객금리"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "documentRole": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "법적비용 출연요율 세부 산출기준·알고리즘 및 업무 Q&A"
+      },
+      "includeForEmbedding": true
+    }
+  }
+}

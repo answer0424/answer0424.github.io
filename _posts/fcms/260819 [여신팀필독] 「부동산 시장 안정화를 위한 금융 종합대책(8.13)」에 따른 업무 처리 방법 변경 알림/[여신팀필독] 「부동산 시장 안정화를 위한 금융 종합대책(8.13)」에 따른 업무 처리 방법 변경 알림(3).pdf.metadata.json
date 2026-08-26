@@ -1,0 +1,93 @@
+{
+  "metadataAttributes": {
+    "packageId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "REAL_ESTATE_STABILIZATION_20260819"
+      },
+      "includeForEmbedding": false
+    },
+    "documentId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "REAL_ESTATE_STABILIZATION_20260819_INTERNAL_NOTICE"
+      },
+      "includeForEmbedding": false
+    },
+    "documentType": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "INTERNAL_NOTICE"
+      },
+      "includeForEmbedding": true
+    },
+    "documentTitle": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "부동산 시장 안정화를 위한 금융 종합대책(8.13)에 따른 업무 처리 방법 변경 알림"
+      },
+      "includeForEmbedding": true
+    },
+    "issueDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260818
+      },
+      "includeForEmbedding": false
+    },
+    "effectiveDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260831
+      },
+      "includeForEmbedding": false
+    },
+    "businessArea": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "여신·주택담보대출"
+      },
+      "includeForEmbedding": true
+    },
+    "products": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "주택담보대출",
+          "이주비대출",
+          "주택매매사업자대출",
+          "주택임대사업자대출",
+          "가계대출"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "topics": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "부동산 시장 안정화",
+          "이주비대출 LTV",
+          "종전자산평가액",
+          "종후자산평가액",
+          "주택매매사업자",
+          "주택임대사업자",
+          "주택담보대출 예외",
+          "DSR 소득산정",
+          "장래 예상소득",
+          "생애최초 LTV",
+          "여신협의회",
+          "소득상승률"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "documentRole": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "부동산 금융대책에 따른 여신 업무처리 변경 지침"
+      },
+      "includeForEmbedding": true
+    }
+  }
+}

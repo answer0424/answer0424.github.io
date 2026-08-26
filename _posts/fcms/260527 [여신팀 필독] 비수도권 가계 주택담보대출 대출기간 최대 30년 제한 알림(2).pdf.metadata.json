@@ -1,0 +1,89 @@
+{
+  "metadataAttributes": {
+    "packageId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "NON_CAPITAL_MORTGAGE_TERM_LIMIT_20260527"
+      },
+      "includeForEmbedding": false
+    },
+    "documentId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "NON_CAPITAL_MORTGAGE_TERM_LIMIT_20260527_NOTICE"
+      },
+      "includeForEmbedding": false
+    },
+    "documentType": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "INTERNAL_NOTICE"
+      },
+      "includeForEmbedding": true
+    },
+    "documentTitle": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "비수도권 가계 주택담보대출 대출기간 최대 30년 제한 알림"
+      },
+      "includeForEmbedding": true
+    },
+    "issueDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260527
+      },
+      "includeForEmbedding": false
+    },
+    "effectiveDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260601
+      },
+      "includeForEmbedding": false
+    },
+    "businessArea": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "가계여신·주택담보대출"
+      },
+      "includeForEmbedding": true
+    },
+    "products": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "주택담보대출",
+          "가계대출"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "topics": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "비수도권",
+          "주택담보대출",
+          "대출기간",
+          "대출기간 30년 제한",
+          "주택구입목적자금",
+          "생활안정자금",
+          "집단잔금대출",
+          "정책모기지론",
+          "비대면대출",
+          "가계대출 물량관리",
+          "주택담보대출 리스크관리"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "documentRole": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "비수도권 가계 주택담보대출 대출기간 최대 30년 제한 기준"
+      },
+      "includeForEmbedding": true
+    }
+  }
+}
