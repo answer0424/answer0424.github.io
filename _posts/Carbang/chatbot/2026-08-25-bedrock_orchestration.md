@@ -32,6 +32,6 @@ ChatbotService
    │
    ├─ ⑦ 출처 추가
    │
-   └─ ⑧ ChatbotMemoryService
+   └─ ⑧ ChatbotMemoryServicex
           질문 + 답변 저장
 ```
