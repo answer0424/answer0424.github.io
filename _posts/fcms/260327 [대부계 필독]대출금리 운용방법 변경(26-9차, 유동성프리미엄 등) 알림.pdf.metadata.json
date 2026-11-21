@@ -1,0 +1,132 @@
+{
+  "metadataAttributes": {
+
+    "packageId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "LOAN_RATE_OPERATION_26_09_20260311"
+      },
+      "includeForEmbedding": false
+    },
+
+    "documentId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "LOAN_RATE_OPERATION_26_09_20260311_NOTICE"
+      },
+      "includeForEmbedding": false
+    },
+
+    "documentType": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "RATE_CHANGE_NOTICE"
+      },
+      "includeForEmbedding": true
+    },
+
+    "documentTitle": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "대출금리 운용방법 변경(26-9차, 유동성프리미엄 등) 알림"
+      },
+      "includeForEmbedding": true
+    },
+
+    "issueDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260311
+      },
+      "includeForEmbedding": false
+    },
+
+    "effectiveDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260317
+      },
+      "includeForEmbedding": false
+    },
+
+    "businessArea": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "여신금리"
+      },
+      "includeForEmbedding": true
+    },
+
+    "products": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "대출"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+
+    "topics": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "대출금리",
+          "유동성프리미엄",
+          "리스크프리미엄",
+          "MOR",
+          "COFIX",
+          "금리변동주기",
+          "선형보간법"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+
+    "documentRole": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "대출금리 운용기준 변경 지침"
+      },
+      "includeForEmbedding": true
+    },
+
+    "ruleFamily": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "LIQUIDITY_PREMIUM",
+          "RISK_PREMIUM"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+
+    "ruleAction": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "CHANGE"
+      },
+      "includeForEmbedding": true
+    },
+
+    "dateBasis": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "RATE_CALCULATION_DATE",
+          "RATE_REGISTRATION_DATE"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+
+    "hasTransitionRule": {
+      "value": {
+        "type": "BOOLEAN",
+        "booleanValue": true
+      },
+      "includeForEmbedding": false
+    }
+  }
+}

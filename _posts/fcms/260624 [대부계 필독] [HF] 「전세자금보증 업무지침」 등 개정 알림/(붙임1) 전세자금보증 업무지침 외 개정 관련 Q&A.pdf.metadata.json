@@ -1,0 +1,86 @@
+{
+  "metadataAttributes": {
+    "packageId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "HF_JEONSE_GUARANTEE_20260624"
+      },
+      "includeForEmbedding": false
+    },
+    "documentId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "HF_JEONSE_GUARANTEE_20260624_QNA"
+      },
+      "includeForEmbedding": false
+    },
+    "documentType": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "GUIDELINE_QNA"
+      },
+      "includeForEmbedding": true
+    },
+    "documentTitle": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "전세자금보증 업무지침 외 개정 관련 Q&A"
+      },
+      "includeForEmbedding": true
+    },
+    "issueDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260608
+      },
+      "includeForEmbedding": false
+    },
+    "businessArea": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "대부·주택보증"
+      },
+      "includeForEmbedding": true
+    },
+    "products": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "전세자금보증",
+          "일반전세보증",
+          "집단전세보증",
+          "특례전세보증",
+          "협약전세보증",
+          "개인보증"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "topics": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "전세자금보증 업무지침",
+          "노부모부양가구",
+          "보증료 우대",
+          "보증한도 우대",
+          "미등기 보증목적물",
+          "전입유지의무",
+          "선순위 요건",
+          "가족관계증명서",
+          "혼인관계증명서",
+          "기한연장",
+          "HF"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "documentRole": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "전세자금보증 업무지침 개정사항 요약 및 실무 Q&A"
+      },
+      "includeForEmbedding": true
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "metadataAttributes": {
+    "packageId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "REAL_ESTATE_STABILIZATION_20260819"
+      },
+      "includeForEmbedding": false
+    },
+    "documentId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "REAL_ESTATE_STABILIZATION_20260819_POLICY"
+      },
+      "includeForEmbedding": false
+    },
+    "documentType": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "POLICY"
+      },
+      "includeForEmbedding": true
+    },
+    "documentTitle": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "부동산 시장 안정을 위한 금융 종합대책"
+      },
+      "includeForEmbedding": true
+    },
+    "issueDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260813
+      },
+      "includeForEmbedding": false
+    },
+    "businessArea": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "부동산금융·가계여신"
+      },
+      "includeForEmbedding": true
+    },
+    "products": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "주택담보대출",
+          "전세대출",
+          "이주비대출",
+          "주택매매사업자대출",
+          "주택임대사업자대출",
+          "부동산PF",
+          "구입자금대출"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "topics": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "부동산 시장 안정",
+          "주택공급 금융지원",
+          "부동산PF",
+          "투기적 대출수요 차단",
+          "LTV",
+          "DSR",
+          "전세대출보증",
+          "주택담보대출",
+          "이주비대출",
+          "주택매매사업자",
+          "주택임대사업자",
+          "생애최초",
+          "장래 예상소득",
+          "가계부채 총량관리"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "documentRole": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "금융위원회 부동산시장 안정 종합대책 원문"
+      },
+      "includeForEmbedding": true
+    }
+  }
+}

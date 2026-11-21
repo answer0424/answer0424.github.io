@@ -1,0 +1,84 @@
+{
+  "metadataAttributes": {
+    "packageId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "INCOME_VERIFICATION_GUIDELINE_20260727"
+      },
+      "includeForEmbedding": false
+    },
+    "documentId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "INCOME_VERIFICATION_GUIDELINE_20260727_NOTICE"
+      },
+      "includeForEmbedding": false
+    },
+    "documentType": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "BUSINESS_GUIDELINE"
+      },
+      "includeForEmbedding": true
+    },
+    "documentTitle": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "여신·투자금융업무방법 별표4 소득확인 업무처리방법 안내"
+      },
+      "includeForEmbedding": true
+    },
+    "issueDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260727
+      },
+      "includeForEmbedding": false
+    },
+    "businessArea": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "여신·소득확인"
+      },
+      "includeForEmbedding": true
+    },
+    "products": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "대출",
+          "가계대출"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "topics": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "소득확인",
+          "소득금액증명원",
+          "급여소득",
+          "사업소득",
+          "연금소득",
+          "소득합산",
+          "급여이체내역",
+          "월급여명세표",
+          "환산소득",
+          "신규입사",
+          "재직기간",
+          "전전년도 소득",
+          "소득증빙"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "documentRole": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "대출 심사 시 소득원 구분 및 소득금액 확인·증빙 업무처리 기준"
+      },
+      "includeForEmbedding": true
+    }
+  }
+}

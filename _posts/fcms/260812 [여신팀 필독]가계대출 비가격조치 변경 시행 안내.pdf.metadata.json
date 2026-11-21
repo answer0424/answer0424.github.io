@@ -1,0 +1,94 @@
+{
+  "metadataAttributes": {
+    "packageId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "HOUSEHOLD_LOAN_NONPRICE_MEASURES_20260812"
+      },
+      "includeForEmbedding": false
+    },
+    "documentId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "HOUSEHOLD_LOAN_NONPRICE_MEASURES_20260812_NOTICE"
+      },
+      "includeForEmbedding": false
+    },
+    "documentType": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "POLICY_CHANGE_NOTICE"
+      },
+      "includeForEmbedding": true
+    },
+    "documentTitle": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "가계대출 비가격조치 변경 시행 안내"
+      },
+      "includeForEmbedding": true
+    },
+    "issueDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260811
+      },
+      "includeForEmbedding": false
+    },
+    "effectiveDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260812
+      },
+      "includeForEmbedding": false
+    },
+    "businessArea": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "가계여신·주택담보대출"
+      },
+      "includeForEmbedding": true
+    },
+    "products": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "가계대출",
+          "주택담보대출",
+          "집단잔금대출",
+          "NH모바일주택담보대출",
+          "타행대환대출"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "topics": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "가계대출 비가격조치",
+          "규제지역",
+          "집단잔금대출",
+          "최초 분양가",
+          "대출한도",
+          "분양가 60%",
+          "비대면채널",
+          "일 접수 한도",
+          "NH모바일주택담보대출",
+          "주택담보대출",
+          "타행대환대출",
+          "대환대출",
+          "취급 제한 종료"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "documentRole": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "가계대출 비가격조치 변경 및 주택담보대출 취급기준 안내"
+      },
+      "includeForEmbedding": true
+    }
+  }
+}

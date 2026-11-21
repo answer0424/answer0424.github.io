@@ -1,0 +1,95 @@
+{
+  "metadataAttributes": {
+    "packageId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "LOAN_SOLICITOR_20260626_2026_1"
+      },
+      "includeForEmbedding": false
+    },
+    "documentId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "LOAN_SOLICITOR_20260626_2026_1_FULL_GUIDELINE"
+      },
+      "includeForEmbedding": false
+    },
+    "documentType": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "FULL_GUIDELINE"
+      },
+      "includeForEmbedding": true
+    },
+    "documentTitle": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "대출모집인 관련 업무처리기준"
+      },
+      "includeForEmbedding": true
+    },
+    "issueDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260701
+      },
+      "includeForEmbedding": false
+    },
+    "effectiveDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260701
+      },
+      "includeForEmbedding": false
+    },
+    "businessArea": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "대출모집인·개인여신"
+      },
+      "includeForEmbedding": true
+    },
+    "products": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "대출모집업무",
+          "대출성 상품",
+          "가계대출"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "topics": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "대출모집인",
+          "대출모집법인",
+          "대출상담사",
+          "등록 및 변경",
+          "대출모집인 의무",
+          "금지행위",
+          "업무위탁",
+          "방문판매",
+          "금융소비자보호",
+          "대출모집 수수료",
+          "개인정보 보호",
+          "업무위탁계약",
+          "관리감독",
+          "계약해지",
+          "손해배상",
+          "상시 모니터링"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "documentRole": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "2026년 개정사항이 반영된 대출모집인 업무처리기준 전체 기준"
+      },
+      "includeForEmbedding": true
+    }
+  }
+}

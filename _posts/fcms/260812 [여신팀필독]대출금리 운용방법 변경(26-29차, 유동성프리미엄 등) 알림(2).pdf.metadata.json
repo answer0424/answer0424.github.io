@@ -1,0 +1,92 @@
+{
+  "metadataAttributes": {
+    "packageId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "LOAN_RATE_OPERATION_CHANGE_20260812"
+      },
+      "includeForEmbedding": false
+    },
+    "documentId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "LOAN_RATE_OPERATION_CHANGE_20260812_NOTICE"
+      },
+      "includeForEmbedding": false
+    },
+    "documentType": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "RATE_CHANGE_NOTICE"
+      },
+      "includeForEmbedding": true
+    },
+    "documentTitle": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "대출금리 운용방법 변경 26-29차 유동성프리미엄 등 알림"
+      },
+      "includeForEmbedding": true
+    },
+    "issueDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260812
+      },
+      "includeForEmbedding": false
+    },
+    "effectiveDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260819
+      },
+      "includeForEmbedding": false
+    },
+    "businessArea": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "여신·대출금리"
+      },
+      "includeForEmbedding": true
+    },
+    "products": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "대출",
+          "변동금리대출",
+          "MOR 기준금리 대출",
+          "COFIX 기준금리 대출"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "topics": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "대출금리",
+          "유동성프리미엄",
+          "리스크프리미엄",
+          "MOR",
+          "COFIX",
+          "금리 변동주기",
+          "선형보간법",
+          "3개월 변동금리",
+          "6개월 변동금리",
+          "1년 이상 변동금리",
+          "대출기간",
+          "금리산출"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "documentRole": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "대출금리 산출 시 유동성프리미엄 및 리스크프리미엄 적용 기준"
+      },
+      "includeForEmbedding": true
+    }
+  }
+}

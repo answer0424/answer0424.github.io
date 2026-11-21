@@ -1,0 +1,82 @@
+{
+  "metadataAttributes": {
+    "packageId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "HF_JEONSE_GUARANTEE_20260624"
+      },
+      "includeForEmbedding": false
+    },
+    "documentId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "HF_JEONSE_GUARANTEE_20260624_RETURN_GUARANTEE_COMPARISON"
+      },
+      "includeForEmbedding": false
+    },
+    "documentType": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "REVISION_COMPARISON"
+      },
+      "includeForEmbedding": true
+    },
+    "documentTitle": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "전세보증금반환보증 업무지침 개정 전후대비표"
+      },
+      "includeForEmbedding": true
+    },
+    "issueDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260608
+      },
+      "includeForEmbedding": false
+    },
+    "businessArea": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "대부·주택보증"
+      },
+      "includeForEmbedding": true
+    },
+    "products": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "전세보증금반환보증",
+          "전세지킴보증",
+          "특례 전세보증금반환보증"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "topics": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "전세보증금반환보증",
+          "보증료 우대",
+          "노부모부양가구",
+          "전산입력",
+          "특례 반환보증",
+          "전세금반환대출 연계",
+          "기존 임대차계약일",
+          "소유권이전등기일",
+          "조건변경",
+          "증빙서류"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "documentRole": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "전세보증금반환보증 업무지침 현행·개정 기준 비교자료"
+      },
+      "includeForEmbedding": true
+    }
+  }
+}

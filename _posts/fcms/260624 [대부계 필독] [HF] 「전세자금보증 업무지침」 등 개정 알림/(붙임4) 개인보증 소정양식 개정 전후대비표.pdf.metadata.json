@@ -1,0 +1,83 @@
+{
+  "metadataAttributes": {
+    "packageId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "HF_JEONSE_GUARANTEE_20260624"
+      },
+      "includeForEmbedding": false
+    },
+    "documentId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "HF_JEONSE_GUARANTEE_20260624_FORM_COMPARISON"
+      },
+      "includeForEmbedding": false
+    },
+    "documentType": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "FORM_REVISION_COMPARISON"
+      },
+      "includeForEmbedding": true
+    },
+    "documentTitle": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "개인보증 소정양식 개정 전후대비표"
+      },
+      "includeForEmbedding": true
+    },
+    "issueDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260624
+      },
+      "includeForEmbedding": false
+    },
+    "businessArea": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "대부·주택보증"
+      },
+      "includeForEmbedding": true
+    },
+    "products": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "개인보증",
+          "전세자금보증"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "topics": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "개인보증 소정양식",
+          "신용보증신청서",
+          "신용보증약정서",
+          "보증조건변경신청서",
+          "보증료 우대",
+          "노부모부양가구",
+          "녹색건축물",
+          "전세자금보증 이용제한",
+          "대항력",
+          "우선변제권",
+          "전입유지",
+          "선순위 요건"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "documentRole": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "개인보증 관련 신청·약정·조건변경 서식 개정 비교자료"
+      },
+      "includeForEmbedding": true
+    }
+  }
+}

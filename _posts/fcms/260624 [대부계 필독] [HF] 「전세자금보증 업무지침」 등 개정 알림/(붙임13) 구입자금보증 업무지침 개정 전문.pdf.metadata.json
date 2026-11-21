@@ -1,0 +1,96 @@
+{
+  "metadataAttributes": {
+    "packageId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "HF_JEONSE_GUARANTEE_20260624"
+      },
+      "includeForEmbedding": false
+    },
+    "documentId": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "HF_JEONSE_GUARANTEE_20260624_PURCHASE_GUARANTEE_FULL"
+      },
+      "includeForEmbedding": false
+    },
+    "documentType": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "FULL_GUIDELINE"
+      },
+      "includeForEmbedding": true
+    },
+    "documentTitle": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "구입자금보증 업무지침 개정 전문"
+      },
+      "includeForEmbedding": true
+    },
+    "issueDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260608
+      },
+      "includeForEmbedding": false
+    },
+    "effectiveDate": {
+      "value": {
+        "type": "NUMBER",
+        "numberValue": 20260622
+      },
+      "includeForEmbedding": false
+    },
+    "businessArea": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "대부·주택보증"
+      },
+      "includeForEmbedding": true
+    },
+    "products": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "구입자금보증",
+          "일반구입자금보증",
+          "생애최초 특례구입자금보증",
+          "전세사기피해자 특례구입자금보증",
+          "보금자리론",
+          "디딤돌대출"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "topics": {
+      "value": {
+        "type": "STRING_LIST",
+        "stringListValue": [
+          "구입자금보증",
+          "보증대상자",
+          "보증대상자금",
+          "보증대상목적물",
+          "보증신청",
+          "신청서류",
+          "보증심사",
+          "보증한도",
+          "담보취득",
+          "녹색건축물",
+          "보증료 우대",
+          "전산입력",
+          "생애최초 특례",
+          "전세사기피해자 특례"
+        ]
+      },
+      "includeForEmbedding": true
+    },
+    "documentRole": {
+      "value": {
+        "type": "STRING",
+        "stringValue": "개정사항이 반영된 구입자금보증 업무지침 전체 기준"
+      },
+      "includeForEmbedding": true
+    }
+  }
+}
